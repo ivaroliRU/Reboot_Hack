@@ -1,0 +1,34 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.register .container {
+  width: 100%;
+  max-width: 300px;
+  padding: 0 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register .button__register {
+  display: block;
+  width: 80% !important;
+  height: 40px;
+
+  background-color: #ffb30d;
+  color: white;
+  transition: background-color 0.2s ease-in;
+
+  padding-top: 15px;
+  font-size: 1.5em;
+}
+
+.register .button__register:hover {
+  background-color: #ffb20dec;
+  color: white;
+}
