@@ -1,4 +1,6 @@
-#Design Document
+# Design Document
+Below is the design document for the Reboot Hack hackathon
+
 ## Requirement Analysis
 | Number | Description                                                                                                                          | Priority (A/B/C) |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------|------------------|
