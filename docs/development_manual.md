@@ -1,7 +1,4 @@
 ### Git
-In this project we use a simple branching workflow. We have 8 branches, board, codecoverage, deploy, development, documents, game, indexpage, master, puppeteer and style. Only when we have completed a feature we push to the master and deploy.
-
-
 First you need to create a working copy of a local repository, with the command:
 `git clone username@host:/path/to/repository`
 
