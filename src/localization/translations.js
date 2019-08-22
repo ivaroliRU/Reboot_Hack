@@ -23,7 +23,7 @@ module.exports = {
       banner: 'Borði. Tölvusnápun eftir:',
       intro: 'Stórt Reboot Hack merki hér',
       reboot2020Signup: {
-        signupText: 'Skráðu þig hér',
+        signupText: 'Hafa samband',
       },
       people: {
         title: 'Stofnendur',
@@ -57,13 +57,13 @@ module.exports = {
         third: {
           header: 'Reboot Hack',
           main:
-            'Viðburðurinn sjálfur kallast “Reboot hack” og vísar nafnið í það að byrja upp á nýtt. Á hackathon-inu viljum við hvetja nemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins.  Teymið á bakvið Reboot Hack  eru þrír tölvunar- og iðnaðarverkfræðinemendur við Háskóla Íslands sem hafa allar reynslu af nefndar- og félagsstörfum innan og utan háskólasamfélagsins.',
+            'Reboot Hack var stofnað maí 2018 af þremur nemendum í tölvunarfræði við Háskóla Íslands. Reboot Hack var haldið í fyrsta sinn 2. og 3.febrúar 2019 Í Háskóla Íslands en þar tóku 60 háskólanemendur frá 5 háskólum þátt. <br> <br> Nafnið Reboot Hack vísar í það að byrja upp á nýtt. Reboot Hack vill hvetja háskólanemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins. <br> <br>Verkefnastjórn Reboot Hack 2019-2020 samastendur af 17 háskólanemendum úr Háskóla Íslands, Háskólanum í Reykjavík og Listaháskóla Íslands. Verkefnastjórnina leiðir Kristjana Björk Barðdal framkvæmdastjóri hakkaþonsins.',
         },
         fourth: {
           header:
-            'Takk kærlega fyrir að taka þátt í að gera Reboot Hack 2019 að veruleika!',
+            'Við erum byrjuð að skipuleggja Reboot Hack 2020!',
           main:
-            'Við leitum nú að metnaðarfullum háskólanemendum til þess að skipuleggja Reboot Hack 2020!',
+            'Verkefnastjórn Reboot Hack 2019-2020 hefur nú tekið til starfa og hafið undirbúning fyrir Reboot Hack 2020. Við munum uppfæra heimasíðuna von bráðar með meiri upplýsingum en þangað til þá ekki hika við að hafa samband við okkur ef þið hafið áhuga að því að hjálpa okkur að gera Reboot Hack 2020 að veruleika.',
         },
       },
       register: {
@@ -280,7 +280,7 @@ module.exports = {
       banner: 'Banner. Hack in:',
       intro: 'Big Reboot Hack logo here',
       reboot2020Signup: {
-        signupText: 'Apply here',
+        signupText: 'Contact Us',
       },
       people: {
         title: 'The founders',
@@ -311,13 +311,13 @@ module.exports = {
         third: {
           header: 'Reboot Hack',
           main:
-            'The hackathon is called “Reboot Hack” and the name was chosen as it signifies starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society.  “Starting over” can also refer to students rethinking how they use what they already know while learning from other participants and mentors. Reboot Hack’s team  are three computer science and industrial engineering students at the University of Iceland. They all have experience in student associations as well as other organizational activities.',
+            'Reboot Hack was founded in May 2018 by three computer science and engineering students at the University of Iceland. Reboot Hack was first held the 2nd and 3rd of February at the University of Iceland where 60 university students from 5 different universities participated.<br> <br>The name was chosen as it signifies starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society. “Starting over” can also refer to students rethinking how they use what they already know while learning from other participants and mentors. <br> <br>Reboot Hack’s 2019-2020 project management is composed of 17 students from the University of Iceland, University of Reykjavík and the Iceland University of the Arts. The project management is led by Kristjana Björk Barðdal, the hackathon’s director.',
         },
         fourth: {
           header:
-            'Huge thanks to all our participants, sponsors, mentors and volunteers for helping us make Reboot Hack 2019 happen!',
+            'We have started planning Reboot Hack 2020!',
           main:
-            'We are looking for ambitious college students to plan Reboot Hack 2020!',
+            'Reboot Hack’s 2019-2020 project management has started working on preparations for Reboot Hack 2020. We will be updating our website soon with more information but until then feel free to contact us if you want to be a part of the event or partner up with us.',
         },
       },
       register: {

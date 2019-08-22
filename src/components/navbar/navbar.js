@@ -35,10 +35,10 @@ class Navbar extends Component {
               target="_blank"
             >
               {navbar.schedule.text}
-            </a> */}
-            <Link className="button" to={`${baseurl}/faq`}>
+            /a> */}
+            {/*<Link className="button" to={`${baseurl}/faq`}>
               {translations.faq.content}
-            </Link>
+          </Link>*/}
             <Link className="button" to={`${baseurl}/sponsors`}>
               {translations.sponsors.content}
             </Link>
