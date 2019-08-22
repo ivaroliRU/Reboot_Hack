@@ -45,3 +45,19 @@ function testCode() {
     console.log('some text');
 }
 ```
+
+### File Structure
+Below is the file structure of the project with explinations, note it only includes files that we care about.
+
+Reboot_Hack/
+├── docs/ (design documents)
+├── dist/ (actual application and files)
+│   ├── index.html
+│   ├── style.css
+│   ├── main.min.js
+│   └── images/
+├── src/ (frontend source folder - React code)
+├── server/
+│   ├── api.js (connects the rout to the root)
+│   └── images/ (contains the routes)
+└── app.js (start-up file for server)
