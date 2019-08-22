@@ -9,9 +9,7 @@ class Reboot2020Signup extends Component {
     return (
       <div className="reboot2020Signup">
         <a
-          href={'https://forms.gle/eqjvb3AjN3eCaThGA'}
-          rel="noopener noreferrer"
-          target="_blank"
+          href={'mailto:reboothack@reboothack.is'}
         >
           {reboot2020Signup.signupText}
         </a>
