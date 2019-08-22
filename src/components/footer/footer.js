@@ -17,24 +17,6 @@ class Footer extends Component {
         <div className="footer--sponsors">
           <div className="footer--sponsors-img">
             <a
-              href="https://www.sky.is/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img src={`${baseurl}/images/sky.png`} alt="Ský logo" />
-            </a>
-          </div>
-          <div className="footer--sponsors-img">
-            <a
-              href="https://www.utmessan.is/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img src={`${baseurl}/images/UT-logo.png`} alt="UT messan logo" />
-            </a>
-          </div>
-          <div className="footer--sponsors-img">
-            <a
               href="https://www.hi.is/"
               rel="noopener noreferrer"
               target="_blank"
@@ -47,34 +29,13 @@ class Footer extends Component {
           </div>
           <div className="footer--sponsors-img">
             <a
-              href="http://www.snjallborgin.is/"
+              href="https://www.ru.is/"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
-                src={`${baseurl}/images/snjallborg.png`}
-                alt="Digital Reykjavik logo"
-              />
-            </a>
-          </div>
-          <div className="footer--sponsors-img">
-            <a
-              href="https://www.reykjavik.is/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img src={`${baseurl}/images/rvk.png`} alt="Reykjavik logo" />
-            </a>
-          </div>
-          <div className="footer--sponsors-img">
-            <a
-              href="https://mlh.io/seasons/eu-2019/events"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                src={`${baseurl}/images/mlh-logo-white.png`}
-                alt="MLH logo"
+                src={`https://en.ru.is/skin/basic9k/i/foot-logo-2x.svg`}
+                alt="Reykjavík University logo"
               />
             </a>
           </div>
@@ -99,7 +60,7 @@ class Footer extends Component {
                     );
                   }}
                 >
-                  <p>reboothackiceland@gmail.com</p>
+                  <p>reboothack@reboothack.is</p>
                 </button>
               )}
               <div className="footer-copy-text">{this.state.copied}</div>
