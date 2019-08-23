@@ -60,4 +60,5 @@ Reboot_Hack/
 ├── server/
 │   ├── api.js (connects the rout to the root)
 │   └── images/ (contains the routes)
+├── webpack.config.js (the webpack file - how do we compile)
 └── app.js (start-up file for server)
