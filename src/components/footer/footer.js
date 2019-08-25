@@ -13,7 +13,7 @@ class Footer extends Component {
     return (
       <div className={style.Footer}>
         <div className={style.footer_sponsors}>
-          <div className="footer--sponsors-img">
+          <div className={style.footer_sponsors_img}>
             <a
               href="https://www.hi.is/"
               rel="noopener noreferrer"
@@ -25,7 +25,7 @@ class Footer extends Component {
               />
             </a>
           </div>
-          <div className="footer--sponsors-img">
+          <div className={style.footer_sponsors_img}>
             <a
               href="https://www.ru.is/"
               rel="noopener noreferrer"
@@ -38,9 +38,9 @@ class Footer extends Component {
             </a>
           </div>
         </div>
-        <div className="footer--info">
-          <div className="footer--contact">
-            <div className="footer--email">
+        <div className={style.footer_info}>
+          <div className={style.footer_contact}>
+            <div className={style.footer_email}>
               {/* Clipboard handler*/ 'clipboard' in navigator && (
                 <button
                   onClick={() => {
@@ -61,9 +61,9 @@ class Footer extends Component {
                   <p>reboothack@reboothack.is</p>
                 </button>
               )}
-              <div className="footer-copy-text">{this.state.copied}</div>
+              <div className={style.footer_copy_text}>{this.state.copied}</div>
             </div>
-            <div className="footer--social">
+            <div className={style.footer_social}>
               <a
                 href="https://www.facebook.com/reboothackiceland/"
                 rel="noopener noreferrer"
