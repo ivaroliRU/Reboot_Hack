@@ -78,7 +78,7 @@ class Sponsors extends Component {
               <p className="team-info">{sponsors.team.main}</p>
             </div>
           </div>
-        </div> */}*/}
+        </div> */}
         </div>
       </div>
     );
