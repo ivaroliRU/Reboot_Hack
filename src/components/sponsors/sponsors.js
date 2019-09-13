@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-//import SponsorRow from './components/sponsorRow';
-//import SponsorDetail from './components/sponsor-detail';
+import SponsorRow from './components/sponsorRow';
+import SponsorDetail from './components/sponsor-detail';
 import './sponsors.css';
 import Translate from '../translate';
 import SponsorImages from './components/sponsorImages';
@@ -18,7 +18,7 @@ class Sponsors extends Component {
             {sponsors.sponsors}
           </h1>
           <SponsorImages />
-          {/*<h2 className="sponsor__header">{sponsors.tableHeader}</h2>
+          <h2 className="sponsor__header">{sponsors.tableHeader}</h2>
           <table className="sponsor__table">
             <thead className="sponsor__table-header">
               <tr className="sponsor__table-header--category">
@@ -78,7 +78,7 @@ class Sponsors extends Component {
               <p className="team-info">{sponsors.team.main}</p>
             </div>
           </div>
-        </div> */}*/}
+        </div> */}
         </div>
       </div>
     );

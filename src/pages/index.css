@@ -23,4 +23,8 @@ a {
   text-decoration: none;
 }
 
+.App {
+  text-align: center;
+}
+
 /*@media screen and (min-width: 600px)*/

@@ -3,26 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://reboot.hi.is",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
   "dependencies": {
-    "dotenv": "^6.2.0",
-    "glamor": "^2.20.40",
-    "moment": "^2.24.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0",
-    "react-redux": "^5.1.1",
-    "react-router-dom": "^4.3.1",
-    "react-router-hash-link": "^1.2.1",
-    "react-scripts": "^2.1.8",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "node app",
+    "build": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "start-dev": "webpack-dev-server --mode development --open"
   },
   "browserslist": [
     ">0.2%",

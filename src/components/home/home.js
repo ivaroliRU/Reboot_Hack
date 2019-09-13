@@ -32,6 +32,11 @@ class Home extends Component {
           header={home.detail.second.header}
           main={home.detail.second.main}
         />
+        <FillerImage imageUrl={`${baseurl}/images/htnidri.jpg`} />
+        <Detail
+          header={home.detail.first.header}
+          main={home.detail.first.main}
+        />
         <Info />
         {/* <Register /> */}
       </div>

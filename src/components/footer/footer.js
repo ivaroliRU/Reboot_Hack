@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import './footer.css';
-
-const baseurl = process.env.REACT_APP_SUB_URL;
+import style from "./footer.css"
 
 class Footer extends Component {
   constructor(props) {
@@ -13,21 +11,21 @@ class Footer extends Component {
   }
   render() {
     return (
-      <div className="footer">
-        <div className="footer--sponsors">
-          <div className="footer--sponsors-img">
+      <div className={style.Footer}>
+        <div className={style.footer_sponsors}>
+          <div className={style.footer_sponsors_img}>
             <a
               href="https://www.hi.is/"
               rel="noopener noreferrer"
               target="_blank"
             >
               <img
-                src={`${baseurl}/images/ImgTwo.png`}
+                src='/images/ImgTwo.png'
                 alt="University of Iceland logo"
               />
             </a>
           </div>
-          <div className="footer--sponsors-img">
+          <div className={style.footer_sponsors_img}>
             <a
               href="https://www.ru.is/"
               rel="noopener noreferrer"
@@ -40,9 +38,9 @@ class Footer extends Component {
             </a>
           </div>
         </div>
-        <div className="footer--info">
-          <div className="footer--contact">
-            <div className="footer--email">
+        <div className={style.footer_info}>
+          <div className={style.footer_contact}>
+            <div className={style.footer_email}>
               {/* Clipboard handler*/ 'clipboard' in navigator && (
                 <button
                   onClick={() => {
@@ -63,9 +61,9 @@ class Footer extends Component {
                   <p>reboothack@reboothack.is</p>
                 </button>
               )}
-              <div className="footer-copy-text">{this.state.copied}</div>
+              <div className={style.footer_copy_text}>{this.state.copied}</div>
             </div>
-            <div className="footer--social">
+            <div className={style.footer_social}>
               <a
                 href="https://www.facebook.com/reboothackiceland/"
                 rel="noopener noreferrer"
@@ -97,7 +95,7 @@ class Footer extends Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <img src={`${baseurl}/images/GitHub-Mark-32px.png`} alt="github" />
+            <img src={'/images/GitHub-Mark-32px.png'} alt="github" />
           </a>
         </div>
       </div>
