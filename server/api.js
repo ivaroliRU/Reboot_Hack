@@ -12,6 +12,7 @@ var files = path.normalize("./dist");
 //app is able to get static files such as CSS files
 app.use('/', express.static(files));
 
+
 // configure the app to use bodyParser()
 app.use(bodyParser.urlencoded({
     extended: true
