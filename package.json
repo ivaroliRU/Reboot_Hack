@@ -16,8 +16,14 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "autoprefixer-core": "^6.0.1",
+    "ejs": "^2.7.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "postcss-color-rebeccapurple": "^4.0.1",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-to-html-webpack-plugin": "^2.2.0"
   },
   "scripts": {
     "start": "node app",
