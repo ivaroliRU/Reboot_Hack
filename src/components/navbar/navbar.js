@@ -8,8 +8,8 @@ class Navbar extends Component {
     //const { translations } = this.props;
 
     return (
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-light bg-light">
+        <a className="navbar-brand" href="#">
           <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" height="30" alt=""></img>
         </a>
       </nav>
