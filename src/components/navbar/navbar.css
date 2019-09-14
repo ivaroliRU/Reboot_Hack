@@ -3,3 +3,21 @@
   padding-top: 0px;
   padding-bottom: 0px; 
 }
+
+.reboot_navbar_item{
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #d9d5f1;
+}
+
+.reboot_navbar_item:hover{
+  color: #FFBA3C !important;
+}
+
+.reboot_navbar_language{
+  border-left: 1px solid #d9d5f1;
+  margin-left: 0px;
+  padding-left: 15px;
+  margin-right: 15px;
+  color: #d9d5f1;
+}
