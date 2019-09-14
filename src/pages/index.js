@@ -8,6 +8,8 @@ class App extends Component {
     return (
       <div className={style.App}>
         <Navbar />
+        <h1>HALLO!!!</h1>
+
       </div>
     );
   }
