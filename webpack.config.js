@@ -2,8 +2,9 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry:{
-    index: './src/pages/index.js',
-    about: './src/pages/about.js'
+    index: './src/pages/index/index.js',
+    about: './src/pages/about/about.js',
+    faq: './src/pages/faq/faq.js'
   },
   module: {
     rules: [
@@ -35,16 +36,22 @@ module.exports = {
   },
   plugins: [
     new HtmlWebPackPlugin({
-      template: './src/pages/index.html',
+      template: './src/pages/index/index.html',
       inject: true,
       chunks: ['index'],
       filename: 'index.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/pages/about.html',
+      template: './src/pages/about/about.html',
       inject: true,
       chunks: ['about'],
       filename: 'about.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pages/faq/faq.html',
+      inject: true,
+      chunks: ['faq'],
+      filename: 'faq.html'
     }),
   ]
 };

@@ -11,9 +11,17 @@ router.get("/", (req, res) => {
     res.status(200).sendfile("index.html", {root: files});
 });
 
+//get request on the about page
 router.get("/about", (req, res) => {
     //send the about file of the root "./builds"
     res.status(200).sendFile("about.html", {root: files});
+});
+
+//get request on the faq page
+router.get("/faq", (req, res) => {
+    console.log('HER ER EG!!');
+    //send the about file of the root "./builds"
+    res.status(200).sendFile("faq.html", {root: files});
 });
 
 module.exports = router
