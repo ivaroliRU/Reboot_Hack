@@ -2,7 +2,7 @@ db = require('../data/db');
 
 db.connect();
 
-function GetAllSubscriptions(callback){
+module.exports.GetAllSubscriptions = function(callback){
     const sql = 'SELECT * FROM subscriptions;';
 
     db.query(sql, (err, res) => {
@@ -14,8 +14,8 @@ function GetAllSubscriptions(callback){
     });
 }
 
-function AddSubscription(subscription, callback){
-    const sql = 'INSERT INTO subscriptions(name) VALUES($1);';
+module.exports.AddSubscription = function(subscription, callback){
+    const sql = 'INSERT INTO subscriptions(email) VALUES($1);';
 
     db.query(sql, [subscription], (err, res) => {
         if (err) {

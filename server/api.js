@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require('body-parser');
 const path = require('path');
 const indexRouter = require('./routes/index');
+const subscriptionRouter = require('./routes/subscription');
 
 const app = express();
 
@@ -21,6 +22,6 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.use('/', indexRouter);
-//pp.use('/pages', express.static('./pages/'));
+app.use('/api/subscriptions', subscriptionRouter);
 
 module.exports = app;
