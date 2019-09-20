@@ -20,6 +20,7 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
-app.use('/', indexRouter);
+// app.use('/', indexRouter);
+app.use('/pages', express.static('./pages/'));
 
 module.exports = app;
