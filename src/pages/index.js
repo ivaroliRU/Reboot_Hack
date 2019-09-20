@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Navbar from '../../components/navbar';
+import Navbar from '../components/navbar';
 import style from "./index.css"
 
 class App extends Component {
