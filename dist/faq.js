@@ -86,6 +86,28 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/components/faq/faq.css":
+/*!************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/components/faq/faq.css ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.i, \"\", \"\",{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\",\"file\":\"faq.css\"}]);\n\n\n//# sourceURL=webpack:///./src/components/faq/faq.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/components/faq/question/question.css":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/components/faq/question/question.css ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(true);\n// Module\nexports.push([module.i, \"\", \"\",{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\",\"file\":\"question.css\"}]);\n\n\n//# sourceURL=webpack:///./src/components/faq/question/question.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./src/components/navbar/navbar.css":
 /*!******************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/components/navbar/navbar.css ***!
@@ -264,6 +286,64 @@ eval("\n\nvar stylesInDom = {};\n\nvar isOldIE = function isOldIE() {\n  var mem
 
 /***/ }),
 
+/***/ "./src/components/faq/faq.css":
+/*!************************************!*\
+  !*** ./src/components/faq/faq.css ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./faq.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/components/faq/faq.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/components/faq/faq.css?");
+
+/***/ }),
+
+/***/ "./src/components/faq/faq.js":
+/*!***********************************!*\
+  !*** ./src/components/faq/faq.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./faq.css */ \"./src/components/faq/faq.css\");\n\nvar _question = __webpack_require__(/*! ./question */ \"./src/components/faq/question/index.js\");\n\nvar _question2 = _interopRequireDefault(_question);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n// import Translate from '../translate';\n\nvar Faq = function (_Component) {\n    _inherits(Faq, _Component);\n\n    function Faq() {\n        _classCallCheck(this, Faq);\n\n        return _possibleConstructorReturn(this, (Faq.__proto__ || Object.getPrototypeOf(Faq)).apply(this, arguments));\n    }\n\n    _createClass(Faq, [{\n        key: 'render',\n        value: function render() {\n            var faq = this.props.translations.faq;\n\n            console.log('HALLLOOO', this.props.translations);\n            console.log(faq);\n            return _react2.default.createElement(\n                'div',\n                { className: 'faq__total' },\n                _react2.default.createElement(\n                    'h1',\n                    { className: 'faq__main__header' },\n                    faq.title\n                ),\n                faq.question1 && _react2.default.createElement(_question2.default, { text: faq.question1.text, answer: faq.question1.answer })\n            );\n        }\n    }]);\n\n    return Faq;\n}(_react.Component);\n\nexports.default = Faq;\n\n//# sourceURL=webpack:///./src/components/faq/faq.js?");
+
+/***/ }),
+
+/***/ "./src/components/faq/question/index.js":
+/*!**********************************************!*\
+  !*** ./src/components/faq/question/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _question = __webpack_require__(/*! ./question */ \"./src/components/faq/question/question.js\");\n\nObject.defineProperty(exports, 'default', {\n  enumerable: true,\n  get: function get() {\n    return _interopRequireDefault(_question).default;\n  }\n});\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//# sourceURL=webpack:///./src/components/faq/question/index.js?");
+
+/***/ }),
+
+/***/ "./src/components/faq/question/question.css":
+/*!**************************************************!*\
+  !*** ./src/components/faq/question/question.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./question.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/components/faq/question/question.css\");\n\nif (typeof content === 'string') {\n  content = [[module.i, content, '']];\n}\n\nvar options = {}\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\")(content, options);\n\nif (content.locals) {\n  module.exports = content.locals;\n}\n\n\n//# sourceURL=webpack:///./src/components/faq/question/question.css?");
+
+/***/ }),
+
+/***/ "./src/components/faq/question/question.js":
+/*!*************************************************!*\
+  !*** ./src/components/faq/question/question.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./question.css */ \"./src/components/faq/question/question.css\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Question = function (_Component) {\n    _inherits(Question, _Component);\n\n    function Question() {\n        _classCallCheck(this, Question);\n\n        return _possibleConstructorReturn(this, (Question.__proto__ || Object.getPrototypeOf(Question)).apply(this, arguments));\n    }\n\n    _createClass(Question, [{\n        key: 'render',\n        value: function render() {\n            var _props = this.props,\n                text = _props.text,\n                answer = _props.answer;\n\n\n            return _react2.default.createElement(\n                'div',\n                { className: 'question__answer' },\n                _react2.default.createElement(\n                    'h3',\n                    { className: 'question' },\n                    text\n                ),\n                _react2.default.createElement('p', { className: 'answer', dangerouslySetInnerHTML: { __html: answer } })\n            );\n        }\n    }]);\n\n    return Question;\n}(_react.Component);\n\nexports.default = Question;\n\n//# sourceURL=webpack:///./src/components/faq/question/question.js?");
+
+/***/ }),
+
 /***/ "./src/components/navbar/index.js":
 /*!****************************************!*\
   !*** ./src/components/navbar/index.js ***!
@@ -307,7 +387,7 @@ eval("/* WEBPACK VAR INJECTION */(function(process) {\n\nObject.defineProperty(e
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _navbar = __webpack_require__(/*! ../../components/navbar */ \"./src/components/navbar/index.js\");\n\nvar _navbar2 = _interopRequireDefault(_navbar);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n// import style from \"./index.css\"\n\nvar App = function (_Component) {\n    _inherits(App, _Component);\n\n    function App() {\n        _classCallCheck(this, App);\n\n        return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n    }\n\n    _createClass(App, [{\n        key: 'render',\n        value: function render() {\n            return _react2.default.createElement(\n                'div',\n                null,\n                _react2.default.createElement(_navbar2.default, null),\n                _react2.default.createElement(\n                    'h2',\n                    null,\n                    'Frequently asked Questions!'\n                ),\n                _react2.default.createElement(\n                    'p',\n                    null,\n                    'Hva\\xF0 er hackathon?'\n                ),\n                _react2.default.createElement(\n                    'p',\n                    null,\n                    'Hackathon sn\\xFDst ekki um a\\xF0 \\u201Chakka\\u201D \\xE1 \\xFEann h\\xE1tt sem vi\\xF0 \\xFEekkjum heldur um a\\xF0 skapa. H\\xE6gt er a\\xF0 hugsa um hackathon sem uppfinningamara\\xFEon \\xFEar sem \\xFE\\xE1tttakendur f\\xE1 r\\xFDmi til a\\xF0 l\\xE6ra, byggja og skapa. Nemendur keppa saman \\xED h\\xF3pum, a\\xF0 h\\xE1marki 5 manns \\xED h\\xF3p og vinna \\xED 24 t\\xEDma a\\xF0 \\xFEr\\xF3a hugmynd e\\xF0a t\\xE6knilausn algj\\xF6rlega fr\\xE1 grunni. Afur\\xF0in getur veri\\xF0 \\xED formi vefs\\xED\\xF0u, sm\\xE1forrits, sm\\xE1t\\xE6kis e\\xF0a hvernig t\\xE6kni sem er, \\xEDmyndunarafli\\xF0 f\\xE6r a\\xF0 r\\xE1\\xF0a r\\xEDkjum \\xE1samt tilt\\xE6kum hj\\xE1lpart\\xF3lum'\n                )\n            );\n        }\n    }]);\n\n    return App;\n}(_react.Component);\n\n(0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/pages/faq/faq.js?");
+eval("\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _navbar = __webpack_require__(/*! ../../components/navbar */ \"./src/components/navbar/index.js\");\n\nvar _navbar2 = _interopRequireDefault(_navbar);\n\nvar _faq = __webpack_require__(/*! ../../components/faq/faq */ \"./src/components/faq/faq.js\");\n\nvar _faq2 = _interopRequireDefault(_faq);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\n// import style from \"./index.css\"\n\nvar App = function (_Component) {\n    _inherits(App, _Component);\n\n    function App() {\n        _classCallCheck(this, App);\n\n        return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n    }\n\n    _createClass(App, [{\n        key: 'render',\n        value: function render() {\n            return _react2.default.createElement(\n                'div',\n                null,\n                _react2.default.createElement(_navbar2.default, null),\n                _react2.default.createElement(\n                    'h2',\n                    null,\n                    'Frequently asked Questions!'\n                ),\n                _react2.default.createElement(_faq2.default, null)\n            );\n        }\n    }]);\n\n    return App;\n}(_react.Component);\n\n(0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/pages/faq/faq.js?");
 
 /***/ })
 
