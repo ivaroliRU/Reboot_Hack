@@ -14,7 +14,7 @@ class Opener extends Component {
                 </div>
                 <div className={style.components}>
                     <img src="/images/reboothack_default_navbar_noBackkground.png" width={950}></img>
-                    <h1 className={style.text}>10.01 &bull; 11.01</h1>
+                    <h1 className={style.text}>14.02 &bull; 16.02</h1>
                 </div>
             </div>
         );

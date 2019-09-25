@@ -10,7 +10,6 @@ import style from "./index.css"
 class App extends Component {
   constructor(props) {
     super(props)
-
     this.handler = this.handler.bind(this)
   }
 
