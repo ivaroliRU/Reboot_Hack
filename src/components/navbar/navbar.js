@@ -9,7 +9,7 @@ class Navbar extends Component {
             <nav className={style.reboot_navbar + " navbar navbar-expand-lg navbar-dark bg-dark"}>
                 <div className="d-flex flex-grow-1">
                     <span className="w-100 d-lg-none d-block"></span>
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                         <img src="/images/reboothack_small.png" alt="The logo for the website" height="50px"></img>
                         <img src="/images/reboothack_default_navbar.png" height="50px"></img>
                     </a>
@@ -22,7 +22,7 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
                     <ul className="navbar-nav ml-auto flex-nowrap">
                         <li className={style.reboot_navbar_item + " nav-item"}>
-                            <a href="#" className="nav-link">{this.text.navbar.about}</a>
+                            <a href="/about" className="nav-link">{this.text.navbar.about}</a>
                         </li>
                         <li className={style.reboot_navbar_item + " nav-item"}>
                         <div className="btn-group">
@@ -35,6 +35,9 @@ class Navbar extends Component {
                         </li>
                         <li className={style.reboot_navbar_item + " nav-item"}>
                             <a href="#" className="nav-link">{this.text.navbar.sponsors}</a>
+                        </li>
+                        <li className={style.reboot_navbar_item + " nav-item"}>
+                            <a href="/faq" className="nav-link">{this.text.navbar.faq}</a>
                         </li>
                         <li className={style.reboot_navbar_language + " nav-item"}>
                             <a href="#" className="nav-link" onClick = {this.props.handler} dangerouslySetInnerHTML={{__html:this.text.navbar.trans_btn}}></a>

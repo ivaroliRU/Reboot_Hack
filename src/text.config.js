@@ -6,7 +6,8 @@ export const translation = {
         sponsors: "Bakhjarlar",
         trans_btn: "EN <img src='/images/english.png' height='15px'></img>",
         board: "Ráðgjafar",
-        team_members: "Reboot Team Teymið"
+        team_members: "Reboot Team Teymið",
+        faq: "Faq"
       },
       faq:{
         content: 'FAQ',
@@ -24,7 +25,7 @@ export const translation = {
         question3: {
           text: 'Hvenær fer Reboot Hack fram?',
           answer:
-            'Reboot Hack fer fram föstudaginn 14.febrúar til eftirmiðdegis á sunnudaginn 16.febrúar 2019. Nánari dagskrá verður tilkynnt þegar nær dregur. ',
+            'Reboot Hack fer fram föstudaginn 14.febrúar til eftirmiðdegis á sunnudaginn 16.febrúar 2020. Nánari dagskrá verður tilkynnt þegar nær dregur. ',
         },
         question4: {
           text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
@@ -90,12 +91,7 @@ export const translation = {
           text: 'Hvernig verður dæmt? ',
           answer:
             'Áherslur Reboot Hack eru endurhugsun, framsýni, nýsköpun, framkoma og tækni og verður dæmt jafnt í öllum flokkum. Dómnefnd mun dæma lið eftir áherslu Reboot Hack ásamt því að fyrirtæki velja óháð lokaniðurstöðum bestu lausn við þeirri áskorun/tækni sem þau lögðu fyrir. Þau verðlaun sem eru sérstaklega veitt fyrir bestu nýtingu á tækni og eða launs á áskorun eru valin af útsendurum hvers fyrirtækis fyrir sig. ',
-        },
-        question17: {
-          text: 'Hver á höfundarréttinn á lausnunum?',
-          answer:
-            'Allar lausnir/hugmyndir og tækni sem verða skapaðar á Reboot Hack eru í eigu þátttakendana en við munum bjóða liðum upp á framhaldandi samskipti við áhugasöm fyrirtæki ef að áhugi liggur fyrir hjá báðum aðilum. ',
-        },
+        }
       }
     },
     en:{
@@ -105,7 +101,8 @@ export const translation = {
         sponsors: "Sponsors",
         trans_btn: "IS <img src='/images/icelandic.png' height='15px'></img>",
         board: "Board Of Advisors",
-        team_members: "The Reboot Team"
+        team_members: "The Reboot Team",
+        faq: "Faq"
       },
       faq: {
         content: 'FAQ',
@@ -123,7 +120,7 @@ export const translation = {
         question3: {
           text: 'When and where is the hackathon?',
           answer:
-            'The hackathon is held in the University of Iceland Saturday on the 2nd of February to Sunday 3rd of February 2019. The official award ceremony will be at UTmessan the following Saturday, the 9th of February.',
+            'The hackathon is held on 14th of February to Sunday 16rd of February 2020.',
         },
         question4: {
           text: 'Do I have to know how to code?',
@@ -175,17 +172,17 @@ export const translation = {
           answer: 'Our venue is accessible to everyone.',
         },
   
-        question19: {
+        question14: {
           text: 'Is there anything required to enter?',
           answer:
             "There are no other requirements to enter and we serve participants on a first come first serve basis!  It's enough to sign up on our website and confirming your MLH account. The hackathon is open to every university student all around the world.",
         },
-        question20: {
+        question15: {
           text: 'What about accommodation in Iceland?',
           answer:
             'We unfortunately do not have any free accommodation to offer but we can help you with booking if needed. During the night there will be a sleeping space at the venue where you can take a quick nap, we recommend bringing a sleeping bag to be more comfortable.',
         },
-        question21: {
+        question16: {
           text: 'What about sleeping?? ',
           answer:
             'Since the venue is a school there is no designated sleeping space but we will have mattresses in a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up! ',
