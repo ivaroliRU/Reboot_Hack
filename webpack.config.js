@@ -26,7 +26,6 @@ module.exports = {
             options: {
               modules: true,
               importLoaders: 1,
-              
               sourceMap: true
             }
           }

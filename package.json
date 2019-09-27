@@ -12,12 +12,24 @@
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.8",
+    "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "autoprefixer-core": "^6.0.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "ejs": "^2.7.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "js-cookie": "^2.2.1",
+    "postcss-color-rebeccapurple": "^4.0.1",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-to-html-webpack-plugin": "^2.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.40.2"
   },
   "scripts": {
     "start": "node app",
