@@ -19,7 +19,6 @@ router.get("/about", (req, res) => {
 
 //get request on the faq page
 router.get("/faq", (req, res) => {
-    console.log('HER ER EG!!');
     //send the about file of the root "./builds"
     res.status(200).sendFile("faq.html", {root: files});
 });
