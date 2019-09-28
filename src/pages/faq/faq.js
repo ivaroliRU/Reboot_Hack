@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import Faq from '../../components/faq/faq';
 import Navbar from '../../components/navbar';
 import { changeLanguage } from '../../translations';
-import { getTranslations } from '../../translations';
 // import style from "./index.css"
 
 class App extends Component {

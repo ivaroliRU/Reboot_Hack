@@ -9,6 +9,29 @@ export const translation = {
         team_members: "Reboot Team Teymið",
         faq: "Faq"
       },
+      detail: {
+        first: {
+          header: 'Hackathon á Íslandi',
+          main:
+            'Reboot Hack er fyrsta hackathon á Íslandi sem er fyrir nemendur og skipulagt af nemendum. Hackathon-ið sjálft verður haldið í Háskóla Íslands og er stefnt á að þátttakendur verði yfir 100 talsins, bæði frá Íslandi sem og öðrum þjóðum. Lítil hackathon menning hefur skapast á Íslandi en hackathon eru gríðarlega vinsæl út um allan heim, stærstu skólar í Evrópu og Bandaríkjunum halda árleg hackathon. Því er kominn tími til þess að skapa þessa hefð hér á landi og verður Reboot Hack þar fremst í fararbroddi.',
+        },
+        second: {
+          header: 'Hackathon',
+          main:
+            'Hackathon snúast ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon eða hálfgerða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þátttakendur fá rými til þess að læra, hanna, byggja og skapa. Þátttakendur keppa saman í hópum og vinna í rúmlega 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
+        },
+        third: {
+          header: 'Reboot Hack',
+          main:
+            'Reboot Hack var stofnað maí 2018 af þremur nemendum í tölvunarfræði við Háskóla Íslands. Reboot Hack var haldið í fyrsta sinn 2. og 3.febrúar 2019 Í Háskóla Íslands en þar tóku 60 háskólanemendur frá 5 háskólum þátt. Nafnið Reboot Hack vísar í það að byrja upp á nýtt. Reboot Hack vill hvetja háskólanemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins. Verkefnastjórn Reboot Hack 2019-2020 samastendur af 17 háskólanemendum úr Háskóla Íslands, Háskólanum í Reykjavík og Listaháskóla Íslands. Verkefnastjórnina leiðir Kristjana Björk Barðdal framkvæmdastjóri hakkaþonsins.',
+        },
+        fourth: {
+          header:
+            'Við erum byrjuð að skipuleggja Reboot Hack 2020!',
+          main:
+            'Verkefnastjórn Reboot Hack 2019-2020 hefur nú tekið til starfa og hafið undirbúning fyrir Reboot Hack 2020. Við munum uppfæra heimasíðuna von bráðar með meiri upplýsingum en þangað til þá ekki hika við að hafa samband við okkur ef þið hafið áhuga að því að hjálpa okkur að gera Reboot Hack 2020 að veruleika.',
+        },
+      },
       faq:{
         content: 'FAQ',
         title: 'Spurt og svarað',
@@ -103,6 +126,29 @@ export const translation = {
         board: "Board Of Advisors",
         team_members: "The Reboot Team",
         faq: "Faq"
+      },
+      detail: {
+        first: {
+          header: 'Hackathon in Iceland ',
+          main:
+            'Reboot Hack is the first ever student organized hackathon for students in Iceland. The hackathon will be held in the University of Iceland and the goal is to have over 100 participants. Hackathons have been missing from Icelandic culture. Reboot Hack aims to bring the hacker culture from Europe and America to Icelandic students.',
+        },
+        second: {
+          header: 'Hackathon',
+          main:
+            'Hackathons are not about “hacking” but rather creating. Hackathon can be thought of as an invention marathon where participants get space to learn, build and create. Students compete in groups and work for over 24 hours to develop an idea/technological solution from scratch. The product can be a website, small application or any other technology.  Reboot Hack is organized by students for students and is completely free to attend.',
+        },
+        third: {
+          header: 'Reboot Hack',
+          main:
+            'Reboot Hack was founded in May 2018 by three computer science and engineering students at the University of Iceland. Reboot Hack was first held the 2nd and 3rd of February at the University of Iceland where 60 university students from 5 different universities participated. The name was chosen as it signifies starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society. “Starting over” can also refer to students rethinking how they use what they already know while learning from other participants and mentors. Reboot Hack’s 2019-2020 project management is composed of 17 students from the University of Iceland, University of Reykjavík and the Iceland University of the Arts. The project management is led by Kristjana Björk Barðdal, the hackathon’s director.',
+        },
+        fourth: {
+          header:
+            'We have started planning Reboot Hack 2020!',
+          main:
+            'Reboot Hack’s 2019-2020 project management has started working on preparations for Reboot Hack 2020. We will be updating our website soon with more information but until then feel free to contact us if you want to be a part of the event or partner up with us.',
+        },
       },
       faq: {
         content: 'FAQ',
