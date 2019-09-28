@@ -23,26 +23,30 @@ class Footer extends Component {
             id="Universities"
             className={"row"}>
               <div className={"col-xs-0 col-lg-3"}></div>
-              <div className={"col-xs-12 col-lg-2"}>
-                <a
-                  href="https://www.ru.is/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                ><img className={'img-fluid'} src="/images/University_of_Reykjavik_Logo.svg" alt="Reykjavík University logo"/></a>
-              </div>
-              <div className={"col-xs-12 col-lg-2"}>
-               <a
-                href="https://english.hi.is/"
-                rel="noopener noreferrer"
-                target="_blank"
-               ><img className={'img-fluid'} src="/images/University_of_Iceland_Logo.png" alt="University of Iceland logo"/></a>
-              </div>
-              <div className={"col-xs-12 col-lg-2"}>
-                <a
-                   href="http://english.unak.is/"
-                   rel="noopener noreferrer"
-                   target="_blank"
-                ><img className={'img-fluid'} src="/images/University_of_Akureiry_Logo.png" alt="University of Akureiry logo"/></a>
+              <div className={"col-xs-12 col-lg-6"}>
+                <div className={"row"}>
+                  <div className={"col-xs-12 col-lg-4"}>
+                    <a
+                      href="https://www.ru.is/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    ><img className={'img-fluid'} src="/images/HR_Logo.png" alt="Reykjavík University logo"/></a>
+                  </div>
+                  <div className={"col-xs-12 col-lg-4"}>
+                  <a
+                    href="https://english.hi.is/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  ><img className={'img-fluid'} src="/images/University_of_Iceland_Logo.png" alt="University of Iceland logo"/></a>
+                  </div>
+                  <div className={"col-xs-12 col-lg-4"}>
+                    <a
+                      href="http://english.unak.is/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    ><img className={'img-fluid'} src="/images/University_of_Akureyri_Official.png" alt="University of Akureiry logo"/></a>
+                  </div>
+                </div>
               </div>
               <div className={"col-xs-0 col-lg-3"}></div>
             
