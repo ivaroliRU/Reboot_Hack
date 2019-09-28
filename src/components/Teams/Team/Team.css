@@ -1,0 +1,13 @@
+.TeamDiv{
+    border: 1px solid red;
+    background-color: gainsboro;
+    border-radius: 2px;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.TeamName{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+}

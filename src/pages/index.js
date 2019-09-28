@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className={style.App}>
         <Navbar />
-        <Subscribe />
+        {/* <Subscribe /> */}
         <Teams />
         <i class="fa fa-user-happy"></i>
         <p>Some more content - soon</p>
