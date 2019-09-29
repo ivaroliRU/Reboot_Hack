@@ -27,4 +27,12 @@ a {
   text-align: center;
 }
 
-/*@media screen and (min-width: 600px)*/
+.text_header{
+  color: #694991;
+  text-align: center;
+}
+
+.header{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
