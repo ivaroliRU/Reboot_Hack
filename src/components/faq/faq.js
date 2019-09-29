@@ -7,7 +7,7 @@ class Faq extends Component {
         this.text = getTranslation();
         return (
             <div>
-                <h1 className="display-3">{this.text.faq.title}</h1>
+                <h3 className="display-4">{this.text.faq.title}</h3>
                 <div className="card" >
                     <div className="card-body">
                         <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question1.text}</h6>
