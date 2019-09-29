@@ -10,32 +10,7 @@ constructor(props) {
         numberOfTeams: 6,
         teams:[
           {
-          name: "Technology",
-          individuals: [
-            {
-              id: 0,
-              name: 'George',
-              linkedInLink: 'SomeLinkedInLInk',
-              email: 'myEmail@domain.com',
-              photoURL: 'SomeUrl'
-            },
-            {
-              id: 1,
-              name: 'Ivar',
-              linkedInLink: 'SomeLinkedInLInk',
-              email: 'myEmail@domain.com',
-              photoURL: 'SomeUrl'
-            },
-            {
-              id: 2,
-              name: 'Einar',
-              linkedInLink: 'SomeLinkedInLInk',
-              email: 'myEmail@domain.com',
-              photoURL: 'SomeUrl'
-            }
-          ]
-          },
-          {
+            id: 0,
             name: "Director",
             individuals:[
               {
@@ -43,10 +18,45 @@ constructor(props) {
                 name: 'Kristjana',
                 linkedInLink: 'SomeLinkedInLInk',
                 email: 'myEmail@domain.com',
-                photoURL: 'SomeUrl'
+                photoURL: './images/Profile.jpg'
               }
             ]
-          }
+          },
+          {
+          id: 1,
+          name: "Technology",
+          individuals: [
+            {
+              id: 0,
+              name: 'George',
+              linkedInLink: 'SomeLinkedInLInk',
+              email: 'myEmail@domain.com',
+              photoURL: './images/Profile.jpg'
+            },
+            {
+              id: 1,
+              name: 'Ivar',
+              linkedInLink: 'SomeLinkedInLInk',
+              email: 'myEmail@domain.com',
+              photoURL: './images/Profile.jpg'
+            },
+            {
+              id: 2,
+              name: 'Einar',
+              linkedInLink: 'SomeLinkedInLInk',
+              email: 'myEmail@domain.com',
+              photoURL: './images/Profile.jpg'
+            },
+            {
+              id: 3,
+              name: 'SomebodyElse',
+              linkedInLink: 'SomeLinkedInLInk',
+              email: 'myEmail@domain.com',
+              photoURL: './images/Profile.jpg'
+            }
+          ]
+          },
+          
         ]
     };
     }
@@ -57,6 +67,7 @@ constructor(props) {
       (team) => {
         return (
           <Team
+          id={team.id}
           teamName={team.name}
           teamIndividuals={team.individuals}
           />
@@ -65,7 +76,7 @@ constructor(props) {
 
     return (
       <div>
-        <p>Teams Page is working! Numbe of teams: {this.state.numberOfTeams}</p>
+        <h1 className={TeamsStyle.Glow}>Our AWESOME Team:</h1>
         <div className={"text-center"}>
               {teamsSection}
         </div>

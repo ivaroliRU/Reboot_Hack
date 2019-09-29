@@ -1,9 +1,18 @@
 .TeamDiv{
-    border: 1px solid red;
-    background-color: gainsboro;
-    border-radius: 2px;
+    
+    background-color: rgba(173, 173, 173, 0.2);
     margin-bottom: 2%;
     padding: 2%;
+
+    /* border-radius: 5px; */
+    border-width: 2px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #625892, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
 
 .TeamName{
@@ -11,3 +20,47 @@
     font-weight: bold;
     float: left;
 }
+
+
+
+
+
+  .SVGWrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .Shape1,
+  .Shape2 {
+    height: 100%;
+    width: 100%;
+    stroke-dasharray: 1120;
+    stroke-width: 5px;
+    fill: transparent;
+    stroke: #19f6e8;
+    border-bottom: 5px solid black;
+    transition-timing-function: linear;
+    transition: stroke-dashoffset 1.5s, stroke-dasharray 1.5s;
+  }
+  .Shape1 {
+    stroke-dashoffset: 1120;
+  }
+  .Shape2 {
+    stroke-dashoffset: -1120;
+  }
+  
+  .SVGWrapper:hover .Shape1,
+  .SVGWrapper:hover .Shape2 {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1120;
+  }
+
+  .SVGDiv{
+    height: 100%;
+    width: 100%;
+  }
+
+  .TEst ::selection {
+    background: #19f6e8;
+  }
+

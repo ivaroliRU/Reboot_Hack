@@ -1,4 +1,43 @@
 .IndividualDiv{
-    border: 2px solid black;
+    border-bottom: 0.5px solid #625892;
+    border-radius: 5px;
+    background-color: rgba(98, 88, 146, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.IndividualPadding{
+    padding: 1.5%;
+}
+
+.IndividualImage{
+    /* top:0; */
     border-radius: 5px;
 }
+
+.IndividualName{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.2s ease-in-out;
+}
+
+.IndividualSocial{
+    cursor: pointer;
+    color: black
+}
+
+.IndividualDiv:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgba(98, 88, 146, 0.8);
+    border-bottom: 0.5px solid black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .IndividualDiv:hover{
+        transition: transform 0.2s ease-in-out;
+        transform: scale(1);
+        border-bottom: 0.5px solid black;
+    }
+  }

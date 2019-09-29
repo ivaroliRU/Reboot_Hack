@@ -18,7 +18,7 @@ class Team extends Component {
     return (
       <div className={"container"}>
         <div className={TeamStyle.TeamDiv}>
-          <p className={TeamStyle.TeamName}>Team {this.props.teamName}</p>
+          <p className={TeamStyle.TeamName}> {this.props.teamName} {this.props.teamName=='Director' ? null : 'Team'}</p>
           <br /> <br />
           <div className={"container"}>
               <div className={"row"}>
@@ -32,16 +32,3 @@ class Team extends Component {
 }
     
 export default Team;
-
-// <div className={"col-xs-4 col-xl-4"}>
-//               <div 
-//               id="Photo"
-//               className={IndividualStyle.IndividualDiv}
-//               >
-//                 <img 
-//                 className = {'image-responsie rounded'}
-//                 />
-//                 <p> Name: {individual.name} </p>
-//                 <p> Age: {individual.age} </p>
-//               </div>
-//             </div>

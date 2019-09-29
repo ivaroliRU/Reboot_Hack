@@ -75,7 +75,7 @@ class Footer extends Component {
                 className={FooterStyle.LinkedIn}
                 href={this.state.linkedin}
                 target="_blank">
-                  <i className={"fa fa-linkedin fa-2x"}></i>
+                  <i className={"fa fa-linkedin-square fa-2x"}></i>
               </a>
 
               <a
