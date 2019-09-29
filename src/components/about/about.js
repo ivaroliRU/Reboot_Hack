@@ -15,18 +15,18 @@ class About extends Component {
                 <div className="container">
                     <img src="/images/ht.jpg" className="img-fluid"  alt="Responsive image" width="80%"></img>
                 </div>
-                <div>
+                <div className="card">
                     <h3>{this.text.detail.second.header}</h3>
                     <p>{this.text.detail.second.main}</p>
                 </div>
-                <div>
+                <div className="card">
                     <h3>{this.text.detail.third.header}</h3>
                     <p>{this.text.detail.third.main}</p>
                 </div>
                     <div className="container">
                     <img src="/images/hi-kold.jpg" width="80%"></img>
                 </div>
-                <div>
+                <div className="card">
                     <h3>{this.text.detail.fourth.header}</h3>
                     <p>{this.text.detail.fourth.main}</p>
                 </div>
