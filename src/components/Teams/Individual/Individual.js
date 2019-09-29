@@ -2,7 +2,24 @@ import React, { Component } from 'react';
 import IndividualStyle from "./Individual.css";
 
 class Individual extends Component {
+
+  
+
+
   render() {
+
+    let myName;
+    if(this.props.individualLinkedIn !== null){
+      myName=(
+        <a 
+          className = {IndividualStyle.UndecoratedATag}
+          href={this.props.individualLinkedIn}
+          target="_blank"> {this.props.individualName}</a>
+      )
+    }
+    else{
+      myName = this.props.individualName;
+    }
 
     return (
       <div className={IndividualStyle.IndividualPadding + " col-xs-4 col-xl-4"}>
@@ -14,20 +31,23 @@ class Individual extends Component {
               src={this.props.individualPhotoUrl} 
               className={IndividualStyle.IndividualImage+' img-fluid'}/>
               <br /> <br />
-            <p className={IndividualStyle.IndividualName}> {this.props.individualName} </p>
+            <p className={IndividualStyle.IndividualName}> 
+              {myName}
+            </p>
             {
               this.props.individualEmail != '' ? 
-                <a className={IndividualStyle.IndividualSocial}>
+                <a 
+                  className={IndividualStyle.IndividualSocial}
+                  onClick={
+                    () => {
+                            navigator.clipboard.writeText(this.props.individualEmail);
+                          } 
+                  }
+                >
                   <i className={"fa fa-envelope fa-lg"}></i> {this.props.individualEmail}</a> 
                 : ''
             }
             <br/>
-            {
-              this.props.individualLinkedIn != '' ? 
-              <a className={IndividualStyle.IndividualSocial}>
-                  <i className={"fa fa-linkedin-square fa-lg"}></i> {this.props.individualLinkedIn}</a>
-                : ''
-            }
           </div>
         </div>
       </div>

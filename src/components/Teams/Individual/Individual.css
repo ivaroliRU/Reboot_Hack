@@ -1,5 +1,5 @@
 .IndividualDiv{
-    border-bottom: 0.5px solid #625892;
+    border-bottom: 1px solid #625892;
     border-radius: 5px;
     background-color: rgba(98, 88, 146, 0.2);
     transition: transform 0.2s ease-in-out;
@@ -26,10 +26,22 @@
     color: black
 }
 
+.UndecoratedATag{
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+.UndecoratedATag :hover, .UndecoratedATag :focus, .UndecoratedATag :active, .UndecoratedATag :visited, .UndecoratedATag :focus-within{
+    color:inherit !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
 .IndividualDiv:hover{
     transition: transform 0.2s ease-in-out;
     transform: scale(1.1);
-    background-color: rgba(98, 88, 146, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);/*rgba(98, 88, 146, 0.8);*/
     border-bottom: 0.5px solid black;
 }
 
