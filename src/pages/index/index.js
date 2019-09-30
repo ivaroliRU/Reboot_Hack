@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Navbar from '../../components/navbar';
 import Opener from '../../components/opener';
+import Footer from '../../components/Footer/footer';
 import SubscriptionButton from '../../components/subscriptionButton';
 import ParallaxScrollImage from '../../components/parallaxScrollImage';
 import {changeLanguage} from '../../translations';
@@ -31,6 +32,7 @@ class App extends Component {
         </div>
         <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={300}/>
         <AboutIndex handler = {this.handler}/>
+        <Footer />
       </div>
     );
   }

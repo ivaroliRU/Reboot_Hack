@@ -25,6 +25,7 @@ a {
 
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
 .text_header{

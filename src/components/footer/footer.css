@@ -1,60 +1,46 @@
-.footer {
-  background-color: rgb(87, 83, 82);
-  color: #dfdfdf;
-}
-
-.footer_sponsors {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: auto;
+.Footer{
+  background-color: rgb(42, 42, 42);
+  position: sticky;
+  left: 0;
+  bottom: 0 !important;
   width: 100%;
-  padding-top: 20px;
+  height: auto;
+  color: white;
+  text-align: center;
+  padding: 0 !important;
+  font-size: 18px;
 }
 
-.footer_sponsors_img {
-  height: 20vw;
-  max-height: 100px;
-  margin: 4%;
-  padding: 0;
-  width: 25%;
+.Facebook, .Instagram, .LinkedIn, .Github {
+  transition: color 0.2s linear;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: white;
 }
 
-.footer_sponsors_img a {
-  height: 100%;
-  width: 100%;
+.Facebook :hover{
+  color: rgb(59, 89, 152);
+  transition: color 0.2s linear;
 }
 
-.footer .footer_sponsors_img img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  object-position: bottom;
+.Instagram :hover{
+  color:rgb(131,58,180);
+  transition: color 0.2s linear;
 }
 
-.footer .footer_info {
-  padding: 20px 0;
+.LinkedIn :hover{
+  color: rgb(0, 119, 181);
+  transition: color 0.2s linear;
 }
 
-.footer .footer_contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.Github :hover{
+  color: rgb(0,0,0);
+  transition: color 0.2s linear;
 }
 
-.footer .footer_info .footer_email {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.footer .footer_info .footer_email button {
-  padding: 5px;
+.Email_Button {
   border: 0;
-  /* width: 200px; */
   font-size: 1.1em;
-  font-family: 'Raleway', sans-serif;
   background-color: transparent;
   color: #dfdfdf !important;
   cursor: pointer;
@@ -63,62 +49,39 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+
+  transition: color 0.5s ease-in-out;
 }
 
-.footer .footer_info .footer_email .footer_copy_text {
-  color: #ffb20d00;
-  transition: color 0.2s ease-out;
-}
-
-.footer .footer_info .footer_email button:hover + .footer_copy_text {
+.OnHoverSection:hover + .Footer_Copy_Text{
+  transition: color 0.5s ease-in-out;
   color: #ffb30d;
+  /* visibility: visible; */
 }
 
-.footer .footer_info img {
-  padding-top: 10px;
+.Footer_Copy_Text {
+  /* visibility: hidden; */
+  transition: color 0.5s ease-in-out;
+  color: rgb(42, 42, 42);
+  position: float;
 }
 
-.footer .footer_social {
-  padding-top: 4px;
+.Footer img{
+  padding-top: 6%;
+  position: inherit;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0%;
 }
 
-.footer .footer_social a {
-  margin-left: 7px;
-  margin-right: 7px;
-  color: #dfdfdf;
-  transition: color 0.2s ease;
+.UnivLogo{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.footer .footer_social a span {
-  display: none;
-}
 
-@media screen and (min-width: 600px) {
-  .footer .footer_sponsors {
-    max-width: 950px;
-  }
-
-  .footer .footer_sponsors .footer_sponsors_img {
-    height: 10vw;
-    display: flex;
-    align-items: flex-end;
-    width: 14.5%;
-    margin: 1%;
-  }
-
-  .footer .footer_contact {
-    flex-direction: row;
-  }
-}
-
-.footer .footer_social .fa-facebook:hover {
-  color: #3b5998;
-}
-
-.footer .footer_social .fa-instagram:hover {
-  color: #3f729b;
-}
-
-.footer .footer_social .fa-linkedin:hover {
-  color: #0976b4;
+.FooterHr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
 }
