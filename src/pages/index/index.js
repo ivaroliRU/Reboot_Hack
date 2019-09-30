@@ -8,6 +8,9 @@ import ParallaxScrollImage from '../../components/parallaxScrollImage';
 import {changeLanguage} from '../../translations';
 import style from "./index.css"
 
+import Teams from '../../components/Teams/Teams';
+import BoardOfAdvisors from '../../components/BoardOfAdvisors/BoardOfAdvisors';
+
 class App extends Component {
   constructor(props) {
     super(props)
@@ -23,6 +26,12 @@ class App extends Component {
     return (
       <div className={style.App}>
         <Navbar handler = {this.handler}/>
+
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        
+        <BoardOfAdvisors/>
+        <Teams/>
+
         <Opener />
         <div className={style.header}>
           <h1 className={style.text_header}>Subsrcibe</h1>

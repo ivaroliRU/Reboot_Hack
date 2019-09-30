@@ -180,9 +180,9 @@ constructor(props) {
       (team) => {
         return (
           <Team
-          id={team.id}
-          teamName={team.name}
-          teamIndividuals={team.individuals}
+            id={team.id}
+            teamName={team.name}
+            teamIndividuals={team.individuals}
           />
         );
     });
