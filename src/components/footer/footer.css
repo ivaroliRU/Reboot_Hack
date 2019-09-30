@@ -11,31 +11,31 @@
   font-size: 18px;
 }
 
-.Facebook{
-  color: rgb(59, 89, 152) !important;
-}
-
-.Instagram{
-  color:rgb(131,58,180) !important;
-}
-
-.LinkedIn{
-  color: rgb(0, 119, 181) !important;
-}
-
-.Github{
-  color: rgb(0,0,0) !important;
-}
-
-.Facebook :hover, .Instagram :hover, .LinkedIn :hover, .Github :hover{
-  transition: color .3s ease-in-out;
-  color: white !important;
-}
-
 .Facebook, .Instagram, .LinkedIn, .Github {
-  transition: color .3s ease-in-out;
+  transition: color 0.2s linear;
   padding-left: 1%;
   padding-right: 1%;
+  color: white;
+}
+
+.Facebook :hover{
+  color: rgb(59, 89, 152);
+  transition: color 0.2s linear;
+}
+
+.Instagram :hover{
+  color:rgb(131,58,180);
+  transition: color 0.2s linear;
+}
+
+.LinkedIn :hover{
+  color: rgb(0, 119, 181);
+  transition: color 0.2s linear;
+}
+
+.Github :hover{
+  color: rgb(0,0,0);
+  transition: color 0.2s linear;
 }
 
 .Email_Button {

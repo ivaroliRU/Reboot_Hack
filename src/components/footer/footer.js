@@ -30,21 +30,21 @@ class Footer extends Component {
                       href="https://www.ru.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid'} src="/images/HR_Logo.png" alt="Reykjavík University logo"/></a>
+                    ><img className={'img-fluid'} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
                   </div>
                   <div className={"col-xs-12 col-lg-4"}>
                   <a
                     href="https://english.hi.is/"
                     rel="noopener noreferrer"
                     target="_blank"
-                  ><img className={'img-fluid'} src="/images/University_of_Iceland_Logo.png" alt="University of Iceland logo"/></a>
+                  ><img className={'img-fluid'} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
                   </div>
                   <div className={"col-xs-12 col-lg-4"}>
                     <a
                       href="http://english.unak.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid'} src="/images/University_of_Akureyri_Official.png" alt="University of Akureiry logo"/></a>
+                    ><img className={'img-fluid'} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
                   </div>
                 </div>
               </div>
