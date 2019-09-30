@@ -27,7 +27,7 @@ class SubscriptionButton extends Component {
         fetch('/api/subscriptions', {
             method: 'POST',
             body: {
-                email: 'einar'
+                email: self.refs.email
             }
         })
         .then(function(response) {
