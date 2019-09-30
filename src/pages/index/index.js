@@ -5,6 +5,7 @@ import Opener from '../../components/opener';
 import SubscriptionButton from '../../components/subscriptionButton';
 import ParallaxScrollImage from '../../components/parallaxScrollImage';
 import {changeLanguage} from '../../translations';
+import AboutIndex from '../../components/about/aboutIndex';
 import style from "./index.css"
 
 class App extends Component {
@@ -29,9 +30,7 @@ class App extends Component {
           <SubscriptionButton />
         </div>
         <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={300}/>
-        <div className={style.header} style={{marginBottom:500}}>
-          <h1 className={style.text_header}>Sponsors</h1>
-        </div>
+        <AboutIndex handler = {this.handler}/>
       </div>
     );
   }
