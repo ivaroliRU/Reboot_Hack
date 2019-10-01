@@ -8,35 +8,39 @@ class SubscriptionButton extends Component {
     /*handleClick={} baeta svo thessu vid i button onClick={handleClick}*/
     constructor(props) {
         super(props);
-        this.state = {value: ''};
-        this.emailField = React.createRef()
+        this.state = {email: ''};
 
         this.handleChange = this.handleChange.bind(this);
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleChange(event) {
-        this.setState({value: event.target.value});
+        this.setState({email: event.target.value});
     }
 
     handleClick(event) {
-        // HÉR bæta við tengingu við api.js -> subscription
-        //alert('An email was submitted: ' + this.state.value);
-        event.preventDefault();
-        var self = this;
+        // Possibly switch state out!?
+        // event.preventDefault();
+        var email = {email: this.state.email};
         fetch('/api/subscriptions', {
             method: 'POST',
-            body: {
-                email: self.refs.email
-            }
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(email)
         })
         .then(function(response) {
-            return response.json()
+            // return response.json()
           }).then(function(body) {
-            console.log(body);
+            // console.log(body);
           });
     }
-    
+    /*
+    ATH! When email put in for subscription it goes to database but the site redirects to /?
+    There is a possibility that it is because of the <form>
+    Need to look into that better
+    ONE solution is to remove the comment from evet.preventDefault()  (line23) Than it will not redirect.
+    But than nothing indicates that you have subscribed. So until we fix that, change the modal boxto show you have subscribed,
+    or add an alert that shows you the same I recommend to have redirect.
+    */
     render() {
         return (
             <div>
@@ -45,24 +49,26 @@ class SubscriptionButton extends Component {
                 </button>
                 <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog">
                     <div className="modal-dialog" role="document">
+                        <form onSubmit={(e) => this.handleClick(e)}>
                         <div className="modal-content" style={{zIndex:1000}}>
                         <div className="modal-header">
-                            <h5 className="modal-title">Hey there!</h5>
+                            <h5 className="modal-title">Hi there!</h5>
                             <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div className="modal-body">
                             <label>
-                                email:
-                                <input type="text" ref={this.emailField} value={this.state.value} onChange={this.handleChange}/>
+                                email: 
+                                <input type="email" value={this.state.email} onChange={this.handleChange} autoFocus required/>
                             </label>
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-primary" onClick={this.handleClick}>Subscribe</button>
+                            <button type="submit" className="btn btn-primary" >Subscribe</button>
                             <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                         </div>
+                    </form>
                     </div>
                 </div>
             </div>

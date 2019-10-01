@@ -10,7 +10,7 @@ router.get("/", (req, res) => {
 });
 
 //post request to create a new subscription 
-router.post("/", (req, res) => {    
+router.post("/", (req, res) => {  
     if(req.body.email == undefined){
         console.log('hallohallo', req.body.email);
         res.status(400).end();

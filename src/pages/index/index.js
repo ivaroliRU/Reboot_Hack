@@ -26,7 +26,7 @@ class App extends Component {
         <Navbar handler = {this.handler}/>
         <Opener />
         <div className={style.header}>
-          <h1 className={style.text_header}>Subsrcibe</h1>
+          <h1 className={style.text_header}>Subscribe</h1>
           <p style={{marginBottom:30}}>Subscribe to our newsletter</p>
           <SubscriptionButton />
         </div>
