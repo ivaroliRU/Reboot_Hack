@@ -28,10 +28,10 @@ class App extends Component {
         <Opener />
         <div className={style.header}>
           <h1 className={style.text_header}>{this.text.indexText.Heading}</h1>
-          <p style={{marginBottom:30}}>{this.text.indexText.subHeading}</p>
+          <h4 style={{marginBottom:30}}>{this.text.indexText.subHeading}</h4>
           <SubscriptionButton handler={this.handler}/>
         </div>
-        <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={300}/>
+        <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={500}/>
         <AboutIndex handler = {this.handler}/>
         <Footer />
       </div>

@@ -26,6 +26,8 @@ a {
 .App {
   text-align: center;
   overflow-x: hidden;
+  background-color: white;
+  background-color: hsla(268, 34%, 43%, 0.1);
 }
 
 .text_header{
@@ -34,6 +36,6 @@ a {
 }
 
 .header{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }

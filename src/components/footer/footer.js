@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import FooterStyle from './footer.css';
-import { setPriority } from 'os';
+import style from './footer.css';
 
 class Footer extends Component {
   constructor(props) {
@@ -17,7 +16,7 @@ class Footer extends Component {
   
   render() {
     return (
-      <footer className={FooterStyle.Footer + " text-center"}>
+      <footer className={style.Footer + " text-center"}>
         <div className={"container"}>
           <div 
             id="Universities"
@@ -30,56 +29,56 @@ class Footer extends Component {
                       href="https://www.ru.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid'} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
+                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
                   </div>
                   <div className={"col-xs-12 col-lg-4"}>
                   <a
                     href="https://english.hi.is/"
                     rel="noopener noreferrer"
                     target="_blank"
-                  ><img className={'img-fluid'} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
+                  ><img className={'img-fluid ' + style.uniLogo} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
                   </div>
                   <div className={"col-xs-12 col-lg-4"}>
                     <a
                       href="http://english.unak.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid'} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
+                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
                   </div>
                 </div>
               </div>
               <div className={"col-xs-0 col-lg-3"}></div>
             
           </div>
-          <hr className={FooterStyle.FooterHr}/>
+          <hr className={style.FooterHr}/>
           <div 
             id="Social"
             className={"row"}>
               <div className={"col-lg-12 col-xs-12"}>
 
               <a
-                className={FooterStyle.Facebook}
+                className={style.Facebook}
                 href={this.state.facebook}
                 target="_blank">
                   <i className={"fa fa-facebook fa-2x"}></i>
               </a>
 
               <a 
-                className={FooterStyle.Instagram}
+                className={style.Instagram}
                 href={this.state.instagram}
                 target="_blank">
                   <i className={"fa fa-instagram fa-2x"}></i>
               </a>
 
               <a
-                className={FooterStyle.LinkedIn}
+                className={style.LinkedIn}
                 href={this.state.linkedin}
                 target="_blank">
                   <i className={"fa fa-linkedin-square fa-2x"}></i>
               </a>
 
               <a
-                className={FooterStyle.Github}
+                className={style.Github}
                 href={this.state.github}
                 target="_blank">
                   <i className={"fa fa-github fa-2x"}></i>
@@ -90,8 +89,8 @@ class Footer extends Component {
             id="Email"
             className={"row"}>
             <div className={"col-lg-12 col-xs-12"}>
-              <div className={FooterStyle.OnHoverSection}><span>Official email:</span> <button
-                                      className={FooterStyle.Email_Button}
+              <div className={style.OnHoverSection}><span>Official email:</span> <button
+                                      className={style.Email_Button}
                                       onClick={
                                         () => {
                                                 navigator.clipboard.writeText(this.state.email);
@@ -112,7 +111,7 @@ class Footer extends Component {
               </div>
               <div 
                   id='Coppied_Text'
-                  className={FooterStyle.Footer_Copy_Text}
+                  className={style.Footer_Copy_Text}
                   >{this.state.copied}
                 </div>
             </div>

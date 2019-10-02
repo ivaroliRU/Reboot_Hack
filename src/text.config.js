@@ -11,12 +11,13 @@ export const translation = {
       },
       indexText: {
         Heading: 'Skráðu þig!',
-        subHeading: 'Skráðu netfang þitt til að fá upplýsingar!'
+        subHeading: 'Skráðu netfang þitt til að fá upplýsingar um gang mála sem gætu gagnast vel!'
       },
       subscription: {
         subscrButton: 'Skrá netfang',
         subscrDialog: {
-          title: 'Hæ!',
+          title: 'Skráðu þig á netfang listann okkar',
+          text: 'Skráðu þig á netfang listann okkar til að fá upplýsingar um gang mála.',
           submit: 'Skrá mig',
           close: 'Loka'
         }
@@ -144,12 +145,13 @@ export const translation = {
       },
       indexText: {
         Heading: 'Subscribe!',
-        subHeading: 'Subscribe to get information'
+        subHeading: 'Subscribe to our newsletter to get updates that might be useful.'
       },
       subscription: {
         subscrButton: 'Subscribe',
         subscrDialog: {
-          title: 'Hi!',
+          title: 'Subscribe to our newsletter.',
+          text: 'Subscribe to our newsletter to get updates and information that may be useful.',
           submit: 'Subscribe',
           close: 'Close'
         }
