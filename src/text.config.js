@@ -7,7 +7,7 @@ export const translation = {
         trans_btn: "EN <img src='/images/english.png' height='15px'></img>",
         board: "Ráðgjafar",
         team_members: "Reboot Team Teymið",
-        faq: "Faq"
+        faq: "FAQ"
       },
       indexText: {
         Heading: 'Skráðu þig!',
@@ -126,6 +126,9 @@ export const translation = {
           text: 'Hvernig verður dæmt? ',
           answer:
             'Áherslur Reboot Hack eru endurhugsun, framsýni, nýsköpun, framkoma og tækni og verður dæmt jafnt í öllum flokkum. Dómnefnd mun dæma lið eftir áherslu Reboot Hack ásamt því að fyrirtæki velja óháð lokaniðurstöðum bestu lausn við þeirri áskorun/tækni sem þau lögðu fyrir. Þau verðlaun sem eru sérstaklega veitt fyrir bestu nýtingu á tækni og eða launs á áskorun eru valin af útsendurum hvers fyrirtækis fyrir sig. ',
+        },
+        moreQuestions: {
+          text: 'Hefuru fleiri spurningar? - Ekki hika við að senda okkur póst.'
         }
       }
     },
@@ -137,7 +140,7 @@ export const translation = {
         trans_btn: "IS <img src='/images/icelandic.png' height='15px'></img>",
         board: "Board Of Advisors",
         team_members: "The Reboot Team",
-        faq: "Faq"
+        faq: "FAQ"
       },
       indexText: {
         Heading: 'Subscribe!',
@@ -257,6 +260,9 @@ export const translation = {
           answer:
             'Since the venue is a school there is no designated sleeping space but we will have mattresses in a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up! ',
         },
+        moreQuestions: {
+          text: 'More questions? - Don´t hesitate to send us an email.'
+        }
       }
     }
 }
