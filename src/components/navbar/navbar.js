@@ -10,8 +10,8 @@ class Navbar extends Component {
                 <div className="d-flex flex-grow-1">
                     <span className="w-100 d-lg-none d-block"></span>
                     <a className="navbar-brand" href="/">
-                        <img src="/images/reboothack_small.png" alt="The logo for the website" height="50px"></img>
-                        <img src="/images/reboothack_default_navbar.png" height="50px"></img>
+                        <img src="/images/Logo.svg" alt="The logo for the website" height="30px"></img>
+                        <img src="/images/reboothack_default_navbar_noBackkground.png" height="50px"></img>
                     </a>
                     <div className="w-100 text-right">
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
