@@ -9,6 +9,18 @@ export const translation = {
         team_members: "Reboot Team Teymið",
         faq: "Faq"
       },
+      indexText: {
+        Heading: 'Skráðu þig!',
+        subHeading: 'Skráðu netfang þitt til að fá upplýsingar!'
+      },
+      subscription: {
+        subscrButton: 'Skrá netfang',
+        subscrDialog: {
+          title: 'Hæ!',
+          submit: 'Skrá mig',
+          close: 'Loka'
+        }
+      },
       detail: {
         first: {
           header: 'Hackathon á Íslandi',
@@ -126,6 +138,18 @@ export const translation = {
         board: "Board Of Advisors",
         team_members: "The Reboot Team",
         faq: "Faq"
+      },
+      indexText: {
+        Heading: 'Subscribe!',
+        subHeading: 'Subscribe to get information'
+      },
+      subscription: {
+        subscrButton: 'Subscribe',
+        subscrDialog: {
+          title: 'Hi!',
+          submit: 'Subscribe',
+          close: 'Close'
+        }
       },
       detail: {
         first: {
