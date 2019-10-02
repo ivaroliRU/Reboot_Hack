@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Navbar from '../../components/navbar';
 import Opener from '../../components/opener';
-import Footer from '../../components/Footer/footer';
+import Footer from '../../components/footer';
 import SubscriptionButton from '../../components/subscriptionButton';
 import ParallaxScrollImage from '../../components/parallaxScrollImage';
 import {changeLanguage, getTranslation} from '../../translations';

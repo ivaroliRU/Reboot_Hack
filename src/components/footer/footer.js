@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FooterStyle from './Footer.css';
+import FooterStyle from './footer.css';
 import { setPriority } from 'os';
 
 class Footer extends Component {
