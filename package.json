@@ -18,20 +18,27 @@
   "dependencies": {
     "autoprefixer": "^9.6.1",
     "autoprefixer-core": "^6.0.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.19.0",
     "css-loader": "^3.2.0",
     "custom-env": "^1.0.2",
     "ejs": "^2.7.1",
+    "express": "^4.17.1",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^3.2.0",
     "js-cookie": "^2.2.1",
+    "path": "^0.12.7",
     "pg": "^7.12.1",
     "postcss-color-rebeccapurple": "^4.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-to-html-webpack-plugin": "^2.2.0",
     "style-loader": "^1.0.0",
-    "webpack": "^4.40.2"
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
   },
   "scripts": {
     "start": "npm run build && node app",
