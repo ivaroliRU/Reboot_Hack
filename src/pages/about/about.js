@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import Navbar from '../../components/navbar';
 import About from '../../components/about/about';
 import { changeLanguage } from '../../translations';
+import Footer from '../../components/footer';
 // import style from "./index.css"
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
         <div>
             <Navbar handler = {this.handler}/> 
             <About handler = {this.handler} />
+            <Footer />
         </div>
         );
     }
