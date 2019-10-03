@@ -71,7 +71,7 @@ class Faq extends Component {
                 <div className="card m-2">
                     <div className="card-body">
                         <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question11.text}</h6>
-                        <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question12.answer}} />
+                        <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question11.answer}} />
                     </div>
                 </div>
                 <div className="card m-2">
@@ -96,12 +96,6 @@ class Faq extends Component {
                     <div className="card-body">
                         <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question15.text}</h6>
                         <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question15.answer}} />
-                    </div>
-                </div>
-                <div className="card m-2">
-                    <div className="card-body">
-                        <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question16.text}</h6>
-                        <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question16.answer}} />
                     </div>
                 </div>
                 <div className="mx-auto mb-2" style={{width: 600}}>
