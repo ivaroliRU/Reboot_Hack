@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Raleway');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+  line-height: 1.5em;
+ 
+  
+}
+
+h1,
+h2,
+h3,
+th {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2em;
+  color: #625892;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+    overflow-x: hidden;
+  }
+
+.text_header{
+  color: #694991;
+  text-align: center;
+}
+  
+.header{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}

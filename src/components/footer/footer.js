@@ -17,28 +17,28 @@ class Footer extends Component {
   render() {
     return (
       <footer className={style.Footer + " text-center"}>
-        <div className={"container"}>
+        <div className="container">
           <div 
             id="Universities"
-            className={"row"}>
-              <div className={"col-xs-0 col-lg-3"}></div>
-              <div className={"col-xs-12 col-lg-6"}>
-                <div className={"row"}>
-                  <div className={"col-xs-12 col-lg-4"}>
+            className="row">
+              <div className="col-xs-0 col-lg-3"></div>
+              <div className="col-xs-12 col-lg-6">
+                <div className="row">
+                  <div className="col-xs-12 col-lg-4">
                     <a
                       href="https://www.ru.is/"
                       rel="noopener noreferrer"
                       target="_blank"
                     ><img className={'img-fluid ' + style.uniLogo} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
                   </div>
-                  <div className={"col-xs-12 col-lg-4"}>
+                  <div className="col-xs-12 col-lg-4">
                   <a
                     href="https://english.hi.is/"
                     rel="noopener noreferrer"
                     target="_blank"
                   ><img className={'img-fluid ' + style.uniLogo} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
                   </div>
-                  <div className={"col-xs-12 col-lg-4"}>
+                  <div className="col-xs-12 col-lg-4">
                     <a
                       href="http://english.unak.is/"
                       rel="noopener noreferrer"
@@ -47,7 +47,7 @@ class Footer extends Component {
                   </div>
                 </div>
               </div>
-              <div className={"col-xs-0 col-lg-3"}></div>
+              <div className="col-xs-0 col-lg-3"></div>
             
           </div>
           <hr className={style.FooterHr}/>
