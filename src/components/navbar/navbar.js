@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
-import './navbar.css';
-import LanguageButton from '../languageButton';
-import Translate from '../translate';
-
-const baseurl = process.env.REACT_APP_SUB_URL;
+import style from "./navbar.css"
+import {getTranslation} from '../../translations';
 
 class Navbar extends Component {
   render() {
@@ -56,4 +52,4 @@ class Navbar extends Component {
   }
 }
 
-export default Translate(Navbar);
+export default Navbar;

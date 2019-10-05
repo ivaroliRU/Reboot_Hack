@@ -1,108 +1,136 @@
 import React, { Component } from 'react';
-import './footer.css';
-
-const baseurl = process.env.REACT_APP_SUB_URL;
+import style from './footer.css';
 
 class Footer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: 'reboothackiceland@gmail.com',
+      email: 'reboothack@reboothack.is',
       copied: 'Click to copy',
+      facebook: "https://www.facebook.com/reboothackiceland/",
+      instagram: "https://www.instagram.com/reboothackiceland/",
+      linkedin: "https://www.linkedin.com/company/reboot-hack-iceland/",
+      github: "https://github.com/ivaroliRU/Reboot_Hack",
     };
   }
+  
   render() {
     return (
-      <div className="footer">
-        <div className="footer--sponsors">
-          <div className="footer--sponsors-img">
-            <a
-              href="https://www.hi.is/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                src={`${baseurl}/images/ImgTwo.png`}
-                alt="University of Iceland logo"
-              />
-            </a>
+      <footer className={style.Footer + " text-center"}>
+        <div className={"container"}>
+          <div 
+            id="Universities"
+            className={"row"}>
+              <div className={"col-xs-0 col-lg-3"}></div>
+              <div className={"col-xs-12 col-lg-6"}>
+                <div className={"row"}>
+                  <div className={"col-xs-12 col-lg-4"}>
+                    <a
+                      href="https://www.ru.is/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
+                  </div>
+                  <div className={"col-xs-12 col-lg-4"}>
+                  <a
+                    href="https://english.hi.is/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  ><img className={'img-fluid ' + style.uniLogo} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
+                  </div>
+                  <div className={"col-xs-12 col-lg-4"}>
+                    <a
+                      href="http://english.unak.is/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
+                  </div>
+                </div>
+              </div>
+              <div className={"col-xs-0 col-lg-3"}></div>
+            
           </div>
-          <div className="footer--sponsors-img">
-            <a
-              href="https://www.ru.is/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                src={`https://en.ru.is/skin/basic9k/i/foot-logo-2x.svg`}
-                alt="Reykjavík University logo"
-              />
-            </a>
-          </div>
-        </div>
-        <div className="footer--info">
-          <div className="footer--contact">
-            <div className="footer--email">
-              {/* Clipboard handler*/ 'clipboard' in navigator && (
-                <button
-                  onClick={() => {
-                    navigator.clipboard.writeText(this.state.email);
-                    this.setState(state => ({
-                      copied: 'Copied!',
-                    }));
-                    setTimeout(
-                      function() {
-                        this.setState(state => ({
-                          copied: 'Click to copy',
-                        }));
-                      }.bind(this),
-                      3000
-                    );
-                  }}
-                >
-                  <p>reboothack@reboothack.is</p>
-                </button>
-              )}
-              <div className="footer-copy-text">{this.state.copied}</div>
-            </div>
-            <div className="footer--social">
+          <hr className={style.FooterHr}/>
+          <div 
+            id="Social"
+            className={"row"}>
+              <div className={"col-lg-12 col-xs-12"}>
+
               <a
-                href="https://www.facebook.com/reboothackiceland/"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="fa fa-facebook"
-              >
-                <span>Reboot Hack Facebook</span>
+                className={style.Facebook}
+                href={this.state.facebook}
+                target="_blank">
+                  <i className={"fa fa-facebook fa-2x"}></i>
               </a>
-              <a
-                href="https://www.instagram.com/reboothackiceland/"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="fa fa-instagram"
-              >
-                <span>Reboot Hack Instagram</span>
+
+              <a 
+                className={style.Instagram}
+                href={this.state.instagram}
+                target="_blank">
+                  <i className={"fa fa-instagram fa-2x"}></i>
               </a>
+
               <a
-                href="https://www.linkedin.com/company/reboot-hack-iceland/"
-                rel="noopener noreferrer"
-                target="_blank"
-                className="fa fa-linkedin"
-              >
-                <span>Reboot Hack LinkedIn</span>
+                className={style.LinkedIn}
+                href={this.state.linkedin}
+                target="_blank">
+                  <i className={"fa fa-linkedin-square fa-2x"}></i>
+              </a>
+
+              <a
+                className={style.Github}
+                href={this.state.github}
+                target="_blank">
+                  <i className={"fa fa-github fa-2x"}></i>
               </a>
             </div>
           </div>
-          <a
-            href="https://github.com/fridasnaedis/reboot_hackathon"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <img src={`${baseurl}/images/GitHub-Mark-32px.png`} alt="github" />
-          </a>
+          <div
+            id="Email"
+            className={"row"}>
+            <div className={"col-lg-12 col-xs-12"}>
+              <div className={style.OnHoverSection}><span>Official email:</span> <button
+                                      className={style.Email_Button}
+                                      onClick={
+                                        () => {
+                                                navigator.clipboard.writeText(this.state.email);
+                                                this.setState(state => ({
+                                                  copied: 'Copied!',
+                                                }));
+                                                let TextWasCopied = setTimeout(
+                                                  function() {
+                                                    this.setState(state => ({
+                                                      copied: 'Click to copy'
+                                                    }));
+                                                    clearTimeout(TextWasCopied);
+                                                  }.bind(this), 3000);
+                                              } 
+                                          }>
+                                      <span>{this.state.email}</span>
+                                    </button> 
+              </div>
+              <div 
+                  id='Coppied_Text'
+                  className={style.Footer_Copy_Text}
+                  >{this.state.copied}
+                </div>
+            </div>
+          </div>
+          <div
+            id="Created_by"
+            className={"row"}>
+            <div className={"col-lg-12 col-xs-12"}>
+              <p >
+                <i>Created with love by <b>RebootHack</b> Team</i>
+                </p>
+            </div>
+          </div>
+
         </div>
-      </div>
+        </footer>
     );
   }
 }
+
 
 export default Footer;
