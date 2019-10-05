@@ -32,7 +32,7 @@ class SubscriptionButton extends Component {
                 </div>
 
 
-                <div id="successModal" className="modal" tabindex="-1" role="dialog">
+                <div id="successModal" className="modal" tabIndex="-1" role="dialog">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                         <div className="modal-header">
