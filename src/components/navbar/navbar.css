@@ -1,7 +1,8 @@
 .reboot_navbar{
-  background-color: #625892 !important;
+  background-color: #694991 !important;
   padding-top: 0px;
-  padding-bottom: 0px; 
+  padding-bottom: 0px;
+  z-index: 1000; 
 }
 
 .reboot_navbar_item{

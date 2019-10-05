@@ -15,6 +15,9 @@ module.exports.GetAllSubscriptions = function(callback){
 }
 
 module.exports.AddSubscription = function(subscription, callback){
+    // console.log('pulsa', callback);
+    //console.log();
+    
     const sql = 'INSERT INTO subscriptions(email) VALUES($1);';
 
     db.query(sql, [subscription], (err, res) => {

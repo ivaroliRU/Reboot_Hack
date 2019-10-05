@@ -1,0 +1,23 @@
+.TeamsDiv{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.Glow{
+    padding-top: 5px;
+    font-size: 32px;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #625892, 0 0 15px #625892, 0 0 20px #625892, 0 0 25px #625892, 0 0 30px #625892;
+    }
+    
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #413091, 0 0 15px #413091, 0 0 20px #413091, 0 0 25px #413091, 0 0 30px #413091, 0 0 32px #413091;
+    }
+  }

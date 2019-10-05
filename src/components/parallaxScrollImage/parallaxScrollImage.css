@@ -1,0 +1,8 @@
+.container{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(268, 34%, 43%, 0.8);
+    background-blend-mode: multiply;
+}

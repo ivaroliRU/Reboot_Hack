@@ -7,7 +7,7 @@ const port = process.env.PG_PORT;
 const host = process.env.PG_HOST;
 const db = process.env.PG_DB;
 
-const connectionString = `postgres://${user}:${password}@${host}:${port}/${db}`;
+const connectionString = process.env.DATABASE_URL;
 console.log(connectionString);
 
 const client = new Client(connectionString)

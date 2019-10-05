@@ -25,6 +25,17 @@ a {
 
 .App {
   text-align: center;
+  overflow-x: hidden;
+  background-color: white;
+  background-color: hsla(268, 34%, 43%, 0.1);
 }
 
-/*@media screen and (min-width: 600px)*/
+.text_header{
+  color: #694991;
+  text-align: center;
+}
+
+.header{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}

@@ -1,28 +1,39 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Navbar from '../../components/navbar';
-import {changeLanguage} from '../../translations';
+import Opener from '../../components/opener';
+import Footer from '../../components/footer';
+import SubscriptionButton from '../../components/subscriptionButton';
+import ParallaxScrollImage from '../../components/parallaxScrollImage';
+import {changeLanguage, getTranslation} from '../../translations';
+import AboutIndex from '../../components/about/aboutIndex';
 import style from "./index.css"
 
 class App extends Component {
   constructor(props) {
     super(props)
-
     this.handler = this.handler.bind(this)
   }
 
   handler() {
-    console.log("asdf");
     changeLanguage();
     this.forceUpdate();
   }
   
   render() {
+    this.text = getTranslation();
     return (
       <div className={style.App}>
         <Navbar handler = {this.handler}/>
-        <h1>HALLO!!!</h1>
-
+        <Opener />
+        <div className={style.header}>
+          <h1 className={style.text_header}>{this.text.indexText.Heading}</h1>
+          <h4 style={{marginBottom:30}}>{this.text.indexText.subHeading}</h4>
+          <SubscriptionButton handler={this.handler}/>
+        </div>
+        <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={500}/>
+        <AboutIndex handler = {this.handler}/>
+        <Footer />
       </div>
     );
   }
