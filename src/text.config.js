@@ -61,7 +61,7 @@ export const translation = {
         question3: {
           text: 'Hvenær fer Reboot Hack fram?',
           answer:
-            'Reboot Hack fer fram föstudaginn 14.febrúar til eftirmiðdegis á sunnudaginn 16.febrúar 2020. Nánari dagskrá verður tilkynnt þegar nær dregur. ',
+            'Reboot Hack fer fram 14.febrúar til 16.febrúar 2020. Nánari dagskrá verður tilkynnt þegar nær dregur. ',
         },
         question4: {
           text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
@@ -96,7 +96,7 @@ export const translation = {
         question10: {
           text: 'Hverjar eru siðareglur Reboot Hack?',
           answer:
-            'Stefna Reboot Hack er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot Hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi. Við fylgjum eftirfarandi <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">siðareglum</a> og skipuleggjendur munu sjá til þess að þeim verði framfylgt',
+            'Stefna Reboot Hack er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot Hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi.',
         },
         question11: {
           text: 'Þarf ég að vera þarna allan tímann?',
@@ -111,17 +111,27 @@ export const translation = {
         question13: {
           text: 'Hvernig er aðgengi á staðnum?',
           answer:
-            'Bæði er gott aðgengi í Háskóla Íslands og Hörpu þar sem að formleg verðlaunaathöfn Reboot Hack fer fram.',
+            'Það er gott aðgengi í Háskóla Íslands.',
         },
         question14: {
+          text: 'Hvað er í verðlaun?',
+          answer:
+            'Ítarlegri upplýsingar um þau koma inn á facebook viðburð Reboot Hack og hér þegar nær dregur.',
+        },
+        question15: {
           text: 'Hvað er ég að fara gera?',
           answer:
             'Þú færð tækifæri til þess að leysa áskoranir eða nýta tækni frá fyrirtækjum. Frá því að tæknivinnan byrjar og þangað til að afurð er skilað, vinnur þú ásamt 2-5 manna liði að skapa lausn og frumgerð af tæknitengdri lausn með aðstoð frá sérhæfðum mentorum. Kóðanum sjálfum er skilað inn á sérstaka síðu eftir vinnulotuna sem keyrir í gegnum nóttina. Eftir að vinnulotunni lýkur fær teymið þitt tækifæri til þess að kynna stuttlega afurðina og mun sérstök Dómnefnd dæma frammistöðu og lausnina sjálfa.',
         },
-        question15: {
+        question16: {
           text: 'Hvernig verður dæmt? ',
           answer:
-            'Áherslur Reboot Hack eru endurhugsun, framsýni, nýsköpun, framkoma og tækni og verður dæmt jafnt í öllum flokkum. Dómnefnd mun dæma lið eftir áherslu Reboot Hack ásamt því að fyrirtæki velja óháð lokaniðurstöðum bestu lausn við þeirri áskorun/tækni sem þau lögðu fyrir. Þau verðlaun sem eru sérstaklega veitt fyrir bestu nýtingu á tækni og eða launs á áskorun eru valin af útsendurum hvers fyrirtækis fyrir sig. ',
+            'Áherslur Reboot Hack eru endurhugsun, framsýni, nýsköpun, framkoma og tækni og verður dæmt jafnt í öllum flokkum. Dómnefnd mun dæma lið eftir áherslu Reboot Hack ásamt því að fyrirtæki velja óháð lokaniðurstöðum bestu lausn við þeirri áskorun/tækni sem þau lögðu fyrir. ',
+        },
+        question17: {
+          text: 'Hver á höfundarréttinn á lausnunum?',
+          answer:
+            'Allar lausnir/hugmyndir og tækni sem verða skapaðar á Reboot Hack eru í eigu þátttakendana en við munum bjóða liðum upp á framhaldandi samskipti við áhugasöm fyrirtæki ef að áhugi liggur fyrir hjá báðum aðilum. ',
         },
         moreQuestions: {
           text: 'Hefuru fleiri spurningar? - Ekki hika við að senda okkur póst.'
@@ -190,7 +200,7 @@ export const translation = {
         question3: {
           text: 'When and where is the hackathon?',
           answer:
-            'The hackathon is held on 14th of February to Sunday 16rd of February 2020.',
+            'The hackathon is held in the University of Iceland 14th of February to 16th of February 2019.',
         },
         question4: {
           text: 'Do I have to know how to code?',
@@ -223,9 +233,9 @@ export const translation = {
             'We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this code of conduct. Organizers will make sure that everyone adheres to the code.',
         },
         question10: {
-          text: 'Do I have to be at the venue all the time?',
+          text: 'What about sleeping?',
           answer:
-            'No you are more than welcome to leave and come back as you want, we recommend though that you use the time to shape, develop and implement your idea. We will try to accomodate a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up!',
+            'Since the venue is a school there is no designated sleeping space. We will try to accomodate a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up!',
         },
         question11: {
           text: 'Can I start working on my idea before the hackathon?',
@@ -241,12 +251,18 @@ export const translation = {
           text: 'How is the accessibility?',
           answer: 'Our venue is accessible to everyone.',
         },
-        question14: {
+  
+        question19: {
+          text: 'Is there anything required to enter?',
+          answer:
+            "There are no other requirements to enter and we serve participants on a first come first serve basis!  It's enough to sign up on our website and confirming your MLH account. The hackathon is open to every university student all around the world.",
+        },
+        question20: {
           text: 'What about accommodation in Iceland?',
           answer:
             'We unfortunately do not have any free accommodation to offer but we can help you with booking if needed. During the night there will be a sleeping space at the venue where you can take a quick nap, we recommend bringing a sleeping bag to be more comfortable.',
         },
-        question15: {
+        question21: {
           text: 'What about sleeping?? ',
           answer:
             'Since the venue is a school there is no designated sleeping space but we will have mattresses in a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up! ',

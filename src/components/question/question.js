@@ -1,19 +1,41 @@
 import React, { Component } from 'react';
-import './question.css';
+import style from './question.css';
+import { getTranslation } from '../../translations';
 
 class Question extends Component {
-    render () {
-        const { text, answer } = this.props;
-        console.log(this.props);
+    constructor(props) {
+        super(props);
 
+        // initial state
+        this.state = { open: false }
+        this.togglePanel = this.togglePanel.bind(this);
+    }
+
+    togglePanel(e) {
+        this.setState({
+            open: !this.state.open
+        });
+    }
+
+    componentDidUpdate() {
+        // this.props.onToggle(this.props.index);
+    }
+    render() {
+        this.text = getTranslation();
+        const { text, answer } = this.props; 
         return (
             <div>
-                <h3>{text}</h3>
-                <p dangerouslySetInnerHTML={{ __html: answer}}/>
-                <p>HALLO</p>
+                <div onClick={(e)=>this.togglePanel(e)} className={style.header}>
+                    <h4>{text}</h4>
+                </div>
+                {this.state.open ? (
+                    <div className={style.content}>
+                          {answer}
+                    </div>
+                    ) : null}
             </div>
         );
-    }
+      }
 }
 
 export default Question;
