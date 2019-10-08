@@ -28,9 +28,9 @@ class App extends Component {
         <Navbar handler = {this.handler}/>
 
         <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        
-        <BoardOfAdvisors/>
         <Teams/>
+        {/* <BoardOfAdvisors/> */}
+        
 
         <Opener />
         <div className={style.header}>

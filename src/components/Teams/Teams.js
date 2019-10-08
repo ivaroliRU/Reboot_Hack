@@ -18,7 +18,8 @@ constructor(props) {
                 name: 'Kristjana Björk Barðdal',
                 linkedInLink: 'https://www.linkedin.com/in/kristjanabb/',
                 email: 'kristjanabb@gmail.com',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/A-Kristjanafin.jpg',
+                title: 'Director & Co-founder'
               }
             ]
           },
@@ -31,14 +32,16 @@ constructor(props) {
                 name: 'Embla Dís',
                 linkedInLink: null,
                 email: 'disembla@gmail.com',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/A-Emblafin.jpg',
+                title: 'Marketing'
               },
               {
                 id: 1,
                 name: 'Tinna Líf',
-                linkedInLink: 'https://www.linkedin.com/in/tinna-l%C3%ADf-jörgensdóttir-19802a173/',
+                linkedInLink: 'https://is.linkedin.com/in/tinna-l%C3%ADf-jörgensdóttir-19802a173',
                 email: 'tinnalifj@gmail.com',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/A-Tinnafin.jpg',
+                title: 'Marketing'
               }
             ]
           },
@@ -51,29 +54,33 @@ constructor(props) {
                 name: 'Fúsi',
                 linkedInLink: null,
                 email: 'vio15@hi.is',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/A-Fúsifin.jpg',
+                title: 'Director'
               },
               {
                 id: 1,
-                name: 'Guðrún Sara',
+                name: 'Guðrún Sara Ornolfsdottir',
                 linkedInLink: 'https://www.linkedin.com/in/gudrun-sara-ornolfsdottir/',
                 email: 'gudrunso17@ru.is',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/Profile.jpg',
+                title: 'Outreach manager'
               },
               {
                 id: 2,
-                name: 'Salvör',
-                linkedInLink: null,
-                email: 'sai3@hi.is',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 3,
-                name: 'Sylvía Lind',
+                name: 'Sylvía Lind Jóhannesdóttir',
                 linkedInLink: 'https://www.linkedin.com/in/sylvialindjohannesdottir/',
                 email: 'sylviaj16@lhi.is',
-                photoURL: './images/Profile.jpg'
-              }
+                photoURL: './images/A-Sylvíafin.jpg',
+                title: 'Art Director'
+              },
+               // {
+              //   id: 3,
+              //   name: 'Salvör',
+              //   linkedInLink: null,
+              //   email: 'sai3@hi.is',
+              //   photoURL: './images/A-Salvörfin.jpg',
+              //   title: 'Director'
+              // },
             ]
           },
           {
@@ -82,24 +89,27 @@ constructor(props) {
             individuals:[
               {
                 id: 0,
-                name: 'Justine',
-                linkedInLink: null,
+                name: 'Justine Vanhalst',
+                linkedInLink: 'https://www.linkedin.com/in/justine-vanhalst-20586811b/',
                 email: 'justine.vanhalst@outlook.com',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/A-Justinefin.jpg',
+                title: 'Sustainability Director'
               },
               {
                 id: 1,
-                name: 'Linnea',
-                linkedInLink: null,
+                name: 'Linnea Lallaine Jonsson',
+                linkedInLink: 'https://www.linkedin.com/in/lallaine/',
                 email: 'linnealallaine@hotmail.com',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/A-Linneafin.jpg',
+                title: 'International Communications Representative'
               },
               {
                 id: 2,
-                name: 'Sigrún',
-                linkedInLink: null,
+                name: 'Sigrún Sayeh Valadbeygi',
+                linkedInLink: 'https://www.linkedin.com/in/sigrún-sayeh-v-b89793173/',
                 email: 'sigrunss@gmail.com',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/A-Sigrúnfin.jpg',
+                title: 'Finance and Logistic Manager'
               }
             ]
           },
@@ -109,18 +119,20 @@ constructor(props) {
             individuals:[
               {
                 id: 0,
-                name: 'Sigga',
-                linkedInLink: 'https://www.linkedin.com/in/sigridur-osp-sigurdardottir/',
-                email: 'sos42@hi.is',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 1,
-                name: 'Tobba',
+                name: 'Þorbjörg Þórhildur Snorrdóttir',
                 linkedInLink: 'https://www.linkedin.com/in/thorbjorgsnorradottir/',
                 email: 'Tobbasn@gmail.com',
-                photoURL: './images/Profile.jpg'
-              }
+                photoURL: './images/A-Tobbafin.jpg',
+                title: 'Sponsorship Leader'
+              },
+              // {
+              //   id: 1,
+              //   name: 'Sigga',
+              //   linkedInLink: 'https://www.linkedin.com/in/sigridur-osp-sigurdardottir/',
+              //   email: 'sos42@hi.is',
+              //   photoURL: './images/Profile.jpg',
+              //   title: 'Director'
+              // },
             ]
           },
           {
@@ -132,14 +144,16 @@ constructor(props) {
                 name: 'Stefán Örn',
                 linkedInLink: 'https://www.linkedin.com/in/stefanornsnaebjornsson/',
                 email: 'stefanornsnae@gmail.com',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/A-Stefánfin.jpg',
+                title: 'PR & Communications'
               },
               {
                 id: 1,
-                name: 'Tanja Teresa',
-                linkedInLink: 'https://www.linkedin.com/in/tanja-teresa-leifsd%C3%B3ttir-8975b95a/',
+                name: 'Tanja Teresa Leifsdóttir',
+                linkedInLink: 'https://www.linkedin.com/in/tanjateresa12/',
                 email: 'tanjateresa@gmail.com',
-                photoURL: './images/Profile.jpg'
+                photoURL: './images/A-Tanjafin.jpg',
+                title: 'PR & Communications Manager'
               }
               
             ]
@@ -150,24 +164,27 @@ constructor(props) {
           individuals: [
             {
               id: 0,
-              name: 'Ívar',
-              linkedInLink: null,
+              name: 'Ívar Óli Sigurðsson',
+              linkedInLink: 'https://www.linkedin.com/in/ívar-óli-326a86159/',
               email: 'ivars17@ru.is',
-              photoURL: './images/Profile.jpg'
+              photoURL: './images/A-ÍVARfin.jpg',
+              title: 'Software Developer'
             },
             {
               id: 1,
-              name: 'Einar Guðni',
-              linkedInLink: null,
+              name: 'Einar Guðni Guðjónsson',
+              linkedInLink: 'https://www.linkedin.com/in/einar-gudjonsson/',
               email: 'einargudnig@gmail.com',
-              photoURL: './images/Profile.jpg'
+              photoURL: './images/A-EINARfin.jpg',
+              title: 'Software Developer'
             },
             {
               id: 2,
               name: 'George-Cosmin Moroșanu',
               linkedInLink: 'https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/',
               email: 'georgecosminmorosanu@gmail.com',
-              photoURL: './images/Profile.jpg'
+              photoURL: './images/A-Georgefin.jpg',
+              title: 'Software Developer'
             }
           ]
           }

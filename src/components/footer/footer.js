@@ -22,24 +22,24 @@ class Footer extends Component {
           <div 
             id="Universities"
             className={"row"}>
-              <div className={"col-xs-0 col-lg-3"}></div>
-              <div className={"col-xs-12 col-lg-6"}>
+              <div className={"col-lg-3 col-sm-2"}></div> 
+              <div className={"col-lg-6 col-sm-8"}> 
                 <div className={"row"}>
-                  <div className={"col-xs-12 col-lg-4"}>
+                  <div className={"col-4"}>
                     <a
                       href="https://www.ru.is/"
                       rel="noopener noreferrer"
                       target="_blank"
                     ><img className={'img-fluid'} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
                   </div>
-                  <div className={"col-xs-12 col-lg-4"}>
+                  <div className={"col-4"}>
                   <a
                     href="https://english.hi.is/"
                     rel="noopener noreferrer"
                     target="_blank"
                   ><img className={'img-fluid'} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
                   </div>
-                  <div className={"col-xs-12 col-lg-4"}>
+                  <div className={"col-4"}>
                     <a
                       href="http://english.unak.is/"
                       rel="noopener noreferrer"
@@ -48,14 +48,14 @@ class Footer extends Component {
                   </div>
                 </div>
               </div>
-              <div className={"col-xs-0 col-lg-3"}></div>
+              <div className={"col-lg-3 col-sm-2"}></div>
             
           </div>
           <hr className={FooterStyle.FooterHr}/>
           <div 
             id="Social"
             className={"row"}>
-              <div className={"col-lg-12 col-xs-12"}>
+              <div className={"col-lg-12 col-sm-12"}>
 
               <a
                 className={FooterStyle.Facebook}
@@ -89,7 +89,7 @@ class Footer extends Component {
           <div
             id="Email"
             className={"row"}>
-            <div className={"col-lg-12 col-xs-12"}>
+            <div className={"col-lg-12 col-sm-12"}>
               <div className={FooterStyle.OnHoverSection}><span>Official email:</span> <button
                                       className={FooterStyle.Email_Button}
                                       onClick={
@@ -120,7 +120,7 @@ class Footer extends Component {
           <div
             id="Created_by"
             className={"row"}>
-            <div className={"col-lg-12 col-xs-12"}>
+            <div className={"col-lg-12 col-sm-12"}>
               <p >
                 <i>Created with love by <b>RebootHack</b> Team</i>
                 </p>
