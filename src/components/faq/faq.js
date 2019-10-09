@@ -34,12 +34,6 @@ class Faq extends Component {
                 </div>
                 <div className="card m-2">
                     <div className="card-body">
-                        <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question4.text}</h6>
-                        <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question4.answer}} />
-                    </div>
-                </div>
-                <div className="card m-2">
-                    <div className="card-body">
                         <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question5.text}</h6>
                         <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question5.answer}} />
                     </div>
@@ -52,8 +46,14 @@ class Faq extends Component {
                 </div>
                 <div className="card m-2">
                     <div className="card-body">
-                        <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question8.text}</h6>
+                        <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question7.text}</h6>
                         <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question7.answer}} />
+                    </div>
+                </div>
+                <div className="card m-2">
+                    <div className="card-body">
+                        <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question8.text}</h6>
+                        <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question8.answer}} />
                     </div>
                 </div>
                 <div className="card m-2">
@@ -71,7 +71,7 @@ class Faq extends Component {
                 <div className="card m-2">
                     <div className="card-body">
                         <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question11.text}</h6>
-                        <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question12.answer}} />
+                        <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question11.answer}} />
                     </div>
                 </div>
                 <div className="card m-2">
