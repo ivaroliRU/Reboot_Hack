@@ -21,24 +21,24 @@ class Footer extends Component {
           <div 
             id="Universities"
             className={"row"}>
-              <div className={"col-lg-3 col-sm-2"}></div> 
-              <div className={"col-lg-6 col-sm-8"}> 
+              <div className={"col-xs-0 col-lg-3"}></div> 
+              <div className={"col-xs-12 col-lg-6"}> 
                 <div className={"row"}>
-                  <div className={"col-4"}>
+                  <div className={"col-xs-12 col-lg-4"}>
                     <a
                       href="https://www.ru.is/"
                       rel="noopener noreferrer"
                       target="_blank"
                     ><img className={'img-fluid'} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
                   </div>
-                  <div className={"col-4"}>
+                  <div className={"col-xs-12 col-lg-4"}>
                   <a
                     href="https://english.hi.is/"
                     rel="noopener noreferrer"
                     target="_blank"
                   ><img className={'img-fluid'} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
                   </div>
-                  <div className={"col-4"}>
+                  <div className={"col-xs-12 col-lg-4"}>
                     <a
                       href="http://english.unak.is/"
                       rel="noopener noreferrer"
@@ -47,7 +47,7 @@ class Footer extends Component {
                   </div>
                 </div>
               </div>
-              <div className={"col-lg-3 col-sm-2"}></div>
+              <div className={"col-xs-0 col-lg-3"}></div>
             
           </div>
           <hr className={style.FooterHr}/>
