@@ -1,0 +1,35 @@
+.header{
+    cursor: pointer;
+    border: solid 1px #696969;
+    padding: 15px;
+    /* background-color: #694991;
+    color: #FFF; */
+  }
+  
+  .content{
+    cursor: pointer;
+    border-left: solid 1px #f2f2f2;
+    border-right: solid 1px #f2f2f2;
+    border-bottom: solid 1px #f2f2f2;
+    border-radius: 0 0 5px 5px;
+    padding: 15px;
+    /* font-family: verdana; */
+    font-size: 14px;
+    background-color: #694991;
+    color: #FFF;
+  }
+
+  ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  }
+
+.parent{
+    font-size: 0;
+}
+.child{
+    /* font-size: 16px; */ 
+    display: inline-block;
+    width:50%;
+}
