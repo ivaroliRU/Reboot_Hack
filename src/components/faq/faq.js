@@ -98,12 +98,6 @@ class Faq extends Component {
                         <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question15.answer}} />
                     </div>
                 </div>
-                <div className="card m-2">
-                    <div className="card-body">
-                        <h6 className="card-subtile mb-2 text-muted">{this.text.faq.question16.text}</h6>
-                        <p className="card-text" dangerouslySetInnerHTML={{ __html: this.text.faq.question16.answer}} />
-                    </div>
-                </div>
                 <div className="mx-auto mb-2" style={{width: 600}}>
                     <h5 className="card-text">{this.text.faq.moreQuestions.text}</h5>
                 </div>

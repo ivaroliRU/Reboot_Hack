@@ -17,7 +17,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className={style.Footer + " text-center"}>
-        <div className={"container"}>
+        <div className="container">
           <div 
             id="Universities"
             className={"row"}>
