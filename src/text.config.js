@@ -24,14 +24,14 @@ export const translation = {
       },
       detail: {
         first: {
-          header: 'Hackathon á Íslandi',
+          header: 'Hakkaþon á Íslandi',
           main:
-            'Reboot Hack er fyrsta hackathon á Íslandi sem er fyrir nemendur og skipulagt af nemendum. Hackathon-ið sjálft verður haldið í Háskóla Íslands og er stefnt á að þátttakendur verði yfir 100 talsins, bæði frá Íslandi sem og öðrum þjóðum. Lítil hackathon menning hefur skapast á Íslandi en hackathon eru gríðarlega vinsæl út um allan heim, stærstu skólar í Evrópu og Bandaríkjunum halda árleg hackathon. Því er kominn tími til þess að skapa þessa hefð hér á landi og verður Reboot Hack þar fremst í fararbroddi.',
+            'Reboot Hack er fyrsta hakkaþon á Íslandi sem er fyrir nemendur og skipulagt af nemendum. Hakkaþon-ið sjálft verður haldið í Háskóla Íslands og er stefnt á að þátttakendur verði yfir 100 talsins, bæði frá Íslandi sem og öðrum þjóðum. Lítil hakkaþon menning hefur skapast á Íslandi en hakkaþon eru gríðarlega vinsæl út um allan heim, stærstu skólar í Evrópu og Bandaríkjunum halda árleg hakkaþon. Því er kominn tími til þess að skapa þessa hefð hér á landi og verður Reboot Hack þar fremst í fararbroddi.',
         },
         second: {
-          header: 'Hackathon',
+          header: 'Hakkþon',
           main:
-            'Hackathon snúast ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon eða hálfgerða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þátttakendur fá rými til þess að læra, hanna, byggja og skapa. Þátttakendur keppa saman í hópum og vinna í rúmlega 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
+            'Hakkaþon snúast ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hakkaþon sem uppfinningamaraþon eða hálfgerða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þátttakendur fá rými til þess að læra, hanna, byggja og skapa. Þátttakendur keppa saman í hópum og vinna í rúmlega 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
         },
         third: {
           header: 'Reboot Hack',
@@ -49,14 +49,14 @@ export const translation = {
         content: 'FAQ',
         title: 'Spurt og svarað',
         question1: {
-          text: 'Hvað er hackathon?',
+          text: 'Hvað er hakkaþon?',
           answer:
-            'Hackathon snýst ekki um að “hakka” á þann hátt sem við þekkjum heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon þar sem þátttakendur fá rými til að læra, byggja og skapa. Nemendur keppa saman í hópum, að hámarki 5 manns í hóp og vinna í 24 tíma að þróa hugmynd eða tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum.',
+            'Hakkaþon snýst ekki um að “hakka” á þann hátt sem við þekkjum heldur um að skapa. Hægt er að hugsa um hakkaþon sem uppfinningamaraþon þar sem þátttakendur fá rými til að læra, byggja og skapa. Nemendur keppa saman í hópum, að hámarki 5 manns í hóp og vinna í 24 tíma að þróa hugmynd eða tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum.',
         },
         question2: {
           text: 'Fyrir hverja er þetta?',
           answer:
-            'Hackathon snýst ekki um að “hakka” á þann hátt sem við þekkjum heldur um að skapa. Hægt er að hugsa um hackathon sem uppfinningamaraþon þar sem þátttakendur fá rými til að læra, byggja og skapa. Nemendur keppa saman í hópum, að hámarki 5 manns í hóp og vinna í 24 tíma að þróa hugmynd eða tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum.  Aðal áherslan er ekki lögð á niðurstöðurnar heldur ferlið sjálft. Markmiðið er fyrst og fremst skapandi og lærdómsrík reynsla.',
+            'hakkaþon snýst ekki um að “hakka” á þann hátt sem við þekkjum heldur um að skapa. Hægt er að hugsa um hakkaþon sem uppfinningamaraþon þar sem þátttakendur fá rými til að læra, byggja og skapa. Nemendur keppa saman í hópum, að hámarki 5 manns í hóp og vinna í 24 tíma að þróa hugmynd eða tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum.  Aðal áherslan er ekki lögð á niðurstöðurnar heldur ferlið sjálft. Markmiðið er fyrst og fremst skapandi og lærdómsrík reynsla.',
         },
         question3: {
           text: 'Hvenær fer Reboot Hack fram?',
@@ -66,7 +66,7 @@ export const translation = {
         question4: {
           text: 'Er þetta byrjendavænt? Þarf ég að kunna að forrita?',
           answer:
-            'Forritunarþekking er ekki nauðsynleg en við leggjum til að við liðamyndun (sem verður vettvangur fyrir á laugardagsmorgni) sé að minnsta kosti einn aðili sem hefur einhverja reynslu á forritun. Við hvetjum nemendur utan upplýsingatækni eindregið til að koma þar sem stór hluti af vinnunni er hugmyndasköpun, hönnun og að ákveða skipulagningu og framkvæmd verkefnisins. Að hafa drifna aðila með fjölbreytta þekkingu skilar bestu liðunum og frumlegustu lausnunum. Hackathon eru lærdómsríkt ferli fyrir byrjendur og lengra komna til að koma saman og skapa eitthvað spennandi.',
+            'Forritunarþekking er ekki nauðsynleg en við leggjum til að við liðamyndun (sem verður vettvangur fyrir á laugardagsmorgni) sé að minnsta kosti einn aðili sem hefur einhverja reynslu á forritun. Við hvetjum nemendur utan upplýsingatækni eindregið til að koma þar sem stór hluti af vinnunni er hugmyndasköpun, hönnun og að ákveða skipulagningu og framkvæmd verkefnisins. Að hafa drifna aðila með fjölbreytta þekkingu skilar bestu liðunum og frumlegustu lausnunum. hakkaþon eru lærdómsríkt ferli fyrir byrjendur og lengra komna til að koma saman og skapa eitthvað spennandi.',
         },
         question5: {
           text: 'Af hverju varð Reboot Hack til?',
@@ -89,7 +89,7 @@ export const translation = {
             'Það verður boðið frítt upp á allar máltíðir frá morgni laugardags til hádegi sunnudags þökk sé samstarfs- og styrktaraðilum okkar! Einnig verður boðið uppá snarl og drykki yfir alla helgina á milli máltíða. Við hvetjum þig aftur á móti til þess að mæta með fjölnota vatnsflösku til þess að fylla á.',
         },
         question9: {
-          text: 'Má byrja að vinna með tækni og áskoranir fyrir hackathon-ið?',
+          text: 'Má byrja að vinna með tækni og áskoranir fyrir hakkaþon-ið?',
           answer:
             'Öll tækni þarf að vera þróuð á staðnum en það er að sjálfsögðu leyfilegt að byrja hugmyndavinnu. Öll notkun á forritasöfnum (library), frameworks og sniðmátum (templates) er leyfileg.',
         },
@@ -114,21 +114,11 @@ export const translation = {
             'Það er gott aðgengi í Háskóla Íslands.',
         },
         question14: {
-          text: 'Hvað er í verðlaun?',
-          answer:
-            'Ítarlegri upplýsingar um þau koma inn á facebook viðburð Reboot Hack og hér þegar nær dregur.',
-        },
-        question15: {
           text: 'Hvað er ég að fara gera?',
           answer:
             'Þú færð tækifæri til þess að leysa áskoranir eða nýta tækni frá fyrirtækjum. Frá því að tæknivinnan byrjar og þangað til að afurð er skilað, vinnur þú ásamt 2-5 manna liði að skapa lausn og frumgerð af tæknitengdri lausn með aðstoð frá sérhæfðum mentorum. Kóðanum sjálfum er skilað inn á sérstaka síðu eftir vinnulotuna sem keyrir í gegnum nóttina. Eftir að vinnulotunni lýkur fær teymið þitt tækifæri til þess að kynna stuttlega afurðina og mun sérstök Dómnefnd dæma frammistöðu og lausnina sjálfa.',
         },
-        question16: {
-          text: 'Hvernig verður dæmt? ',
-          answer:
-            'Áherslur Reboot Hack eru endurhugsun, framsýni, nýsköpun, framkoma og tækni og verður dæmt jafnt í öllum flokkum. Dómnefnd mun dæma lið eftir áherslu Reboot Hack ásamt því að fyrirtæki velja óháð lokaniðurstöðum bestu lausn við þeirri áskorun/tækni sem þau lögðu fyrir. ',
-        },
-        question17: {
+        question15: {
           text: 'Hver á höfundarréttinn á lausnunum?',
           answer:
             'Allar lausnir/hugmyndir og tækni sem verða skapaðar á Reboot Hack eru í eigu þátttakendana en við munum bjóða liðum upp á framhaldandi samskipti við áhugasöm fyrirtæki ef að áhugi liggur fyrir hjá báðum aðilum. ',
@@ -252,20 +242,15 @@ export const translation = {
           answer: 'Our venue is accessible to everyone.',
         },
   
-        question19: {
+        question14: {
           text: 'Is there anything required to enter?',
           answer:
             "There are no other requirements to enter and we serve participants on a first come first serve basis!  It's enough to sign up on our website and confirming your MLH account. The hackathon is open to every university student all around the world.",
         },
-        question20: {
+        question15: {
           text: 'What about accommodation in Iceland?',
           answer:
             'We unfortunately do not have any free accommodation to offer but we can help you with booking if needed. During the night there will be a sleeping space at the venue where you can take a quick nap, we recommend bringing a sleeping bag to be more comfortable.',
-        },
-        question21: {
-          text: 'What about sleeping?? ',
-          answer:
-            'Since the venue is a school there is no designated sleeping space but we will have mattresses in a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up! ',
         },
         moreQuestions: {
           text: 'More questions? - Don´t hesitate to send us an email.'
