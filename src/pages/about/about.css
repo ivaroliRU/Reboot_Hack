@@ -6,8 +6,6 @@ body {
   font-family: 'Raleway', sans-serif;
   height: 100%;
   line-height: 1.5em;
-  color: #2e2e2e;
-  background-color: #f8f7f5;
 }
 
 h1,
@@ -24,17 +22,15 @@ a {
 }
 
 .App {
-  text-align: center;
-  overflow-x: hidden;
-  background-color: white;
-  background-color: hsla(268, 34%, 43%, 0.1);
-}
+    text-align: center;
+    overflow-x: hidden;
+  }
 
 .text_header{
   color: #694991;
   text-align: center;
 }
-
+  
 .header{
   margin-top: 70px;
   margin-bottom: 70px;

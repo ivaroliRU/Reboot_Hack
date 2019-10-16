@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Navbar from '../../components/navbar';
 import Opener from '../../components/opener';
+import Footer from '../../components/footer';
 import SubscriptionButton from '../../components/subscriptionButton';
 import ParallaxScrollImage from '../../components/parallaxScrollImage';
-import {changeLanguage} from '../../translations';
+import {changeLanguage, getTranslation} from '../../translations';
+import AboutIndex from '../../components/about/aboutIndex';
 import style from "./index.css"
 
 class App extends Component {
@@ -19,19 +21,19 @@ class App extends Component {
   }
   
   render() {
+    this.text = getTranslation();
     return (
       <div className={style.App}>
         <Navbar handler = {this.handler}/>
         <Opener />
         <div className={style.header}>
-          <h1 className={style.text_header}>Subsrcibe</h1>
-          <p style={{marginBottom:30}}>Subscribe to our newsletter</p>
-          <SubscriptionButton />
+          <h1 className={style.text_header}>{this.text.indexText.Heading}</h1>
+          <h4 style={{marginBottom:30}}>{this.text.indexText.subHeading}</h4>
+          <SubscriptionButton handler={this.handler}/>
         </div>
-        <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={300}/>
-        <div className={style.header} style={{marginBottom:500}}>
-          <h1 className={style.text_header}>Sponsors</h1>
-        </div>
+        <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={500}/>
+        <AboutIndex handler = {this.handler}/>
+        <Footer />
       </div>
     );
   }

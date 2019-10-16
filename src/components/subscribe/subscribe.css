@@ -1,0 +1,88 @@
+.Subscribe_Div{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: auto;
+    width: 100% !important;
+    /* background-image: url("/images/reykjavik-tabea-damm-unsplash_small_3.jpg"); */
+    background-image: url("/images/Hackathon.png");
+    margin-bottom: 5%;
+    font-size: 20px;
+    
+    object-fit: contain;
+}
+
+.hr{
+    font-size: 1.5em;
+}
+
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2em;
+    color: black;
+    text-align: center;
+}
+
+.Subscribe_Section{
+    margin: 0 auto; /* Center*/
+    border: 1px transparent rgba(1, 1, 1, 1);
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 130%;
+    width: 60%;
+    /* height: 500px; */
+
+    box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+    transition: box-shadow 0.3s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+}
+
+.Blue_a{
+    color: blue !important;
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+.Subscribe_Button{
+    box-shadow: 
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);
+}
+
+.Subscribe_Modal{
+    max-width: 100% !important;
+}
+
+.Section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    padding-top: 3%;
+}
+
+.Question{
+    font-size: 30px;
+    color: orangered;
+
+    font-weight: bold;
+    float: left;
+}
+
+.Answer{
+    font-size: 30px;
+    color: purple;
+
+    font-weight: bold;
+    font-style: italic;
+    
+    float: left;
+
+    margin-top: 7%;
+    margin-left: 3%;
+}
