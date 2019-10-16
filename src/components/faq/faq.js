@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {getTranslation} from '../../translations';
+import Question from '../question';
 import style from './faq.css';
 
 class Faq extends Component {
@@ -7,6 +8,7 @@ class Faq extends Component {
         this.text = getTranslation();
         return (
             <div>
+                <Question question="ASDF?" answer="jaaa asdf" />
                 <h3 className="display-4 m-2">{this.text.faq.title}</h3>
                 <div className="card m-2" >
                     <div className="card-body">
