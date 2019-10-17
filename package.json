@@ -16,9 +16,11 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
+    "@kunukn/react-collapse": "^2.2.7",
     "autoprefixer": "^9.6.1",
     "autoprefixer-core": "^6.0.1",
     "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.3.1",
     "css-loader": "^3.2.0",
     "custom-env": "^1.0.2",
     "ejs": "^2.7.1",
@@ -28,8 +30,11 @@
     "pg": "^7.12.1",
     "postcss-color-rebeccapurple": "^4.0.1",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.9.0",
+    "react-sanfona": "^1.4.0",
     "react-to-html-webpack-plugin": "^2.2.0",
+    "react-transition-group": "^4.3.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.40.2"
   },

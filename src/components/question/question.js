@@ -1,41 +1,49 @@
 import React, { Component } from 'react';
 import style from './question.css';
-import { getTranslation } from '../../translations';
+import { getTranslation, changeLanguage } from '../../translations';
+
+const Collapse = window.Collapse;
+const cx = window.classNames;
 
 class Question extends Component {
-    constructor(props) {
-        super(props);
+  /* state = {
+    index: 1
+  }; */
 
-        // initial state
-        this.state = { open: false }
-        this.togglePanel = this.togglePanel.bind(this);
-    }
+  onToggle = 
+    this.setState(state => ({ index: state.index === index ? null : index }));
 
-    togglePanel(e) {
-        this.setState({
-            open: !this.state.open
-        });
-    }
+  render() {
+    this.text = getTranslation();
+    const { text, answer } = this.props; 
+    return (
+      <section className="app">
 
-    componentDidUpdate() {
-        // this.props.onToggle(this.props.index);
-    }
-    render() {
-        this.text = getTranslation();
-        const { text, answer } = this.props; 
-        return (
-            <div>
-                <div onClick={(e)=>this.togglePanel(e)} className={style.header}>
-                    <h4>{text}</h4>
-                </div>
-                {this.state.open ? (
-                    <div className={style.content}>
-                          {answer}
-                    </div>
-                    ) : null}
-            </div>
-        );
-      }
+        <div className={cx("item", { "item__active": this.state.index === 1 })}>
+          <button className="btn" onClick={() => this.onToggle(1)}>
+            <span>{text}</span> <span>{this.state.item1}</span>
+          </button>
+          <Collapse
+            className="collapse"
+            isOpen={this.state.index === 1}
+            onChange={({ state }) => {
+              this.setState({ item1: state });
+            }}
+            onInit={({ state }) => {
+              this.setState({ item1: state });
+            }}
+            render={answer}
+          />
+
+        </div>
+        
+      </section>
+    );
+  }
 }
 
+// ReactDOM.render(<Question />, document.querySelector("#react-app"));
 export default Question;
+
+
+

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {getTranslation} from '../../translations';
 // import Question from '../question/question';
-import QuestionTest from '../question/questionTest'
+import QuestionTest from '../question/questionTest';
 import style from './faq.css';
 
 class Faq extends Component {
