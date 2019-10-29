@@ -3,9 +3,6 @@ import IndividualStyle from "./Individual.css";
 
 class Individual extends Component {
 
-  
-
-
   render() {
 
     let myName;
@@ -22,7 +19,7 @@ class Individual extends Component {
     }
 
     return (
-      <div className={IndividualStyle.IndividualPadding + " col-xs-4 col-xl-4"}>
+      <div className={IndividualStyle.IndividualPadding + " col-xs-3 col-xl-3"}>
         <div 
           className={IndividualStyle.IndividualDiv}
         >
@@ -34,19 +31,9 @@ class Individual extends Component {
             <p className={IndividualStyle.IndividualName}> 
               {myName}
             </p>
-            {
-              this.props.individualEmail != '' ? 
-                <a 
-                  className={IndividualStyle.IndividualSocial}
-                  onClick={
-                    () => {
-                            navigator.clipboard.writeText(this.props.individualEmail);
-                          } 
-                  }
-                >
-                  <i className={"fa fa-envelope fa-lg"}></i> {this.props.individualEmail}</a> 
-                : ''
-            }
+            <p className={IndividualStyle.Title}>
+              {this.props.individualTitleEn}
+            </p>
             <br/>
           </div>
         </div>

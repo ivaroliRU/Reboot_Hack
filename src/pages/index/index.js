@@ -27,11 +27,11 @@ class App extends Component {
       <div className={style.App}>
         <Navbar handler = {this.handler}/>
 
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        {/*<br/><br/><br/><br/><br/><br/><br/><br/><br/>*/}
         <Teams/>
         {/* <BoardOfAdvisors/> */}
         
-
+{/*
         <Opener />
         <div className={style.header}>
           <h1 className={style.text_header}>Subsrcibe</h1>
@@ -42,6 +42,7 @@ class App extends Component {
         <div className={style.header} style={{marginBottom:500}}>
           <h1 className={style.text_header}>Sponsors</h1>
         </div>
+*/}
         <Footer />
       </div>
     );

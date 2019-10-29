@@ -9,6 +9,11 @@
     padding: 1.5%;
 }
 
+.Title{
+    font-weight: 26px;
+    color: red;
+}
+
 .IndividualImage{
     /* top:0; */
     border-radius: 5px;
