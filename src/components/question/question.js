@@ -1,48 +1,56 @@
 import React, { Component } from 'react';
 import style from './question.css';
 import { getTranslation, changeLanguage } from '../../translations';
+var uniqid = require('uniqid');
 
-const Collapse = window.Collapse;
-const cx = window.classNames;
+const PANEL_HEIGHT = 50;
 
 class Question extends Component {
-  /* state = {
-    index: 1
-  }; */
+    constructor(props) {
+        super(props);
+        this.questionId = uniqid();
+        this.handleClick = this.handleClick.bind(this);
+        this.question = props.question;
+        this.answer = props.answer;
+    }
 
-  onToggle = 
-    this.setState(state => ({ index: state.index === index ? null : index }));
-
-  render() {
-    this.text = getTranslation();
-    const { text, answer } = this.props; 
-    return (
-      <section className="app">
-
-        <div className={cx("item", { "item__active": this.state.index === 1 })}>
-          <button className="btn" onClick={() => this.onToggle(1)}>
-            <span>{text}</span> <span>{this.state.item1}</span>
-          </button>
-          <Collapse
-            className="collapse"
-            isOpen={this.state.index === 1}
-            onChange={({ state }) => {
-              this.setState({ item1: state });
-            }}
-            onInit={({ state }) => {
-              this.setState({ item1: state });
-            }}
-            render={answer}
-          />
-
-        </div>
+    handleClick(){
+        console.log(this.questionId);
+        $("#btn-"+this.questionId).toggleClass("active")
         
-      </section>
-    );
-  }
-}
+        var panel = $("#"+this.questionId);
+        /*if (!panel.is(":hidden")) {
+            panel.hide();
+        } else {
+            panel.show();
+        }*/
 
-// ReactDOM.render(<Question />, document.querySelector("#react-app"));
+        if (panel.css("max-height") != '0px') {
+            console.log(panel.css("max-height"));
+            panel.css("max-height",0);
+        } else {
+            console.log(panel.css("max-height"));
+            
+            panel.css("max-height",PANEL_HEIGHT);
+        }
+    }
+
+    render() {
+        this.text = getTranslation();
+        const { text, answer } = this.props;
+        // console.log('HALLO', this.props);
+
+        return (
+            <div>
+                <button className={style.accordion} onClick={this.handleClick} id={"btn- " + this.questionId}>{text}</button>
+                <div className={style.panel} id={this.questionId}>
+                    <p className={style.question__answer + "pt-2"}>{answer}</p>
+                </div>
+            </div>
+        );
+    }
+
+}
 export default Question;
 
 
