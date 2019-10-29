@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import IndividualStyle from "./Individual.css";
+import Cookies from 'js-cookie';
 
 class Individual extends Component {
 
@@ -32,7 +33,7 @@ class Individual extends Component {
               {myName}
             </p>
             <p className={IndividualStyle.Title}>
-              {this.props.individualTitleEn}
+              {Cookies.get('language')=='is' ? this.props.individualTitleIs : this.props.individualTitleEn}
             </p>
             <br/>
           </div>
