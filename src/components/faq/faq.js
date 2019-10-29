@@ -8,7 +8,6 @@ class Faq extends Component {
         this.text = getTranslation();
         return (
             <div>
-                <Question question="ASDF?" answer="jaaa asdf" />
                 <h3 className="display-4 m-2">{this.text.faq.title}</h3>
                 <div className="card m-2" >
                     <div className="card-body">

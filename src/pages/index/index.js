@@ -4,6 +4,7 @@ import Navbar from '../../components/navbar';
 import Opener from '../../components/opener';
 import Footer from '../../components/footer';
 import SubscriptionButton from '../../components/subscriptionButton';
+import ApplyButton from '../../components/applyButton/applyButton';
 import ParallaxScrollImage from '../../components/parallaxScrollImage';
 import {changeLanguage, getTranslation} from '../../translations';
 import AboutIndex from '../../components/about/aboutIndex';
@@ -27,9 +28,8 @@ class App extends Component {
         <Navbar handler = {this.handler}/>
         <Opener />
         <div className={style.header}>
-          <h1 className={style.text_header}>{this.text.indexText.Heading}</h1>
-          <h4 style={{marginBottom:30}}>{this.text.indexText.subHeading}</h4>
-          <SubscriptionButton handler={this.handler}/>
+          <h1 className={style.text_header}>{this.text.newIndexText.Heading}</h1>
+          <ApplyButton handler={this.handler}/>
         </div>
         <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={500}/>
         <AboutIndex handler = {this.handler}/>

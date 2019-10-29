@@ -13,6 +13,10 @@ export const translation = {
         Heading: 'Skráðu þig!',
         subHeading: 'Skráðu netfang þitt til að fá upplýsingar um gang mála sem gætu gagnast vel!'
       },
+      newIndexText: {
+        Heading: 'Skráðu þig til þess að taka þátt í Reboot Hakkaþon 2020',
+        subHeading: 'Skrá mig núna!'
+      },
       subscription: {
         subscrButton: 'Skrá netfang',
         subscrDialog: {
@@ -141,6 +145,10 @@ export const translation = {
       indexText: {
         Heading: 'Subscribe!',
         subHeading: 'Subscribe to our newsletter to get updates that might be useful.'
+      },
+      newIndexText: {
+        Heading: 'Register to participate in Reboot Hackathon 2020',
+        subHeading: 'Register now!'
       },
       subscription: {
         subscrButton: 'Subscribe',
