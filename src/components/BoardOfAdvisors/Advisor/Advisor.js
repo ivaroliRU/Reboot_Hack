@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AdvisorStyle from "../../Teams/Individual/Individual.css";
+import Cookies from 'js-cookie';
 
 class Advisor extends Component {
 
@@ -31,7 +32,6 @@ class Advisor extends Component {
             <p className={AdvisorStyle.IndividualName}> 
               {myName}
             </p>
-            <p>{this.props.individualCompany}</p>
             {
               this.props.individualEmail != '' ? 
                 <a 
@@ -45,6 +45,9 @@ class Advisor extends Component {
                   <i className={"fa fa-envelope fa-lg"}></i> {this.props.individualEmail}</a> 
                 : ''
             }
+            <p className={AdvisorStyle.Title}>
+              {Cookies.get('language')=='is' ? this.props.individualTitleIs : this.props.individualTitleEn}
+            </p>
             <br/>
           </div>
         </div>
