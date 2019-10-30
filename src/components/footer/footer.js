@@ -20,34 +20,34 @@ class Footer extends Component {
         <div className="container">
           <div 
             id="Universities"
-            className={"row"}>
-              <div className={"col-lg-3 col-sm-2"}></div> 
-              <div className={"col-lg-6 col-sm-8"}> 
-                <div className={"row"}>
-                  <div className={"col-4"}>
+            className="row">
+              <div className="col-xs-0 col-lg-3"></div>
+              <div className="col-xs-12 col-lg-6">
+                <div className="row">
+                  <div className="col-xs-12 col-sm-4">
                     <a
                       href="https://www.ru.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid'} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
+                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
                   </div>
-                  <div className={"col-4"}>
+                  <div className="col-xs-12 col-sm-4">
                   <a
                     href="https://english.hi.is/"
                     rel="noopener noreferrer"
                     target="_blank"
-                  ><img className={'img-fluid'} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
+                  ><img className={'img-fluid ' + style.uniLogo} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
                   </div>
-                  <div className={"col-4"}>
+                  <div className="col-xs-12 col-sm-4">
                     <a
                       href="http://english.unak.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid'} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
+                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
                   </div>
                 </div>
               </div>
-              <div className={"col-lg-3 col-sm-2"}></div>
+              <div className="col-xs-0 col-lg-3"></div>
             
           </div>
           <hr className={style.FooterHr}/>
@@ -60,28 +60,28 @@ class Footer extends Component {
                 className={style.Facebook}
                 href={this.state.facebook}
                 target="_blank">
-                  <i className={"fa fa-facebook fa-2x"}></i>
+                  <i className={"fa fa-facebook fa-lg"}></i>
               </a>
 
               <a 
                 className={style.Instagram}
                 href={this.state.instagram}
                 target="_blank">
-                  <i className={"fa fa-instagram fa-2x"}></i>
+                  <i className={"fa fa-instagram fa-lg"}></i>
               </a>
 
               <a
                 className={style.LinkedIn}
                 href={this.state.linkedin}
                 target="_blank">
-                  <i className={"fa fa-linkedin-square fa-2x"}></i>
+                  <i className={"fa fa-linkedin-square fa-lg"}></i>
               </a>
 
               <a
                 className={style.Github}
                 href={this.state.github}
                 target="_blank">
-                  <i className={"fa fa-github fa-2x"}></i>
+                  <i className={"fa fa-github fa-lg"}></i>
               </a>
             </div>
           </div>
