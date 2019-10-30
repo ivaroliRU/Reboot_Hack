@@ -13,9 +13,13 @@ export const translation = {
         Heading: 'Skráðu þig!',
         subHeading: 'Skráðu netfang þitt til að fá upplýsingar um gang mála sem gætu gagnast vel!'
       },
-      newIndexText: {
+      register: {
         Heading: 'Skráðu þig til þess að taka þátt í Reboot Hakkaþon 2020',
-        subHeading: 'Skrá mig núna!'
+        subHeading: 'Skrá mig núna!',
+        registerDialog: {
+          title: 'Skráning fyrir Reboot Hakkaþon 2020',
+          registerBtn: 'Skrá mig!'
+        }
       },
       subscription: {
         subscrButton: 'Skrá netfang',
@@ -130,6 +134,9 @@ export const translation = {
         moreQuestions: {
           text: 'Hefuru fleiri spurningar? - Ekki hika við að senda okkur póst.'
         }
+      },
+      errorPage: {
+        text: 'Þessi síða er ekki til!'
       }
     },
     en:{
@@ -146,9 +153,13 @@ export const translation = {
         Heading: 'Subscribe!',
         subHeading: 'Subscribe to our newsletter to get updates that might be useful.'
       },
-      newIndexText: {
+      register: {
         Heading: 'Register to participate in Reboot Hackathon 2020',
-        subHeading: 'Register now!'
+        subHeading: 'Register now!',
+        registerDialog: {
+          title: 'Register for Reboot Hakckathon 2020',
+          registerBtn: 'Register!'
+        }
       },
       subscription: {
         subscrButton: 'Subscribe',
@@ -262,6 +273,9 @@ export const translation = {
         moreQuestions: {
           text: 'More questions? - Don´t hesitate to send us an email.'
         }
+      },
+      errorPage: {
+        text: 'This page does not exist!'
       }
     }
 }

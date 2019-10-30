@@ -28,7 +28,7 @@ class App extends Component {
         <Navbar handler = {this.handler}/>
         <Opener />
         <div className={style.header}>
-          <h1 className={style.text_header}>{this.text.newIndexText.Heading}</h1>
+          <h1 className={style.text_header}>{this.text.register.Heading}</h1>
           <ApplyButton handler={this.handler}/>
         </div>
         <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={500}/>

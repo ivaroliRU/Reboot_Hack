@@ -16,7 +16,7 @@ class ApplyButton extends Component {
 
             <div className="text-center">
                 <button type="button" className={style.apply_button + "btn btn-info btn-lg mb-4"} data-toggle="modal" data-target="#modalRegisterForm">
-                    {this.text.newIndexText.subHeading}
+                    {this.text.register.subHeading}
                 </button>
             </div>
 
@@ -25,21 +25,27 @@ class ApplyButton extends Component {
                         <div className="modal-body mx-3">
                             {/* header */}
                             <div className="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h3 className="modal-title">Register for Reboot Hackathon 2020</h3>
+                                <button type="button" className="close" data-dismiss="modal">&times;</button>
+                                <h3 className="modal-title">{this.text.register.registerDialog.title}</h3>
                             </div>
                             {/* body */}
                             <div className="modal-body">
-                                <form role="form">
-                                    <div className="from-group">
+                                <div className="form-group">
+                                    
+                                    <div className="md-from-group m-4">
                                         <input type="name" className="form-control" placeholder="Name" />
-                                        <input type="email" className="form-control" placeholder="Email" />
                                     </div>
-                                </form>
+                                    
+                                    <div className="md-form-group">
+                                        
+                                        <input type="email" className="form-control" placeholder="Email" />                                       
+                                    </div>
+
+                                </div>
                             </div>
                             {/* footer */}
                             <div className="modal-footer">
-                                <button className="btn btn-primary btn-block">Register!</button>
+                                <button className="btn btn-primary btn-block">{this.text.register.registerDialog.registerBtn}</button>
                             </div>
                         </div>
                     </div>
