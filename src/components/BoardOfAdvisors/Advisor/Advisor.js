@@ -20,7 +20,7 @@ class Advisor extends Component {
     }
 
     return (
-      <div className={AdvisorStyle.IndividualPadding + " col-xs-4 col-xl-4"}>
+      <div className={AdvisorStyle.IndividualPadding + " col-2 col-xl-4"}>
         <div 
           className={AdvisorStyle.IndividualDiv}
         >

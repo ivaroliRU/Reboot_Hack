@@ -28,8 +28,8 @@ class App extends Component {
         <Navbar handler = {this.handler}/>
 
         {/*<br/><br/><br/><br/><br/><br/><br/><br/><br/>*/}
-        {/*<Teams/>*/}
-        <BoardOfAdvisors/>
+        <Teams/>
+        {/*<BoardOfAdvisors/>*/}
         
 {/*
         <Opener />

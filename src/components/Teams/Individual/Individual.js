@@ -20,7 +20,7 @@ class Individual extends Component {
     }
 
     return (
-      <div className={IndividualStyle.IndividualPadding + " col-xs-3 col-xl-3"}>
+      <div className={IndividualStyle.IndividualPadding + " col-6 col-xl-3"}>
         <div 
           className={IndividualStyle.IndividualDiv}
         >

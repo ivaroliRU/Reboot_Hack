@@ -33,7 +33,7 @@ constructor(props) {
               linkedInLink: null,
               photoURL: './images/A-Emblafin.jpg',
               titleEn: 'Marketing',
-              titleIs: 'Markaðteymi'
+              titleIs: 'markaðsteymi'
             },
             {
               id: 3,
@@ -150,7 +150,7 @@ constructor(props) {
 
     return (
       <div>
-        <h1 className={TeamsStyle.Glow}>Our AWESOME Team:</h1>
+        <h1 className={TeamsStyle.Glow+' '+TeamsStyle.H1}>Our AMAZING Team:</h1>
         <div className={"text-center"}>
               {teamsSection}
         </div>
