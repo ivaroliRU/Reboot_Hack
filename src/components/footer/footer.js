@@ -60,28 +60,28 @@ class Footer extends Component {
                 className={style.Facebook}
                 href={this.state.facebook}
                 target="_blank">
-                  <i className={"fa fa-facebook fa-2x"}></i>
+                  <i className={"fa fa-facebook fa-lg"}></i>
               </a>
 
               <a 
                 className={style.Instagram}
                 href={this.state.instagram}
                 target="_blank">
-                  <i className={"fa fa-instagram fa-2x"}></i>
+                  <i className={"fa fa-instagram fa-lg"}></i>
               </a>
 
               <a
                 className={style.LinkedIn}
                 href={this.state.linkedin}
                 target="_blank">
-                  <i className={"fa fa-linkedin-square fa-2x"}></i>
+                  <i className={"fa fa-linkedin-square fa-lg"}></i>
               </a>
 
               <a
                 className={style.Github}
                 href={this.state.github}
                 target="_blank">
-                  <i className={"fa fa-github fa-2x"}></i>
+                  <i className={"fa fa-github fa-lg"}></i>
               </a>
             </div>
           </div>
