@@ -19,14 +19,21 @@ router.get("/about", (req, res) => {
 
 //get request on the faq page
 router.get("/faq", (req, res) => {
-    //send the about file of the root "./builds"
+    //send the faq file of the root "./builds"
     res.status(200).sendFile("faq.html", {root: files});
+});
+
+//get request on the error page
+router.get("/error", (req, res) => {
+    //send the error file of the root "./builds"
+    // console.log('HALLO', res);
+    res.status(200).sendFile("error.html", {root: files});
 });
 
 //get request to all js files in the dist folder
 router.get(/^\/([A-Za-z])+.js$/, (req, res) => {
     var file = req.path;
-    //send the about file of the root "./builds"
+    //send the js file of the root "./builds"
     res.status(200).sendFile(file, {root: files});
 });
 

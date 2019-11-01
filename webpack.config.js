@@ -4,7 +4,8 @@ module.exports = {
   entry:{
     index: './src/pages/index/index.js',
     about: './src/pages/about/about.js',
-    faq: './src/pages/faq/faq.js'
+    faq: './src/pages/faq/faq.js',
+    error: './src/pages/error/error.js',
   },
   module: {
     rules: [
@@ -51,6 +52,12 @@ module.exports = {
       inject: true,
       chunks: ['faq'],
       filename: 'faq.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pages/error/error.html',
+      inject: true,
+      chunks: ['error'],
+      filename: 'error.html'
     }),
   ]
 };

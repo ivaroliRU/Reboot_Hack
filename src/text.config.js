@@ -126,6 +126,11 @@ export const translation = {
         moreQuestions: {
           text: 'Hefuru fleiri spurningar? - Ekki hika við að senda okkur póst.'
         }
+      },
+      errorPage: {
+        text1: 'Úps, síða fannst ekki',
+        text2: 'Því miður er síðan sem þú ert að leita að ekki til, hefur verið fjralægð. Breytt um nafn eða hún er ekki aðgengileg í augnablikinu',
+        text3: 'Aftur á heimasíðu'
       }
     },
     en:{
@@ -255,6 +260,11 @@ export const translation = {
         moreQuestions: {
           text: 'More questions? - Don´t hesitate to send us an email.'
         }
+      },
+      errorPage: {
+        text1: 'Oops! Page not found',
+        text2: 'Sorry but the page you are looking for does not exist, have been removed. Name changed or is temporarily unavailable',
+        text3: 'Back to homepage'
       }
     }
 }
