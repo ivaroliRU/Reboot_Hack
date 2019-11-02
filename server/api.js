@@ -32,7 +32,8 @@ app.use(bodyParser.json());
 app.use('/', indexRouter);
 app.use('/api/subscriptions', subscriptionRouter);
 
-// error page attempts
+// routing for error page.
+// All url that returns 404 should go to error.html
 app.use(function(req, res, next) {
     res.status(404).sendFile('error.html', {root: errorFiles});
 });
