@@ -38,6 +38,23 @@ class Question extends Component {
         const { text, answer } = this.props;
         console.log(this.props);
 
+        // initial state
+        this.state = { open: false }
+        this.togglePanel = this.togglePanel.bind(this);
+    }
+
+    togglePanel(e) {
+        this.setState({
+            open: !this.state.open
+        });
+    }
+
+    componentDidUpdate() {
+        // this.props.onToggle(this.props.index);
+    }
+    render() {
+        this.text = getTranslation();
+        const { text, answer } = this.props; 
         return (
             <div>
                 <button className={style.accordion} onClick={this.handleClick} id={"btn-"+this.quertionId}>{this.question}</button>
@@ -46,7 +63,7 @@ class Question extends Component {
                 </div>
             </div>
         );
-    }
+      }
 }
 
 export default Question;
