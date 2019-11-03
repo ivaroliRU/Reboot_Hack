@@ -23,9 +23,14 @@ router.get("/faq", (req, res) => {
     res.status(200).sendFile("faq.html", {root: files});
 });
 
-//get request on the error page
+// get request on the error page
+
+/**
+ * It's better to delete this route!
+ * Else /error will be accessable url to visit
+ */
 router.get("/error", (req, res) => {
-    //send the error file of the root "./builds"
+    // send the error file of the root "./builds"
     // console.log('HALLO', res);
     res.status(200).sendFile("error.html", {root: files});
 });

@@ -22,7 +22,7 @@ class ApplyButton extends Component {
 
                 <div className="modal fade" id="modalRegisterForm" tabIndex="-1" role="dialog" >
                     <div className="modal-dialog" role="document">
-                        <div className="modal-body mx-3">
+                        <div className="modal-content mx-3">
                             {/* header */}
                             <div className="modal-header">
                                 <button type="button" className="close" data-dismiss="modal">&times;</button>
@@ -32,13 +32,63 @@ class ApplyButton extends Component {
                             <div className="modal-body">
                                 <div className="form-group">
                                     
-                                    <div className="md-from-group m-4">
-                                        <input type="name" className="form-control" placeholder="Name" />
+                                    {/* Name */}
+                                    <div className="form-group input-group">
+                                        <div className="input-group-prepend">
+                                            <span className="input-group-text"> <i className="fa fa-user"></i> </span>
+                                        </div>
+                                        <input name="" className="form-control" placeholder="Name" type="text" required></input>
                                     </div>
+                                    {/*<div className="md-from-group m-4">
+                                        <input type="name" className="form-control" placeholder="Name" />
+                                    </div>*/}
                                     
-                                    <div className="md-form-group">
-                                        
-                                        <input type="email" className="form-control" placeholder="Email" />                                       
+                                    {/* Email */}
+                                    <div className="form-group input-group">
+                                        <div className="input-group-prepend">
+                                            <span className="input-group-text"> <i className="fa fa-envelope"></i> </span>
+                                        </div>
+                                        <input name="" className="form-control" placeholder="Email" type="email" required></input>
+                                    </div>
+
+                                    {/* All below this are optional for applicants */}
+                                    {/* Phone */}
+                                    <div className="form-group input-group">
+                                        <div className="input-group-prepend">
+                                            <span className="input-group-text"> <i className="fa fa-phone"></i> </span>
+                                        </div>
+                                        <input name="" className="form-control" placeholder="Phone number" type="text"></input>
+                                    </div>
+
+                                    {/* School */}
+                                    <div className="form-group input-group">
+                                        <div className="input-group-prepend">
+                                            <span className="input-group-text"> <i className="fa fa-building"></i> </span>
+                                        </div>
+                                        <input name="" className="form-control" placeholder="School" type="text"></input>
+                                    </div>
+
+                                    {/* Study */}
+                                    <div className="form-group input-group">
+                                        <div className="input-group-prepend">
+                                            <span className="input-group-text"> <i className="fa fa-graduation-cap"></i> </span>
+                                        </div>
+                                        <input name="" className="form-control" placeholder="Field of Study" type="text"></input>
+                                    </div>
+
+                                    {/* Team */}
+                                    <div className="form-group input-group-checkbox">
+                                        <div className="input-group">
+                                            <label className="form-check form-check-inline">
+                                                <span className="input-group-text"> <i className="fa fa-users"></i> </span>
+                                            </label>
+                                            <label className="form-check form-check-inline">
+                                                <input name="" className="form-check-input" type="checkbox" id="teamCheck"></input>
+                                            </label>
+                                            <label className="form-check form-check-inline">
+                                                <label for="teamCheck" className="form-control-label" >I am a part of a team!</label>
+                                            </label>
+                                        </div>
                                     </div>
 
                                 </div>

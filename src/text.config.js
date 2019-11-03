@@ -23,11 +23,20 @@ export const translation = {
       },
       subscription: {
         subscrButton: 'Skrá netfang',
+        
         subscrDialog: {
           title: 'Skráðu þig á netfang listann okkar',
           text: 'Skráðu þig á netfang listann okkar til að fá upplýsingar um gang mála.',
           submit: 'Skrá mig',
           close: 'Loka'
+        },
+        registerPanel: {
+          name: 'Nafn',
+          email: 'Netfang',
+          phone: 'Símanúmer',
+          school: 'Skóli',
+          study: 'Nám',
+          team: 'Ég er kominn í lið.',
         }
       },
       detail: {
@@ -158,9 +167,18 @@ export const translation = {
       register: {
         Heading: 'Register to participate in Reboot Hackathon 2020',
         subHeading: 'Register now!',
+        
         registerDialog: {
           title: 'Register for Reboot Hakckathon 2020',
           registerBtn: 'Register!'
+        },
+        registerPanel: {
+          name: 'Name',
+          email: 'Email',
+          phone: 'Phone number',
+          school: 'School',
+          study: 'Field of study',
+          team: 'I am a part of a team',
         }
       },
       subscription: {
