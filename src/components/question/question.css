@@ -30,9 +30,18 @@
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    padding: 0 18px;
-    background-color: white;
+    padding: 0px 18px;
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px; */
+    
+    background-color: #9D7CC5;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+  }
+
+  .panel::after {
+    padding-top: 2px 18px;
   }

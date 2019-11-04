@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import style from './questionTest.css';
 import { getTranslation } from '../../translations';
 
+
 class QuestionTest extends Component {
     constructor(props) {
         super(props);
@@ -26,20 +27,6 @@ class QuestionTest extends Component {
         return (
             <div className={style.parent + "container"}>
             <div className="row">
-                <div className={style.children + " col"}>
-                    <ul className="list-unstyled">
-                        <li>
-                            <div onClick={(e)=>this.togglePanel(e)} className={style.header}>
-                                    <h4>{text}</h4>
-                            </div>
-                            {this.state.open ? (
-                                <div className={style.content}>
-                                      {answer}
-                                </div>
-                                ) : null}
-                        </li>
-                    </ul>
-                </div>
                 <div className={style.children + " col"}>
                     <ul className="list-unstyled">
                         <li>

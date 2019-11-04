@@ -101,6 +101,7 @@ class ApplyButton extends Component {
                                 </div>
                             </div>
                             {/* footer */}
+                            {/* Should open another modal box. Just for conformation! Perhaps it's better to have some other way. */}
                             <div className="modal-footer">
                                 <button className="btn btn-primary btn-block">{this.text.register.registerDialog.registerBtn}</button>
                             </div>
