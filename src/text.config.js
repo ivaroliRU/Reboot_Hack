@@ -6,7 +6,7 @@ export const translation = {
         sponsors: "Bakhjarlar",
         trans_btn: "EN <img src='/images/english.png' height='15px'></img>",
         board: "Ráðgjafar",
-        team_members: "Reboot Team Teymið",
+        team_members: "Reboot Teymið",
         faq: "FAQ"
       },
       indexText: {

@@ -6,6 +6,7 @@ module.exports = {
     about: './src/pages/about/about.js',
     faq: './src/pages/faq/faq.js',
     error: './src/pages/error/error.js',
+    team: './src/pages/team/team.js',
   },
   module: {
     rules: [
@@ -58,6 +59,12 @@ module.exports = {
       inject: true,
       chunks: ['error'],
       filename: 'error.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pages/team/team.html',
+      inject: true,
+      chunks: ['team'],
+      filename: 'team.html'
     }),
   ]
 };

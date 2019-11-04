@@ -24,7 +24,7 @@ class Navbar extends Component {
                     <li className={style.reboot_navbar_item + " nav-item"}>
                         <a href="/about" className="nav-link">{this.text.navbar.about}</a>
                     </li>
-                    {/*<li className={style.reboot_navbar_item + " nav-item"}>
+                    <li className={style.reboot_navbar_item + " nav-item"}>
                     <div className="btn-group">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{ this.text.navbar.team }</a>
                     <div className="dropdown-menu pull-right" aria-labelledby="navbarDropdown">
@@ -33,9 +33,11 @@ class Navbar extends Component {
                     </div>
                     </div>
                     </li>
+                    {/*
                     <li className={style.reboot_navbar_item + " nav-item"}>
                         <a href="#" className="nav-link">{this.text.navbar.sponsors}</a>
-                    </li>*/}
+                    </li>
+                    */}
                     <li className={style.reboot_navbar_item + " nav-item"}>
                         <a href="/faq" className="nav-link">{this.text.navbar.faq}</a>
                     </li>

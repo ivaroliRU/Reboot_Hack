@@ -23,8 +23,15 @@ router.get("/faq", (req, res) => {
     res.status(200).sendFile("faq.html", {root: files});
 });
 
-// get request on the error page
+//get request on the reboot team page
+router.get("/team", (req, res) => {
+    //send the team file of the root "./builds"
+    res.status(200).sendFile("team.html", {root: files});
+});
 
+
+
+// get request on the error page
 /**
  * It's better to delete this route!
  * Else /error will be accessable url to visit

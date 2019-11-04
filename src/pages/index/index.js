@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import Navbar from '../../components/navbar';
 import Opener from '../../components/opener';
 import Footer from '../../components/footer';
-import SubscriptionButton from '../../components/subscriptionButton';
+// import SubscriptionButton from '../../components/subscriptionButton';
 import ApplyButton from '../../components/applyButton/applyButton';
 import ParallaxScrollImage from '../../components/parallaxScrollImage';
 import {changeLanguage, getTranslation} from '../../translations';
