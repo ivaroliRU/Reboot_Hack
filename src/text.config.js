@@ -18,7 +18,14 @@ export const translation = {
         subHeading: 'Skrá mig núna!',
         registerDialog: {
           title: 'Skráning fyrir Reboot Hakkaþon 2020',
-          registerBtn: 'Skrá mig!'
+          registerBtn: 'Skrá mig!',
+          name: 'Nafn',
+          email: 'Netfang',
+          info: 'Aðrir reitir er valfrjálsir',
+          phone: 'Símanúmer',
+          school: 'Skóli',
+          study: 'Nám',
+          team: 'Ég er kominn í lið.',
         }
       },
       subscription: {
@@ -30,14 +37,6 @@ export const translation = {
           submit: 'Skrá mig',
           close: 'Loka'
         },
-        registerPanel: {
-          name: 'Nafn',
-          email: 'Netfang',
-          phone: 'Símanúmer',
-          school: 'Skóli',
-          study: 'Nám',
-          team: 'Ég er kominn í lið.',
-        }
       },
       detail: {
         first: {
@@ -167,14 +166,12 @@ export const translation = {
       register: {
         Heading: 'Register to participate in Reboot Hackathon 2020',
         subHeading: 'Register now!',
-        
         registerDialog: {
           title: 'Register for Reboot Hakckathon 2020',
-          registerBtn: 'Register!'
-        },
-        registerPanel: {
+          registerBtn: 'Register!',
           name: 'Name',
           email: 'Email',
+          info: 'Other fields are optional',
           phone: 'Phone number',
           school: 'School',
           study: 'Field of study',

@@ -14,13 +14,14 @@ class ApplyButton extends Component {
         return (
             <div className="container">
 
-            <div className="text-center">
-                <button type="button" className={style.apply_button + "btn btn-info btn-lg mb-4"} data-toggle="modal" data-target="#modalRegisterForm">
-                    {this.text.register.subHeading}
-                </button>
-            </div>
+                <div className="text-center">
+                    <button type="button" className={style.apply_button + "btn btn-info btn-lg mb-4"} data-toggle="modal" data-target="#modalRegisterForm">
+                        {this.text.register.subHeading}
+                    </button>
+                </div>
 
                 <div className="modal fade" id="modalRegisterForm" tabIndex="-1" role="dialog" >
+                    <form name="registerForm">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content mx-3">
                             {/* header */}
@@ -31,33 +32,37 @@ class ApplyButton extends Component {
                             {/* body */}
                             <div className="modal-body">
                                 <div className="form-group">
+                                    <div className="form-row">
+                                    
                                     
                                     {/* Name */}
                                     <div className="form-group input-group">
                                         <div className="input-group-prepend">
                                             <span className="input-group-text"> <i className="fa fa-user"></i> </span>
                                         </div>
-                                        <input name="" className="form-control" placeholder="Name" type="text" required></input>
+                                        <input className="form-control" placeholder={this.text.register.registerDialog.name} type="text" required></input>
                                     </div>
-                                    {/*<div className="md-from-group m-4">
-                                        <input type="name" className="form-control" placeholder="Name" />
-                                    </div>*/}
                                     
                                     {/* Email */}
                                     <div className="form-group input-group">
                                         <div className="input-group-prepend">
                                             <span className="input-group-text"> <i className="fa fa-envelope"></i> </span>
                                         </div>
-                                        <input name="" className="form-control" placeholder="Email" type="email" required></input>
+                                        <input type="email" className="form-control" placeholder={this.text.register.registerDialog.email} required></input>
                                     </div>
 
                                     {/* All below this are optional for applicants */}
+                                    <small id="infoOptional" class="form-text text-muted">
+                                        {this.text.register.registerDialog.info}
+                                        </small>
+
+
                                     {/* Phone */}
                                     <div className="form-group input-group">
                                         <div className="input-group-prepend">
                                             <span className="input-group-text"> <i className="fa fa-phone"></i> </span>
                                         </div>
-                                        <input name="" className="form-control" placeholder="Phone number" type="text"></input>
+                                        <input className="form-control" placeholder={this.text.register.registerDialog.phone} type="text"></input>
                                     </div>
 
                                     {/* School */}
@@ -65,7 +70,7 @@ class ApplyButton extends Component {
                                         <div className="input-group-prepend">
                                             <span className="input-group-text"> <i className="fa fa-building"></i> </span>
                                         </div>
-                                        <input name="" className="form-control" placeholder="School" type="text"></input>
+                                        <input className="form-control" placeholder={this.text.register.registerDialog.school} type="text"></input>
                                     </div>
 
                                     {/* Study */}
@@ -73,7 +78,7 @@ class ApplyButton extends Component {
                                         <div className="input-group-prepend">
                                             <span className="input-group-text"> <i className="fa fa-graduation-cap"></i> </span>
                                         </div>
-                                        <input name="" className="form-control" placeholder="Field of Study" type="text"></input>
+                                        <input className="form-control" placeholder={this.text.register.registerDialog.study} type="text"></input>
                                     </div>
 
                                     {/* Team */}
@@ -83,14 +88,16 @@ class ApplyButton extends Component {
                                                 <span className="input-group-text"> <i className="fa fa-users"></i> </span>
                                             </label>
                                             <label className="form-check form-check-inline">
-                                                <input name="" className="form-check-input" type="checkbox" id="teamCheck"></input>
+                                                <input className="form-check-input" type="checkbox" id="teamCheck"></input>
                                             </label>
                                             <label className="form-check form-check-inline">
-                                                <label for="teamCheck" className="form-control-label" >I am a part of a team!</label>
+                                                <label for="teamCheck" className="form-control-label" >{this.text.register.registerDialog.team}</label>
                                             </label>
                                         </div>
                                     </div>
 
+                                    
+                                    </div>
                                 </div>
                             </div>
                             {/* footer */}
@@ -99,6 +106,7 @@ class ApplyButton extends Component {
                             </div>
                         </div>
                     </div>
+                    </form>
                 </div>
 
             </div>
