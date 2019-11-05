@@ -7,6 +7,7 @@ module.exports = {
     faq: './src/pages/faq/faq.js',
     error: './src/pages/error/error.js',
     team: './src/pages/team/team.js',
+    confirmation: './src/pages/confirmation/confirmation.js',
   },
   module: {
     rules: [
@@ -65,6 +66,12 @@ module.exports = {
       inject: true,
       chunks: ['team'],
       filename: 'team.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pages/confirmation/confirmation.html',
+      inject: true,
+      chunks: ['confirmation'],
+      filename: 'confirmation.html'
     }),
   ]
 };

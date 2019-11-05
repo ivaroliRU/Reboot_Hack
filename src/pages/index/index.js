@@ -10,6 +10,9 @@ import {changeLanguage, getTranslation} from '../../translations';
 import AboutIndex from '../../components/about/aboutIndex';
 import style from "./index.css"
 
+// import Teams from '../../components/Teams/Teams';
+// import BoardOfAdvisors from '../../components/BoardOfAdvisors/BoardOfAdvisors';
+
 class App extends Component {
   constructor(props) {
     super(props)

@@ -12,12 +12,19 @@
     animation: glow 1s ease-in-out infinite alternate;
 }
 
+.H1{
+  font-size: 48px;
+  padding-top: 2%;
+  text-align: center;
+}
+
 @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #625892, 0 0 15px #625892, 0 0 20px #625892, 0 0 25px #625892, 0 0 30px #625892;
+      text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #FFB40D, 0 0 15px #FFB40D, 0 0 20px #FFB40D, 0 0 25px #FFB40D, 0 0 30px #FFB40D;
     }
     
     to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #413091, 0 0 15px #413091, 0 0 20px #413091, 0 0 25px #413091, 0 0 30px #413091, 0 0 32px #413091;
+      text-shadow: 0 0 5px #fff, 0 0 10px #FFB30D, 0 0 15px #FFB30D, 0 0 20px #FFB30D, 0 0 25px #FFB30D, 0 0 30px #FFB30D, 0 0 32px #FFB30D;
     }
   }
+  

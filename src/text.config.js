@@ -28,6 +28,12 @@ export const translation = {
           team: 'Ég er kominn í lið.',
         }
       },
+      confirmation: {
+          Heading: 'TAKK FYRIR SKRANINGUNA',
+          subHeading: 'Hlökkum til að sjá þig',
+          info: 'Fylgstu með fyrir frekari upplýsingar',
+          homepage: 'Aftur á heimasíðu'
+      },
       subscription: {
         subscrButton: 'Skrá netfang',
         
@@ -178,6 +184,12 @@ export const translation = {
           team: 'I am a part of a team',
         }
       },
+      confirmation: {
+        Heading: 'THANK YOU FOR REGISTERING',
+        subHeading: 'We look forward to see you!',
+        info: 'Stay tuned for more information',
+        homepage: 'Back to homepage'
+    },
       subscription: {
         subscrButton: 'Subscribe',
         subscrDialog: {

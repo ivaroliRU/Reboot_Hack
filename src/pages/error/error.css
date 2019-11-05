@@ -127,3 +127,7 @@ a {
     }
   }
   
+.homepage {
+  text-align: center;
+  display: block;
+}

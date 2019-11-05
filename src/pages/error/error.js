@@ -28,7 +28,9 @@ class App extends Component {
                         <h1 className="">404</h1>
                         <h2 className="">{this.text.errorPage.text1}</h2>
                         <p className="text-center">{this.text.errorPage.text2}</p>
-                        <a className="" href="/" >{this.text.errorPage.text3}</a>
+                        <div className="homepage">
+                            <a className="" href="/" >{this.text.errorPage.text3}</a>
+                        </div>
                     </div>
                 </div>
             </div>

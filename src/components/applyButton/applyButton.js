@@ -52,7 +52,7 @@ class ApplyButton extends Component {
                                     </div>
 
                                     {/* All below this are optional for applicants */}
-                                    <small id="infoOptional" class="form-text text-muted">
+                                    <small id="infoOptional" className="form-text text-muted">
                                         {this.text.register.registerDialog.info}
                                         </small>
 
@@ -100,11 +100,13 @@ class ApplyButton extends Component {
                                     </div>
                                 </div>
                             </div>
+                            
                             {/* footer */}
-                            {/* Should open another modal box. Just for conformation! Perhaps it's better to have some other way. */}
-                            <div className="modal-footer">
-                                <button className="btn btn-primary btn-block">{this.text.register.registerDialog.registerBtn}</button>
-                            </div>
+                            {/* redirects to confirmation site.. Just for conformation!  */}
+                            <div className="modal-footer modal-guts">
+                                <a href="/confirmation" className="btn btn-primary btn-block" >{this.text.register.registerDialog.registerBtn}</a>
+                            </div>                            
+
                         </div>
                     </div>
                     </form>

@@ -54,7 +54,7 @@ class Footer extends Component {
           <div 
             id="Social"
             className={"row"}>
-              <div className={"col-lg-12 col-xs-12"}>
+              <div className={"col-lg-12 col-sm-12"}>
 
               <a
                 className={style.Facebook}
@@ -119,7 +119,7 @@ class Footer extends Component {
           <div
             id="Created_by"
             className={"row"}>
-            <div className={"col-lg-12 col-xs-12"}>
+            <div className={"col-lg-12 col-sm-12"}>
               <p >
                 <i>Created with love by <b>RebootHack</b> Team</i>
                 </p>

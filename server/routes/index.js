@@ -29,18 +29,34 @@ router.get("/team", (req, res) => {
     res.status(200).sendFile("team.html", {root: files});
 });
 
+//get request on the board of advisors page
+/* NEEDS TO BE FINISHED REMEMBER TO ADD WEBPACK
+router.get("/advisors", (req, res) => {
+    //send the team file of the root "./builds"
+    res.status(200).sendFile("advisors.html", {root: files});
+});
+*/
+
+//get request on the confirmation team page
+/*
+router.get("/confirmation", (req, res) => {
+    //send the team file of the root "./builds"
+    res.status(200).sendFile("confirmation.html", {root: files});
+});
+*/
+
 
 
 // get request on the error page
 /**
  * It's better to delete this route!
+ * Was mainly here for testing
  * Else /error will be accessable url to visit
- */
 router.get("/error", (req, res) => {
     // send the error file of the root "./builds"
-    // console.log('HALLO', res);
     res.status(200).sendFile("error.html", {root: files});
 });
+*/
 
 //get request to all js files in the dist folder
 router.get(/^\/([A-Za-z])+.js$/, (req, res) => {
