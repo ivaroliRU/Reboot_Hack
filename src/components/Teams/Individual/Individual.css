@@ -1,8 +1,7 @@
 .IndividualDiv{
     border-bottom: 1px solid #FFB40D;
     border-radius: 5px;
-    background-color: rgba(98, 88, 146, 0.2);
-    transition: transform 0.2s ease-in-out;
+    background-color: #DAD8E1;
 }
 
 .IndividualPadding{
@@ -12,18 +11,19 @@
 .Title{
     font-weight: 26px;
     color: red;
+    transform: scale(1) !important;
 }
 
 .IndividualImage{
-    /* top:0; */
     border-radius: 5px;
+    transform: scale(1) !important;
 }
 
 .IndividualName{
     font-size: 24px;
     font-weight: bold;
     color: black;
-    transition: transform 0.2s ease-in-out;
+    transform: scale(1) !important;
 }
 
 .IndividualSocial{
@@ -45,19 +45,17 @@
 
 .IndividualDiv :hover{
     transform: scale(1.1);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 1);
 
-    transition: background-color 0.1s;
-    transition: transform 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 
     /* border-bottom: 0.5px solid #625892; */
 }
 
 @media only screen and (max-width: 600px) {
    .IndividualDiv :hover{
-        transition: transform 0.4s ease-in-out;
-        background-color: rgba(255, 255, 255, 0.8);
-        transform: scale(1);
+        background-color: rgba(255, 255, 255, 1);
+        transform: scale(1) !important;
         /* border-bottom: 0.5px solid #625892; */
     }
   }
