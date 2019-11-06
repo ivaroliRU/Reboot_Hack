@@ -89,5 +89,8 @@
 
 .uniLogo{
   width: 30px;
-  padding: 0px 40px;
+  padding: 0px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }

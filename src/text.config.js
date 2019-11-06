@@ -21,11 +21,12 @@ export const translation = {
           registerBtn: 'Skrá mig!',
           name: 'Nafn',
           email: 'Netfang',
-          info: 'Aðrir reitir er valfrjálsir',
-          phone: 'Símanúmer',
           school: 'Skóli',
           study: 'Nám',
+          diet: 'Ofnæmi',
+          tShirt: 'Bola stærð',
           team: 'Ég er kominn í lið.',
+          emailInfo: 'Við munum senda þér email staðfestingu.'
         }
       },
       confirmation: {
@@ -173,15 +174,16 @@ export const translation = {
         Heading: 'Register to participate in Reboot Hackathon 2020',
         subHeading: 'Register now!',
         registerDialog: {
-          title: 'Register for Reboot Hakckathon 2020',
+          title: 'Register for Reboot Hackathon 2020',
           registerBtn: 'Register!',
           name: 'Name',
           email: 'Email',
-          info: 'Other fields are optional',
-          phone: 'Phone number',
           school: 'School',
           study: 'Field of study',
+          diet: 'Allergies',
+          tShirt: 'T-Shirt Size',
           team: 'I am a part of a team',
+          emailInfo: 'We will send you an email conformation'
         }
       },
       confirmation: {

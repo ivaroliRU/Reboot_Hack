@@ -8,6 +8,21 @@ class ApplyButton extends Component {
     }
 
     /* Add functionality to handleClick() */
+    handleClick() {
+        var registerInfo = {
+            name: $("#reg_name").val(),
+            email: $("#reg_email").val(),
+            school: $("#reg_school").val(),
+            study: $("#reg_study").val(),
+            tShirt: $("#reg_tShirt").val(),
+            food: $("#reg_food").val(),
+            team: $("#reg_team").val(),
+        };
+
+        $.post( "/api/applications/apply", registerInfo, function( data ) {
+            $("#successModal").modal('show');
+        });
+    }
 
     render() {
         this.text = getTranslation();
@@ -15,7 +30,7 @@ class ApplyButton extends Component {
             <div className="container">
 
                 <div className="text-center">
-                    <button type="button" className={style.apply_button + "btn btn-info btn-lg mb-4"} data-toggle="modal" data-target="#modalRegisterForm">
+                    <button type="button" className={style.apply_button + "btn btn-outline-primary btn-lg mb-4"} data-toggle="modal" data-target="#modalRegisterForm">
                         {this.text.register.subHeading}
                     </button>
                 </div>
@@ -40,7 +55,7 @@ class ApplyButton extends Component {
                                         <div className="input-group-prepend">
                                             <span className="input-group-text"> <i className="fa fa-user"></i> </span>
                                         </div>
-                                        <input className="form-control" placeholder={this.text.register.registerDialog.name} type="text" required></input>
+                                        <input id="reg_name" className="form-control" placeholder={this.text.register.registerDialog.name} type="text" required></input>
                                     </div>
                                     
                                     {/* Email */}
@@ -48,21 +63,7 @@ class ApplyButton extends Component {
                                         <div className="input-group-prepend">
                                             <span className="input-group-text"> <i className="fa fa-envelope"></i> </span>
                                         </div>
-                                        <input type="email" className="form-control" placeholder={this.text.register.registerDialog.email} required></input>
-                                    </div>
-
-                                    {/* All below this are optional for applicants */}
-                                    <small id="infoOptional" className="form-text text-muted">
-                                        {this.text.register.registerDialog.info}
-                                        </small>
-
-
-                                    {/* Phone */}
-                                    <div className="form-group input-group">
-                                        <div className="input-group-prepend">
-                                            <span className="input-group-text"> <i className="fa fa-phone"></i> </span>
-                                        </div>
-                                        <input className="form-control" placeholder={this.text.register.registerDialog.phone} type="text"></input>
+                                        <input id="reg_email" type="email" className="form-control" placeholder={this.text.register.registerDialog.email} required></input>
                                     </div>
 
                                     {/* School */}
@@ -70,7 +71,7 @@ class ApplyButton extends Component {
                                         <div className="input-group-prepend">
                                             <span className="input-group-text"> <i className="fa fa-building"></i> </span>
                                         </div>
-                                        <input className="form-control" placeholder={this.text.register.registerDialog.school} type="text"></input>
+                                        <input id="reg_school" className="form-control" placeholder={this.text.register.registerDialog.school} type="text" required></input>
                                     </div>
 
                                     {/* Study */}
@@ -78,7 +79,32 @@ class ApplyButton extends Component {
                                         <div className="input-group-prepend">
                                             <span className="input-group-text"> <i className="fa fa-graduation-cap"></i> </span>
                                         </div>
-                                        <input className="form-control" placeholder={this.text.register.registerDialog.study} type="text"></input>
+                                        <input id="reg_study" className="form-control" placeholder={this.text.register.registerDialog.study} type="text" required></input>
+                                    </div>
+
+                                    {/* T-shirt Size */}
+                                    <div className="form-group input-group">
+                                        <div className="input-group-prepend">
+                                            <span className="input-group-text"> <i className="fa fa-smile"></i> </span>
+                                        </div>
+                                        <select id="reg_tShirt" className="form-control" placeholder={this.text.register.registerDialog.study} type="text" required>
+                                            <option>{this.text.register.registerDialog.tShirt}</option>
+                                            <option>Small</option>
+                                            <option>Medium</option>
+                                            <option>Large</option>
+                                            <option>X Large</option>
+                                            <option>2X Large</option>
+                                            <option>3X Large</option>
+                                        </select>
+                                    </div>
+
+                                     {/* Diet */}
+                                     {/* Better to have NOT required, what if you don't have any allergies? */}
+                                     <div className="form-group input-group">
+                                        <div className="input-group-prepend">
+                                            <span className="input-group-text"> <i className="fa fa-cutlery"></i> </span>
+                                        </div>
+                                        <input id="reg_food" className="form-control" placeholder={this.text.register.registerDialog.diet} type="text"></input>
                                     </div>
 
                                     {/* Team */}
@@ -88,23 +114,27 @@ class ApplyButton extends Component {
                                                 <span className="input-group-text"> <i className="fa fa-users"></i> </span>
                                             </label>
                                             <label className="form-check form-check-inline">
-                                                <input className="form-check-input" type="checkbox" id="teamCheck"></input>
+                                                <input id="reg_team" className="form-check-input" type="checkbox"></input>
                                             </label>
                                             <label className="form-check form-check-inline">
-                                                <label for="teamCheck" className="form-control-label" >{this.text.register.registerDialog.team}</label>
+                                                <label className="form-control-label" >{this.text.register.registerDialog.team}</label>
                                             </label>
                                         </div>
                                     </div>
 
+                                    {/* Email conformation */}
+                                    <small id="emailConformation" className="form-text text-muted">
+                                        {this.text.register.registerDialog.emailInfo}
+                                        </small>
                                     
                                     </div>
                                 </div>
                             </div>
                             
                             {/* footer */}
-                            {/* redirects to confirmation site.. Just for conformation!  */}
+                            {/* redirects to conformation site.. Just for conformation!  */}
                             <div className="modal-footer modal-guts">
-                                <a href="/confirmation" className="btn btn-primary btn-block" >{this.text.register.registerDialog.registerBtn}</a>
+                                <a href="/api/applications/apply" className="btn btn-primary btn-block" type="submit" onClick={this.handleClick}>{this.text.register.registerDialog.registerBtn}</a>
                             </div>                            
 
                         </div>

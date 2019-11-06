@@ -10,8 +10,6 @@ import {changeLanguage, getTranslation} from '../../translations';
 import AboutIndex from '../../components/about/aboutIndex';
 import style from "./index.css"
 
-// import Teams from '../../components/Teams/Teams';
-// import BoardOfAdvisors from '../../components/BoardOfAdvisors/BoardOfAdvisors';
 
 class App extends Component {
   constructor(props) {
@@ -30,9 +28,11 @@ class App extends Component {
       <div className={style.App}>
         <Navbar handler = {this.handler}/>
         <Opener />
-        <div className={style.header}>
-          <h1 className={style.text_header}>{this.text.register.Heading}</h1>
-          <ApplyButton handler={this.handler}/>
+        <div className="container">
+          <div className={style.header}>
+            <h2 className={style.text_header}>{this.text.register.Heading}</h2>
+            <ApplyButton handler={this.handler}/>
+          </div>
         </div>
         <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={500}/>
         <AboutIndex handler = {this.handler}/>

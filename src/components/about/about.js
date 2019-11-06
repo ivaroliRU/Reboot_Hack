@@ -8,22 +8,28 @@ class About extends Component {
         return (
             <div>
                 <div className="jumbotron">
+                    <div className="container">
                         <h3>{this.text.detail.first.header}</h3>
                         <p>{this.text.detail.first.main}</p>
+                    </div>
                 </div>
                 <div className="container pb-md-4 pl-md-3">
                     <img src="/images/ht.jpg" width="100%"></img>
                 </div>
                 <div className="jumbotron">
-                    <h3>{this.text.detail.second.header}</h3>
-                    <p>{this.text.detail.second.main}</p>
+                    <div className="container">
+                        <h3>{this.text.detail.second.header}</h3>
+                        <p>{this.text.detail.second.main}</p>
+                    </div>
                 </div>
                 <div className="container pb-md-4 pl-md-4">
                     <img src="/images/hi-kold.jpg" width="100%"></img>
                 </div>
                 <div className="jumbotron">
-                    <h3>{this.text.detail.third.header}</h3>
-                    <p>{this.text.detail.third.main}</p>
+                    <div className="container">
+                        <h3>{this.text.detail.third.header}</h3>
+                        <p>{this.text.detail.third.main}</p>
+                    </div>
                 </div>
             </div>
         );

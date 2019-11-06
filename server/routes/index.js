@@ -37,13 +37,26 @@ router.get("/advisors", (req, res) => {
 });
 */
 
-//get request on the confirmation team page
+//get request on the sponsor page
+router.get("/sponsor", (req, res) => {
+    //send the team file of the root "./builds"
+    res.status(200).sendFile("sponsor.html", {root: files});
+});
+
+
+
+
+//get request on the confirmation page
 /*
 router.get("/confirmation", (req, res) => {
     //send the team file of the root "./builds"
     res.status(200).sendFile("confirmation.html", {root: files});
 });
 */
+
+
+
+
 
 
 

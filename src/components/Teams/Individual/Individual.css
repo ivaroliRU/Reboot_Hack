@@ -1,5 +1,5 @@
 .IndividualDiv{
-    border-bottom: 1px solid #FFB40D;
+    border-bottom: 1px solid ;
     border-radius: 5px;
     background-color: rgba(98, 88, 146, 0.2);
     transition: transform 0.2s ease-in-out;
@@ -11,7 +11,7 @@
 
 .Title{
     font-weight: 26px;
-    color: red;
+    color: black;
 }
 
 .IndividualImage{

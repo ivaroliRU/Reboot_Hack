@@ -7,7 +7,7 @@ class AboutIndex extends Component {
         this.text = getTranslation();
         return (
             <div className={style.inlineBox}>
-                <div>
+                <div className="container">
                     <h3>{this.text.detail.fourth.header}</h3>
                     <p>{this.text.detail.fourth.main}</p>
                 </div>

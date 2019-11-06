@@ -24,20 +24,20 @@ class Navbar extends Component {
                     <li className={style.reboot_navbar_item + " nav-item"}>
                         <a href="/about" className="nav-link">{this.text.navbar.about}</a>
                     </li>
-                    {/* ATH MUNA AD BREYTA
                     <li className={style.reboot_navbar_item + " nav-item"}>
                     <div className="btn-group">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{ this.text.navbar.team }</a>
                     <div className="dropdown-menu pull-right" aria-labelledby="navbarDropdown">
                         <a className="dropdown-item" href="#">{this.text.navbar.board}</a>
-                        <a className="dropdown-item" href="#">{this.text.navbar.team_members}</a>
+                        <a className="dropdown-item" href="/team">{this.text.navbar.team_members}</a>
                     </div>
                     </div>
                     </li>
-                    */}
+                    {/*
                     <li className={style.reboot_navbar_item + " nav-item"}>
                         <a href="/team" className="nav-link">{this.text.navbar.team_members}</a>
                     </li>
+                    */}
                     {/*
                     <li className={style.reboot_navbar_item + " nav-item"}>
                         <a href="#" className="nav-link">{this.text.navbar.sponsors}</a>

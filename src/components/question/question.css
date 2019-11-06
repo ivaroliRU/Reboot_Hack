@@ -10,10 +10,15 @@
     outline: none;
     transition: 0.4s;
   }
+
+.accordion:focus {
+  outline: none;
+}
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
     background-color: #ccc;
+    content: \2796;
   }
 
   .accordion:after {
@@ -35,11 +40,11 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px; */
-    
-    background-color: #9D7CC5;
+  
+    background-color: #C0C0C0;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.3s ease-out;
   }
 
   .panel::after {
