@@ -21,3 +21,20 @@
   margin-right: 15px;
   color: #d9d5f1;
 }
+
+@media (max-width: 768px) {
+
+  .iconCenter{
+    margin: auto;
+  }
+
+  .navbarBrand{
+    float: left;
+  }
+.nothing{
+  width: 0 !important;
+}
+  .secondLogo{
+    display: none;
+  }
+}

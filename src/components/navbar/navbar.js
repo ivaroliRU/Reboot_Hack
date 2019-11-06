@@ -6,18 +6,18 @@ class Navbar extends Component {
     return (
       <nav className={style.reboot_navbar + " navbar navbar-expand-lg navbar-dark bg-dark"}>
         <div className="d-flex flex-grow-1">
-            <span className="w-100 d-lg-none d-block"></span>
-            <a className="navbar-brand" href="#">
-                <img src="/images/reboothack_small.png" alt="The logo for the website" height="50px"></img>
-                <img src="/images/reboothack_default_navbar.png" height="50px"></img>
+            <span className={style.nothing+" w-100 d-lg-none d-block"}></span>
+            <a className={style.navbarBrand+" navbar-brand"} href="#">
+                <img className={style.firstLogo} src="/images/reboothack_small.png" alt="The logo for the website" height="50px"></img>
+                <img className={style.secondLogo} src="/images/reboothack_default_navbar.png" height="50px"></img>
             </a>
-            <div className="w-100 text-right">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
-                    <span className="navbar-toggler-icon"></span>
+            <div className={style.iconCenter+" w-100 text-right"}>
+                <button className={"navbar-toggler"} type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <span className={"navbar-toggler-icon"}></span>
                 </button>
             </div>
         </div>
-        <div className="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+        <div className="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
             <ul className="navbar-nav ml-auto flex-nowrap">
                 <li className={style.reboot_navbar_item + " nav-item"}>
                     <a href="#" className="nav-link">FaQ</a>
