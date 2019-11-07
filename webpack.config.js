@@ -37,6 +37,9 @@ module.exports = {
       }
     ]
   },
+  output: {
+    publicPath: "/",
+  },
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/pages/index/index.html',

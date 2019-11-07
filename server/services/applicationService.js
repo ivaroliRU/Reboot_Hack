@@ -18,7 +18,7 @@ function sendEmail(info, id){
       
       var mailOptions = {
         from: process.env.EMAIL,
-        to: 'einargudnig@gmail.com',
+        to: info.email,
         subject: 'Confrim Your application ',
         text: "Hello, I'm a nigerian prince, do you want money? Also oncfirm application at : http://localhost:3000/api/applications/confirm/"+id
       };
