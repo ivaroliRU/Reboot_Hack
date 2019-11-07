@@ -4,7 +4,11 @@ module.exports = {
   entry:{
     index: './src/pages/index/index.js',
     about: './src/pages/about/about.js',
-    faq: './src/pages/faq/faq.js'
+    faq: './src/pages/faq/faq.js',
+    error: './src/pages/error/error.js',
+    team: './src/pages/team/team.js',
+    confirmation: './src/pages/confirmation/confirmation.js',
+    sponsors: './src/pages/sponsors/sponsors.js',
   },
   module: {
     rules: [
@@ -33,6 +37,9 @@ module.exports = {
       }
     ]
   },
+  output: {
+    publicPath: "/",
+  },
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/pages/index/index.html',
@@ -51,6 +58,30 @@ module.exports = {
       inject: true,
       chunks: ['faq'],
       filename: 'faq.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pages/error/error.html',
+      inject: true,
+      chunks: ['error'],
+      filename: 'error.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pages/team/team.html',
+      inject: true,
+      chunks: ['team'],
+      filename: 'team.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pages/confirmation/confirmation.html',
+      inject: true,
+      chunks: ['confirmation'],
+      filename: 'confirmation.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pages/sponsors/sponsors.html',
+      inject: true,
+      chunks: ['sponsors'],
+      filename: 'sponsors.html'
     }),
   ]
 };

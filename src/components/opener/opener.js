@@ -10,11 +10,11 @@ class Opener extends Component {
         return (
             <div>
                 <div>
-                    <ParallaxScrollImage img={"/images/hack_image_2.jpg"} height={500}/>   
+                    <ParallaxScrollImage img={"/images/hack_image_2.jpg"} height={700}/>   
                 </div>
                 <div className={style.components}>
-                    <img src="/images/reboothack_default_navbar_noBackkground.png" width={950}></img>
-                    <h1 className={style.text}>14.02 &bull; 16.02</h1>
+                    <img className="img-fluid" src="/images/reboothack_default_navbar_noBackkground.png" width={950}></img>
+                    <h1 className={style.text2}>14.02 &bull; 16.02</h1>
                 </div>
                 
             </div>

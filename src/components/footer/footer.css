@@ -1,7 +1,8 @@
 .Footer{
   background-color: rgb(42, 42, 42);
-  position: sticky;
+  /* position: sticky; */
   left: 0;
+  right: 0;
   bottom: 0 !important;
   width: 100%;
   height: auto;
@@ -53,6 +54,10 @@
   transition: color 0.5s ease-in-out;
 }
 
+.bold{
+  font-weight: bold;
+}
+
 .OnHoverSection:hover + .Footer_Copy_Text{
   transition: color 0.5s ease-in-out;
   color: #ffb30d;
@@ -79,6 +84,11 @@
   flex-wrap: wrap;
 }
 
+.uniLogo{
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+ }
 
 .FooterHr{
   border: 0;
@@ -88,5 +98,8 @@
 
 .uniLogo{
   width: 30px;
-  padding: 0px 40px;
+  padding: 0px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }

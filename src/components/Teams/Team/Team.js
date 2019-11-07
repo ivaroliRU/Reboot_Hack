@@ -3,6 +3,8 @@ import TeamStyle from "./Team.css";
 import Individual from '../Individual/Individual';
 
 class Team extends Component {
+  
+
   render() {
     let individualsSection = this.props.teamIndividuals.map(
         (individual) => {
@@ -10,17 +12,18 @@ class Team extends Component {
             <Individual
               individualName={individual.name}
               individualLinkedIn = {individual.linkedInLink}
-              individualEmail = {individual.email}
               individualPhotoUrl = {individual.photoURL}
+              individualTitleEn = {individual.titleEn}
+              individualTitleIs = {individual.titleIs}
             />
           );
       });
     return (
-      <div className={"container"}>
+      <div className={TeamStyle.Container+" container"}>
         <div className={TeamStyle.TeamDiv}>
-          <p className={TeamStyle.TeamName}> {this.props.teamName} {this.props.teamName=='Director' ? null : 'Team'}</p>
+          {/* <p className={TeamStyle.TeamName}> {this.props.teamName} {this.props.teamName=='Director' ? null : 'Team'}</p> */}
           <br /> <br />
-          <div className={"container"}>
+          <div className={TeamStyle.Container+" container"}>
               <div className={"row"}>
                   {individualsSection}
               </div>

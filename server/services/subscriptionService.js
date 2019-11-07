@@ -1,6 +1,5 @@
 db = require('../data/db');
 
-db.connect();
 
 module.exports.GetAllSubscriptions = function(callback){
     const sql = 'SELECT * FROM subscriptions;';

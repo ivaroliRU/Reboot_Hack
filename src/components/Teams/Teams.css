@@ -3,7 +3,7 @@
     border-radius: 5px;
 }
 
-.Glow{
+/* .Glow{
     padding-top: 5px;
     font-size: 32px;
     color: #fff;
@@ -12,12 +12,29 @@
     animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+.H1{
+  font-size: 48px;
+  padding-top: 2%;
+} */
+
+.TheTeamText {
+  padding: 1.5%;
+  padding-bottom: 0;
+  color: hsl(0, 0%, 17%);
+  letter-spacing: .03em;
+  font-size: 36px;
+  text-shadow: 
+    4px 4px 0px #d5d5d5, 
+    7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #625892, 0 0 15px #625892, 0 0 20px #625892, 0 0 25px #625892, 0 0 30px #625892;
+      text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #FFB40D, 0 0 15px #FFB40D, 0 0 20px #FFB40D, 0 0 25px #FFB40D, 0 0 30px #FFB40D;
     }
     
     to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #413091, 0 0 15px #413091, 0 0 20px #413091, 0 0 25px #413091, 0 0 30px #413091, 0 0 32px #413091;
+      text-shadow: 0 0 5px #fff, 0 0 10px #FFB30D, 0 0 15px #FFB30D, 0 0 20px #FFB30D, 0 0 25px #FFB30D, 0 0 30px #FFB30D, 0 0 32px #FFB30D;
     }
   }
+*/

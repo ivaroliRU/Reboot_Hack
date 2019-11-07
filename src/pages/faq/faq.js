@@ -4,7 +4,7 @@ import Faq from '../../components/faq/faq';
 import Navbar from '../../components/navbar';
 import { changeLanguage } from '../../translations';
 import Footer from '../../components/footer';
-// import style from "./index.css"
+import style from "./faq.css"
 
 class App extends Component {
     constructor(props) {
@@ -20,7 +20,7 @@ class App extends Component {
 
     render() {
         return (
-        <div>
+        <div className={style.App}>
             <Navbar handler = {this.handler}/>
             <Faq handler = {this.handler}/>
             <Footer />

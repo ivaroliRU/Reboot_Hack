@@ -13,6 +13,7 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {  
     if(req.body.email == undefined){
         res.status(400).end();
+        return;
     }
 
     console.log(req.body.email);
