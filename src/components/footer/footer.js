@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from './footer.css';
+import FooterStyle from './footer.css';
 
 class Footer extends Component {
   constructor(props) {
@@ -51,35 +51,35 @@ class Footer extends Component {
               <div className={"col-xs-0 col-lg-4"}></div>
             
           </div>
-          <hr className={style.FooterHr}/>
+          <hr className={FooterStyle.FooterHr}/>
           <div 
             id="Social"
             className={"row"}>
               <div className={"col-lg-12 col-xs-12"}>
 
               <a
-                className={style.Facebook}
+                className={FooterStyle.Facebook}
                 href={this.state.facebook}
                 target="_blank">
                   <i className={"fa fa-facebook fa-lg"}></i>
               </a>
 
               <a 
-                className={style.Instagram}
+                className={FooterStyle.Instagram}
                 href={this.state.instagram}
                 target="_blank">
                   <i className={"fa fa-instagram fa-lg"}></i>
               </a>
 
               <a
-                className={style.LinkedIn}
+                className={FooterStyle.LinkedIn}
                 href={this.state.linkedin}
                 target="_blank">
                   <i className={"fa fa-linkedin-square fa-lg"}></i>
               </a>
 
               <a
-                className={style.Github}
+                className={FooterStyle.Github}
                 href={this.state.github}
                 target="_blank">
                   <i className={"fa fa-github fa-lg"}></i>
@@ -90,8 +90,8 @@ class Footer extends Component {
             id="Email"
             className={"row"}>
             <div className={"col-lg-12 col-xs-12"}>
-              <div className={style.OnHoverSection}><span>Official email:</span> <button
-                                      className={style.Email_Button}
+              <div className={FooterStyle.OnHoverSection}><span>Official email:</span> <button
+                                      className={FooterStyle.Email_Button}
                                       onClick={
                                         () => {
                                                 navigator.clipboard.writeText(this.state.email);
@@ -112,7 +112,7 @@ class Footer extends Component {
               </div>
               <div 
                   id='Coppied_Text'
-                  className={style.Footer_Copy_Text}
+                  className={FooterStyle.Footer_Copy_Text}
                   >{this.state.copied}
                 </div>
             </div>

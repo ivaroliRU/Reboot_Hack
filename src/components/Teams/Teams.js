@@ -10,7 +10,7 @@ constructor(props) {
       teams: [
         {
           id: 0,
-          individuals:[
+          individuals: [
             {
               id: 0,
               name: 'Kristjana Björk Barðdal',
@@ -29,11 +29,11 @@ constructor(props) {
             },
             {
               id: 2,
-              name: 'Embla Dís Harladsdóttir',
+              name: 'Embla Dís Haraldsdóttir',
               linkedInLink: null,
               photoURL: './images/A-Emblafin.jpg',
               titleEn: 'Marketing',
-              titleIs: 'markaðsteymi'
+              titleIs: 'Markaðsteymi'
             },
             {
               id: 3,

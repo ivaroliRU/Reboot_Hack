@@ -3,6 +3,8 @@ import TeamStyle from "./Team.css";
 import Individual from '../Individual/Individual';
 
 class Team extends Component {
+  
+
   render() {
     let individualsSection = this.props.teamIndividuals.map(
         (individual) => {

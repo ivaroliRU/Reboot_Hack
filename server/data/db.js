@@ -1,4 +1,4 @@
-const { Client } = require('pg')
+const { Pool } = require('pg')
 require('custom-env').env();
 
 const user = process.env.PG_USER;
@@ -10,6 +10,14 @@ const db = process.env.PG_DB;
 const connectionString = process.env.DATABASE_URL;
 console.log(connectionString);
 
-const client = new Client(connectionString)
+const pool = new Pool({
+    user: user,
+    host: host,
+    database: db,
+    password: password,
+    port: port
+});
 
-module.exports = client;
+//const client = new Client(connectionString)
+
+module.exports = pool;

@@ -23,7 +23,7 @@ class SubscriptionButton extends Component {
                 <div className="col-sm-12">
                     <div className={style.single}>
                         <div className="input-group">
-                        <input id="sub_email" type="email" className={"form-control " + style.subform} placeholder="Enter your email"></input>
+                        <input id="sub_email" type="email" className={"form-control " + style.subform} placeholder="Enter your email" required></input>
                         <span className="input-group-btn">
                             <button className={"btn btn-theme " + style.formbtn} type="submit" onClick={this.handleClick}>Subscribe</button>
                         </span>
@@ -32,7 +32,7 @@ class SubscriptionButton extends Component {
                 </div>
 
 
-                <div id="successModal" className="modal" tabindex="-1" role="dialog">
+                <div id="successModal" className="modal" tabIndex="-1" role="dialog">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                         <div className="modal-header">
