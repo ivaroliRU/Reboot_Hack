@@ -6,7 +6,7 @@ db = require('../data/db');
 
 
 function sendEmail(info, id){
-  var email = emailService.createEmail('http://localhost:3000/api/applications/confirm/');
+  var email = emailService.createEmail('http://localhost:3000/api/applications/confirm/'); /* +id */
 
     var transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -19,8 +19,31 @@ function sendEmail(info, id){
       var mailOptions = {
         from: process.env.EMAIL,
         to: info.email,
-        subject: 'Confrim Your application ',
-        text: "Hello, I'm a nigerian prince, do you want money? Also oncfirm application at : http://localhost:3000/api/applications/confirm/"+id
+        subject: 'Confirm Your application ',
+        /* html fyrir nedan tengir okkur vid emailService. Thar sem stadfestingarposturinn er. */
+        html: email,
+        attachments: [{
+          filename: 'facebook.png',
+          path: 'public/images/facebook@2x.png',
+          cid: 'uniqueFacebook' //same as in html img source
+        }, {
+          filename: 'instagram.png',
+          path: 'public/images/instagram@2x.png',
+          cid: 'uniqueInstagram',
+        }, {
+          filename: 'linkedin.png',
+          path: 'public/images/linkedin@2x.png',
+          cid: 'uniqueLinkedIn',
+        }, {
+          filename: 'background.png',
+          path: 'public/images/bg.jpg',
+          cid: 'uniqueBackground',
+        }, {
+          filename: 'reboot.png',
+          path: 'public/images/reboothack_default_transparent_cropped.png',
+          cid: 'uniqueReboot',
+        },
+      ]
       };
 
       transporter.sendMail(mailOptions, function(error, info){

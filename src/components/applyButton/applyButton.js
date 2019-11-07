@@ -134,7 +134,7 @@ class ApplyButton extends Component {
                             {/* footer */}
                             {/* redirects to conformation site.. Just for conformation!  */}
                             <div className="modal-footer modal-guts">
-                                <a href="/api/applications/apply" className="btn btn-primary btn-block" type="submit" onClick={this.handleClick}>{this.text.register.registerDialog.registerBtn}</a>
+                                <button className="btn btn-primary btn-block" type="submit" onClick={this.handleClick}>{this.text.register.registerDialog.registerBtn}</button>
                             </div>                            
 
                         </div>
