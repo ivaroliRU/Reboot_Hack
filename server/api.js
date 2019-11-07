@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const indexRouter = require('./routes/index');
 const subscriptionRouter = require('./routes/subscription');
+const applicationRouter = require('./routes/application');
 
 const app = express();
 
@@ -23,5 +24,6 @@ app.use(bodyParser.json());
 
 app.use('/', indexRouter);
 app.use('/api/subscriptions', subscriptionRouter);
+app.use('/api/applications', applicationRouter);
 
 module.exports = app;
