@@ -1,10 +1,13 @@
 const uuidv1 = require('uuid/v1');
 const nodemailer = require('nodemailer');
+const emailService = require('./emailService');
 
 db = require('../data/db');
 
 
 function sendEmail(info, id){
+  var email = emailService.createEmail('http://localhost:3000/api/applications/confirm/');
+
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -15,9 +18,9 @@ function sendEmail(info, id){
       
       var mailOptions = {
         from: process.env.EMAIL,
-        to: 'einargunnig@gmail.com',
-        subject: 'Sending Email using Node.js',
-        text: 'tibbi'
+        to: 'einargudnig@gmail.com',
+        subject: 'Confrim Your application ',
+        text: "Hello, I'm a nigerian prince, do you want money? Also oncfirm application at : http://localhost:3000/api/applications/confirm/"+id
       };
 
       transporter.sendMail(mailOptions, function(error, info){
