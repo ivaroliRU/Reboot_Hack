@@ -16,38 +16,39 @@ class Footer extends Component {
   
   render() {
     return (
-      <footer className={style.Footer + " text-center"}>
-        <div className="container">
+
+      <footer className={FooterStyle.Footer + " text-center"}>
+        <div className={"container"}>
           <div 
             id="Universities"
-            className="row">
-              <div className="col-xs-0 col-lg-3"></div>
-              <div className="col-xs-12 col-lg-6">
-                <div className="row">
-                  <div className="col-xs-12 col-lg-4">
+            className={"row"}>
+              <div className={"col-xs-0 col-lg-4"}></div>
+              <div className={"col-xs-12 col-lg-4"}>
+                <div className={"row"}>
+                  <div className={"col-xs-12 col-sm-4"}>
                     <a
                       href="https://www.ru.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
+                    ><img className={'img-fluid ' + FooterStyle.uniLogo} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
                   </div>
-                  <div className="col-xs-12 col-lg-4">
+                  <div className={"col-xs-12 col-sm-4"}>
                   <a
                     href="https://english.hi.is/"
                     rel="noopener noreferrer"
                     target="_blank"
-                  ><img className={'img-fluid ' + style.uniLogo} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
+                  ><img className={'img-fluid ' + FooterStyle.uniLogo} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
                   </div>
-                  <div className="col-xs-12 col-lg-4">
+                  <div className={"col-xs-12 col-sm-4"}>
                     <a
                       href="http://english.unak.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
+                    ><img className={'img-fluid ' + FooterStyle.uniLogo} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
                   </div>
                 </div>
               </div>
-              <div className="col-xs-0 col-lg-3"></div>
+              <div className={"col-xs-0 col-lg-4"}></div>
             
           </div>
           <hr className={style.FooterHr}/>
@@ -121,8 +122,8 @@ class Footer extends Component {
             className={"row"}>
             <div className={"col-lg-12 col-xs-12"}>
               <p >
-                <i>Created with love by <b>RebootHack</b> Team</i>
-                </p>
+                <i>Created with love by <b className={FooterStyle.bold}>Reboot Hack</b> Team</i>
+              </p>
             </div>
           </div>
 

@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import IndividualStyle from "./Individual.css";
+import Cookies from 'js-cookie';
 
 class Individual extends Component {
-
-  
-
 
   render() {
 
@@ -22,7 +20,7 @@ class Individual extends Component {
     }
 
     return (
-      <div className={IndividualStyle.IndividualPadding + " col-xs-4 col-xl-4"}>
+      <div className={IndividualStyle.IndividualPadding + " col-6 col-xl-3"}>
         <div 
           className={IndividualStyle.IndividualDiv}
         >
@@ -34,19 +32,9 @@ class Individual extends Component {
             <p className={IndividualStyle.IndividualName}> 
               {myName}
             </p>
-            {
-              this.props.individualEmail != '' ? 
-                <a 
-                  className={IndividualStyle.IndividualSocial}
-                  onClick={
-                    () => {
-                            navigator.clipboard.writeText(this.props.individualEmail);
-                          } 
-                  }
-                >
-                  <i className={"fa fa-envelope fa-lg"}></i> {this.props.individualEmail}</a> 
-                : ''
-            }
+            <p className={IndividualStyle.Title}>
+              {Cookies.get('language')=='is' ? this.props.individualTitleIs : this.props.individualTitleEn}
+            </p>
             <br/>
           </div>
         </div>

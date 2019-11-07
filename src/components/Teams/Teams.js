@@ -7,189 +7,151 @@ class Teams extends Component {
 constructor(props) {
     super(props);
     this.state = {
-        numberOfTeams: 7,
-        teams:[
-          {
-            id: 0,
-            name: "Director",
-            individuals:[
-              {
-                id: 0,
-                name: 'Kristjana Björk Barðdal',
-                linkedInLink: 'https://www.linkedin.com/in/kristjanabb/',
-                email: 'kristjanabb@gmail.com',
-                photoURL: './images/Profile.jpg'
-              }
-            ]
-          },
-          {
-            id: 1,
-            name: "Marketing",
-            individuals:[
-              {
-                id: 0,
-                name: 'Embla Dís',
-                linkedInLink: null,
-                email: 'disembla@gmail.com',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 1,
-                name: 'Tinna Líf',
-                linkedInLink: 'https://www.linkedin.com/in/tinna-l%C3%ADf-jörgensdóttir-19802a173/',
-                email: 'tinnalifj@gmail.com',
-                photoURL: './images/Profile.jpg'
-              }
-            ]
-          },
-          {
-            id: 2,
-            name: "Content",
-            individuals:[
-              {
-                id: 0,
-                name: 'Fúsi',
-                linkedInLink: null,
-                email: 'vio15@hi.is',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 1,
-                name: 'Guðrún Sara',
-                linkedInLink: 'https://www.linkedin.com/in/gudrun-sara-ornolfsdottir/',
-                email: 'gudrunso17@ru.is',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 2,
-                name: 'Salvör',
-                linkedInLink: null,
-                email: 'sai3@hi.is',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 3,
-                name: 'Sylvía Lind',
-                linkedInLink: 'https://www.linkedin.com/in/sylvialindjohannesdottir/',
-                email: 'sylviaj16@lhi.is',
-                photoURL: './images/Profile.jpg'
-              }
-            ]
-          },
-          {
-            id: 3,
-            name: "Logistics",
-            individuals:[
-              {
-                id: 0,
-                name: 'Justine',
-                linkedInLink: null,
-                email: 'justine.vanhalst@outlook.com',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 1,
-                name: 'Linnea',
-                linkedInLink: null,
-                email: 'linnealallaine@hotmail.com',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 2,
-                name: 'Sigrún',
-                linkedInLink: null,
-                email: 'sigrunss@gmail.com',
-                photoURL: './images/Profile.jpg'
-              }
-            ]
-          },
-          {
-            id: 4,
-            name: "Sponsorship",
-            individuals:[
-              {
-                id: 0,
-                name: 'Sigga',
-                linkedInLink: 'https://www.linkedin.com/in/sigridur-osp-sigurdardottir/',
-                email: 'sos42@hi.is',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 1,
-                name: 'Tobba',
-                linkedInLink: 'https://www.linkedin.com/in/thorbjorgsnorradottir/',
-                email: 'Tobbasn@gmail.com',
-                photoURL: './images/Profile.jpg'
-              }
-            ]
-          },
-          {
-            id: 5,
-            name: "Partners",
-            individuals:[
-              {
-                id: 0,
-                name: 'Stefán Örn',
-                linkedInLink: 'https://www.linkedin.com/in/stefanornsnaebjornsson/',
-                email: 'stefanornsnae@gmail.com',
-                photoURL: './images/Profile.jpg'
-              },
-              {
-                id: 1,
-                name: 'Tanja Teresa',
-                linkedInLink: 'https://www.linkedin.com/in/tanja-teresa-leifsd%C3%B3ttir-8975b95a/',
-                email: 'tanjateresa@gmail.com',
-                photoURL: './images/Profile.jpg'
-              }
-              
-            ]
-          },
-          {
-          id: 6,
-          name: "Technology",
-          individuals: [
+      teams: [
+        {
+          id: 0,
+          individuals:[
             {
               id: 0,
-              name: 'Ívar',
-              linkedInLink: null,
-              email: 'ivars17@ru.is',
-              photoURL: './images/Profile.jpg'
+              name: 'Kristjana Björk Barðdal',
+              linkedInLink: 'https://www.linkedin.com/in/kristjanabb/',
+              photoURL: './images/A-Kristjanafin.jpg',
+              titleEn: 'Director & Co-founder',
+              titleIs: 'Framkvæmdastjóri og meðstofnandi'
             },
             {
               id: 1,
-              name: 'Einar Guðni',
-              linkedInLink: null,
-              email: 'einargudnig@gmail.com',
-              photoURL: './images/Profile.jpg'
+              name: 'Einar Guðni Guðjónsson',
+              linkedInLink: 'https://www.linkedin.com/in/einar-gudjonsson/',
+              photoURL: './images/A-EINARfin.jpg',
+              titleEn: 'Software Developer',
+              titleIs: 'Forritari'
             },
             {
               id: 2,
+              name: 'Embla Dís Harladsdóttir',
+              linkedInLink: null,
+              photoURL: './images/A-Emblafin.jpg',
+              titleEn: 'Marketing',
+              titleIs: 'markaðsteymi'
+            },
+            {
+              id: 3,
               name: 'George-Cosmin Moroșanu',
               linkedInLink: 'https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/',
-              email: 'georgecosminmorosanu@gmail.com',
-              photoURL: './images/Profile.jpg'
+              photoURL: './images/A-Georgefin.jpg',
+              titleEn: 'Software Developer',
+              titleIs: 'Forritari'
+            },/*
+            {
+              id: 4,
+              name: 'Guðrún Sara Örnólfsdóttir',
+              linkedInLink: 'https://www.linkedin.com/in/gudrun-sara-ornolfsdottir/',
+              photoURL: null,
+              titleEn: 'Outreach manager',
+              titleIs: 'Kynningarstjóri'
+            },*/
+            {
+              id: 5,
+              name: 'Ívar Óli Sigurðsson',
+              linkedInLink: 'https://www.linkedin.com/in/%C3%ADvar-%C3%B3li-326a86159/',
+              photoURL: './images/A-ÍVARfin.jpg',
+              titleEn: 'Software Developer',
+              titleIs: 'Forritari'
+            },
+            {
+              id: 6,
+              name: 'Justine Vanhalst',
+              linkedInLink: 'https://www.linkedin.com/in/justine-vanhalst-20586811b/',
+              photoURL: './images/A-Justinefin.jpg',
+              titleEn: 'Sustainability Director',
+              titleIs: 'Sjálfbærnistjóri'
+            },
+            {
+              id: 7,
+              name: 'Linnea Lallaine Jonsson',
+              linkedInLink: 'https://www.linkedin.com/in/lallaine/',
+              photoURL: './images/A-Linneafin.jpg',
+              titleEn: 'International Communications Representative',
+              titleIs: 'Alþjóðafulltrúi'
+            },
+            {
+              id: 8,
+              name: 'Sigrún Sayeh Valadbeygi',
+              linkedInLink: 'https://www.linkedin.com/in/sigrún-sayeh-v-b89793173/',
+              photoURL: './images/A-Sigrúnfin.jpg',
+              titleEn: 'Finance and Logistic Manager',
+              titleIs: 'Viðskiptastjóri'
+            },
+            {
+              id: 9,
+              name: 'Stefán Örn',
+              linkedInLink: 'https://www.linkedin.com/in/stefanornsnaebjornsson/',
+              photoURL: './images/A-Stefánfin.jpg',
+              titleEn: 'Corporate Partnerships Manager',
+              titleIs: 'Viðskiptatengslastjóri'
+            },
+            {
+              id: 10,
+              name: 'Sylvía Lind Jóhannesdóttir',
+              linkedInLink: 'https://www.linkedin.com/in/sylvialindjohannesdottir/',
+              photoURL: './images/A-Sylvíafin.jpg',
+              titleEn: 'Art Director',
+              titleIs: 'Listrænn stjórnandi'
+            },
+            {
+              id: 11,
+              name: 'Tanja Teresa Leifsdóttir',
+              linkedInLink: 'https://www.linkedin.com/in/tanjateresa12/',
+              photoURL: './images/A-Tanjafin.jpg',
+              titleEn: 'PR & Communications Manager',
+              titleIs: 'Samskiptastýra'
+            },
+            {
+              id: 12,
+              name: 'Tinna Líf Jörgensdóttir',
+              linkedInLink: 'https://www.linkedin.com/in/tinna-líf-jörgensdóttir-19802a173/?originalSubdomain=is',
+              photoURL: './images/A-Tinnafin.jpg',
+              titleEn: 'Marketing',
+              titleIs: 'Markaðsstjóri'
+            },
+            {
+              id: 13,
+              name: 'Þorbjörg Þórhildur Snorrdóttir',
+              linkedInLink: 'https://www.linkedin.com/in/thorbjorgsnorradottir/',
+              photoURL: './images/A-Tobbafin.jpg',
+              titleEn: 'Sponsorship team',
+              titleIs: 'Styrkir'
+            },
+            {
+              id: 14,
+              name: 'Vigfús Ólafsson',
+              linkedInLink: null,
+              photoURL: './images/A-Fúsifin.jpg',
+              titleEn: 'Outreach manager',
+              titleIs: 'Kynningarstjóri'
             }
           ]
-          }
-        ]
+        }
+      ]
     };
-    }
+  }
 
   render() {
     var teamsSection = this.state.teams.map(
       (team) => {
         return (
           <Team
-          id={team.id}
-          teamName={team.name}
-          teamIndividuals={team.individuals}
+            teamId = {team.id}
+            teamIndividuals={team.individuals}
           />
         );
     });
 
     return (
       <div>
-        <h1 className={TeamsStyle.Glow}>Our AWESOME Team:</h1>
+        {/* <h1 className={TeamsStyle.Glow+' '+TeamsStyle.H1}>Our AMAZING Team:</h1> */}
+        <h1 className={TeamsStyle.TheTeamText}>Our AMAZING Team:</h1>
         <div className={"text-center"}>
               {teamsSection}
         </div>
