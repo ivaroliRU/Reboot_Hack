@@ -11,12 +11,8 @@ const connectionString = process.env.DATABASE_URL;
 console.log(connectionString);
 
 const pool = new Pool({
-    user: user,
-    host: host,
-    database: db,
-    password: password,
-    port: port
-});
+    connectionString: connectionString,
+  });
 
 //const client = new Client(connectionString)
 
