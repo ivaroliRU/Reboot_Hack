@@ -1,6 +1,6 @@
 .Footer{
   background-color: rgb(42, 42, 42);
-  position: sticky;
+  /* position: sticky; */
   left: 0;
   right: 0;
   bottom: 0 !important;
@@ -89,5 +89,8 @@
 
 .uniLogo{
   width: 30px;
-  padding: 0px 40px;
+  padding: 0px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }

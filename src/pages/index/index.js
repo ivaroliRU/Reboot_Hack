@@ -3,11 +3,13 @@ import { render } from 'react-dom';
 import Navbar from '../../components/navbar';
 import Opener from '../../components/opener';
 import Footer from '../../components/footer';
-import SubscriptionButton from '../../components/subscriptionButton';
+// import SubscriptionButton from '../../components/subscriptionButton';
+import ApplyButton from '../../components/applyButton/applyButton';
 import ParallaxScrollImage from '../../components/parallaxScrollImage';
 import {changeLanguage, getTranslation} from '../../translations';
 import AboutIndex from '../../components/about/aboutIndex';
 import style from "./index.css"
+
 
 class App extends Component {
   constructor(props) {
@@ -26,10 +28,11 @@ class App extends Component {
       <div className={style.App}>
         <Navbar handler = {this.handler}/>
         <Opener />
-        <div className={style.header}>
-          <h1 className={style.text_header}>{this.text.indexText.Heading}</h1>
-          <h4 style={{marginBottom:30}}>{this.text.indexText.subHeading}</h4>
-          <SubscriptionButton handler={this.handler}/>
+        <div className="container">
+          <div className={style.header}>
+            <h2 className={style.text_header}>{this.text.register.Heading}</h2>
+            <ApplyButton handler={this.handler}/>
+          </div>
         </div>
         <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={500}/>
         <AboutIndex handler = {this.handler}/>

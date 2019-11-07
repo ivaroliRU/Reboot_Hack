@@ -4,7 +4,7 @@ import Navbar from '../../components/navbar';
 import About from '../../components/about/about';
 import { changeLanguage } from '../../translations';
 import Footer from '../../components/footer';
-import style from "./about.css";
+import style from "./about.css"
 
 class App extends Component {
     constructor(props) {
