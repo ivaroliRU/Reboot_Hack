@@ -20,6 +20,7 @@ class ApplyButton extends Component {
         };
 
         $.post( "/api/applications/apply", registerInfo, function( data ) {
+            $("modalRegisterForm").modal('hide');
             $("#successModal").modal('show');
         });
     }
@@ -36,7 +37,6 @@ class ApplyButton extends Component {
                 </div>
 
                 <div className="modal fade" id="modalRegisterForm" tabIndex="-1" role="dialog" >
-                    <form name="registerForm">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content mx-3">
                             {/* header */}
@@ -139,7 +139,6 @@ class ApplyButton extends Component {
 
                         </div>
                     </div>
-                    </form>
                 </div>
 
             </div>

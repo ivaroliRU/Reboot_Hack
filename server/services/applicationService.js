@@ -6,7 +6,7 @@ db = require('../data/db');
 
 
 function sendEmail(info, id){
-  var email = emailService.createEmail('http://localhost:3000/api/applications/confirm/'); /* +id */
+  var email = emailService.createEmail(id); /* +id */
 
     var transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -58,9 +58,11 @@ function sendEmail(info, id){
 module.exports.Apply = function(info, callback){
     id = uuidv1();
     var query = "INSERT INTO team_member VALUES ($1, $2, $3, $4, $5, $6, $7, $8);";
-    vaLues = [id, info.name, info.email, info.study, info.school, info.tShirt, info.food, info.team]
+    values = [id, info.name, info.email, info.study, info.school, info.tShirt, info.food, info.team]
 
-    db.query(query, vaLues, (err, res) => {
+    console.log(values);
+
+    db.query(query, values, (err, res) => {
         if (err) {
             console.log(err.stack)
             callback(400);
