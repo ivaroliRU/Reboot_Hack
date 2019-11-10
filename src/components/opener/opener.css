@@ -23,3 +23,9 @@
 .myImg {  
     object-fit: cover;  
 }
+
+@media only screen and (max-width: 600px) {
+    .components{
+        top: -64px;
+    }
+}

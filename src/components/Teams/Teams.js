@@ -142,7 +142,7 @@ constructor(props) {
       (team) => {
         return (
           <Team
-            teamId = {team.id}
+            key = {team.id}
             teamIndividuals={team.individuals}
           />
         );

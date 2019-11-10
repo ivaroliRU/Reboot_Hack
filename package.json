@@ -16,6 +16,11 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
     "@kunukn/react-collapse": "^2.2.7",
     "autoprefixer": "^9.6.1",
     "autoprefixer-core": "^6.0.1",

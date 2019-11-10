@@ -19,6 +19,7 @@
 
 .TheTeamText {
   padding: 1.5%;
+  text-align: center;
   padding-bottom: 0;
   color: hsl(0, 0%, 17%);
   letter-spacing: .03em;
@@ -28,6 +29,14 @@
     7px 7px 0px rgba(0, 0, 0, 0.2);
 }
 
+@media only screen and (max-width: 600px) {
+
+  .TheTeamText {
+    font-size: 28px;
+    padding: 7%;
+  }
+
+}
 /* @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #FFB40D, 0 0 15px #FFB40D, 0 0 20px #FFB40D, 0 0 25px #FFB40D, 0 0 30px #FFB40D;

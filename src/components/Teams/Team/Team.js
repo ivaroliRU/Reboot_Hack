@@ -10,6 +10,7 @@ class Team extends Component {
         (individual) => {
           return (
             <Individual
+              key={individual.id}
               individualName={individual.name}
               individualLinkedIn = {individual.linkedInLink}
               individualPhotoUrl = {individual.photoURL}
