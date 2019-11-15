@@ -122,12 +122,15 @@ class ApplyButton extends Component {
                                         </div>
                                     </div>
 
-                                    {/* Email conformation */}
-                                    <small id="emailConformation" className="form-text text-muted">
-                                        {this.text.register.registerDialog.emailInfo}
-                                        </small>
-                                    
                                     </div>
+                                    
+                                    {/* Email conformation - text*/}
+                                    <div>
+                                        <small id="emailConformation" className="form-text-inline text-muted">
+                                            {this.text.register.registerDialog.emailInfo}
+                                        </small>
+                                    </div>
+                                    
                                 </div>
                             </div>
                             

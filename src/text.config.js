@@ -182,7 +182,7 @@ export const translation = {
           study: 'Field of study',
           diet: 'Allergies',
           tShirt: 'T-Shirt Size',
-          team: 'I am a part of a team',
+          team: 'I already have a team',
           emailInfo: 'We will send you an email conformation'
         }
       },
