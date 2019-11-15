@@ -42,15 +42,16 @@ constructor(props) {
               photoURL: './images/A-Georgefin.jpg',
               titleEn: 'Software Developer',
               titleIs: 'Forritari'
-            },/*
+            },
             {
               id: 4,
               name: 'Guðrún Sara Örnólfsdóttir',
               linkedInLink: 'https://www.linkedin.com/in/gudrun-sara-ornolfsdottir/',
-              photoURL: null,
+              /* just a temporary photo */
+              photoURL: './images/gudrunreboot.jpg',
               titleEn: 'Outreach manager',
               titleIs: 'Kynningarstjóri'
-            },*/
+            },
             {
               id: 5,
               name: 'Ívar Óli Sigurðsson',
