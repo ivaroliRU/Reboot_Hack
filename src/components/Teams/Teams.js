@@ -117,7 +117,7 @@ constructor(props) {
             },
             {
               id: 13,
-              name: 'Þorbjörg Þórhildur Snorrdóttir',
+              name: 'Þorbjörg Þórhildur Snorradóttir',
               linkedInLink: 'https://www.linkedin.com/in/thorbjorgsnorradottir/',
               photoURL: './images/A-Tobbafin.jpg',
               titleEn: 'Sponsorship team',
@@ -128,7 +128,7 @@ constructor(props) {
               name: 'Vigfús Ólafsson',
               linkedInLink: null,
               photoURL: './images/A-Fúsifin.jpg',
-              titleEn: 'Outreach manager',
+              titleEn: 'Content team',
               titleIs: 'Kynningarstjóri'
             }
           ]
@@ -151,7 +151,8 @@ constructor(props) {
     return (
       <div>
         {/* <h1 className={TeamsStyle.Glow+' '+TeamsStyle.H1}>Our AMAZING Team:</h1> */}
-        <h1 className={TeamsStyle.TheTeamText}>Our AMAZING Team:</h1>
+        <h1 
+        className={TeamsStyle.TheTeamText}>Our AMAZING Team:</h1>
         <div className={"text-center"}>
               {teamsSection}
         </div>
