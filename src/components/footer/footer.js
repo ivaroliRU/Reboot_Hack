@@ -19,9 +19,6 @@ class Footer extends Component {
 
       <footer className={style.Footer + " text-center"}>
         <div className={"container"}>
-          <div>
-            test <i className="fa fa-car"></i>
-          </div>
           <div 
             id="Universities"
             className={"row"}>
