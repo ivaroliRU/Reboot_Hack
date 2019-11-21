@@ -30,7 +30,7 @@ class Footer extends Component {
                       href="https://www.ru.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
+                    ><img className={'img-fluid ' + style.uniLogo +" "+ style.RightAlign} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
                   </div>
                   <div className={"col-4"}>
                   <a
@@ -44,7 +44,7 @@ class Footer extends Component {
                       href="http://english.unak.is/"
                       rel="noopener noreferrer"
                       target="_blank"
-                    ><img className={'img-fluid ' + style.uniLogo} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
+                    ><img className={'img-fluid ' + style.uniLogo + " " + style.LeftAlign} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
                   </div>
                 </div>
               </div>
@@ -86,6 +86,7 @@ class Footer extends Component {
                 </a>
               </div>
             </div>
+            <div className={style.spacing}></div>
             <div
               id="Email"
               className={"row"}>
