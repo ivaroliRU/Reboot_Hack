@@ -87,13 +87,6 @@
   margin-left: -20%;
 }
 
-.uniLogo{
-  /* padding: 1%;
-  padding-left: 1%;
-  padding-right: 1%; */
- }
-
-
 .FooterHr{
   border: 0;
   height: 1px;
@@ -115,10 +108,10 @@
   }
 
   .RightAlign{
-    margin-right: -40%;
+    margin-right: -25%;
   }
   .LeftAlign{
-    margin-left: -40%;
+    margin-left: -25%;
   }
 
   .Footer img{
