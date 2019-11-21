@@ -23,6 +23,10 @@
   color: #d9d5f1;
 }
 
+.firstLogo{
+  display: none;
+}
+
 @media (max-width: 768px) {
 
   .iconCenter{
@@ -32,11 +36,16 @@
   .navbarBrand{
     float: left;
   }
-.nothing{
-  width: 0 !important;
-}
+  .nothing{
+    width: 0 !important;
+  }
+
   .secondLogo{
     display: none;
+  }
+
+  .firstLogo{
+    display: initial;
   }
 }
 
