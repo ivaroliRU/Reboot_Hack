@@ -20,6 +20,7 @@ class App extends Component {
         this.text = getTranslation();
 
         return (
+            
             <p>HALLO</p>
         );
     }
