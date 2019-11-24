@@ -6,7 +6,7 @@ CREATE TABLE team_member(
     email varchar(100) not null,
     program varchar(100)  not null,
     school varchar(150) not null,
-    shirt_size varchar(10) not null,
+    shirt_size varchar(50) not null,
     allergies text,
     team boolean not null,
     confirmed boolean not null DEFAULT false,

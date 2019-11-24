@@ -18,6 +18,18 @@
     float: left;
 }
 
+.top0{
+  padding-top: 0 !important;
+}
+
 .Container{
   max-width: 90% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .Container{
+    max-width: 92% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 }

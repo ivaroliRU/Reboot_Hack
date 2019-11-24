@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TeamsStyle from "./Teams.css";
+import TeamStyle from "./Team/Team.css"
 import Team from './Team/Team';
 
 class Teams extends Component {
@@ -42,15 +43,16 @@ constructor(props) {
               photoURL: './images/A-Georgefin.jpg',
               titleEn: 'Software Developer',
               titleIs: 'Forritari'
-            },/*
+            },
             {
               id: 4,
               name: 'Guðrún Sara Örnólfsdóttir',
               linkedInLink: 'https://www.linkedin.com/in/gudrun-sara-ornolfsdottir/',
-              photoURL: null,
+              /* Just a temp photo */
+              photoURL: './images/gudrunreboot.jpg',
               titleEn: 'Outreach manager',
               titleIs: 'Kynningarstjóri'
-            },*/
+            },
             {
               id: 5,
               name: 'Ívar Óli Sigurðsson',
@@ -117,20 +119,20 @@ constructor(props) {
             },
             {
               id: 13,
-              name: 'Þorbjörg Þórhildur Snorrdóttir',
+              name: 'Þorbjörg Þórhildur Snorradóttir',
               linkedInLink: 'https://www.linkedin.com/in/thorbjorgsnorradottir/',
               photoURL: './images/A-Tobbafin.jpg',
               titleEn: 'Sponsorship team',
               titleIs: 'Styrkir'
             },
-            {
+            /*{
               id: 14,
               name: 'Vigfús Ólafsson',
               linkedInLink: null,
               photoURL: './images/A-Fúsifin.jpg',
-              titleEn: 'Outreach manager',
+              titleEn: 'Content team',
               titleIs: 'Kynningarstjóri'
-            }
+            }*/
           ]
         }
       ]
@@ -142,7 +144,7 @@ constructor(props) {
       (team) => {
         return (
           <Team
-            teamId = {team.id}
+            key = {team.id}
             teamIndividuals={team.individuals}
           />
         );
@@ -151,8 +153,9 @@ constructor(props) {
     return (
       <div>
         {/* <h1 className={TeamsStyle.Glow+' '+TeamsStyle.H1}>Our AMAZING Team:</h1> */}
-        <h1 className={TeamsStyle.TheTeamText}>Our AMAZING Team:</h1>
-        <div className={"text-center"}>
+        <h1 
+        className={TeamsStyle.TheTeamText}>Our AMAZING Team:</h1>
+        <div className={"text-center "+TeamStyle.top0}>
               {teamsSection}
         </div>
       </div>

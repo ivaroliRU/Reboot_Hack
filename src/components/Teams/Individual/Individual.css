@@ -47,12 +47,12 @@
  .IndividualDiv :hover{
     transform: scale(1.1);
     background-color: rgba(255, 255, 255, 1);
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
     /* border-bottom: 0.5px solid #625892; */
 }
 .IndividualName :hover .UndecoratedATag{
     color: blue !important;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 @media only screen and (max-width: 600px) {

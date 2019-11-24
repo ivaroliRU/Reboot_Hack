@@ -23,6 +23,10 @@
   color: #d9d5f1;
 }
 
+.firstLogo{
+  display: none;
+}
+
 @media (max-width: 768px) {
 
   .iconCenter{
@@ -32,10 +36,25 @@
   .navbarBrand{
     float: left;
   }
-.nothing{
-  width: 0 !important;
-}
+  .nothing{
+    width: 0 !important;
+  }
+
   .secondLogo{
     display: none;
+  }
+
+  .firstLogo{
+    display: initial;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .reboot_navbar{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .reboot_navbar_language{
+    border-left: 0;
   }
 }
