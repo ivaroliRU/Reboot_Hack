@@ -5,6 +5,10 @@
 
 }
 
+.modal_header .close {
+    float: right;
+}
+
 #modalRegisterForm {
     background: lightblue;
     position: fixed;

@@ -40,7 +40,7 @@ class ApplyButton extends Component {
                     <div className="modal-dialog" role="document">
                         <div className="modal-content mx-3">
                             {/* header */}
-                            <div className="modal-header">
+                            <div className={style.modal_header}>
                                 <button type="button" className="close" data-dismiss="modal">&times;</button>
                                 <h3 className="modal-title">{this.text.register.registerDialog.title}</h3>
                             </div>
@@ -110,6 +110,7 @@ class ApplyButton extends Component {
                                     {/* Team */}
                                     <div className="form-group input-group-checkbox">
                                         <div className="input-group">
+                                        <div className="container">
                                             <label className="form-check form-check-inline">
                                                 <span className="input-group-text"> <i className="fa fa-users"></i> </span>
                                             </label>
@@ -119,6 +120,7 @@ class ApplyButton extends Component {
                                             <label className="form-check form-check-inline">
                                                 <label className="form-control-label" >{this.text.register.registerDialog.team}</label>
                                             </label>
+                                            </div>
                                         </div>
                                     </div>
 

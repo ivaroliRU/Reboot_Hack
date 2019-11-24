@@ -23,7 +23,7 @@ class Team extends Component {
       <div className={TeamStyle.Container+" container"}>
         <div className={TeamStyle.TeamDiv}>
           {/* <p className={TeamStyle.TeamName}> {this.props.teamName} {this.props.teamName=='Director' ? null : 'Team'}</p> */}
-          <br /> <br />
+          
           <div className={TeamStyle.Container+" container"}>
               <div className={"row"}>
                   {individualsSection}

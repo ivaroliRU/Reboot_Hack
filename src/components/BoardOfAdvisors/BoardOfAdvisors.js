@@ -17,7 +17,8 @@ constructor(props) {
                 titleEn: 'BSc Engineering Management',
                 email: 'gunnarsdottirandrea@gmail.com',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/andrea-profile.png'
+                photoURL: './images/Board_of_Advisors/Andrea_Gunnarsdóttir.png',
+                checked: true            
             },
             {
                 id: 1,
@@ -26,7 +27,8 @@ constructor(props) {
                 titleEn: 'Managing Director of Ský and UTmessan',
                 email: 'arnheidur@sky.is',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/Arnheidur_Gudmundsdottir.png'
+                photoURL: './images/Board_of_Advisors/Arnheidur_Gudmundsdottir.png',
+                checked: true
             },
             /*{
                 id: 2,
@@ -35,35 +37,39 @@ constructor(props) {
                 titleEn: null,
                 email: 'einarm@hi.is',
                 linkedInLink: null,
-                photoURL: null
+                photoURL: null,
+                checked: true
             },*/
-            /*{
+            {
                 id: 3,
                 name: 'Fjalar Sigurðarson',
-                titleIs: null,
-                titleEn: null,
+                titleIs: 'Markaðsstjóri Nýsköpunarmiðstöðvar Íslands',
+                titleEn: 'Director of Marketing at Innovation Center Iceland',
                 email: 'fjalar@nmi.is',
                 linkedInLink: null,
-                photoURL: null
-            },*/
-            /*{
+                photoURL: './images/Board_of_Advisors/Fjalar_mynd copy.jpg',
+                checked: true
+            },
+            {
                 id: 4,
                 name: 'Helga Valfells',
                 titleIs: 'Stofnand og Framkvæmdastjóri Crowberry Capital',
                 titleEn: 'Founder and Managing Partner Crowberry Capital',
                 email: 'helga@crowberrycapital.com ',
                 linkedInLink: null,
-                photoURL: null //?
-            },*/
-            /*{
+                photoURL: './images/Board_of_Advisors/Helga_Valfells.jpeg',
+                checked: true
+            },
+            {
                 id: 5,
                 name: 'Dr. Jón Atli Benediktsson',
                 titleIs: 'Rektor Háskóla Íslands',
                 titleEn: 'Rektor of the Universitiy of Iceland',
                 email: 'rektor@hi.is ',
                 linkedInLink: null,
-                photoURL: null
-            },*/
+                photoURL: './images/Board_of_Advisors/Jón_Atli_Benediktsson.jpg',
+                checked: true
+            },
             /*{
                 id: 6,
                 name: 'Kristinn Árni L. Hróbjartsson',
@@ -71,7 +77,8 @@ constructor(props) {
                 titleEn: 'Director of Operations at Gangverk',
                 email: 'k@gangverk.is',
                 linkedInLink: null,
-                photoURL: null //?
+                photoURL: null,
+                checked: true
             },*/
             {
                 id: 7,
@@ -80,7 +87,8 @@ constructor(props) {
                 titleEn: 'Managing Director of the Icelandic Blockchain Foundation',
                 email: 'kristjanmik@gmail.com ',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/kristjan_2.jpg'
+                photoURL: './images/Board_of_Advisors/Kristján_Ingi_Mikaelsson.jpg',
+                checked: true
             },
             {
                 id: 8,
@@ -89,7 +97,8 @@ constructor(props) {
                 titleEn: 'Advisor at Intellecta',
                 email: 'lydia@intellecta.is ',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/lydia-1.jpg'
+                photoURL: './images/Board_of_Advisors/Lydía_Ósk_Ómarsdóttir.jpg',
+                checked: true
             },
             /*{
                 id: 9,
@@ -100,15 +109,16 @@ constructor(props) {
                 linkedInLink: null,
                 photoURL: null
             },*/
-            /*{
+           {
                 id: 10,
                 name: 'Sigríður Valgeirsdottir',
                 titleIs: 'Sérfræðingur í nýsköpun hjá atvinnuvega – og nýsköpunarráðuneytinu',
                 titleEn: 'senior expert, department of tourism and innovation',
                 email: 'sigridur.valgeirsdottir@anr.is ',
                 linkedInLink: null,
-                photoURL: null //?
-            },*/
+                photoURL: './images/Board_of_Advisors/S_Valgeirsdottir.jpg',
+                checked: true
+            },
             {
                 id: 11,
                 name: 'Védís Hervör Árnadóttir',
@@ -116,17 +126,19 @@ constructor(props) {
                 titleEn: 'Tónlistarkona//Mann- og viðskiptafræðingur MBA / Samskipta- og miðlunarstjóri Viðskiptaráðs Íslands',
                 email: 'vedis@vi.is',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/27218_vedis_hervor_arnadottir-2.jpg'
+                photoURL: './images/Board_of_Advisors/Vedis_Hervor_Arnadottir.jpg',
+                checked: true
             },
-            /*{
+            {
                 id: 12,
                 name: 'Þórey Vilhjálmsdóttir',
-                titleIs: 'Capacent',
-                titleEn: 'Capacent',
+                titleIs: 'Forstjóri Capacent',
+                titleEn: 'Director of Capacent',
                 email: 'thorey.vilhjalmsdottir@capacent.is ',
                 linkedInLink: null,
-                photoURL: null
-            },*/
+                photoURL: './images/Board_of_Advisors/Þórey_Vilhjálmsdóttir.jpg',
+                checked: true
+            },
             {
                 id: 13,
                 name: 'Margrét Dóra Ragnarsdóttir',
@@ -134,7 +146,8 @@ constructor(props) {
                 titleEn: 'Stafrænn hönnunarleiðtogi',
                 email: 'maggadora@gmail.com',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/Magga Dóra_20190109_00013_Photographer.is-Geirix.jpg'
+                photoURL: './images/Board_of_Advisors/Margrét_Dóra_Ragnarsdóttir.jpg',
+                checked: true
             },
             /*{
                 id: 14,
@@ -143,7 +156,8 @@ constructor(props) {
                 titleEn: 'Rektor of Rekjavík University',
                 email: 'ari@ru.is',
                 linkedInLink: null,
-                photoURL: null
+                photoURL: null,
+                checked: true
             },*/
             {
                 id: 15,
@@ -152,17 +166,19 @@ constructor(props) {
                 titleEn: 'Executive Director, Strategy, Íslandsbanki',
                 email: 'kristrun.tinna.gunnarsdottir@islandsbanki.is',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/kristrun_profile picture.jpg'
+                photoURL: './images/Board_of_Advisors/Kristrún_Tinna_Gunnarsdóttir.jpg',
+                checked: true
             },
-            /*{
+            {
                 id: 16,
                 name: 'Hrund Gunnsteinsdóttir',
                 titleIs: 'Framkvæmdastjóri Festu - miðstöð um samfélagsábyrgð',
                 titleEn: 'Director of Festa - center for social responsibility',
                 email: 'Hrund@samfelagsabyrgd.is ',
                 linkedInLink: null,
-                photoURL: null
-            },*/
+                photoURL: './images/Board_of_Advisors/Hrund_Gunnsteinsdóttir.jpg',
+                checked: true
+            },
             /*{
                 id: 17,
                 name: 'Ragnheiður H. Magnúsdóttir',
@@ -170,7 +186,8 @@ constructor(props) {
                 titleEn: 'Veitur',
                 email: 'Ragnheidur.Hrefna.Magnusdottir@veitur.is ',
                 linkedInLink: null,
-                photoURL: null
+                photoURL: null,
+                checked: true
             },*/
             {
                 id: 18,
@@ -179,7 +196,8 @@ constructor(props) {
                 titleEn: 'CEO and Co-Founder, Travelade',
                 email: 'andri@travelade.com',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/Andri_Heidar.jpg'
+                photoURL: './images/Board_of_Advisors/Andri_Heiðar_Kristinsson.jpg',
+                checked: true
             },
             {
                 id: 19,
@@ -188,7 +206,8 @@ constructor(props) {
                 titleEn: 'Chair MITdesignX, Board of directors: celandair, Origo, Össur',
                 email: 'svafa@mit.edu',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/Svafa_199_Colour-crop.jpg'
+                photoURL: './images/Board_of_Advisors/Svafa_Grönfeldt.jpg',
+                checked: true
             },
             {
                 id: 20,
@@ -197,7 +216,8 @@ constructor(props) {
                 titleEn: 'Team Coach and facilitator at Kolibri',
                 email: 'bjork@kolibri.is',
                 linkedInLink: null,
-                photoURL: './images/Board_of_Advisors/bjork.jpg'
+                photoURL: './images/Board_of_Advisors/Björk_Brynjarsdóttir.jpg',
+                checked: true
             },
         ]
         
@@ -221,7 +241,7 @@ constructor(props) {
 
     return (
         <div>
-            <h1 className={TeamsStyle.Glow}>The Board of advisors:</h1>
+            <h1 className={TeamsStyle.TheTeamText}>The Board of advisors:</h1>
             <div className={"text-center"}>
                 <div className={"container"}>
                     <div className={TeamStyle.TeamDiv}>

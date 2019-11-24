@@ -25,8 +25,8 @@ export const translation = {
           study: 'Nám',
           diet: 'Ofnæmi',
           tShirt: 'Bola stærð',
-          team: 'Ég er kominn í lið.',
-          emailInfo: 'Við munum senda þér email staðfestingu.'
+          team: 'Ég er hluti af teymi.',
+          emailInfo: 'Við munum senda þér staðfestingarpóst, hlökkum til að sjá þig í febrúar.'
         }
       },
       confirmation: {
@@ -183,7 +183,7 @@ export const translation = {
           diet: 'Allergies',
           tShirt: 'T-Shirt Size',
           team: 'I already have a team',
-          emailInfo: 'We will send you an email conformation'
+          emailInfo: 'We will send you an email conformation and look forward to seeing you in February.'
         }
       },
       confirmation: {
