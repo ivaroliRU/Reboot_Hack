@@ -182,13 +182,8 @@ export const translation = {
           study: 'Field of study',
           diet: 'Allergies',
           tShirt: 'T-Shirt Size',
-<<<<<<< HEAD
-          team: 'I am a part of a team',
-          emailInfo: 'We will send you an email confirmation'
-=======
           team: 'I already have a team',
           emailInfo: 'We will send you an email conformation and look forward to seeing you in February.'
->>>>>>> development
         }
       },
       confirmation: {
