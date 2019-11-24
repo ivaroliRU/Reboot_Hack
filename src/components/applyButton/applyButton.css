@@ -1,20 +1,26 @@
-.apply_button{
-    /* background-color: #FFB900 !important; */
-    color: #FFB900 !important; 
-    border-color: #FFB900 !important;
-
-}
-
-.modal_header .close {
-    float: right;
-}
-
 #modalRegisterForm {
     background: lightblue;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.close{
+    font-size: 32px;
+    color: #625892;
+}
+
+.inputGroupTextStyle{
+    min-width: 54px;
+}
+
+.iconMarginLeft{
+    margin-left: 7px;
+}
+
+.labelAligned{
+    margin-bottom: 0 !important;
 }
 
 .modal-guts {
@@ -25,4 +31,53 @@
     height: 100;
 
     overflow: auto;
+}
+
+.apply_button{
+    color: #694991 !important;
+    border-color: #694991 !important;
+
+}
+
+.apply_button:focus{
+    box-shadow: 0 0 0 0.2rem rgba(105, 73, 145,.5) !important;
+}
+
+.apply_button:hover{
+    color: #fff !important;
+    background-color: #6029a3 !important;
+    border-color: #6029a3 !important;
+}
+
+.apply_button:active{
+    color: #fff !important;
+    background-color: #6029a3 !important;
+    border-color: #6029a3 !important;
+}
+
+.register_button{
+    color: #fff !important;
+    background-color: #694991 !important;
+    border-color: #694991 !important;
+}
+
+.register_button:focus{
+    box-shadow: 0 0 0 0.2rem rgba(105, 73, 145,.5) !important;
+}
+
+.register_button:hover{
+    background-color: #6029a3 !important;
+    border-color: #54248f !important;
+}
+
+.register_button:active{
+    background-color: #6029a3 !important;
+    border-color: #54248f !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal_content{
+        margin-left: 0 !important;
+
+    }
 }

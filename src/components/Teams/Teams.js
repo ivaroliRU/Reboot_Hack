@@ -125,14 +125,14 @@ constructor(props) {
               titleEn: 'Sponsorship team',
               titleIs: 'Styrkir'
             },
-            {
+            /*{
               id: 14,
               name: 'Vigfús Ólafsson',
               linkedInLink: null,
               photoURL: './images/A-Fúsifin.jpg',
               titleEn: 'Content team',
               titleIs: 'Kynningarstjóri'
-            }
+            }*/
           ]
         }
       ]

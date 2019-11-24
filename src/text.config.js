@@ -1,12 +1,12 @@
 export const translation = {
     is: {
       navbar:{
-        about: "Um Okkur",
+        about: "Um okkur",
         reboot:  "Reboot",
         sponsors: "Bakhjarlar",
         trans_btn: "EN <img src='/images/english.png' height='15px'></img>",
         board: "Ráðgjafar",
-        team_members: "Reboot Teymið",
+        team_members: "Reboot teymið",
         faq: "FAQ"
       },
       indexText: {

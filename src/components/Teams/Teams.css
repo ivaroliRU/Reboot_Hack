@@ -33,12 +33,14 @@
 
   margin-bottom: 0;
   padding-bottom: 0 !important;
+  line-height: normal;
+
 }
 
 @media only screen and (max-width: 600px) {
 
   .TheTeamText {
-    font-size: 28px;
+    /* font-size: 28px; */
     padding: 7%;
   }
 
