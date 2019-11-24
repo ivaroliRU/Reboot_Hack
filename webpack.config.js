@@ -8,7 +8,7 @@ module.exports = {
     error: './src/pages/error/error.js',
     team: './src/pages/team/team.js',
     confirmation: './src/pages/confirmation/confirmation.js',
-    //sponsors: './src/pages/sponsors/sponsors.js',
+    sponsors: './src/pages/sponsors/sponsors.js',
   },
   module: {
     rules: [
@@ -77,11 +77,11 @@ module.exports = {
       chunks: ['confirmation'],
       filename: 'confirmation.html'
     }),
-    /*new HtmlWebPackPlugin({
+    new HtmlWebPackPlugin({
       template: './src/pages/sponsors/sponsors.html',
       inject: true,
       chunks: ['sponsors'],
       filename: 'sponsors.html'
-    }),*/
+    }),
   ]
 };
