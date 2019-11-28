@@ -15,3 +15,43 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
+
+<script>
+
+  var myTimer;
+  var seconds = 0;
+  
+  function changeTheTitle(){
+    seconds=seconds + 1;
+    if(seconds%2==0){
+      document.title = "We miss you!!";
+    }
+    else{
+      
+      document.title = "Come back!!!!";
+    }
+  }
+
+  function onBlur() {
+    document.body.className = 'blurred';
+    changeTheTitle;
+    myTimer = setInterval(changeTheTitle, 1250);
+  };
+
+  function onFocus(){
+	  document.body.className = 'focused';
+    document.title = "Reboot Hack Iceland";
+  
+    clearInterval(myTimer);
+    seconds=0;
+  };
+
+  if (/*@cc_on!@*/false) { // check for Internet Explorer
+    document.onfocusin = onFocus;
+    document.onfocusout = onBlur;
+  } else {
+    window.onfocus = onFocus;
+    window.onblur = onBlur;
+  }
+
+</script>
