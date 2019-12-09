@@ -20,7 +20,7 @@ class ApplyButton extends Component {
         };
 
         $.post( "/api/applications/apply", registerInfo, function( data ) {
-            $("modalRegisterForm").modal('hide');
+            $("#modalRegisterForm").modal('hide');
             $("#successModal").modal('show');
         });
     }
