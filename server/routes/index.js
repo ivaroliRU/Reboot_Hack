@@ -38,9 +38,9 @@ router.get("/advisors", (req, res) => {
 */
 
 //get request on the sponsor page
-router.get("/sponsor", (req, res) => {
+router.get("/sponsors", (req, res) => {
     //send the team file of the root "./builds"
-    res.status(200).sendFile("sponsor.html", {root: files});
+    res.status(200).sendFile("sponsors.html", {root: files});
 });
 
 

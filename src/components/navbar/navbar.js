@@ -48,11 +48,9 @@ class Navbar extends Component {
                 </li>
 
                 {/* Sponsors */}
-                {/*
                 <li className={style.reboot_navbar_item + " nav-item"}>
-                    <a href="#" className="nav-link">{this.text.navbar.sponsors}</a>
+                    <a href="/sponsors" className="nav-link">{this.text.navbar.sponsors}</a>
                 </li>
-                */}
 
                 {/* Frequently Asked Questions */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
