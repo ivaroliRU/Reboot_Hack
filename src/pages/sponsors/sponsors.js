@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { changeLanguage } from '../../translations';
-// import Navbar from '../../components/navbar';
-// import { changeLanguage, getTranslation } from '../../translations';
-// import style from './error.css'
+import Navbar from '../../components/navbar';
+import Footer from '../../components/footer/footer';
+import Sponsors from '../../components/sponsors/sponsors';
+import style from './sponsors.css'
 
 class App extends Component {
     constructor(props) {
@@ -17,11 +18,11 @@ class App extends Component {
         this.forceUpdate();
     }
     render () {
-        
-
         return (
-            <div>
-                <p>HALLO</p>
+            <div className={style.App}>
+                <Navbar handler = {this.handler} />
+                <Sponsors handler = {this.handler} />
+                <Footer handler = {this.handler} />
             </div>
         );
     }
