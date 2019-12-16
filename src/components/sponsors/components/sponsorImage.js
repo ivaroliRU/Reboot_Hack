@@ -1,39 +1,16 @@
 import React, { Component } from 'react';
 import style from './sponsorImage.css';
 
-class sponsorImage extends Component {
-  state = {
-    src: 'empty',
-  };
-
-  componentDidMount() {
-    const { src } = this.props;
-    const image = new Image();
-
-    image.onload = () => {
-      if (image.height >= image.width) {
-        this.setState({
-          src: 'tall',
-        });
-      } else {
-        this.setState({
-          src: 'wide',
-        });
-      }
-    };
-
-    image.src = src;
-  }
+class SponsorImage extends Component {
 
   render() {
-    const { src, alt, url } = this.props;
-
-    return (
-      <a href={url} target="_blank" rel="noopener noreferrer">
-        <img src={src} alt={alt} className={this.state.src} />
-      </a>
+    return(
+      <div>
+        <p>Her kemur mynd</p>
+        <img src={this.props.sponsorPhotoUrl}/>
+      </div>
     );
   }
 }
 
-export default sponsorImage;
+export default SponsorImage;
