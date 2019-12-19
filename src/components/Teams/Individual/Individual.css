@@ -2,6 +2,7 @@
     border-bottom: 1px solid ;
     border-radius: 5px;
     background-color: #DAD8E1;
+    
 }
 
 .IndividualPadding{
@@ -14,12 +15,17 @@
     transform: scale(1) !important;
 }
 
+.ContainedInformation{
+    min-height: 175px;
+}
+
 .IndividualImage{
     border-radius: 5px;
     transform: scale(1) !important;
 }
 
 .IndividualName{
+    padding-top: 5%;
     font-size: 24px;
     font-weight: bold;
     color: black;
@@ -48,7 +54,7 @@
     transform: scale(1.1);
     background-color: rgba(255, 255, 255, 1);
     transition: all 0.2s ease-in-out;
-    /* border-bottom: 0.5px solid #625892; */
+    border-radius: 7px;
 }
 .IndividualName :hover .UndecoratedATag{
     color: blue !important;
@@ -59,7 +65,6 @@
    .IndividualDiv :hover{
         background-color: rgba(255, 255, 255, 1);
         transform: scale(1) !important;
-        /* border-bottom: 0.5px solid #625892; */
     }
 
     .IndividualName{

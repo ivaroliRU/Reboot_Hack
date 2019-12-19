@@ -30,7 +30,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Arnheidur_Gudmundsdottir.png',
                 checked: true
             },
-            /*{
+            /**/{
                 id: 2,
                 name: 'Einar Mäntylä',
                 titleIs: null,
@@ -39,7 +39,7 @@ constructor(props) {
                 linkedInLink: null,
                 photoURL: null,
                 checked: true
-            },*/
+            },/**/
             {
                 id: 3,
                 name: 'Fjalar Sigurðarson',
@@ -70,7 +70,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Jón_Atli_Benediktsson.jpg',
                 checked: true
             },
-            /*{
+            /**/{
                 id: 6,
                 name: 'Kristinn Árni L. Hróbjartsson',
                 titleIs: 'Rekstrarstjóri Gangverk',
@@ -79,7 +79,7 @@ constructor(props) {
                 linkedInLink: null,
                 photoURL: null,
                 checked: true
-            },*/
+            },/**/
             {
                 id: 7,
                 name: 'Kristján Ingi Mikaelsson',
@@ -100,7 +100,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Lydía_Ósk_Ómarsdóttir.jpg',
                 checked: true
             },
-            /*{
+            /**/{
                 id: 9,
                 name: 'Ragnhildur Ágústsdóttir',
                 titleIs: 'Microsoft / Lava show',
@@ -108,7 +108,7 @@ constructor(props) {
                 email: 'ragnhildur@eldvirkni.is /ragnhildur.agustsdottir@microsoft.com',
                 linkedInLink: null,
                 photoURL: null
-            },*/
+            },/**/
            {
                 id: 10,
                 name: 'Sigríður Valgeirsdottir',
@@ -149,7 +149,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Margrét_Dóra_Ragnarsdóttir.jpg',
                 checked: true
             },
-            /*{
+            /**/{
                 id: 14,
                 name: 'Ari Kristinn Jónsson',
                 titleIs: 'Rektor of Rekjavík University',
@@ -158,7 +158,7 @@ constructor(props) {
                 linkedInLink: null,
                 photoURL: null,
                 checked: true
-            },*/
+            },/**/
             {
                 id: 15,
                 name: 'Kristrún Tinna Gunnarsdóttir',
@@ -179,7 +179,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Hrund_Gunnsteinsdóttir.jpg',
                 checked: true
             },
-            /*{
+            /**/{
                 id: 17,
                 name: 'Ragnheiður H. Magnúsdóttir',
                 titleIs: 'Veitur',
@@ -188,7 +188,7 @@ constructor(props) {
                 linkedInLink: null,
                 photoURL: null,
                 checked: true
-            },*/
+            },/**/
             {
                 id: 18,
                 name: 'Andrei Heiðar Kristinsson',
