@@ -16,7 +16,7 @@ constructor(props) {
               id: 0,
               name: 'Kristjana Björk Barðdal',
               linkedInLink: 'https://www.linkedin.com/in/kristjanabb/',
-              photoURL: './images/A-Kristjanafin.jpg',
+              photoURL: './images/A-Kristjanafin_comp.jpg',
               titleEn: 'Director & Co-founder',
               titleIs: 'Framkvæmdastjóri og meðstofnandi'
             },
@@ -24,7 +24,7 @@ constructor(props) {
               id: 1,
               name: 'Einar Guðni Guðjónsson',
               linkedInLink: 'https://www.linkedin.com/in/einar-gudjonsson/',
-              photoURL: './images/A-EINARfin.jpg',
+              photoURL: './images/A-EINARfin_comp.jpg',
               titleEn: 'Software Developer',
               titleIs: 'Forritari'
             },
@@ -32,7 +32,7 @@ constructor(props) {
               id: 2,
               name: 'Embla Dís Haraldsdóttir',
               linkedInLink: null,
-              photoURL: './images/A-Emblafin.jpg',
+              photoURL: './images/A-Emblafin_comp.jpg',
               titleEn: 'Marketing',
               titleIs: 'Markaðsteymi'
             },
@@ -40,7 +40,7 @@ constructor(props) {
               id: 3,
               name: 'George-Cosmin Moroșanu',
               linkedInLink: 'https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/',
-              photoURL: './images/A-Georgefin.jpg',
+              photoURL: './images/A-Georgefin_comp.jpg',
               titleEn: 'Software Developer',
               titleIs: 'Forritari'
             },
@@ -49,7 +49,7 @@ constructor(props) {
               name: 'Guðrún Sara Örnólfsdóttir',
               linkedInLink: 'https://www.linkedin.com/in/gudrun-sara-ornolfsdottir/',
               /* Just a temp photo */
-              photoURL: './images/gudrunreboot.jpg',
+              photoURL: './images/gudrunreboot_comp.jpg',
               titleEn: 'Outreach manager',
               titleIs: 'Kynningarstjóri'
             },
@@ -57,7 +57,7 @@ constructor(props) {
               id: 5,
               name: 'Ívar Óli Sigurðsson',
               linkedInLink: 'https://www.linkedin.com/in/%C3%ADvar-%C3%B3li-326a86159/',
-              photoURL: './images/A-ÍVARfin.jpg',
+              photoURL: './images/A-ÍVARfin_comp.jpg',
               titleEn: 'Software Developer',
               titleIs: 'Forritari'
             },
@@ -65,7 +65,7 @@ constructor(props) {
               id: 6,
               name: 'Justine Vanhalst',
               linkedInLink: 'https://www.linkedin.com/in/justine-vanhalst-20586811b/',
-              photoURL: './images/A-Justinefin.jpg',
+              photoURL: './images/A-Justinefin_comp.jpg',
               titleEn: 'Sustainability Director',
               titleIs: 'Sjálfbærnistjóri'
             },
@@ -73,7 +73,7 @@ constructor(props) {
               id: 7,
               name: 'Linnea Lallaine Jonsson',
               linkedInLink: 'https://www.linkedin.com/in/lallaine/',
-              photoURL: './images/A-Linneafin.jpg',
+              photoURL: './images/A-Linneafin_comp.jpg',
               titleEn: 'International Communications Representative',
               titleIs: 'Alþjóðafulltrúi'
             },
@@ -81,7 +81,7 @@ constructor(props) {
               id: 8,
               name: 'Sigrún Sayeh Valadbeygi',
               linkedInLink: 'https://www.linkedin.com/in/sigrún-sayeh-v-b89793173/',
-              photoURL: './images/A-Sigrúnfin.jpg',
+              photoURL: './images/A-Sigrúnfin_comp.jpg',
               titleEn: 'Finance and Logistic Manager',
               titleIs: 'Viðskiptastjóri'
             },
@@ -89,7 +89,7 @@ constructor(props) {
               id: 9,
               name: 'Stefán Örn',
               linkedInLink: 'https://www.linkedin.com/in/stefanornsnaebjornsson/',
-              photoURL: './images/A-Stefánfin.jpg',
+              photoURL: './images/A-Stefánfin_comp.jpg',
               titleEn: 'Corporate Partnerships Manager',
               titleIs: 'Viðskiptatengslastjóri'
             },
@@ -97,7 +97,7 @@ constructor(props) {
               id: 10,
               name: 'Sylvía Lind Jóhannesdóttir',
               linkedInLink: 'https://www.linkedin.com/in/sylvialindjohannesdottir/',
-              photoURL: './images/A-Sylvíafin.jpg',
+              photoURL: './images/A-Sylvíafin_comp.jpg',
               titleEn: 'Art Director',
               titleIs: 'Listrænn stjórnandi'
             },
@@ -105,7 +105,7 @@ constructor(props) {
               id: 11,
               name: 'Tanja Teresa Leifsdóttir',
               linkedInLink: 'https://www.linkedin.com/in/tanjateresa12/',
-              photoURL: './images/A-Tanjafin.jpg',
+              photoURL: './images/A-Tanjafin_comp.jpg',
               titleEn: 'PR & Communications Manager',
               titleIs: 'Samskiptastýra'
             },
@@ -113,7 +113,7 @@ constructor(props) {
               id: 12,
               name: 'Tinna Líf Jörgensdóttir',
               linkedInLink: 'https://www.linkedin.com/in/tinna-líf-jörgensdóttir-19802a173/?originalSubdomain=is',
-              photoURL: './images/A-Tinnafin.jpg',
+              photoURL: './images/A-Tinnafin_comp.jpg',
               titleEn: 'Marketing',
               titleIs: 'Markaðsstjóri'
             },
@@ -121,7 +121,7 @@ constructor(props) {
               id: 13,
               name: 'Þorbjörg Þórhildur Snorradóttir',
               linkedInLink: 'https://www.linkedin.com/in/thorbjorgsnorradottir/',
-              photoURL: './images/A-Tobbafin.jpg',
+              photoURL: './images/A-Tobbafin_comp.jpg',
               titleEn: 'Sponsorship team',
               titleIs: 'Styrkir'
             },
@@ -129,7 +129,7 @@ constructor(props) {
               id: 14,
               name: 'Vigfús Ólafsson',
               linkedInLink: null,
-              photoURL: './images/A-Fúsifin.jpg',
+              photoURL: './images/A-Fúsifin_comp.jpg',
               titleEn: 'Content team',
               titleIs: 'Kynningarstjóri'
             }*/
