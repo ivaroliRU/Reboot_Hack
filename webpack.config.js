@@ -9,6 +9,7 @@ module.exports = {
     team: './src/pages/team/team.js',
     confirmation: './src/pages/confirmation/confirmation.js',
     sponsors: './src/pages/sponsors/sponsors.js',
+    board: './src/pages/board/board.js',
   },
   module: {
     rules: [
@@ -82,6 +83,12 @@ module.exports = {
       inject: true,
       chunks: ['sponsors'],
       filename: 'sponsors.html'
+    }),
+    new HtmlWebPackPlugin({
+      template: './src/pages/board/board.html',
+      inject: true,
+      chunks: ['board'],
+      filename: 'board.html'
     }),
   ]
 };

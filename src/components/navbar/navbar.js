@@ -24,28 +24,28 @@ class Navbar extends Component {
                 
                 {/* When the board of Advisors and Sponsor pages are ready we can uncomment this and remove the Above and Team below this. */}
                 {/* About Reboot */}
-                {/*
+                
                 <li className={style.reboot_navbar_item + " nav-item"}>
                 <div className="btn-group">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.text.navbar.about}</a>
                   <div className="dropdown-menu pull-right" aria-labelledby="navbarDropdown">
                     <a className="dropdown-item" href="/about">{this.text.navbar.reboot}</a>
-                    <a className="dropdown-item" href="/advisors">{this.text.navbar.board}</a>
+                    <a className="dropdown-item" href="/board">{this.text.navbar.board}</a>
                     <a className="dropdown-item" href="/team">{this.text.navbar.team_members}</a>
                   </div>
                 </div>
                 </li>
-                /*}
+                
 
                 {/* Temporay About - will be in drop-down menu above */}
-                <li className={style.reboot_navbar_item + " nav-item"}>
+                {/* <li className={style.reboot_navbar_item + " nav-item"}>
                     <a href="/about" className="nav-link">{this.text.navbar.about}</a>
-                </li>
+                </li> */}
 
                 {/* Temporary Team - Will be in drop-down menu above */}
-                <li className={style.reboot_navbar_item + " nav-item"}>
+                {/* <li className={style.reboot_navbar_item + " nav-item"}>
                     <a href="/team" className="nav-link">{this.text.navbar.team_members}</a>
-                </li>
+                </li> */}
 
                 {/* Sponsors */}
                 {/*
