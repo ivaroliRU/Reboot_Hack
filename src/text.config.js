@@ -7,7 +7,10 @@ export const translation = {
         trans_btn: "EN <img src='/images/english.png' height='15px'></img>",
         board: "Ráðgjafar",
         team_members: "Reboot teymið",
-        faq: "FAQ"
+        faq: "FAQ",
+        event: "Event",
+        extra: "Extra",
+        travel: "Travel Reimburse"
       },
       indexText: {
         Heading: 'Skráðu þig!',
@@ -158,13 +161,16 @@ export const translation = {
     },
     en:{
       navbar:{
-        about: "About Us",
+        about: "Us",
         reboot:  "Reboot",
         sponsors: "Sponsors",
         trans_btn: "IS <img src='/images/icelandic.png' height='15px'></img>",
         board: "Board Of Advisors",
         team_members: "The Reboot Team",
-        faq: "FAQ"
+        faq: "FAQ",
+        event: "Event",
+        extra: "Extra",
+        travel: "Travel Reimburse"
       },
       indexText: {
         Heading: 'Subscribe!',

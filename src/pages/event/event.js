@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import Navbar from '../../components/navbar';
 import { changeLanguage } from '../../translations';
 import Footer from '../../components/footer';
-import BoardOfAdvisors from '../../components/BoardOfAdvisors/BoardOfAdvisors';
+import Event from '../../components/event/event';
 // import style from "./board.css"
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
         return (
         <div>
             <Navbar handler = {this.handler}/> 
-            <BoardOfAdvisors handler = {this.handler} />
+            <Event handler = {this.handler} />
             <Footer />
         </div>
         );

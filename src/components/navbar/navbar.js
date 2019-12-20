@@ -22,38 +22,30 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
             <ul className="navbar-nav ml-auto flex-nowrap">
                 
-                {/* When the board of Advisors and Sponsor pages are ready we can uncomment this and remove the Above and Team below this. */}
-                {/* About Reboot */}
-                
+                 {/* 2020 */}
+                 <li className={style.reboot_navbar_item + " nav-item"}>
+                <div className="btn-group">
+                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.text.navbar.event}</a>
+                  <div className="dropdown-menu pull-right" aria-labelledby="navbarDropdown2">
+                    <a className="dropdown-item" href="/event">{this.text.navbar.event}</a>
+                    {/* <a className="dropdown-item" href="/event">{this.text.navbar.extra}</a>
+                    <a className="dropdown-item" href="/event">{this.text.navbar.travel}</a> */}
+                  </div>
+                </div>
+                </li>
+
+                {/* us */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
                 <div className="btn-group">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.text.navbar.about}</a>
+                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2020</a>
                   <div className="dropdown-menu pull-right" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="/about">{this.text.navbar.reboot}</a>
-                    <a className="dropdown-item" href="/board">{this.text.navbar.board}</a>
                     <a className="dropdown-item" href="/team">{this.text.navbar.team_members}</a>
+                    <a className="dropdown-item" href="/board">{this.text.navbar.board}</a>
+                    <a className="dropdown-item" href="/about">{this.text.navbar.reboot}</a>
                   </div>
                 </div>
                 </li>
                 
-
-                {/* Temporay About - will be in drop-down menu above */}
-                {/* <li className={style.reboot_navbar_item + " nav-item"}>
-                    <a href="/about" className="nav-link">{this.text.navbar.about}</a>
-                </li> */}
-
-                {/* Temporary Team - Will be in drop-down menu above */}
-                {/* <li className={style.reboot_navbar_item + " nav-item"}>
-                    <a href="/team" className="nav-link">{this.text.navbar.team_members}</a>
-                </li> */}
-
-                {/* Sponsors */}
-                {/*
-                <li className={style.reboot_navbar_item + " nav-item"}>
-                    <a href="#" className="nav-link">{this.text.navbar.sponsors}</a>
-                </li>
-                */}
-
                 {/* Frequently Asked Questions */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
                     <a href="/faq" className="nav-link">{this.text.navbar.faq}</a>
