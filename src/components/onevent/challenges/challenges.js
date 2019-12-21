@@ -1,100 +1,87 @@
 import React, { Component } from 'react';
-import style from './schedule.css';
+import style from './challenges.css';
 import Cookies from 'js-cookie';
 
-class Event extends Component {
+class Challenges extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      events:[
+      challenges:[
         {
           id: 0,
-          titleEn: "First event",
-          titleIs: "First event",
-          dateEn: "2 January",
-          dateIs: "2 Ianuar",
+          titleEn: "First challenge",
+          titleIs: "First challenge",
           textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
           textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          location: "someLocation"
+          company: "targetCompany"
         },
         {
           id: 1,
-          titleEn: "Second event",
-          titleIs: "Second event",
-          dateEn: "2 January",
-          dateIs: "2 Ianuar",
+          titleEn: "Second challenge",
+          titleIs: "Second challenge",
           textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
           textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          location: "someLocation"
+          company: "targetCompany"
         },
         {
           id: 2,
-          titleEn: "Third event",
-          titleIs: "Third event",
-          dateEn: "2 January",
-          dateIs: "2 Ianuar",
+          titleEn: "Third challenge",
+          titleIs: "Third challenge",
           textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
           textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          location: "someLocation"
+          company: "targetCompany"
         },
         {
           id: 3,
-          titleEn: "Forth event",
-          titleIs: "Forth event",
-          dateEn: "2 January",
-          dateIs: "2 Ianuar",
+          titleEn: "Forth challenge",
+          titleIs: "Forth challenge",
           textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
           textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          location: "someLocation"
+          company: "targetCompany"
         },
         {
           id: 4,
-          titleEn: "Fifth event",
-          titleIs: "Fifth event",
-          dateEn: "2 January",
-          dateIs: "2 Ianuar",
+          titleEn: "Fifth challenge",
+          titleIs: "Fifth challenge",
           textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
           textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          location: "someLocation"
+          company: "targetCompany"
         },
         {
           id: 5,
-          titleEn: "Sixth event",
-          titleIs: "Sixth event",
-          dateEn: "2 January",
-          dateIs: "2 Ianuar",
+          titleEn: "Sixth challenge",
+          titleIs: "Sixth challenge",
           textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
           textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          location: "someLocation"
-        },
+          company: "targetCompany"
+        }
       ]
     };
   }
   
   render() {
-    var scheduleSection = this.state.events.map(
-      (event) => {
+    var challengeSection = this.state.challenges.map(
+      (challenge) => {
 
         return (
           <div className={style.myElement}>
-            <p>{Cookies.get('language')=='is' ? event.dateIs+': '+event.titleIs : event.dateEn+': '+event.titleEn} {'\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'+event.location}</p>
-            <p>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
+            <p>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</p>
+            <p>Posted by {challenge.company}</p>
+            <p className={style.textJustify}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
           </div>
         );
     });
-
     return (
-        <div className={"container"} >
-          <center>2020 Schedule</center>
+        <div className={"container"}>
+           <center>2020 Chanalnges</center>
 
           <div className={style.myDiv}>
-            {scheduleSection}
+            {challengeSection}
           </div>
-
         </div>
     );
   }
 }
 
 
-export default Event;
+export default Challenges;

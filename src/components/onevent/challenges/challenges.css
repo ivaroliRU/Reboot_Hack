@@ -1,0 +1,45 @@
+.myDiv {
+    width: 100%;
+    margin: auto;
+  }
+.myElement {
+  font-size: 1em;
+  line-height: 1.75em;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #694991 0%, #d53a9d 100%);
+  border-image-slice: 1;
+  border-width: 3px;
+  margin: 0;
+  padding: 40px;
+  position: relative;
+  color: inherit;
+}
+
+.myElement:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+}
+.myElement:nth-child(odd):before {
+  left: 100%;
+  margin-left: -20px;
+}
+.myElement:nth-child(even) {
+  border-left: 3px solid;
+  padding-right: 0;
+}
+.myElement:nth-child(even):before {
+  right: 100%;
+  margin-right: -20px;
+}
+.myElement:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.myElement:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.textJustify{
+  text-align: justify;
+}
