@@ -64,7 +64,7 @@ class Challenges extends Component {
       (challenge) => {
 
         return (
-          <div className={style.myElement}>
+          <div key={challenge.id} className={style.myElement}>
             <p>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</p>
             <p>Posted by {challenge.company}</p>
             <p className={style.textJustify}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>

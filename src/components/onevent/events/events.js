@@ -60,7 +60,7 @@ class Events extends Component {
 
         return (
 
-          <li className={style.media}>
+          <li key={event.id} className={style.media}>
             <div className={style.media_left}>
               <div className={style.panel+" "+style.panel_danger+" "+style.text_center+" "+style.date}>
                 <div className={style.panel_heading+" "+style.month}>

@@ -17,17 +17,30 @@ class OnEvent extends Component {
     return (
         <div className={"container"}>
           <div className={"row"}>
-            <div className={"col-8"}>
+            <div className={"col-lg-8 col-sm-12"}>
               <Challenges /> 
             </div>
-            <div className={"col-4"}>
+            <div className={"col-lg-4 col-sm-12"}>
               <Events />
             </div>
-            <Schedule />
-            <Judges />
-            <Location />
           </div>
-        </div>
+          
+          <div className={"row"}>
+            <div className={"col-12"}>
+              <Schedule />
+            </div>
+          </div>
+          {/* <div className={"row"}>
+            <div className={"col-12"}>
+              <Judges />
+            </div>
+          </div>
+          <div className={"row"}>
+            <div className={"col-12"}>
+              <Location />
+            </div>
+          </div>*/}
+        </div> 
     );
   }
 }
