@@ -47,7 +47,7 @@ export const translation = {
       },
       sponsors: {
         content: 'Bakhjarlar',
-      sponsors: 'Bakhjarlar Reboot Hack 2018-2019',
+      sponsors: 'Bakhjarlar Reboot Hack 2019-2020',
       rebootText: 'Samstarfsaðilar',
       restartText: 'Styrktaraðilar',
       reloadText: 'Styrktaraðilar',
@@ -148,6 +148,8 @@ export const translation = {
             'Við erum byrjuð að skipuleggja Reboot Hack 2020!',
           main:
             'Verkefnastjórn Reboot Hack 2019-2020 hefur nú tekið til starfa og hafið undirbúning fyrir Reboot Hack 2020. Við munum uppfæra heimasíðuna von bráðar með meiri upplýsingum en þangað til þá ekki hika við að hafa samband við okkur ef þið hafið áhuga að því að hjálpa okkur að gera Reboot Hack 2020 að veruleika.',
+          mentor: 'Mentor',
+          volunteer: 'Sjálfboðaliði',
         },
       },
       faq:{
@@ -285,7 +287,7 @@ export const translation = {
       },
       sponsors: {
         content: 'Sponsors',
-      sponsors: 'Reboot Hack sponsors 2018-2019',
+      sponsors: 'Reboot Hack sponsors 2019-2020',
       rebootText: 'Partners',
       restartText: 'Sponsors',
       reloadText: 'Sponsors',
@@ -390,6 +392,8 @@ export const translation = {
             'We have started planning Reboot Hack 2020!',
           main:
             'Reboot Hack’s 2019-2020 project management has started working on preparations for Reboot Hack 2020. We will be updating our website soon with more information but until then feel free to contact us if you want to be a part of the event or partner up with us.',
+          mentor: 'Mentor',
+          volunteer: 'Volunteer',
         },
       },
       faq: {

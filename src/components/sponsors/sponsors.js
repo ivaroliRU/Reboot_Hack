@@ -20,6 +20,7 @@ class Sponsors extends Component {
             sponsors: [
                 {
                     id: 0,
+                    name: 'restart',
                     sponsor: [
                         {
                             id: 0,
@@ -30,7 +31,7 @@ class Sponsors extends Component {
                         {
                             id: 1,
                             name: 'Ölgerðin Egill Skallagrímsson',
-                            photoURL: '../../../public/images/sponsors/restart/OES logo png.pngOES_logo_png',
+                            photoURL: './images/sponsors/restart/OES_logo_png.png',
                             website: 'https://www.olgerdin.is/'
                         },
                         {
@@ -40,7 +41,44 @@ class Sponsors extends Component {
                             website: 'https://vordur.is/'
                         },
                     ]
+                },
+                {
+                    id: 1,
+                    name: 'reload',
+                    sponsor: [
+                        {
+                            id: 0,
+                            name: 'Deloitte',
+                            photoURL: './images/sponsors/reload/DEL_PRI_RGB.png',
+                            website: 'https://www2.deloitte.com/is/is.html'
+                        },
+                    ]
+                },
+                {
+                    id: 2,
+                    name: 'reboot',
+                    sponsor: [
+                        {
+                            id: 0,
+                            name: 'Origo',
+                            photoURL: './images/sponsors/reboot/OrigoLogo.png',
+                            website: 'https://www.origo.is/'
+                        },
+                        {
+                            id: 1,
+                            name: 'Kvika',
+                            photoURL: './images/sponsors/reboot/Merki_Liggjandi_Gull_x1.jpg',
+                            website: 'https://www.kvika.is/'
+                        },
+                        {
+                            id: 2,
+                            name: 'Auður',
+                            photoURL: './images/sponsors/reboot/audur_merki_transparent_Svart.png',
+                            website: 'https://www.audur.is/'
+                        },
+                    ]
                 }
+
             ]
         }
     }
@@ -49,14 +87,25 @@ class Sponsors extends Component {
         this.text = getTranslation();
         //const { sponsors } = this.props;
         //const { table } = sponsors;
+        /*
+        1. Reboot
+        2. Restart
+        3. Reload
+        4. other
+        */
+
 
         var sponsorSection = this.state.sponsors.map(
             (sponsor) => {
+                    console.log(this.state.sponsors);
                 return (
+                    <div>
+                    {sponsor.name}
                     <SponsorImages
-                        key = {sponsor.id}
+                        key = {sponsor.name}
                         sponsorItem = {sponsor.sponsor}
                     />
+                    </div>
                 );
             });
 
@@ -64,7 +113,6 @@ class Sponsors extends Component {
             <div className={style.App}>
 
                 <div className={style.sponsor__content}>
-                {/* ATH kannski faera nedst! */}
                 <h1 className={style.sponsor__main__header}>{this.text.sponsors.sponsors}</h1>
                 {/* Her koma myndir af styrkaradilum */}
                 <div>
@@ -74,14 +122,6 @@ class Sponsors extends Component {
                 <h2 className={style.sponsor__header}>{this.text.sponsors.header}</h2>
                 <table className={style.sponsor__table}>
                     <thead className={style.sponsor__table_header__category}>
-                        {/*
-                        <tr>
-                            <th> </th>
-                            <th>Re:load</th>
-                            <th>Re:start</th>
-                            <th>Re:boot</th>
-                        </tr>
-                        */}
                         <tr className={style.sponsor__table__header__price}>
                             <th>{this.text.sponsors.table.r0}</th>
                             <th>Re:load</th>

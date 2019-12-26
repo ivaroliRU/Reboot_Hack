@@ -21,6 +21,7 @@ class SponsorImages extends Component {
       <div className="container">
         <div className="row">
           {singleSponsor}
+        
         </div>
 
       </div>

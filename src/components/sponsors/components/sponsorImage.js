@@ -5,9 +5,15 @@ class SponsorImage extends Component {
 
   render() {
     return(
-      <div>
-        <p>Her kemur mynd</p>
-        <img src={this.props.sponsorPhotoUrl}/>
+      <div className="col-sm-3">
+
+        <div className="card image__card" width={250} height={250}>
+          <div className="card-body">
+            <img className="img-fluid" src={this.props.sponsorPhotoUrl} width={250} height={250}/>
+            <p>{this.props.name}</p>
+          </div>
+        </div>
+        
       </div>
     );
   }
