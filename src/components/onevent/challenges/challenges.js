@@ -73,11 +73,12 @@ class Challenges extends Component {
     });
     return (
         <div className={"container"}>
-           <center>2020 Chanalnges</center>
+          <center><h2>Challanges</h2></center>
 
           <div className={style.myDiv}>
             {challengeSection}
           </div>
+          
         </div>
     );
   }

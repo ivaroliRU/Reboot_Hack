@@ -14,8 +14,8 @@ class Events extends Component {
           day: "25",
           monthEn: "January",
           monthIs: "Ianuar",
-          textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+          textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
           location: "someLocation"
         },
         {
@@ -62,15 +62,16 @@ class Events extends Component {
 
           <li key={event.id} className={style.media}>
             <div className={style.media_left}>
-              <div className={style.panel+" "+style.panel_danger+" "+style.text_center+" "+style.date}>
-                <div className={style.panel_heading+" "+style.month}>
+              <div className={" "+style.text_center+" "+style.date}>
+                <div className={style.panel_body+" "+style.day}>
+                  {event.day}
+                </div>
+                <div className={style.date_heading+" "+style.month}>
                   <span className={style.panel_title}>
                     {Cookies.get('language')=='is' ? event.monthIs : event.monthEn}
                   </span>
                 </div>
-                <div className={style.panel_body+" "+style.day+" text-danger"}>
-                  {event.day}
-                </div>
+                
               </div>
             </div>
             <div className={style.media_body}>
@@ -84,9 +85,8 @@ class Events extends Component {
 
     return (
         <div className={"container"} >
-          <center>2020 Events</center>
+          <center><h2>Events</h2></center>
 
-                  
           <div className={style.panel +" "+style.panel_danger}>
               <div className={style.panel_heading}>
                   <h3 className={style.panel_title}>

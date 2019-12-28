@@ -154,7 +154,7 @@ constructor(props) {
       <div>
         {/* <h1 className={TeamsStyle.Glow+' '+TeamsStyle.H1}>Our AMAZING Team:</h1> */}
         <h1 
-        className={TeamsStyle.TheTeamText}>Our AMAZING Team:</h1>
+        className={TeamsStyle.TheTeamText}>Our AMAZING Team</h1>
         <div className={"text-center "+TeamStyle.top0}>
               {teamsSection}
         </div>

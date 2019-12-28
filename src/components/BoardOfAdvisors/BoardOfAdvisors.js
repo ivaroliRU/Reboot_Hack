@@ -30,7 +30,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Arnheidur_Gudmundsdottir.png',
                 checked: true
             },
-            /**/{
+            /**{
                 id: 2,
                 name: 'Einar Mäntylä',
                 titleIs: null,
@@ -39,7 +39,7 @@ constructor(props) {
                 linkedInLink: null,
                 photoURL: null,
                 checked: true
-            },/**/
+            },**/
             {
                 id: 3,
                 name: 'Fjalar Sigurðarson',
@@ -100,7 +100,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Lydía_Ósk_Ómarsdóttir.jpg',
                 checked: true
             },
-            /**/{
+            /**{
                 id: 9,
                 name: 'Ragnhildur Ágústsdóttir',
                 titleIs: 'Microsoft / Lava show',
@@ -108,12 +108,12 @@ constructor(props) {
                 email: 'ragnhildur@eldvirkni.is /ragnhildur.agustsdottir@microsoft.com',
                 linkedInLink: null,
                 photoURL: null
-            },/**/
+            },**/
            {
                 id: 10,
                 name: 'Sigríður Valgeirsdottir',
                 titleIs: 'Sérfræðingur í nýsköpun hjá atvinnuvega – og nýsköpunarráðuneytinu',
-                titleEn: 'senior expert, department of tourism and innovation',
+                titleEn: 'Senior expert, department of tourism and innovation',
                 email: 'sigridur.valgeirsdottir@anr.is ',
                 linkedInLink: null,
                 photoURL: './images/Board_of_Advisors/S_Valgeirsdottir.jpg',
@@ -179,7 +179,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Hrund_Gunnsteinsdóttir.jpg',
                 checked: true
             },
-            /**/{
+            /**{
                 id: 17,
                 name: 'Ragnheiður H. Magnúsdóttir',
                 titleIs: 'Veitur',
@@ -188,7 +188,7 @@ constructor(props) {
                 linkedInLink: null,
                 photoURL: null,
                 checked: true
-            },/**/
+            },**/
             {
                 id: 18,
                 name: 'Andrei Heiðar Kristinsson',
@@ -241,7 +241,7 @@ constructor(props) {
 
     return (
         <div>
-            <h1 className={TeamsStyle.TheTeamText}>The Board of advisors:</h1>
+            <h1 className={TeamsStyle.TheTeamText}>The Board of Advisors</h1>
             <div className={"text-center"}>
                 <div className={"container"}>
                     <div className={TeamStyle.TeamDiv}>

@@ -11,7 +11,8 @@ class Location extends Component {
   render() {
     return (
         <div className={"container"}>
-            <p>Location</p>
+          {/* https://www.npmjs.com/package/google-map-react */}
+          <p>Location</p>
         </div>
     );
   }

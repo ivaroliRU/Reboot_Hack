@@ -24,15 +24,15 @@ class Navbar extends Component {
                 
                  {/* 2020 */}
                  <li className={style.reboot_navbar_item + " nav-item"}>
-                <div className="btn-group">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.text.navbar.event}</a>
-                  <div className="dropdown-menu pull-right" aria-labelledby="navbarDropdown2">
-                    <a className="dropdown-item" href="/event">{this.text.navbar.event}</a>
-                    {/* <a className="dropdown-item" href="/event">{this.text.navbar.extra}</a>
-                    <a className="dropdown-item" href="/event">{this.text.navbar.travel}</a> */}
+                  <div className="btn-group">
+                  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.text.navbar.event}</a>
+                    <div className="dropdown-menu pull-right" aria-labelledby="navbarDropdown2">
+                      <a className="dropdown-item" href="/event">{this.text.navbar.event}</a>
+                      <a className="dropdown-item" href="/event">{this.text.navbar.extra}</a>
+                      <a className="dropdown-item" href="/event">{this.text.navbar.travel}</a>
+                    </div>
                   </div>
-                </div>
-                </li>
+                </li> 
 
                 {/* us */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
