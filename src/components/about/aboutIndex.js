@@ -28,11 +28,15 @@ class AboutIndex extends Component {
                             </div>
                         </div>
 
-                        <h4>{this.text.detail.fourth.travelHeader}</h4>
-                        <p>{this.text.detail.fourth.travelText}</p>                        
+                    <h3>{this.text.detail.fourth.travelHeader}</h3>
+                    <p>{this.text.detail.fourth.travelText}</p>                        
+                    <div className="justify-content-md-center text-center">
                 
+                        <a type="" className={"btn btn-outline-primary btn-lg mb-4 "+ style.apply_button} id="volunteer" href="https://docs.google.com/forms/d/e/1FAIpQLSc9L9di1TS6B-VRAtzE1B1y2-nsFAXLbwriOp2_uDvNGvTa7g/viewform" target="_blank">
+                            {this.text.detail.fourth.travel}
+                        </a>
+                    </div>
 
-                        
                 </div>
             </div>
         );

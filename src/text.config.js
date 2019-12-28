@@ -152,6 +152,7 @@ export const translation = {
           volunteer: 'Sjálfboðaliði',
           travelHeader: 'Hefur þú áhuga á að fá ferðastyrk til þess að komast á Reboothack 2020?',
           travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboothack 2020, athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir hann, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
+          travel: 'Ferðastyrkur',
         },
       },
       faq:{
@@ -398,6 +399,7 @@ export const translation = {
           volunteer: 'Volunteer',
           travelHeader: 'Are you intersting in a travel reimbursement to attend Reboothack 2020?',
           travelText: 'Below you can apply for travel reimbursements to attend Reboothack 2020, note that even though you do apply it is not certain that you will be granted one. Please read more about our travle reimbursments by pushing the button below!',
+          travel: 'Travel reimbursement',
         },
       },
       faq: {
