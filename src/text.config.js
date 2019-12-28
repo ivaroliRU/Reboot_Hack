@@ -145,11 +145,13 @@ export const translation = {
         },
         fourth: {
           header:
-            'Við erum byrjuð að skipuleggja Reboot Hack 2020!',
+            'Viltu aðstoða við að framkvæma Reboot Hack 2020 að veruleika?',
           main:
-            'Verkefnastjórn Reboot Hack 2019-2020 hefur nú tekið til starfa og hafið undirbúning fyrir Reboot Hack 2020. Við munum uppfæra heimasíðuna von bráðar með meiri upplýsingum en þangað til þá ekki hika við að hafa samband við okkur ef þið hafið áhuga að því að hjálpa okkur að gera Reboot Hack 2020 að veruleika.',
+            'Hér að neðan getur þú sótt um að vera annað hvort mentor eða sjálfboðaliði á Reboothack 2020. Meiri upplýsingar um báðar stöðurnar má finna með því að ýta á takkana hér fyrir neðan. Hefur þú einhverjar spurningar skaltu ekki hika við að hafa samband!',
           mentor: 'Mentor',
           volunteer: 'Sjálfboðaliði',
+          travelHeader: 'Hefur þú áhuga á að fá ferðastyrk til þess að komast á Reboothack 2020?',
+          travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboothack 2020, athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir hann, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
         },
       },
       faq:{
@@ -389,11 +391,13 @@ export const translation = {
         },
         fourth: {
           header:
-            'We have started planning Reboot Hack 2020!',
+            'Want to help us to make Reboot Hack 2020?',
           main:
-            'Reboot Hack’s 2019-2020 project management has started working on preparations for Reboot Hack 2020. We will be updating our website soon with more information but until then feel free to contact us if you want to be a part of the event or partner up with us.',
+            'Below you can apply to be a mentor or a volunteer on Reboothack 2020, more info about both positions are to be found when you click the button. If you have any questions don´t hesitate to contact us!',
           mentor: 'Mentor',
           volunteer: 'Volunteer',
+          travelHeader: 'Are you intersting in a travel reimbursement to attend Reboothack 2020?',
+          travelText: 'Below you can apply for travel reimbursements to attend Reboothack 2020, note that even though you do apply it is not certain that you will be granted one. Please read more about our travle reimbursments by pushing the button below!',
         },
       },
       faq: {
