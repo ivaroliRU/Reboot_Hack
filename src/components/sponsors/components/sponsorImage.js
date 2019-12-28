@@ -7,12 +7,13 @@ class SponsorImage extends Component {
     return(
       <div className="col-sm-3">
 
-        <div className="card image__card" width={250} height={250}>
+        <a href={this.props.sponsorWebsite} class="custom-card" target="_blank">
+        <div className="card border-0 image__card" min-widht={250} max-width={250} min-height={250} max-height={250}>
           <div className="card-body">
-            <img className="img-fluid" src={this.props.sponsorPhotoUrl} width={250} height={250}/>
-            <p>{this.props.name}</p>
+              <img className="img-fluid" src={this.props.sponsorPhotoUrl} min-width={250} max-width={250} min-height={250} max-height={250}/>
           </div>
         </div>
+        </a>
         
       </div>
     );

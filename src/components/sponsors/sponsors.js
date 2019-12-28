@@ -20,7 +20,37 @@ class Sponsors extends Component {
             sponsors: [
                 {
                     id: 0,
-                    name: 'restart',
+                    name: 'Re:boot',
+                    sponsor: [
+                        {
+                            id: 0,
+                            name: 'Origo',
+                            photoURL: './images/sponsors/reboot/OrigoLogo.png',
+                            website: 'https://www.origo.is/'
+                        },
+                        {
+                            id: 1,
+                            name: 'Kvika',
+                            photoURL: './images/sponsors/reboot/Merki_Liggjandi_Gull_x1.jpg',
+                            website: 'https://www.kvika.is/'
+                        },
+                        {
+                            id: 2,
+                            name: 'Auður',
+                            photoURL: './images/sponsors/reboot/audur_merki_transparent_Svart.png',
+                            website: 'https://www.audur.is/'
+                        },
+                        {
+                            id: 3,
+                            name: 'KPMG',
+                            photoURL: './images/sponsors/reboot/KPMG_NoCP_RGB.png',
+                            website: 'https://www.audur.is/'
+                        },
+                    ]
+                },
+                {
+                    id: 1,
+                    name: 'Re:start',
                     sponsor: [
                         {
                             id: 0,
@@ -40,11 +70,17 @@ class Sponsors extends Component {
                             photoURL: './images/sponsors/restart/Vordur_logo_outline.png',
                             website: 'https://vordur.is/'
                         },
+                        {
+                            id: 3,
+                            name: 'Awarego',
+                            photoURL: './images/sponsors/restart/awarego.png',
+                            website: 'https://www.awarego.com/'
+                        },
                     ]
                 },
                 {
-                    id: 1,
-                    name: 'reload',
+                    id: 2,
+                    name: 'Re:load',
                     sponsor: [
                         {
                             id: 0,
@@ -55,26 +91,26 @@ class Sponsors extends Component {
                     ]
                 },
                 {
-                    id: 2,
-                    name: 'reboot',
-                    sponsor: [
+                    id: 3,
+                    name: 'Other/Aðrir',
+                    sponsor : [
                         {
                             id: 0,
-                            name: 'Origo',
-                            photoURL: './images/sponsors/reboot/OrigoLogo.png',
-                            website: 'https://www.origo.is/'
+                            name: 'Dominos',
+                            photoURL: './images/sponsors/other/Logobakgrunnslaust.png',
+                            website: 'https://www.dominos.is/'
                         },
                         {
-                            id: 1,
-                            name: 'Kvika',
-                            photoURL: './images/sponsors/reboot/Merki_Liggjandi_Gull_x1.jpg',
-                            website: 'https://www.kvika.is/'
+                            id: 0,
+                            name: 'Hostelling International',
+                            photoURL: './images/sponsors/other/HI_LOGO_PRIMARY_CMYK.png',
+                            website: 'https://www.hostel.is/'
                         },
                         {
-                            id: 2,
-                            name: 'Auður',
-                            photoURL: './images/sponsors/reboot/audur_merki_transparent_Svart.png',
-                            website: 'https://www.audur.is/'
+                            id: 0,
+                            name: 'ENNEMM',
+                            photoURL: './images/sponsors/other/ennemm.png',
+                            website: 'https://www.ennemm.is/'
                         },
                     ]
                 }
@@ -100,7 +136,7 @@ class Sponsors extends Component {
                     console.log(this.state.sponsors);
                 return (
                     <div>
-                    {sponsor.name}
+                    <h2 className="text-center">{sponsor.name}</h2>
                     <SponsorImages
                         key = {sponsor.name}
                         sponsorItem = {sponsor.sponsor}
@@ -119,34 +155,7 @@ class Sponsors extends Component {
                     {sponsorSection}
                 </div>
 
-                <h2 className={style.sponsor__header}>{this.text.sponsors.header}</h2>
-                <table className={style.sponsor__table}>
-                    <thead className={style.sponsor__table_header__category}>
-                        <tr className={style.sponsor__table__header__price}>
-                            <th>{this.text.sponsors.table.r0}</th>
-                            <th>Re:load</th>
-                            <th>Re:start</th>
-                            <th>Re:boot</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <SponsorRow text={this.text.sponsors.table.r10} values={['', '', 'X']}/>
-                        <SponsorRow text={this.text.sponsors.table.r1} values={['X', 'X', '']}/>
-                        <SponsorRow text={this.text.sponsors.table.r2} values={['X', 'X', 'X']} />
-                        <SponsorRow text={this.text.sponsors.table.r3} values={['X', 'X', 'X']} />
-                        <SponsorRow text={this.text.sponsors.table.r4} values={['', 'X', 'X']} />
-                        <SponsorRow text={this.text.sponsors.table.r5} values={['', 'X', 'X']} />
-                        <SponsorRow text={this.text.sponsors.table.r6} values={['', 'X', 'X']} />
-                        <SponsorRow
-                            text={this.text.sponsors.table.r7}
-                            values={['', '15-20 mín', '30-45 mín']}
-                        />
-                        <SponsorRow text={this.text.sponsors.table.r8} values={['', '', 'X']} />
-                        <SponsorRow text={this.text.sponsors.table.r9} values={['', '', 'X']} />
-                    </tbody>
-                </table>
-                <hr></hr>
-
+                {/*
                 <SponsorDetail 
                     header={this.text.sponsors.details.reload.header}
                     main={this.text.sponsors.details.reload.main}
@@ -161,6 +170,7 @@ class Sponsors extends Component {
                     header={this.text.sponsors.details.reboot.header}
                     main={this.text.sponsors.details.reboot.main}
                 />
+                */}
             
             </div>
 
