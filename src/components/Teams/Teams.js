@@ -81,7 +81,7 @@ constructor(props) {
               id: 8,
               name: 'Sigrún Sayeh Valadbeygi',
               linkedInLink: 'https://www.linkedin.com/in/sigrún-sayeh-v-b89793173/',
-              photoURL: './images/A-Sigrúnfin_comp.jpg',
+              photoURL: './images/A-SIgrúnfin_comp.jpg',
               titleEn: 'Finance and Logistic Manager',
               titleIs: 'Viðskiptastjóri'
             },
@@ -132,7 +132,7 @@ constructor(props) {
               photoURL: './images/A-Fúsifin_comp.jpg',
               titleEn: 'Content team',
               titleIs: 'Kynningarstjóri',
-              HER ER SMA TEXTI FYRIR GIT TEST
+              HER ER SMA TEXTI FYRIR GIT TEST, JAEJA
             }*/
           ]
         }
