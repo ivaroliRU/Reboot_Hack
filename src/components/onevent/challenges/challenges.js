@@ -52,7 +52,7 @@ class Challenges extends Component {
         {
           id: 5,
           titleEn: "How can KPMG create increased trust?",
-          titleIs: "Hverrnig getur kpmg skapað aukið traust?",
+          titleIs: "Hverrnig getur KPMG skapað aukið traust?",
           textEn: "To Be Announced",
           textIs: "Verður Tilkynnt Síðar",
           company: "KPMG"

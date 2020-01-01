@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import Translate from '../../../translate';
-import SponsorImage from './SponsorImage';
+import SponsorImage from './sponsorImage';
 import './sponsorImages.css';
 
 class SponsorImages extends Component {

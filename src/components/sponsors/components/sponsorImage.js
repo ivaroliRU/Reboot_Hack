@@ -8,7 +8,7 @@ class SponsorImage extends Component {
       
       <div className={style.image_center+" col-sm-3"}>
 
-        <a href={this.props.sponsorWebsite} class="custom-card" target="_blank">
+        <a href={this.props.sponsorWebsite} className="custom-card" target="_blank">
         <div className={"card border-0 image__card"}>
           <div className="card-body">
               <img className={style.image+" img-fluid"} src={this.props.sponsorPhotoUrl}/>

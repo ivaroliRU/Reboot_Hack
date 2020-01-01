@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {getTranslation} from '../../translations';
 
-import SponsorRow from './components/sponsorRow';
-import SponsorDetail from './components/sponsorDetail';
-import SponsorImages from './components/SponsorImages';
+// import SponsorRow from './components/sponsorRow';
+// import SponsorDetail from './components/sponsorDetail';
+import SponsorImages from './components/sponsorImages';
 import style from './sponsors.css';
 
 class Sponsors extends Component {
@@ -105,13 +105,13 @@ class Sponsors extends Component {
                             website: 'https://www.dominos.is/'
                         },
                         {
-                            id: 0,
+                            id: 1,
                             name: 'Hostelling International',
                             photoURL: './images/sponsors/other/HI_LOGO_PRIMARY_CMYK.png',
                             website: 'https://www.hostel.is/'
                         },
                         {
-                            id: 0,
+                            id: 2,
                             name: 'ENNEMM',
                             photoURL: './images/sponsors/other/ennemm.png',
                             website: 'https://www.ennemm.is/'
