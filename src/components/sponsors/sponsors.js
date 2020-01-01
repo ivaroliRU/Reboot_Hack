@@ -92,7 +92,7 @@ class Sponsors extends Component {
                 },
                 {
                     id: 3,
-                    name: 'Other/Aðrir',
+                    name: 'Aðrir Styrktaraðilar/Other Sponsors',
                     sponsor : [
                         {
                             id: 0,

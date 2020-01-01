@@ -7,7 +7,8 @@ export const translation = {
         trans_btn: "EN <img src='/images/english.png' height='15px'></img>",
         board: "Ráðgjafar",
         team_members: "Reboot teymið",
-        faq: "FAQ"
+        faq: "FAQ",
+        event: '2020',
       },
       indexText: {
         Heading: 'Skráðu þig!',
@@ -145,13 +146,13 @@ export const translation = {
         },
         fourth: {
           header:
-            'Viltu aðstoða við að framkvæma Reboot Hack 2020 að veruleika?',
+            'Viltu aðstoða við framkvæmd Reboot Hack 2020?',
           main:
-            'Hér að neðan getur þú sótt um að vera annað hvort mentor eða sjálfboðaliði á Reboothack 2020. Meiri upplýsingar um báðar stöðurnar má finna með því að ýta á takkana hér fyrir neðan. Hefur þú einhverjar spurningar skaltu ekki hika við að hafa samband!',
+            'Hér að neðan getur þú sótt um að vera annað hvort mentor eða sjálfboðaliði á Reboothack 2020. Ítarlegri upplýsingar má finna með því að ýta á takkana hér fyrir neðan. Hefur þú einhverjar spurningar skaltu ekki hika við að hafa samband!',
           mentor: 'Mentor',
           volunteer: 'Sjálfboðaliði',
           travelHeader: 'Hefur þú áhuga á að fá ferðastyrk til þess að komast á Reboothack 2020?',
-          travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboothack 2020, athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir hann, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
+          travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboothack 2020. Athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir styrk, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
           travel: 'Ferðastyrkur',
         },
       },
@@ -251,7 +252,8 @@ export const translation = {
         trans_btn: "IS <img src='/images/icelandic.png' height='15px'></img>",
         board: "Board Of Advisors",
         team_members: "The Reboot Team",
-        faq: "FAQ"
+        faq: "FAQ",
+        event: '2020',
       },
       indexText: {
         Heading: 'Subscribe!',
@@ -392,13 +394,13 @@ export const translation = {
         },
         fourth: {
           header:
-            'Want to help us to make Reboot Hack 2020?',
+            'Do you want to be a part of the Reboot Hack Support Team?',
           main:
-            'Below you can apply to be a mentor or a volunteer on Reboothack 2020, more info about both positions are to be found when you click the button. If you have any questions don´t hesitate to contact us!',
+            'Click the links below for information about being a volunteer or a mentor for Reboot Hack 2020, and how to apply.',
           mentor: 'Mentor',
           volunteer: 'Volunteer',
-          travelHeader: 'Are you intersting in a travel reimbursement to attend Reboothack 2020?',
-          travelText: 'Below you can apply for travel reimbursements to attend Reboothack 2020, note that even though you do apply it is not certain that you will be granted one. Please read more about our travle reimbursments by pushing the button below!',
+          travelHeader: 'Are you intersted in a travel reimbursemen?',
+          travelText: 'If you are attending Reboot Hack 2020 you have an opportunity to have your travel expenses reimbursed. The reimbursements are handled on a case-to-case basis and anyone from outside of Reykjavik is eligable! Click the button below for information on our travel reimbursement policy and how to apply.',
           travel: 'Travel reimbursement',
         },
       },

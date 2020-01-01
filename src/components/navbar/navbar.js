@@ -22,9 +22,16 @@ class Navbar extends Component {
         <div className="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
             <ul className="navbar-nav ml-auto flex-nowrap">
                 
+
+                {/* Temporay 2020 - will be updated */} 
+                <li className={style.reboot_navbar_item + " nav-item"}>
+                    <a href="/about" className="nav-link">{this.text.navbar.event}</a>
+                </li>
+                
+
                 {/* When the board of Advisors and Sponsor pages are ready we can uncomment this and remove the Above and Team below this. */}
                 {/* About Reboot */}
-                {/*
+                
                 <li className={style.reboot_navbar_item + " nav-item"}>
                 <div className="btn-group">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.text.navbar.about}</a>
@@ -35,17 +42,19 @@ class Navbar extends Component {
                   </div>
                 </div>
                 </li>
-                /*}
+                
 
-                {/* Temporay About - will be in drop-down menu above */}
+                {/* Temporay About - will be in drop-down menu above 
                 <li className={style.reboot_navbar_item + " nav-item"}>
                     <a href="/about" className="nav-link">{this.text.navbar.about}</a>
                 </li>
+                */}
 
-                {/* Temporary Team - Will be in drop-down menu above */}
+                {/* Temporary Team - Will be in drop-down menu above 
                 <li className={style.reboot_navbar_item + " nav-item"}>
                     <a href="/team" className="nav-link">{this.text.navbar.team_members}</a>
                 </li>
+                */}
 
                 {/* Sponsors */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
