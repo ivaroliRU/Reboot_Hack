@@ -2,3 +2,9 @@
   background-color: rgba(245, 245, 245, 1);
   opacity: .4;
 }
+.image{
+  border: none;
+}
+.image_center{
+  margin: auto;
+}

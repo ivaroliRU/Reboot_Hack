@@ -25,26 +25,30 @@ class Sponsors extends Component {
                         {
                             id: 0,
                             name: 'Origo',
-                            photoURL: './images/sponsors/reboot/OrigoLogo.png',
+                            // photoURL: './images/sponsors/reboot/OrigoLogo.png',
+                            photoURL: './images/sponsors/reboot/OrigoSVG.svg',
                             website: 'https://www.origo.is/'
                         },
                         {
                             id: 1,
                             name: 'Kvika',
-                            photoURL: './images/sponsors/reboot/Merki_Liggjandi_Gull_x1.jpg',
+                            // photoURL: './images/sponsors/reboot/Merki_Liggjandi_Gull_x1.jpg',
+                            photoURL: './images/sponsors/reboot/KvikaSVG.svg',
                             website: 'https://www.kvika.is/'
                         },
                         {
                             id: 2,
                             name: 'Auður',
-                            photoURL: './images/sponsors/reboot/audur_merki_transparent_Svart.png',
+                            // photoURL: './images/sponsors/reboot/audur_merki_transparent_Svart.png',
+                            photoURL: './images/sponsors/reboot/AudurSVG.svg',
                             website: 'https://www.audur.is/'
                         },
                         {
                             id: 3,
                             name: 'KPMG',
-                            photoURL: './images/sponsors/reboot/KPMG_NoCP_RGB.png',
-                            website: 'https://www.audur.is/'
+                            // photoURL: './images/sponsors/reboot/KPMG_NoCP_RGB.png',
+                            photoURL: './images/sponsors/reboot/KPMGSVG.svg',
+                            website: 'https://home.kpmg/is/is/home.html'
                         },
                     ]
                 },
@@ -92,7 +96,7 @@ class Sponsors extends Component {
                 },
                 {
                     id: 3,
-                    name: 'Other/Aðrir',
+                    name: 'Aðrir Styrktaraðilar/Other Sponsors',
                     sponsor : [
                         {
                             id: 0,

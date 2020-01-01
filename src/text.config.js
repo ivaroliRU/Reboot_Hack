@@ -1,5 +1,7 @@
 export const translation = {
+    /* ------------------------------------- ICELANDIC ----------------------------------- */
     is: {
+      /* Navbar */
       navbar:{
         about: "Um okkur",
         reboot:  "Reboot",
@@ -7,12 +9,15 @@ export const translation = {
         trans_btn: "EN <img src='/images/english.png' height='15px'></img>",
         board: "Ráðgjafar",
         team_members: "Reboot teymið",
-        faq: "FAQ"
+        faq: "FAQ",
+        event: '2020',
       },
+      /* Old Index Page */
       indexText: {
         Heading: 'Skráðu þig!',
         subHeading: 'Skráðu netfang þitt til að fá upplýsingar um gang mála sem gætu gagnast vel!'
       },
+      /* Registration Modal Box + Index Page text */
       register: {
         Heading: 'Skráðu þig til þess að taka þátt í Reboot Hakkaþon 2020',
         subHeading: 'Skrá mig núna!',
@@ -29,12 +34,14 @@ export const translation = {
           emailInfo: 'Við munum senda þér staðfestingarpóst, hlökkum til að sjá þig í febrúar.'
         }
       },
+      /* Confirmation */
       confirmation: {
           Heading: 'TAKK FYRIR SKRANINGUNA',
           subHeading: 'Hlökkum til að sjá þig',
           info: 'Fylgstu með fyrir frekari upplýsingar',
           homepage: 'Aftur á heimasíðu'
       },
+      /* Old Subscription text */
       subscription: {
         subscrButton: 'Skrá netfang',
         
@@ -52,80 +59,6 @@ export const translation = {
       restartText: 'Styrktaraðilar',
       reloadText: 'Styrktaraðilar',
       otherText: 'Aðrir styrktaraðilar',
-      header: 'Hvernig getur þú hjálpað Reboot Hack að verða að veruleika?',
-      tableHeader: 'Verðflokkar fyrir styrktar- og samstarfsaðila',
-      table: {
-        r0: 'Ávinningar',
-        r1: {
-          title: 'Styrktaraðila titill',
-          info:
-            'Fyrirtæki í verðflokkunum Re:load og Re:start eru titluð sem styrktaraðilar ólíkt fyrirtækjum í verðflokknum Re:boot sem eru titluð samstarfsaðilar.',
-        },
-        r2: {
-          title: 'Merki fyrirtækis á markaðs/kynningarefni*',
-          info:
-            'Merki (logo) fyrirtækja verða á markaðs- og kynningarefni Reboot Hack *en verðflokkur fyrirtækis segir til um tíðni og sýnileika merkisins á markaðs- og kynningarefni. Því efni er dreift á samfélagsmiðla Reboot Hack ásamt því að vera á heimasíðu viðburðsins og á auglýsingum fyrir viðburðinn sem verður t.d. í formi plaggata í öllum helstu háskólum landsins.',
-        },
-        r3: {
-          title: 'Verðlaun/veitingar í nafni fyrirtækis',
-          info:
-            'Fyrirtæki í öllum verðflokkum gefst tækifæri á því að styrkja verðlaun/veitingar sem yrði auglýst í nafni fyrirtækisins. Verðlaun verða veitt fyrir efstu þrjú sæti miðað við frammistöðu á hachkathon-inu óháð hvaða tækni og áskoranir liðið hafa valið ásamt öðrum flokkum.',
-        },
-        r4: {
-          title: 'Leggja fram tækni og áskoranir',
-          info:
-            'Fyrirtæki í verðflokkunum Re:start og Re:boot gefst tækifæri á því að leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu fyrir þátttakendur að nýta og eða leysa. Fyrir bestu nýtingu og eða úrlausn framlagðra tækni og áskoranna fær viðkomandi lið sérstaka viðurkenningu í formi verðlauna sem fyrirtækið veitir. Fyrirtækið ákveður vinningsliðið út frá “pitch” á lausnum liða  sem verður e.h. sunnudaginn 3. febrúar.  (Nákvæm dagskrá kemur inn síðar.)',
-        },
-        r5: {
-          title: 'Mentorar frá fyrirtæki á viðburði',
-          info:
-            'Með því að leggja fram tækni og áskoranir biðjum við fyrirtæki að útvega mentora á svæðið. Mentorar mæta á svæðið fyrri dag hackathon-sins, laugardaginn 3.febrúar e.h. til þess að vera með kynningu í vinnstofu og vera til staðar fyrir þátttakendur Reboot Hack. Fyrirtækjum verður úthlutað sérstök borðaplássi þar sem hægt er að koma fyrir nánari upplýsingum um fyrirtækið ásamt öðru kynningar- og markaðsefni. Við hvetjum fyrirtæki einnig til þess að taka á móti ferilskrám þar sem eitt af markmiðum hackathon-sins er að bæta aðgengi nemenda að framúrskarandi fyrritækjum. Hlutverk mentora er því að koma til skila tæknilegum upplýsingum og verða því að þekkja til viðeigandi tækni og áskorana.',
-        },
-        r6: {
-          title: 'Dreifa markaðsefni á viðburði',
-          info:
-            'Fyrirtæki í verðflokkunum Re:start og Re:boot gefst tækifæri á því dreifa viðeigandi markaðsefni til þátttakenda á viðburðinum.',
-        },
-        r7: {
-          title: 'Kynningarslot í vinnustofu',
-          info:
-            'Fyrirtæki í verðflokknum Re:start fá 15-20 mínútna slot fyrir kynningu á vinnustofu til þess að kynna tækni og áskoranir sem fyrirtækið leggur fyrir þátttakendur. Fyrirtæki í verðflokknum Re:boot fá 30-45 mínútna slot. Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Á sama tíma gefst tækifæri til þess að kynna framúrskarandi tækni og vörur fyrirtækisins  fyrir mögulegum framtíðarstarfsfólki og eða viðskiptavinum.',
-        },
-        r8: {
-          title: 'Ávarp á setningarathöfn og verðlaunaafhöfn',
-          info:
-            'Re:boot samstarfsaðilar fá tækifæri til þess að ávarpa alla þátttakendur á setningarathöfn sem og á formlegri verðlaunahöfn Reboot Hack sem fer fram á UTmessunni í Hörpu þann 9. febrúar. Þar gefst fyrirtækinu tækifæri á að kynna fyrirtækið sitt stuttlega en Re:boot vill auka aðgengi fyrirtækja að metnaðarfullum og framúrskarandi nemendum.',
-        },
-        r9: {
-          title: 'Sæti í dómnefnd',
-          info:
-            'Helstu kostir þess að taka þetta alla leið með Re:boot verðflokknum er að fyrirtæki fái eitt sæti í dómnefnd og þar með hafa áhrif á áherslur og útkomu hackathon-sins.',
-        },
-        r10: {
-          title: 'Samstarfsaðila titil',
-          info:
-            'Fyrirtæki í verðflokkunum Re:boot eru titluð sem samstarfsaðila ólíkt fyrirtækjum í verðflokkunum Re:load og Re:start sem eru titluð samstarfsaðilar.',
-        },
-      },
-      details: {
-        reload: {
-          header:
-            'Re:load <span >- Hjálpaðu Reboot Hack að verða að veruleika! </span>',
-          main:
-            'Í grunninn verður hægt að leggja til upphæð sem tryggir að nafn fyrirtækisins muni koma fram á völdu kynningar- og markaðsefni ásamt því að vera titluð sem samstarfsaðili. Matarkostnaður er stærsti liður viðburðarins og í Re:load flokknum ert þú að tryggja þann lið. Einnig verður hægt að styrkja sérstaklega verðlaun í formi efnisstyrks sem er hluti af heildarupphæð sem fyrirtækið leggur til.',
-        },
-        restart: {
-          header: 'Re:start <span>- Taktu samstarfið skrefinu lengra! </span>',
-          main:
-            'Við skorum þó á fyrirtæki að fara skrefinu lengra og leggja fram tækni og áskoranir sem hægt er að setja fram í hackathon-inu. Með því að leggja fram tækni og áskoranir biðjum við fyrirtæki að útvega mentora á svæðið. Mentorar mæta á svæðið fyrri dag hackathon-sins, laugardaginn 3.febrúar e.h. til þess að vera með 15-20 mínútna kynningu í vinnstofu og vera til staðar fyrir þátttakendur Reboot Hack.  Tæknin og áskorarnir komast því betur til skila og stuðla að því að þátttakendur velji að leysa ykkar áskoranir og eða nota tæknina ykkar ásamt því að kynnast fyrirtækinu og þjónustu þess betur. Fyrirtækjum verður úthlutað sérstök borðaplássi þar sem hægt er að koma fyrir nánari upplýsingum um fyrirtækið ásamt öðru kynningar- og markaðsefni. Við hvetjum fyrirtæki einnig til þess að taka á móti ferilskrám þar sem eitt af markmiðum hackathon-sins er að bæta aðgengi nemenda að framúrskarandi fyrritækjum. Fyrir bestu nýtingu og eða úrlausn framlagðra tækni og áskoranna veitir fyrirtækið viðkomandi lið sérstaka viðurkenningu í formi verðlauna. Fyrirtækið ákveður vinningsliðið út frá “pitch” á lausnum liða  sem verður e.h. sunnudaginn 3. febrúar.  (Nákvæm dagskrá kemur inn síðar.) Í Re:start verðflokknum fær fyrirtæki einnig að dreifa viðeigandi markaðsefni til þátttakenda ásamt því að möguleiki er á að skoða aðkomu fyrirtækisins að setningarathöfn sem og formlegri verðlaunaathöfn viðburðins sem fer fram á UTmessunni í Hörpu þann 9. febrúar.',
-        },
-        reboot: {
-          header:
-            'Re:bo<span>o</span>t <span >- Taktu þetta alla leið! </span>',
-          main:
-            'Ásamt því að fá alla ávinninga Re:load og Re:start fá Re:boot samstarfsaðilar tækifæri til þess að ávarpa alla þátttakendur á setningarathöfn sem og á verðlaunaathöfninni. Þar gefst fyrirtækinu tækifæri á að kynna fyrirtækið sitt stuttlega en Re:boot vill auka aðgengi fyrirtækja að metnaðarfullum og framúrskarandi nemendum. Annar ávinningur Re:boot samstarfsaðila er 30-45 mínútna slot fyrir kynningu á vinnustofu til þess að kynna tækni og áskoranir sem fyrirtækið leggur fyrir þátttakendur. Þar gefst fyrirtækinu einnig tækifæri til þess að kynna sína helstu tækni og vörur fyrir mögulegu framtíðarstarfsfólki og eða viðskiptavinum. Helstu kostir þess að taka þetta alla leið með Reboot er að fyrirtækið fær sæti í dómnefnd og þar með hefur áhrif á áherslur og útkomu hackathon-sins. Fyrirtækið kemur jafnframt fram á öllu kynningar- og markaðsefni. Reboot Hack vill hvetja nemendur til starfsframa innan upplýsingatækni en hackathon eru stór hlekkur nýsköpunar innan upplýsingatæknigeirans og hvetjum við ykkur að leiða þá framþróun með okkur.',
-        },
-       }
       },
       detail: {
         first: {
@@ -145,16 +78,17 @@ export const translation = {
         },
         fourth: {
           header:
-            'Viltu aðstoða við að framkvæma Reboot Hack 2020 að veruleika?',
+            'Viltu aðstoða við framkvæmd Reboot Hack 2020?',
           main:
-            'Hér að neðan getur þú sótt um að vera annað hvort mentor eða sjálfboðaliði á Reboothack 2020. Meiri upplýsingar um báðar stöðurnar má finna með því að ýta á takkana hér fyrir neðan. Hefur þú einhverjar spurningar skaltu ekki hika við að hafa samband!',
+            'Hér að neðan getur þú sótt um að vera annað hvort mentor eða sjálfboðaliði á Reboothack 2020. Ítarlegri upplýsingar má finna með því að ýta á takkana hér fyrir neðan. Hefur þú einhverjar spurningar skaltu ekki hika við að hafa samband!',
           mentor: 'Mentor',
           volunteer: 'Sjálfboðaliði',
           travelHeader: 'Hefur þú áhuga á að fá ferðastyrk til þess að komast á Reboothack 2020?',
-          travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboothack 2020, athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir hann, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
+          travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboothack 2020. Athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir styrk, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
           travel: 'Ferðastyrkur',
         },
       },
+      /* -------------------- FAQ ------------------- */
       faq:{
         content: 'FAQ',
         title: 'Spurt og svarað',
@@ -243,20 +177,25 @@ export const translation = {
         text3: 'Aftur á heimasíðu'
       }
     },
+    /* -------------------------- ENGLISH VERSION ------------------------------------- */
     en:{
+      /* Navbar */
       navbar:{
-        about: "About Us",
+        about: "Us",
         reboot:  "Reboot",
         sponsors: "Sponsors",
         trans_btn: "IS <img src='/images/icelandic.png' height='15px'></img>",
         board: "Board Of Advisors",
         team_members: "The Reboot Team",
-        faq: "FAQ"
+        faq: "FAQ",
+        event: '2020',
       },
+      /* Old Index page */
       indexText: {
         Heading: 'Subscribe!',
         subHeading: 'Subscribe to our newsletter to get updates that might be useful.'
       },
+      /* Register Modal box */
       register: {
         Heading: 'Register to participate in Reboot Hackathon 2020',
         subHeading: 'Register now!',
@@ -273,12 +212,14 @@ export const translation = {
           emailInfo: 'We will send you an email conformation and look forward to seeing you in February.'
         }
       },
+      /* Confirmation */
       confirmation: {
         Heading: 'THANK YOU FOR REGISTERING',
         subHeading: 'We look forward to see you!',
         info: 'Stay tuned for more information',
         homepage: 'Back to homepage'
     },
+    /* Old Subscription */
       subscription: {
         subscrButton: 'Subscribe',
         subscrDialog: {
@@ -295,84 +236,6 @@ export const translation = {
       restartText: 'Sponsors',
       reloadText: 'Sponsors',
       otherText: 'Other sponsors',
-      header: 'How can you help Reboot Hack become a reality?',
-      tableHeader: 'Sponsorship brackets',
-      table: {
-        r0: 'Benefits',
-        r1: {
-          title: 'Titled as sponsor',
-          info:
-            'Companies in the bracket Re:load and Re:start have the title sponsors unlike the Re:boot bracket which are Reboot’s partners.',
-        },
-        r2: {
-          title: 'Logo on promotion material*',
-          info:
-            "The company's logo will be on promotional material. The logo's appearance frequency will depend on the companies brackets. Advertisements for Reboot Hack will be at every major university in Iceland. Other promotional material will be on Reboot Hack’s social media and website.",
-        },
-        r3: {
-          title: 'Price/catering on behalf of the company',
-          info:
-            'Companies in all brackets have the opportunity to sponsor a meal/price in their name. Companies in the brackets Re:start and Re:boot bring technology and challenges to present at the hackathon for participants to use or resolve. The company also provides a special price for the best use or solution of the proposed technology and/or challenge. ',
-        },
-        r4: {
-          title: 'Bring technology and challenges',
-          info:
-            'Companies in the brackets Re:start and Re:boot bring technology and challenges to present at the hackathon for participants to use or resolve.',
-        },
-        r5: {
-          title: 'Mentors from company at event',
-          info:
-            'By bringing technology and challenges to present at the hackathon for participants to use or resolve. We ask companies that bring technology and/or challenges to provide mentors to be on site at the event. Mentors attending will be required to be on site for the first day of the hackathon for hosting a 15-25 minute or 30-45 minute (depending on companies bracket)  workshop and to be available for any questions or guidence for Reboot Hack participants.',
-        },
-        r6: {
-          title: 'Distribute marketing materials at event',
-          info:
-            'Companies in the Re:start and Re:boot bracket get the chance to distribute appropriate marketing material to the participants at the hackathon.',
-        },
-        r7: {
-          title: 'Workshop slot',
-          info:
-            'Companies in the Re:start bracket will get a 15-20 minute workshop slot to present the technology and challanges that they bring. Companies in the Re:boot bracket get an extended 30-45 minute slot. That encourages participants to work with your technology and/or challenges.',
-        },
-        r8: {
-          title: 'Speak at opening and award ceremonies',
-          info:
-            'Re:load and Re:start brackets Re:boot partners get to speak at the opening and closing ceremonies. This gives the company a chance to introduce its business briefly.',
-        },
-        r9: {
-          title: 'Seat in the panel of judges',
-          info:
-            'The main advantage of taking it all the way with Re:boot is that the company gets a seat in the jury, thus affecting the focus and outcome of the hackathon.',
-        },
-        r10: {
-          title: 'Titled as partner',
-          info:
-            'Companies in the Re:boot bracket are titled as partners unlike companies in the brackets Re:load and Re:start that are titled as sponsors.',
-        },
-      },
-      details: {
-        reload: {
-          header: '',
-          main: '',
-        },
-        restart: {
-          header: '',
-          main: '',
-        },
-        reboot: {
-          header: '',
-          main: '',
-        },
-      },
-      team: {
-        header: 'The Team',
-        main:
-          'A text about how awesome the team is and why you should sponsor us. Very convincing fyi.',
-      },
-      additionalinfo: {
-        first: 'The table above shows the benefits that each bracket entailes.',
-        second: '',
-      },
       },
       detail: {
         first: {
@@ -390,18 +253,20 @@ export const translation = {
           main:
             'Reboot Hack was founded in May 2018 by three computer science and engineering students at the University of Iceland. Reboot Hack was first held the 2nd and 3rd of February at the University of Iceland where 60 university students from 5 different universities participated. The name was chosen as it signifies starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society. “Starting over” can also refer to students rethinking how they use what they already know while learning from other participants and mentors. Reboot Hack’s 2019-2020 project management is composed of 17 students from the University of Iceland, University of Reykjavík and the Iceland University of the Arts. The project management is led by Kristjana Björk Barðdal, the hackathon’s director.',
         },
+        /* Old text on index page */
         fourth: {
           header:
-            'Want to help us to make Reboot Hack 2020?',
+            'Do you want to be a part of the Reboot Hack Support Team?',
           main:
-            'Below you can apply to be a mentor or a volunteer on Reboothack 2020, more info about both positions are to be found when you click the button. If you have any questions don´t hesitate to contact us!',
+            'Click the links below for information about being a volunteer or a mentor for Reboot Hack 2020, and how to apply.',
           mentor: 'Mentor',
           volunteer: 'Volunteer',
-          travelHeader: 'Are you intersting in a travel reimbursement to attend Reboothack 2020?',
-          travelText: 'Below you can apply for travel reimbursements to attend Reboothack 2020, note that even though you do apply it is not certain that you will be granted one. Please read more about our travle reimbursments by pushing the button below!',
+          travelHeader: 'Are you intersted in a travel reimbursemen?',
+          travelText: 'If you are attending Reboot Hack 2020 you have an opportunity to have your travel expenses reimbursed. The reimbursements are handled on a case-to-case basis and anyone from outside of Reykjavik is eligable! Click the button below for information on our travel reimbursement policy and how to apply.',
           travel: 'Travel reimbursement',
         },
       },
+      /* ------------------ FAQ ----------------- */
       faq: {
         content: 'FAQ',
         title: 'Frequently asked questions',
@@ -484,6 +349,7 @@ export const translation = {
           text: 'More questions? - Don´t hesitate to send us an email.'
         }
       },
+      /* Error Page */
       errorPage: {
         text1: 'Oops! Page not found',
         text2: 'Sorry but the page you are looking for does not exist, have been removed. Name changed or is temporarily unavailable',

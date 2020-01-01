@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import AdvisorStyle from "../../Teams/Individual/Individual.css";
+import IndividualStyle from "../../Teams/Individual/Individual.css";
+import AdvisorStyle from "../Advisor/Advisor.css"
 import Cookies from 'js-cookie';
 
 class Advisor extends Component {
@@ -10,7 +11,7 @@ class Advisor extends Component {
     if(this.props.individualLinkedIn !== null){
       myName=(
         <a 
-          className = {AdvisorStyle.UndecoratedATag}
+          className = {IndividualStyle.UndecoratedATag}
           href={this.props.individualLinkedIn}
           target="_blank"> {this.props.individualName}</a>
       )
@@ -20,22 +21,22 @@ class Advisor extends Component {
     }
 
     return (
-      <div className={AdvisorStyle.IndividualPadding + " col-6 col-xl-4"}>
+      <div className={IndividualStyle.IndividualPadding + ' '+AdvisorStyle.div+" col-6 col-xl-4"}>
         <div 
-          className={AdvisorStyle.IndividualDiv}
+          className={IndividualStyle.IndividualDiv}
         >
-          <div className={AdvisorStyle.ContainedInformation}>
-            <img 
+          <div className={IndividualStyle.ContainedInformation}>
+            {/* <img 
               src={this.props.individualPhotoUrl} 
-              className={AdvisorStyle.IndividualImage+' img-fluid'}/>
-              <br /> <br />
-            <p className={AdvisorStyle.IndividualName}> 
+              className={IndividualStyle.IndividualImage+' img-fluid'}/>
+              <br /> <br /> */}
+            <p className={IndividualStyle.IndividualName}> 
               {myName}
             </p>
-            {
+            {/* {
               this.props.individualEmail != '' ? 
                 <a 
-                  className={AdvisorStyle.IndividualSocial}
+                  className={IndividualStyle.IndividualSocial}
                   onClick={
                     () => {
                             navigator.clipboard.writeText(this.props.individualEmail);
@@ -44,8 +45,8 @@ class Advisor extends Component {
                 >
                   <i className={"fa fa-envelope fa-lg"}></i> {this.props.individualEmail}</a> 
                 : ''
-            }
-            <p className={AdvisorStyle.Title}>
+            } */}
+            <p className={IndividualStyle.Title}>
               {Cookies.get('language')=='is' ? this.props.individualTitleIs : this.props.individualTitleEn}
             </p>
             <br/>

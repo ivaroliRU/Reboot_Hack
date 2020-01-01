@@ -5,17 +5,32 @@ class SponsorImage extends Component {
 
   render() {
     return(
-      <div className="col-sm-3">
+      
+      <div className={style.image_center+" col-sm-3"}>
 
         <a href={this.props.sponsorWebsite} class="custom-card" target="_blank">
-        <div className="card border-0 image__card" min-widht={250} max-width={250} min-height={250} max-height={250}>
+        <div className={"card border-0 image__card"}>
           <div className="card-body">
-              <img className="img-fluid" src={this.props.sponsorPhotoUrl} min-width={250} max-width={250} min-height={250} max-height={250}/>
+              <img className={style.image+" img-fluid"} src={this.props.sponsorPhotoUrl}/>
           </div>
         </div>
         </a>
         
+    </div>
+    
+
+    
+      /*
+      <div className="row">
+        <div className="col-sm-4 py-2">
+          <div className="card card-body h-100">
+            <img className="img-fluid" src={this.props.sponsorPhotoUrl}/>
+          </div>
+        </div>
       </div>
+      */
+    
+
     );
   }
 }

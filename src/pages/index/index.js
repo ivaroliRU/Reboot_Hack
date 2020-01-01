@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <div className={style.App}>
         <Navbar handler = {this.handler}/>
-        {/*<BoardOfAdvisors/>*/}
+        {/* <BoardOfAdvisors/> */}
         <Opener />
         <div className="container">
           <div className={style.header}>

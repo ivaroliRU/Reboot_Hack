@@ -30,12 +30,11 @@ router.get("/team", (req, res) => {
 });
 
 //get request on the board of advisors page
-/* NEEDS TO BE FINISHED REMEMBER TO ADD WEBPACK
-router.get("/advisors", (req, res) => {
+router.get("/board", (req, res) => {
     //send the team file of the root "./builds"
-    res.status(200).sendFile("advisors.html", {root: files});
+    res.status(200).sendFile("board.html", {root: files});
 });
-*/
+
 
 //get request on the sponsor page
 router.get("/sponsors", (req, res) => {
@@ -43,6 +42,12 @@ router.get("/sponsors", (req, res) => {
     res.status(200).sendFile("sponsors.html", {root: files});
 });
 
+
+//get request on the event page
+router.get("/event", (req, res) => {
+    //send the event file of the root "./builds"
+    res.status(200).sendFile("event.html", {root: files});
+});
 
 
 

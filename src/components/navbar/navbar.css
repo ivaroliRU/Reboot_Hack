@@ -57,4 +57,16 @@
   .reboot_navbar_language{
     border-left: 0;
   }
+
+  .group_button{
+    display: initial !important;
+  }
+  .dropdown_menu{
+    text-align: right !important;
+    background-color: unset !important;
+    border: none !important;
+  }
+  .dropdown_item{
+    color: rgba(255,255,255,.5) !important;
+  }
 }
