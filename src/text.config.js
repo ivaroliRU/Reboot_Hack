@@ -1,5 +1,7 @@
 export const translation = {
+    /* ------------------------------------- ICELANDIC ----------------------------------- */
     is: {
+      /* Navbar */
       navbar:{
         about: "Um okkur",
         reboot:  "Reboot",
@@ -12,10 +14,12 @@ export const translation = {
         extra: "Extra",
         travel: "Travel Reimburse"
       },
+      /* Old Index Pageg */
       indexText: {
         Heading: 'Skráðu þig!',
         subHeading: 'Skráðu netfang þitt til að fá upplýsingar um gang mála sem gætu gagnast vel!'
       },
+      /* Registration Modal Box + Index Page text */
       register: {
         Heading: 'Skráðu þig til þess að taka þátt í Reboot Hakkaþon 2020',
         subHeading: 'Skrá mig núna!',
@@ -32,12 +36,14 @@ export const translation = {
           emailInfo: 'Við munum senda þér staðfestingarpóst, hlökkum til að sjá þig í febrúar.'
         }
       },
+      /* Confirmation */
       confirmation: {
           Heading: 'TAKK FYRIR SKRANINGUNA',
           subHeading: 'Hlökkum til að sjá þig',
           info: 'Fylgstu með fyrir frekari upplýsingar',
           homepage: 'Aftur á heimasíðu'
       },
+      /* Old Subscription text */
       subscription: {
         subscrButton: 'Skrá netfang',
         
@@ -48,6 +54,7 @@ export const translation = {
           close: 'Loka'
         },
       },
+      /* ------------------------- About Page ------------------- */
       detail: {
         first: {
           header: 'Hakkaþon á Íslandi',
@@ -71,6 +78,7 @@ export const translation = {
             'Verkefnastjórn Reboot Hack 2019-2020 hefur nú tekið til starfa og hafið undirbúning fyrir Reboot Hack 2020. Við munum uppfæra heimasíðuna von bráðar með meiri upplýsingum en þangað til þá ekki hika við að hafa samband við okkur ef þið hafið áhuga að því að hjálpa okkur að gera Reboot Hack 2020 að veruleika.',
         },
       },
+      /* -------------------- FAQ ------------------- */
       faq:{
         content: 'FAQ',
         title: 'Spurt og svarað',
@@ -159,7 +167,9 @@ export const translation = {
         text3: 'Aftur á heimasíðu'
       }
     },
+    /* -------------------------- ENGLISH VERSION ------------------------------------- */
     en:{
+      /* Navbar */
       navbar:{
         about: "Us",
         reboot:  "Reboot",
@@ -172,10 +182,12 @@ export const translation = {
         extra: "Extra",
         travel: "Travel Reimburse"
       },
+      /* Old Index page */
       indexText: {
         Heading: 'Subscribe!',
         subHeading: 'Subscribe to our newsletter to get updates that might be useful.'
       },
+      /* Register Modal box */
       register: {
         Heading: 'Register to participate in Reboot Hackathon 2020',
         subHeading: 'Register now!',
@@ -192,12 +204,14 @@ export const translation = {
           emailInfo: 'We will send you an email conformation and look forward to seeing you in February.'
         }
       },
+      /* Confirmation */
       confirmation: {
         Heading: 'THANK YOU FOR REGISTERING',
         subHeading: 'We look forward to see you!',
         info: 'Stay tuned for more information',
         homepage: 'Back to homepage'
     },
+    /* Old Subscription */
       subscription: {
         subscrButton: 'Subscribe',
         subscrDialog: {
@@ -207,6 +221,7 @@ export const translation = {
           close: 'Close'
         }
       },
+      /* ------------------------- About Page ------------------- */
       detail: {
         first: {
           header: 'Hackathon in Iceland ',
@@ -223,6 +238,7 @@ export const translation = {
           main:
             'Reboot Hack was founded in May 2018 by three computer science and engineering students at the University of Iceland. Reboot Hack was first held the 2nd and 3rd of February at the University of Iceland where 60 university students from 5 different universities participated. The name was chosen as it signifies starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society. “Starting over” can also refer to students rethinking how they use what they already know while learning from other participants and mentors. Reboot Hack’s 2019-2020 project management is composed of 17 students from the University of Iceland, University of Reykjavík and the Iceland University of the Arts. The project management is led by Kristjana Björk Barðdal, the hackathon’s director.',
         },
+        /* Old text on index page */
         fourth: {
           header:
             'We have started planning Reboot Hack 2020!',
@@ -230,6 +246,7 @@ export const translation = {
             'Reboot Hack’s 2019-2020 project management has started working on preparations for Reboot Hack 2020. We will be updating our website soon with more information but until then feel free to contact us if you want to be a part of the event or partner up with us.',
         },
       },
+      /* ------------------ FAQ ----------------- */
       faq: {
         content: 'FAQ',
         title: 'Frequently asked questions',
@@ -312,6 +329,7 @@ export const translation = {
           text: 'More questions? - Don´t hesitate to send us an email.'
         }
       },
+      /* Error Page */
       errorPage: {
         text1: 'Oops! Page not found',
         text2: 'Sorry but the page you are looking for does not exist, have been removed. Name changed or is temporarily unavailable',
