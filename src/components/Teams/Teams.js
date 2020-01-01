@@ -131,7 +131,8 @@ constructor(props) {
               linkedInLink: null,
               photoURL: './images/A-Fúsifin_comp.jpg',
               titleEn: 'Content team',
-              titleIs: 'Kynningarstjóri'
+              titleIs: 'Kynningarstjóri',
+              HER ER SMA TEXTI FYRIR GIT TEST
             }*/
           ]
         }
