@@ -16,6 +16,7 @@ class OnEvent extends Component {
   render() {
     return (
         <div className={"container"}>
+          <br />
           <div className={"row"}>
             <div className={"col-lg-8 col-sm-12"}>
               <Challenges /> 
@@ -25,11 +26,11 @@ class OnEvent extends Component {
             </div>
           </div>
           
-          <div className={"row"}>
+          {/* <div className={"row"}>
             <div className={"col-12"}>
               <Schedule />
             </div>
-          </div>
+          </div> */}
           {/* <div className={"row"}>
             <div className={"col-12"}>
               <Judges />
