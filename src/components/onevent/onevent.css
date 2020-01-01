@@ -1,0 +1,16 @@
+.text_styling{
+    font-family: 'Montserrat', sans-serif;
+    color: #694991;
+  }
+
+.justTheFont{
+font-family: 'Montserrat', sans-serif; 
+}
+
+.darkGrayColor{
+    color: #2e2e2e !important;
+}
+
+.text_align{
+    text-align: center;
+}
