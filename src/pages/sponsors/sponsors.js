@@ -1,27 +1,29 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import { changeLanguage } from '../../translations';
 import Navbar from '../../components/navbar';
-import { changeLanguage, getTranslation } from '../../translations';
-// import style from './error.css'
+import Footer from '../../components/footer/footer';
+import Sponsors from '../../components/sponsors/sponsors';
+import style from './sponsors.css'
 
 class App extends Component {
     constructor(props) {
         super(props)
 
-        this.handler = this.handler.bind(this);
+        this.handler = this.handler.bind(this)
     }
 
     handler() {
         changeLanguage();
         this.forceUpdate();
     }
-
     render () {
-        this.text = getTranslation();
-
         return (
-            
-            <p>HALLO</p>
+            <div className={style.App}>
+                <Navbar handler = {this.handler} />
+                <Sponsors handler = {this.handler} />
+                <Footer handler = {this.handler} />
+            </div>
         );
     }
 }

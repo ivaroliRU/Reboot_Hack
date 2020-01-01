@@ -25,6 +25,7 @@ class About extends Component {
                 <div className="container pb-md-4 pl-md-4">
                     <img src="/images/hi-kold.jpg" width="100%"></img>
                 </div>
+                {/* Make changes here ! */}
                 <div className="jumbotron">
                     <div className="container">
                         <h3>{this.text.detail.third.header}</h3>

@@ -11,6 +11,10 @@ class Faq extends Component {
         this.handler = this.handler.bind(this);
     }
 
+    /*
+    * Need to fix the question component!
+    */
+
     handler() {
         changeLanguage();
         this.forceUpdate();

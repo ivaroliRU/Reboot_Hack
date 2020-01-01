@@ -33,22 +33,29 @@ class Navbar extends Component {
                   </div>
                 </li>  */}
                 
+                {/* 2020 Event page */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
                     <a href="/event" className="nav-link">2020</a>
                 </li>
+              
 
                 {/* us */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
                 <div className={style.group_button+" btn-group"}>
-    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.text.navbar.about}</a>
+                  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.text.navbar.about}</a>
                   <div className={style.dropdown_menu+" dropdown-menu pull-right"} aria-labelledby="navbarDropdown">
-                    <a className={style.dropdown_item+" dropdown-item"} href="/team">{this.text.navbar.team_members}</a>
-                    <a className={style.dropdown_item+" dropdown-item"} href="/board">{this.text.navbar.board}</a>
                     <a className={style.dropdown_item+" dropdown-item"} href="/about">{this.text.navbar.reboot}</a>
+                    <a className={style.dropdown_item+" dropdown-item"} href="/board">{this.text.navbar.board}</a>
+                    <a className={style.dropdown_item+" dropdown-item"} href="/team">{this.text.navbar.team_members}</a>
                   </div>
                 </div>
                 </li>
                 
+                {/* Sponsors */}
+                <li className={style.reboot_navbar_item + " nav-item"}>
+                    <a href="/sponsors" className="nav-link">{this.text.navbar.sponsors}</a>
+                </li>
+
                 {/* Frequently Asked Questions */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
                     <a href="/faq" className="nav-link">{this.text.navbar.faq}</a>

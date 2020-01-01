@@ -3,7 +3,8 @@ import style from './question.css';
 import { getTranslation, changeLanguage } from '../../translations';
 var uniqid = require('uniqid');
 
-const PANEL_HEIGHT = 50;
+
+const PANEL_HEIGHT = 500;
 
 class Question extends Component {
     constructor(props) {
@@ -27,10 +28,10 @@ class Question extends Component {
         }*/
 
         if (panel.css("max-height") != '0px') {
-            console.log(panel.css("max-height"));
+            // console.log(panel.css("max-height"));
             panel.css("max-height",0);
         } else {
-            console.log(panel.css("max-height"));
+            // console.log(panel.css("max-height"));
             
             panel.css("max-height",PANEL_HEIGHT);
         }
@@ -52,6 +53,8 @@ class Question extends Component {
     }
 
 }
+
+
 export default Question;
 
 

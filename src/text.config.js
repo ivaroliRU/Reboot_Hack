@@ -10,11 +10,9 @@ export const translation = {
         board: "Ráðgjafar",
         team_members: "Reboot teymið",
         faq: "FAQ",
-        event: "Event",
-        extra: "Extra",
-        travel: "Travel Reimburse"
+        event: '2020',
       },
-      /* Old Index Pageg */
+      /* Old Index Page */
       indexText: {
         Heading: 'Skráðu þig!',
         subHeading: 'Skráðu netfang þitt til að fá upplýsingar um gang mála sem gætu gagnast vel!'
@@ -54,7 +52,14 @@ export const translation = {
           close: 'Loka'
         },
       },
-      /* ------------------------- About Page ------------------- */
+      sponsors: {
+        content: 'Bakhjarlar',
+      sponsors: 'Bakhjarlar Reboot Hack 2019-2020',
+      rebootText: 'Samstarfsaðilar',
+      restartText: 'Styrktaraðilar',
+      reloadText: 'Styrktaraðilar',
+      otherText: 'Aðrir styrktaraðilar',
+      },
       detail: {
         first: {
           header: 'Hakkaþon á Íslandi',
@@ -73,9 +78,14 @@ export const translation = {
         },
         fourth: {
           header:
-            'Við erum byrjuð að skipuleggja Reboot Hack 2020!',
+            'Viltu aðstoða við framkvæmd Reboot Hack 2020?',
           main:
-            'Verkefnastjórn Reboot Hack 2019-2020 hefur nú tekið til starfa og hafið undirbúning fyrir Reboot Hack 2020. Við munum uppfæra heimasíðuna von bráðar með meiri upplýsingum en þangað til þá ekki hika við að hafa samband við okkur ef þið hafið áhuga að því að hjálpa okkur að gera Reboot Hack 2020 að veruleika.',
+            'Hér að neðan getur þú sótt um að vera annað hvort mentor eða sjálfboðaliði á Reboothack 2020. Ítarlegri upplýsingar má finna með því að ýta á takkana hér fyrir neðan. Hefur þú einhverjar spurningar skaltu ekki hika við að hafa samband!',
+          mentor: 'Mentor',
+          volunteer: 'Sjálfboðaliði',
+          travelHeader: 'Hefur þú áhuga á að fá ferðastyrk til þess að komast á Reboothack 2020?',
+          travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboothack 2020. Athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir styrk, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
+          travel: 'Ferðastyrkur',
         },
       },
       /* -------------------- FAQ ------------------- */
@@ -178,9 +188,7 @@ export const translation = {
         board: "Board Of Advisors",
         team_members: "The Reboot Team",
         faq: "FAQ",
-        event: "Event",
-        extra: "Extra",
-        travel: "Travel Reimburse"
+        event: '2020',
       },
       /* Old Index page */
       indexText: {
@@ -221,7 +229,14 @@ export const translation = {
           close: 'Close'
         }
       },
-      /* ------------------------- About Page ------------------- */
+      sponsors: {
+        content: 'Sponsors',
+      sponsors: 'Reboot Hack sponsors 2019-2020',
+      rebootText: 'Partners',
+      restartText: 'Sponsors',
+      reloadText: 'Sponsors',
+      otherText: 'Other sponsors',
+      },
       detail: {
         first: {
           header: 'Hackathon in Iceland ',
@@ -241,9 +256,14 @@ export const translation = {
         /* Old text on index page */
         fourth: {
           header:
-            'We have started planning Reboot Hack 2020!',
+            'Do you want to be a part of the Reboot Hack Support Team?',
           main:
-            'Reboot Hack’s 2019-2020 project management has started working on preparations for Reboot Hack 2020. We will be updating our website soon with more information but until then feel free to contact us if you want to be a part of the event or partner up with us.',
+            'Click the links below for information about being a volunteer or a mentor for Reboot Hack 2020, and how to apply.',
+          mentor: 'Mentor',
+          volunteer: 'Volunteer',
+          travelHeader: 'Are you intersted in a travel reimbursemen?',
+          travelText: 'If you are attending Reboot Hack 2020 you have an opportunity to have your travel expenses reimbursed. The reimbursements are handled on a case-to-case basis and anyone from outside of Reykjavik is eligable! Click the button below for information on our travel reimbursement policy and how to apply.',
+          travel: 'Travel reimbursement',
         },
       },
       /* ------------------ FAQ ----------------- */
