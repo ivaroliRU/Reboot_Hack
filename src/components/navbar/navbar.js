@@ -24,24 +24,24 @@ class Navbar extends Component {
                 
                  {/* 2020 */}
                  <li className={style.reboot_navbar_item + " nav-item"}>
-                  <div className="btn-group">
+                  <div className={style.group_button+" btn-group"}>
                   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.text.navbar.event}</a>
-                    <div className="dropdown-menu pull-right" aria-labelledby="navbarDropdown2">
-                      <a className="dropdown-item" href="/event">{this.text.navbar.event}</a>
-                      <a className="dropdown-item" href="/event">{this.text.navbar.extra}</a>
-                      <a className="dropdown-item" href="/event">{this.text.navbar.travel}</a>
+                    <div className={style.dropdown_menu+" dropdown-menu pull-right"} aria-labelledby="navbarDropdown2">
+                      <a className={style.dropdown_item+" dropdown-item"} href="/event">{this.text.navbar.event}</a>
+                      <a className={style.dropdown_item+" dropdown-item"} href="/event">{this.text.navbar.extra}</a>
+                      <a className={style.dropdown_item+" dropdown-item"} href="/event">{this.text.navbar.travel}</a>
                     </div>
                   </div>
                 </li> 
 
                 {/* us */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
-                <div className="btn-group">
+                <div className={style.group_button+" btn-group"}>
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2020</a>
-                  <div className="dropdown-menu pull-right" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="/team">{this.text.navbar.team_members}</a>
-                    <a className="dropdown-item" href="/board">{this.text.navbar.board}</a>
-                    <a className="dropdown-item" href="/about">{this.text.navbar.reboot}</a>
+                  <div className={style.dropdown_menu+" dropdown-menu pull-right"} aria-labelledby="navbarDropdown">
+                    <a className={style.dropdown_item+" dropdown-item"} href="/team">{this.text.navbar.team_members}</a>
+                    <a className={style.dropdown_item+" dropdown-item"} href="/board">{this.text.navbar.board}</a>
+                    <a className={style.dropdown_item+" dropdown-item"} href="/about">{this.text.navbar.reboot}</a>
                   </div>
                 </div>
                 </li>
