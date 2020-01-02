@@ -109,14 +109,14 @@ constructor(props) {
               titleEn: 'PR & Communications Manager',
               titleIs: 'Samskiptastýra'
             },
-            {
+            /*{
               id: 12,
               name: 'Tinna Líf Jörgensdóttir',
               linkedInLink: 'https://www.linkedin.com/in/tinna-líf-jörgensdóttir-19802a173/?originalSubdomain=is',
               photoURL: './images/A-Tinnafin_comp.jpg',
               titleEn: 'Marketing',
               titleIs: 'Markaðsstjóri'
-            },
+            },*/
             {
               id: 13,
               name: 'Þorbjörg Þórhildur Snorradóttir',

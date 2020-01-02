@@ -17,7 +17,7 @@ class Question extends Component {
 
 
     handleClick(){
-        console.log(this.questionId);
+        //console.log(this.questionId);
         $("#btn-"+this.questionId).toggleClass("active")
         
         var panel = $("#"+this.questionId);

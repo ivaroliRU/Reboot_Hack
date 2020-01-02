@@ -41,22 +41,22 @@ class Challenges extends Component {
         //   textIs: "Verður Tilkynnt Síðar",
         //   company: "Auður (Kvika)"
         // },
-        {
-          id: 3,
-          titleEn: "How can we teach and maintain security awareness in the future?",
-          titleIs: "Hvernig getum við kennt og viðhaldið öryggisvitund í framtíðinni",
-          textEn: "To Be Announced",
-          textIs: "Verður Tilkynnt Síðar",
-          company: "AwareGo"
-        },
-        {
-          id: 5,
-          titleEn: "How can KPMG create increased trust?",
-          titleIs: "Hverrnig getur KPMG skapað aukið traust?",
-          textEn: "To Be Announced",
-          textIs: "Verður Tilkynnt Síðar",
-          company: "KPMG"
-        },
+        // {
+        //   id: 3,
+        //   titleEn: "How can we teach and maintain security awareness in the future?",
+        //   titleIs: "Hvernig getum við kennt og viðhaldið öryggisvitund í framtíðinni",
+        //   textEn: "To Be Announced",
+        //   textIs: "Verður Tilkynnt Síðar",
+        //   company: "AwareGo"
+        // },
+        // {
+        //   id: 5,
+        //   titleEn: "How can KPMG create increased trust?",
+        //   titleIs: "Hverrnig getur KPMG skapað aukið traust?",
+        //   textEn: "To Be Announced",
+        //   textIs: "Verður Tilkynnt Síðar",
+        //   company: "KPMG"
+        // },
         // {
         //   id: 6,
         //   titleEn: "To Be Announced",
@@ -79,17 +79,17 @@ class Challenges extends Component {
   
   render() {
 
-    var upcomingChallenges, challangesText, postedByText;
+    var upcomingChallenges, challangesText;//, postedByText;
 
     if(Cookies.get('language')=='is'){
-      upcomingChallenges= "Það munu koma inn fleiri áskoranir, svo heimsóttu síðuna reglulega :)";
+      upcomingChallenges= "Fleiri áskoranir munu birtast á næstu dögum, fylgstu með! :)";
       challangesText= "Áskoranir";
-      postedByText="Skrifað af ";
+      // postedByText="Skrifað af ";
     }
     else{
       upcomingChallenges= "There will be some more upcoming challenges, so make sure to re-visit the webiste :)";
       challangesText= "Challenges";
-      postedByText="Posted by ";
+      // postedByText="Posted by ";
     }
 
     var challengeSection = this.state.challenges.map(
@@ -98,7 +98,7 @@ class Challenges extends Component {
         return (
           <div key={challenge.id} className={style.myElement}>
             <h3 className={generalStyle.text_styling}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
-            <h5 className={generalStyle.text_styling}>{postedByText} {challenge.company}</h5>
+            <h5 className={generalStyle.text_styling}>{challenge.company}</h5>
             <p className={style.textJustify+" "+generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
           </div>
         );

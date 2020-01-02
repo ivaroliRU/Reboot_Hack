@@ -5,6 +5,7 @@ import {getTranslation} from '../../translations';
 // import SponsorDetail from './components/sponsorDetail';
 import SponsorImages from './components/sponsorImages';
 import style from './sponsors.css';
+import Cookies from 'js-cookie';
 
 class Sponsors extends Component {
 
@@ -20,7 +21,8 @@ class Sponsors extends Component {
             sponsors: [
                 {
                     id: 0,
-                    name: 'Re:boot',
+                    nameEn: 'Re:boot',
+                    nameIs: 'Re:boot',
                     sponsor: [
                         {
                             id: 0,
@@ -54,7 +56,8 @@ class Sponsors extends Component {
                 },
                 {
                     id: 1,
-                    name: 'Re:start',
+                    nameEn: 'Re:start',
+                    nameIs: 'Re:start',
                     sponsor: [
                         {
                             id: 0,
@@ -84,7 +87,8 @@ class Sponsors extends Component {
                 },
                 {
                     id: 2,
-                    name: 'Re:load',
+                    nameEn: 'Re:load',
+                    nameIs: 'Re:load',
                     sponsor: [
                         {
                             id: 0,
@@ -96,7 +100,8 @@ class Sponsors extends Component {
                 },
                 {
                     id: 3,
-                    name: 'Aðrir Styrktaraðilar/Other Sponsors',
+                    nameEn: 'Other Sponsors',
+                    nameIs: 'Aðrir Styrktaraðilar',
                     sponsor : [
                         {
                             id: 0,
@@ -135,14 +140,15 @@ class Sponsors extends Component {
         */
 
 
+
         var sponsorSection = this.state.sponsors.map(
             (sponsor) => {
                     console.log(this.state.sponsors);
                 return (
                     <div>
-                    <h2 className="text-center">{sponsor.name}</h2>
+                    <h2 className="text-center">{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
                     <SponsorImages
-                        key = {sponsor.name}
+                        key = {sponsor.id}
                         sponsorItem = {sponsor.sponsor}
                     />
                     </div>
