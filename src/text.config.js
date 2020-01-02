@@ -19,10 +19,10 @@ export const translation = {
       },
       /* Registration Modal Box + Index Page text */
       register: {
-        Heading: 'Skráðu þig til þess að taka þátt í Reboot Hakkaþon 2020',
+        Heading: 'Skráðu þig til þess að taka þátt í Reboot Hack 2020',
         subHeading: 'Skrá mig núna!',
         registerDialog: {
-          title: 'Skráning fyrir Reboot Hakkaþon 2020',
+          title: 'Skráning fyrir Reboot Hack 2020',
           registerBtn: 'Skrá mig!',
           name: 'Nafn',
           email: 'Netfang',
@@ -80,11 +80,11 @@ export const translation = {
           header:
             'Viltu aðstoða við framkvæmd Reboot Hack 2020?',
           main:
-            'Hér að neðan getur þú sótt um að vera annað hvort mentor eða sjálfboðaliði á Reboothack 2020. Ítarlegri upplýsingar má finna með því að ýta á takkana hér fyrir neðan. Hefur þú einhverjar spurningar skaltu ekki hika við að hafa samband!',
+            'Hér að neðan getur þú sótt um að vera annað hvort mentor eða sjálfboðaliði á Reboot Hack 2020. Ítarlegri upplýsingar má finna með því að ýta á takkana hér fyrir neðan. Hefur þú einhverjar spurningar skaltu ekki hika við að hafa samband!',
           mentor: 'Mentor',
           volunteer: 'Sjálfboðaliði',
-          travelHeader: 'Hefur þú áhuga á að fá ferðastyrk til þess að komast á Reboothack 2020?',
-          travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboothack 2020. Athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir styrk, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
+          travelHeader: 'Hefur þú áhuga á að fá ferðastyrk til þess að komast á Reboot Hack 2020?',
+          travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboot Hack 2020. Athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir styrk, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
           travel: 'Ferðastyrkur',
         },
       },
@@ -293,7 +293,7 @@ export const translation = {
         question5: {
           text: 'Who can attend?',
           answer:
-            'Any student or recent graduate (up to a year) over 18 years may apply from any university in the world, and you do not need to study in a computer science related field. We are also looking for mentors with hackathon experience. If you’re interested, please contact us via reboothackiceland@gmail.com',
+            'Any student or recent graduate (up to a year) over 18 years may apply from any university in the world, and you do not need to study in a computer science related field. We are also looking for mentors with hackathon experience. If you’re interested, please contact us via reboothack@reboothack.is',
         },
         question6: {
           text: 'What if I’m not a part of a team or want to work by myself?',
@@ -338,7 +338,7 @@ export const translation = {
         question14: {
           text: 'Is there anything required to enter?',
           answer:
-            "There are no other requirements to enter and we serve participants on a first come first serve basis!  It's enough to sign up on our website and confirming your MLH account. The hackathon is open to every university student all around the world.",
+            "There are no other requirements to enter and we serve participants on a first come first serve basis!  It's enough to sign up on our website. The hackathon is open to every university student all around the world.",
         },
         question15: {
           text: 'What about accommodation in Iceland?',

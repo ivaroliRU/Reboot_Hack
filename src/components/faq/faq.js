@@ -24,7 +24,7 @@ class Faq extends Component {
         this.text = getTranslation();
         return (
             <div>
-                <h2 className="pl-2">{this.text.faq.title}</h2>
+                <h2 className={style.Centeralign+" pl-2"}>{this.text.faq.title}</h2>
                 {this.text.faq.question1 && (
                     <Question text={this.text.faq.question1.text} answer={this.text.faq.question1.answer} />
                 )}
@@ -91,7 +91,7 @@ class Faq extends Component {
                 {this.text.faq.question22 && (
                     <Question text={this.text.faq.question22.text} answer={this.text.faq.question22.answer} />
                 )}
-                <h5 className="mx-auto mb-2" style={{width: 600}}>{this.text.faq.moreQuestions.text}</h5>
+                <h5 className={style.Centeralign+" mx-auto mb-2"}>{this.text.faq.moreQuestions.text}</h5>
             </div>
         );  
     }

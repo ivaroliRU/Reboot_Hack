@@ -3,6 +3,8 @@ import AdvisorsStyle from "./BoardOfAdvisors.css";
 import TeamsStyle from "../Teams/Teams.css";
 import TeamStyle from "../Teams/Team/Team.css";
 import Advisor from "./Advisor/Advisor";
+import Cookies from 'js-cookie';
+
 
 class BoardOfAdvisors extends Component {
     
@@ -10,6 +12,24 @@ constructor(props) {
     super(props);
     this.state = {
         advisors: [
+            {
+                id: 21,
+                name: 'Sara Björk Másdóttir',
+                titleIs: 'Co-founder, Reboot Hack',
+                titleEn: 'Meðstofnandi, Reboot Hack',
+                email: null,
+                linkedInLink: null,
+                photoURL: null,
+            },
+            {
+                id: 22,
+                name: 'Fríða Snædís Jóhannesdóttir',
+                titleIs: 'Co-founder, Reboot Hack',
+                titleEn: 'Meðstofnandi, Reboot Hack',
+                email: null,
+                linkedInLink: null,
+                photoURL: null,
+            },
             {
                 id: 0,
                 name: 'Andrea Gunnarsdóttir',
@@ -175,7 +195,7 @@ constructor(props) {
             {
                 id: 18,
                 name: 'Andri Heiðar Kristinsson',
-                titleIs: 'Framkvæmdastjóri Travelade',
+                titleIs: 'Framkvæmdastjóri, Travelade',
                 titleEn: 'CEO and Co-Founder, Travelade',
                 email: 'andri@travelade.com',
                 linkedInLink: null,
@@ -205,6 +225,7 @@ constructor(props) {
     }
 
   render() {
+    var titleText;
     var advisorsSection = this.state.advisors.map(
       (advisor) => {
         return (
@@ -218,10 +239,16 @@ constructor(props) {
           />
         );
     });
+    if(Cookies.get('language')=='is'){
+        titleText="Ráðgjafanefnd";
+    }
+    else{
+        titleText="The Board of Advisors";
+    }
 
     return (
         <div>
-            <h1 className={TeamsStyle.TheTeamText}>The Board of Advisors</h1>
+            <h1 className={TeamsStyle.TheTeamText}>{titleText}</h1>
             <div className={"text-center"}>
                 <div className={"container"}>
                     <div className={TeamStyle.TeamDiv}>
