@@ -1,0 +1,30 @@
+.countdownDiv{
+    padding-top: 3% !important;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.countdownSection{
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.countdownSection .span {
+    display: block;
+    font-size: 110%;
+}
+
+.bottomText{
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .countdownSection{
+        font-size: 22px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}

@@ -34,9 +34,13 @@ class Footer extends Component {
           id: 3,
           name: "Iceland University of the Arts",
           // logoSRC: "/images/universities/LHI_LOGO_WEB.svg",
+          // logoSRC: "/images/universities/LHI_Logo_Original_White.svg",
           // logoSRC: "/images/universities/LHI_white_SVG.svg",
-          logoSRC: "/images/universities/LHI_white_SVG_V2.svg",
+          // logoSRC: "/images/universities/LHI_white_SVG_V2.svg",
           // logoSRC: "/images/universities/LHI_white_SVG_V3.svg",
+          
+          logoSRC: "/images/universities/lhi_midju_hvitt.png",
+          
           link: "https://www.lhi.is/"
         },
       ]
