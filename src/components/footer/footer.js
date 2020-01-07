@@ -22,19 +22,19 @@ class Footer extends Component {
           id: 1,
           name: "University of Iceland",
           logoSRC: "/images/universities/HI_Logo_White.png",
-          link: "https://www.ru.is/"
+          link: "https://www.hi.is/"
         },
         {
           id: 2,
           name: "University of Akureiry",
           logoSRC: "/images/universities/HA_Logo_White.png",
-          link: "https://www.ru.is/"
+          link: "https://www.unak.is/"
         },
         {
           id: 3,
           name: "Iceland University of the Arts",
           logoSRC: "/images/universities/LHI_white_SVG_V2.svg",
-          link: "https://www.ru.is/"
+          link: "https://www.lhi.is/en"
         },
       ]
     };
