@@ -261,7 +261,7 @@ export const translation = {
             'Click the links below for information about being a volunteer or a mentor for Reboot Hack 2020, and how to apply.',
           mentor: 'Mentor',
           volunteer: 'Volunteer',
-          travelHeader: 'Are you intersted in a travel reimbursemen?',
+          travelHeader: 'Are you intersted in a travel reimbursement?',
           travelText: 'If you are attending Reboot Hack 2020 you have an opportunity to have your travel expenses reimbursed. The reimbursements are handled on a case-to-case basis and anyone from outside of Reykjavik is eligable! Click the button below for information on our travel reimbursement policy and how to apply.',
           travel: 'Travel reimbursement',
         },

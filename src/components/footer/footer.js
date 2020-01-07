@@ -46,6 +46,13 @@ class Footer extends Component {
                       target="_blank"
                     ><img className={'img-fluid' + " " + style.LeftAlign} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
                   </div>
+                  {/* <div className={"col-3"}>
+                  <a
+                    href="https://www.lhi.is/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  ><img className={'img-fluid'} src="/images/LHI_merki_2017_University.gif" alt="Iceland University of the Arts"/></a>
+                  </div> */}
                 </div>
               </div>
               <div className={"col-xs-3 col-lg-4"}></div>

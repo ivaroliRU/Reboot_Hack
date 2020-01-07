@@ -96,6 +96,12 @@ class Sponsors extends Component {
                             photoURL: './images/sponsors/reload/DEL_PRI_RGB.png',
                             website: 'https://www2.deloitte.com/is/is.html'
                         },
+                        {
+                            id: 1,
+                            name: 'Marel',
+                            photoURL: './images/sponsors/reload/marel_logo.png',
+                            website: 'https://marel.com/is'
+                        },
                     ]
                 },
                 {
@@ -106,7 +112,7 @@ class Sponsors extends Component {
                         {
                             id: 0,
                             name: 'Dominos',
-                            photoURL: './images/sponsors/other/Logobakgrunnslaust.png',
+                            photoURL: './images/sponsors/other/DominosLogoSVG.svg',
                             website: 'https://www.dominos.is/'
                         },
                         {
@@ -120,6 +126,30 @@ class Sponsors extends Component {
                             name: 'ENNEMM',
                             photoURL: './images/sponsors/other/ennemm.png',
                             website: 'https://www.ennemm.is/'
+                        },
+                        {
+                            id: 3, 
+                            name: 'Ráðuneytið',
+                            photoURL: './images/sponsors/other/raduneytid.png',
+                            website: 'https://www.stjornarradid.is/'
+                        },
+                        {
+                            id: 4, 
+                            name: 'Nýsköpunarmiðstöð',
+                            photoURL: './images/sponsors/other/nmitrans.png',
+                            website: 'https://www.nmi.is/'
+                        },
+                        {
+                            id: 5,
+                            name: 'Utmessan',
+                            photoURL: './images/sponsors/other/Utmessan.png',
+                            website: 'https://utmessan.is/'
+                        },
+                        {
+                            id: 6,
+                            name: 'Ský',
+                            photoURL: './images/sponsors/other/skylogo2leleggaedi.png',
+                            website: 'https://www.sky.is/'
                         },
                     ]
                 }
