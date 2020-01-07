@@ -11,56 +11,72 @@ class Footer extends Component {
       instagram: "https://www.instagram.com/reboothackiceland/",
       linkedin: "https://www.linkedin.com/company/reboot-hack-iceland/",
       github: "https://github.com/ivaroliRU/Reboot_Hack",
+      universities:[
+        {
+          id: 0,
+          name: "Reykjavík University",
+          logoSRC: "/images/universities/HR_Logo_White.png",
+          link: "https://www.ru.is/"
+        },
+        {
+          id: 1,
+          name: "University of Iceland",
+          logoSRC: "/images/universities/HI_Logo_White.png",
+          link: "https://www.ru.is/"
+        },
+        {
+          id: 2,
+          name: "University of Akureiry",
+          logoSRC: "/images/universities/HA_Logo_White.png",
+          link: "https://www.ru.is/"
+        },
+        {
+          id: 3,
+          name: "Iceland University of the Arts",
+          logoSRC: "/images/universities/LHI_white_SVG.svg",
+          link: "https://www.ru.is/"
+        },
+      ]
     };
   }
   
   render() {
+
+    var universities=this.state.universities.map(
+      (university) => {
+        return (
+          <div 
+            key={university.id}
+            className={style.margin_auto+" col-3"}>
+          <a
+            href={university.link}
+            rel="noopener noreferrer"
+            target="_blank"
+          ><img className={'img-fluid'} src={university.logoSRC} alt={university.name}/></a>
+        </div>
+        )
+      }
+    );
+
     return (
 
       <footer className={style.Footer + " text-center"}>
         <div className={"container"}>
           <div 
-            id="Universities"
-            className={"row"}>
-              <div className={"col-xs-3 col-lg-4"}></div>
-              <div className={"col-xs-6 col-lg-4"}>
+            key="Universities"
+            className={style.padding_div+" row"}>
+              <div className={"col-3"}></div>
+              <div className={"col-6"}>
                 <div className={"row"}>
-                  <div className={"col-4"}>
-                    <a
-                      href="https://www.ru.is/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    ><img className={'img-fluid' +" "+ style.RightAlign} src="/images/HR_Logo_White.png" alt="Reykjavík University logo"/></a>
-                  </div>
-                  <div className={"col-4"}>
-                  <a
-                    href="https://english.hi.is/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  ><img className={'img-fluid'} src="/images/HI_Logo_White.png" alt="University of Iceland logo"/></a>
-                  </div>
-                  <div className={"col-4"}>
-                    <a
-                      href="http://english.unak.is/"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    ><img className={'img-fluid' + " " + style.LeftAlign} src="/images/HA_Logo_White.png" alt="University of Akureiry logo"/></a>
-                  </div>
-                  {/* <div className={"col-3"}>
-                  <a
-                    href="https://www.lhi.is/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  ><img className={'img-fluid'} src="/images/LHI_merki_2017_University.gif" alt="Iceland University of the Arts"/></a>
-                  </div> */}
+                 {universities}
                 </div>
               </div>
-              <div className={"col-xs-3 col-lg-4"}></div>
+              <div className={"col-3"}></div>
             
           </div>
           <hr className={style.FooterHr}/>
           <div 
-            id="Social"
+            key="Social"
             className={"row"}>
               <div className={"col-lg-12 col-xs-12"}>
 
@@ -95,7 +111,7 @@ class Footer extends Component {
             </div>
             <div className={style.spacing}></div>
             <div
-              id="Email"
+              key="Email"
               className={"row"}>
               <div className={"col-lg-12 col-xs-12"}>
                 <div className={style.OnHoverSection}><span>Official email:</span> <button
@@ -119,14 +135,14 @@ class Footer extends Component {
                                       </button> 
                 </div>
                 <div 
-                    id='Coppied_Text'
+                    key='Coppied_Text'
                     className={style.Footer_Copy_Text}
                     >{this.state.copied}
                   </div>
               </div>
             </div>
             <div
-              id="Created_by"
+              key="Created_by"
               className={"row"}>
               <div className={"col-lg-12 col-xs-12"}>
                 <p className={style.Created}>

@@ -11,6 +11,9 @@
   padding: 0 !important;
   font-size: 18px;
 }
+.margin_auto{
+  margin: auto !important;
+}
 
 .Facebook, .Instagram, .LinkedIn, .Github {
   padding-left: 1.25%;
@@ -70,12 +73,15 @@
   position: float;
 }
 
+.padding_div{
+  padding-top: 2%;
+  padding-bottom: 0%;
+}
+
 .Footer img{
-  padding-top: 10%;
   position: inherit;
   width: 65%;
   height: auto;
-  padding-bottom: 0%;
 }
 
 .RightAlign{
