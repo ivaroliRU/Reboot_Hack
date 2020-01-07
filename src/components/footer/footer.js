@@ -34,7 +34,7 @@ class Footer extends Component {
           id: 3,
           name: "Iceland University of the Arts",
           logoSRC: "/images/universities/LHI_white_SVG_V2.svg",
-          link: "https://www.lhi.is/en"
+          link: "https://www.lhi.is/"
         },
       ]
     };
