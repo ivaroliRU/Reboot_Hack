@@ -33,7 +33,7 @@ class Footer extends Component {
         {
           id: 3,
           name: "Iceland University of the Arts",
-          logoSRC: "/images/universities/LHI_white_SVG.svg",
+          logoSRC: "/images/universities/LHI_white_SVG_V2.svg",
           link: "https://www.ru.is/"
         },
       ]
@@ -45,15 +45,15 @@ class Footer extends Component {
     var universities=this.state.universities.map(
       (university) => {
         return (
-          <div 
-            key={university.id}
-            className={style.margin_auto+" col-3"}>
-          <a
-            href={university.link}
-            rel="noopener noreferrer"
-            target="_blank"
-          ><img className={'img-fluid'} src={university.logoSRC} alt={university.name}/></a>
-        </div>
+          <div
+              key={university.id}
+              className={style.margin_auto+" col-6 col-md-3"}>
+            <a
+              href={university.link}
+              rel="noopener noreferrer"
+              target="_blank"
+            ><img className={'img-fluid'} src={university.logoSRC} alt={university.name}/></a>
+          </div>
         )
       }
     );
