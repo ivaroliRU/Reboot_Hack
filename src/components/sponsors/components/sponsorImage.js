@@ -4,13 +4,26 @@ import style from './sponsorImage.css';
 class SponsorImage extends Component {
 
   render() {
+    var imgStyle="";
+    if(this.props.sponsorRank == 1){
+      imgStyle=style.rank1;
+    }
+    else if(this.props.sponsorRank == 2){
+      imgStyle=style.rank2;
+    }
+    else if(this.props.sponsorRank == 3){
+      imgStyle=style.rank3;
+    }
+    else{
+      imgStyle=style.rank4;
+    }
+
     return(
       
       <div className={style.image_center+" col-sm-3"}>
-
         <a href={this.props.sponsorWebsite} className="custom-card" target="_blank">
         <div className={"card border-0 image__card"}>
-          <div className="card-body">
+          <div className={imgStyle+" card-body"}>
               <img className={style.image+" img-fluid"} src={this.props.sponsorPhotoUrl}/>
           </div>
         </div>

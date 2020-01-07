@@ -21,6 +21,7 @@ class Sponsors extends Component {
             sponsors: [
                 {
                     id: 0,
+                    rank: 1,
                     nameEn: 'Re:boot',
                     nameIs: 'Re:boot',
                     sponsor: [
@@ -55,7 +56,8 @@ class Sponsors extends Component {
                     ]
                 },
                 {
-                    id: 1,
+                    id: 1, 
+                    rank: 2,
                     nameEn: 'Re:start',
                     nameIs: 'Re:start',
                     sponsor: [
@@ -87,6 +89,7 @@ class Sponsors extends Component {
                 },
                 {
                     id: 2,
+                    rank: 3,
                     nameEn: 'Re:load',
                     nameIs: 'Re:load',
                     sponsor: [
@@ -106,6 +109,7 @@ class Sponsors extends Component {
                 },
                 {
                     id: 3,
+                    rank: 4,
                     nameEn: 'Other Sponsors',
                     nameIs: 'Aðrir Styrktaraðilar',
                     sponsor : [
@@ -142,7 +146,8 @@ class Sponsors extends Component {
                         {
                             id: 5,
                             name: 'Utmessan',
-                            photoURL: './images/sponsors/other/Utmessan.png',
+                            // photoURL: './images/sponsors/other/Utmessan.png',
+                            photoURL: './images/sponsors/other/Utmessan_logo.png',
                             website: 'https://utmessan.is/'
                         },
                         {
@@ -179,6 +184,7 @@ class Sponsors extends Component {
                     <h2 className="text-center">{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
                     <SponsorImages
                         key = {sponsor.id}
+                        spRank={sponsor.rank}
                         sponsorItem = {sponsor.sponsor}
                     />
                     </div>

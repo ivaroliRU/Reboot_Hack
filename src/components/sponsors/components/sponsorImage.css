@@ -8,3 +8,18 @@
 .image_center{
   margin: auto;
 }
+.rank1{
+  padding: 0 !important;
+}
+
+.rank2{
+  padding: 0.75rem !important;
+}
+
+.rank3{
+  padding: 1.25rem !important;
+}
+
+.rank4{
+  padding: 1.75rem !important;
+}
