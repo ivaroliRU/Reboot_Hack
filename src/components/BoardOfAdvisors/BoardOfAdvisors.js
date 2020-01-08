@@ -230,6 +230,7 @@ constructor(props) {
       (advisor) => {
         return (
             <Advisor
+                key={advisor.id}
                 individualName={advisor.name}
                 individualLinkedIn = {advisor.linkedInLink}
                 individualEmail = {advisor.email}

@@ -38,8 +38,8 @@ class Footer extends Component {
           // logoSRC: "/images/universities/LHI_white_SVG.svg",
           // logoSRC: "/images/universities/LHI_white_SVG_V2.svg",
           // logoSRC: "/images/universities/LHI_white_SVG_V3.svg",
-          
-          logoSRC: "/images/universities/lhi_midju_hvitt.png",
+          // logoSRC: "/images/universities/lhi_midju_hvitt.png",
+          logoSRC: "/images/universities/LHI_merki_2017_University_midjusett.png",
           
           link: "https://www.lhi.is/"
         },

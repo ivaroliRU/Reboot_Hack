@@ -17,7 +17,8 @@ class Events extends Component {
           monthIs: "Október",
           textEn: "Are you interested in innovation, and want to learn more about the different platforms available?",
           textIs: "Hefur þú áhuga á nýsköpun og vilt læra meira um þá möguleika sem eru í boði?",
-          location: "Loft Hostel"
+          location: "Loft Hostel",
+          expired: true
         },
         {
           id: 1,
@@ -28,7 +29,8 @@ class Events extends Component {
           monthIs: "Janúar",
           textEn: "To Be Announced.",
           textIs: "Verður Tilkynnt Síðar.",
-          location: ""
+          location: "",
+          expired: false
         },
         // {
         //   id: 2,
@@ -39,7 +41,8 @@ class Events extends Component {
         //   monthIs: "Ianuar",
         //   textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         //   textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        //   location: "someLocation"
+        //   location: "someLocation",
+        //   expired: false
         // },
         // {
         //   id: 3,
@@ -50,7 +53,8 @@ class Events extends Component {
         //   monthIs: "Ianuar",
         //   textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         //   textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        //   location: "someLocation"
+        //   location: "someLocation",
+        //   expired: false
         // },
       ]
     };
@@ -74,11 +78,11 @@ class Events extends Component {
           <li key={event.id} className={style.media}>
             <div className={style.media_left}>
               <div className={" "+style.text_center+" "+style.date}>
-                <div className={style.panel_body+" "+style.day+" "+generalStyle.justTheFont}>
+                <div className={style.panel_body+" "+style.day}>
                   {event.day}
                 </div>
                 <div className={style.date_heading+" "+style.month}>
-                  <span className={style.panel_title+" "+generalStyle.justTheFont}>
+                  <span className={style.panel_title}>
                     {Cookies.get('language')=='is' ? event.monthIs : event.monthEn}
                   </span>
                 </div>
@@ -86,9 +90,9 @@ class Events extends Component {
               </div>
             </div>
             <div className={style.media_body}>
-              <h4 className={style.media_heading+" "+generalStyle.justTheFont}><b>{Cookies.get('language')=='is' ? event.titleIs : event.titleEn}</b></h4>
-              <h5 className={generalStyle.justTheFont}><b>{event.location}</b></h5>
-              <p className={style.textJustify+" "+generalStyle.justTheFont}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
+              <h4 className={generalStyle.headerStyle+" "+(event.expired==true ? style.expired : null)}>{Cookies.get('language')=='is' ? event.titleIs : event.titleEn}</h4>
+              <h5 className={generalStyle.headerStyle}><i className={"fa fa-map-marker"}></i> {event.location}</h5>
+              <p className={generalStyle.paragraphStyle+" "+style.textJustify}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
             </div>
           </li>
         );
@@ -99,9 +103,8 @@ class Events extends Component {
 
           <div className={style.panel +" "+style.panel_danger}>
               <div className={style.panel_heading}>
-                  <h3 className={generalStyle.justTheFont+" "+style.panel_title}>
-                      <span className={"glyphicon glyphicon-calendar"}></span> 
-                        <b>{upcomingEventsText}</b>
+                  <h3 className={style.panel_title}>
+                    {upcomingEventsText}
                   </h3>
               </div>
               

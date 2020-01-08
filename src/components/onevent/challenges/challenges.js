@@ -97,9 +97,9 @@ class Challenges extends Component {
 
         return (
           <div key={challenge.id} className={style.myElement}>
-            <h3 className={generalStyle.text_styling}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
-            <h5 className={generalStyle.text_styling}>{challenge.company}</h5>
-            <p className={style.textJustify+" "+generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
+            <h3 className={generalStyle.headerStyle}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
+            <h5 className={generalStyle.headerStyle}>{challenge.company}</h5>
+            <p className={style.textJustify+" "+generalStyle.headerStyle+" "+generalStyle.paragraphStyle}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
           </div>
         );
     });
@@ -108,12 +108,12 @@ class Challenges extends Component {
 
     return (
         <div className={"container"}>
-          <h2 className={generalStyle.text_styling+" "+generalStyle.text_align}><b>{challangesText}</b></h2>
+          <h2 className={generalStyle.headerStyle+" "+generalStyle.text_align}>{challangesText}</h2>
 
           <div className={style.myDiv}>
             {challengeSection}
           </div>
-          <p className={generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{upcomingChallenges}</p>
+          <p className={generalStyle.headerStyle+" "+generalStyle.paragraphStyle}>{upcomingChallenges}</p>
         </div>
     );
   }
