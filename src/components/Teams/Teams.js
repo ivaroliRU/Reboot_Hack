@@ -86,7 +86,7 @@ constructor(props) {
             },
             {
               id: 9,
-              name: 'Stefán Örn',
+              name: 'Stefán Örn Snæbjörnsson',
               linkedInLink: 'https://www.linkedin.com/in/stefanornsnaebjornsson/',
               photoURL: './images/team/A-Stefánfin_comp.jpg',
               titleEn: 'Corporate Partnerships Manager',
@@ -108,14 +108,14 @@ constructor(props) {
               titleEn: 'PR & Communications Manager',
               titleIs: 'Samskiptastýra'
             },
-            /*{
+            {
               id: 12,
               name: 'Tinna Líf Jörgensdóttir',
               linkedInLink: 'https://www.linkedin.com/in/tinna-líf-jörgensdóttir-19802a173/?originalSubdomain=is',
               photoURL: './images/team/A-Tinnafin_comp.jpg',
               titleEn: 'Marketing',
               titleIs: 'Markaðsstjóri'
-            },*/
+            },
             {
               id: 13,
               name: 'Þorbjörg Þórhildur Snorradóttir',

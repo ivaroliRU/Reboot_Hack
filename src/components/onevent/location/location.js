@@ -33,10 +33,13 @@ class Location extends Component {
   /* ATH remember to change the script tag in the event.html IF we decide to use only one HTML for webpack */
   const MyMapComponent = withScriptjs(withGoogleMap((props) =>
     <GoogleMap
-      defaultZoom={12}
+      defaultZoom={13}
       defaultCenter={{ lat: 64.1367393, lng: -21.9482052 }}
     >
-      {props.isMarkerShown && <Marker position={{ lat: 64.1367393, lng: -21.9482052 }} />}
+      {props.isMarkerShown && 
+         <Marker 
+           /* add custom marker here? */
+           position={{ lat: 64.1367393, lng: -21.9482052 }} />}
     </GoogleMap>
 ))
 
@@ -45,8 +48,7 @@ class Location extends Component {
           <h3 className={style.textStyle}> {location} </h3>
           <div className={"container"}>
             <h4 className={style.textStyle}>{address}</h4>
-            <p><b>Askja</b></p>
-            <p>Sturlugata 7, 102 Reykjavik</p>
+            <p><b>Askja</b> - Sturlugata 7, 102 Reykjavik</p>
           </div>
           <MyMapComponent 
             isMarkerShown
