@@ -4,7 +4,8 @@ import Navbar from '../../components/navbar';
 import { changeLanguage } from '../../translations';
 import Footer from '../../components/footer';
 import OnEvent from '../../components/onevent/onevent';
-// import style from "./board.css"
+import style from "./event.css"
+
 
 class App extends Component {
     constructor(props) {
@@ -18,9 +19,10 @@ class App extends Component {
         this.forceUpdate();
     }
 
+
     render() {
         return (
-        <div>
+        <div className={style.App}>
             <Navbar handler = {this.handler}/> 
             <OnEvent handler = {this.handler} />
             <Footer />

@@ -80,7 +80,7 @@ constructor(props) {
               id: 8,
               name: 'Sigrún Sayeh Valadbeygi',
               linkedInLink: 'https://www.linkedin.com/in/sigrún-sayeh-v-b89793173/',
-              photoURL: './images/team/A-Sigrúnfin_comp.jpg',
+              photoURL: './images/team/A-SIgrúnfin_comp.jpg',
               titleEn: 'Finance and Logistic Manager',
               titleIs: 'Viðskiptastjóri'
             },
