@@ -7,12 +7,11 @@ import Location from './location/location';
 import Events from './events/events'
 
 class OnEvent extends Component {
+  
   constructor(props) {
     super(props);
-    this.state = {
-    };
   }
-  
+
   render() {
     return (
         <div className={"container"}>
@@ -35,13 +34,15 @@ class OnEvent extends Component {
           {/* <div className={"row"}>
             <div className={"col-12"}>
               <Judges />
-            </div>
-          </div>
+            </div>/ 
+        </div> */}
+
           <div className={"row"}>
             <div className={"col-12"}>
               <Location />
             </div>
-          </div>*/}
+          </div>
+          
         </div> 
     );
   }

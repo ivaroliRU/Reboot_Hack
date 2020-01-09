@@ -6,6 +6,7 @@ import Footer from '../../components/footer';
 import OnEvent from '../../components/onevent/onevent';
 // import style from "./board.css"
 
+
 class App extends Component {
     constructor(props) {
         super(props)
@@ -17,6 +18,7 @@ class App extends Component {
         changeLanguage();
         this.forceUpdate();
     }
+
 
     render() {
         return (
