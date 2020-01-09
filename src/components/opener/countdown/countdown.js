@@ -12,10 +12,10 @@ class Countdown extends Component {
             secondsText = "";
 
         if(Cookies.get('language')=='is'){
-            daysText = "Dag.";
-            hoursText = "Klk.";
-            minutesText = "Mín.";
-            secondsText = "Sek.";
+            daysText = "Dagar";
+            hoursText = "Klukkustundir";
+            minutesText = "Mínútur";
+            secondsText = "Sekúndur";
         }
         else{
             daysText = "Days";
