@@ -121,7 +121,7 @@ constructor(props) {
               name: 'Þorbjörg Þórhildur Snorradóttir',
               linkedInLink: 'https://www.linkedin.com/in/thorbjorgsnorradottir/',
               photoURL: './images/team/A-Tobbafin_comp.jpg',
-              titleEn: 'Sponsorship team',
+              titleEn: 'Sponsorship',
               titleIs: 'Styrkir'
             },
             /*{
@@ -129,7 +129,7 @@ constructor(props) {
               name: 'Vigfús Ólafsson',
               linkedInLink: null,
               photoURL: './images/team/A-Fúsifin_comp.jpg',
-              titleEn: 'Content team',
+              titleEn: 'Content',
               titleIs: 'Kynningarstjóri'
             }*/
           ]
