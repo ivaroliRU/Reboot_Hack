@@ -21,37 +21,81 @@ class Events extends Component {
         },
         {
           id: 1,
-          titleEn: "Events",
-          titleIs: "Viðburðir",
-          day: "",
+          titleEn: "Lunch Presentation",
+          titleIs: "Hádegisfyrirlestur",
+          day: "24",
           monthEn: "January",
           monthIs: "Janúar",
           textEn: "To Be Announced.",
           textIs: "Verður Tilkynnt Síðar.",
-          location: ""
+          location: "Háskólinn á Akureyri"
         },
-        // {
-        //   id: 2,
-        //   titleEn: "Third event",
-        //   titleIs: "Third event",
-        //   day: "27",
-        //   monthEn: "January",
-        //   monthIs: "Ianuar",
-        //   textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        //   textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        //   location: "someLocation"
-        // },
-        // {
-        //   id: 3,
-        //   titleEn: "Forth event",
-        //   titleIs: "Forth event",
-        //   day: "28",
-        //   monthEn: "January",
-        //   monthIs: "Ianuar",
-        //   textEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        //   textIs: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        //   location: "someLocation"
-        // },
+        {
+          id: 2,
+          titleEn: "Reboot Hack Science trip in Akureyri",
+          titleIs: "Reboot Hack vísindaferð á Akureyri",
+          day: "24",
+          monthEn: "January",
+          monthIs: "Janúar",
+          textEn: "All university students welcomw! // Free Beer .",
+          textIs: "Allir háskólanemar velkomnir! // Bjór í boð.",
+          location: "TBA"
+        },
+        {
+          id: 3,
+          titleEn: "Reboot Hack booth on Framadagar",
+          titleIs: "Reboot Hack bás á framadögum",
+           day: "30",
+           monthEn: "January",
+           monthIs: "Janúar",
+           textEn: "Come and meet us!",
+           textIs: "Komdu og heilsaðu upp á okkur!",
+           location: "TBA"
+        },
+        {
+          id: 4,
+          titleEn: "Lunch presentation",
+          titleIs: "Hádegisbás",
+           day: "31",
+           monthEn: "January",
+           monthIs: "Janúar",
+           textEn: "",
+           textIs: "",
+           location: "Sólin, HR"
+        },
+        {
+          id: 5,
+          titleEn: "Reboot Hack Science trip",
+          titleIs: "Reboot Hack vísindaferð",
+           day: "31",
+           monthEn: "January",
+           monthIs: "Janúar",
+           textEn: "Allir háskólanemar velkomnir",
+           textIs: "All university students welcome",
+           location: "Loft Hostel"
+        },
+        {
+          id: 6,
+          titleEn: "Meet & Greet",
+          titleIs: "Opnunarviðburður",
+           day: "14",
+           monthEn: "February",
+           monthIs: "Febrúar",
+           textEn: "All participants!",
+           textIs: "Allir þátttakendur!",
+           location: "Askja"
+        },
+        {
+          id: 7,
+          titleEn: "Closing party",
+          titleIs: "Lokahóf",
+           day: "16",
+           monthEn: "February",
+           monthIs: "Febrúar",
+           textEn: "Open for all participants",
+           textIs: "Opið öllum þátttakendum",
+           location: "Loft Hostel"
+        },
       ]
     };
   }
@@ -60,10 +104,10 @@ class Events extends Component {
 
     var upcomingEventsText;
     if(Cookies.get('language')=='is'){
-      upcomingEventsText="Væntanlegir Viðburðir";
+      upcomingEventsText="Kynningar viðburðir";
     }
     else{
-      upcomingEventsText="Upcoming Events";
+      upcomingEventsText="Mini-events";
     }
 
     var eventsSection = this.state.events.map(
@@ -87,7 +131,7 @@ class Events extends Component {
             </div>
             <div className={style.media_body}>
               <h4 className={style.media_heading+" "+generalStyle.justTheFont}><b>{Cookies.get('language')=='is' ? event.titleIs : event.titleEn}</b></h4>
-              <h5 className={generalStyle.justTheFont}><b>{event.location}</b></h5>
+              <h5 className={generalStyle.justTheFont}><i className={"fa fa-map-marker"} />  <b>{event.location}</b></h5>
               <p className={style.textJustify+" "+generalStyle.justTheFont}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
             </div>
           </li>

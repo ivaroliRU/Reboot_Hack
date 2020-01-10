@@ -33,14 +33,14 @@ class Challenges extends Component {
           company: "Byggðastofnun"
         },
        
-        // {
-        //   id: 2,
-        //   titleEn: "To Be Announced",
-        //   titleIs: "Verður Tilkynnt Síðar",
-        //   textEn: "To Be Announced",
-        //   textIs: "Verður Tilkynnt Síðar",
-        //   company: "Auður (Kvika)"
-        // },
+        {
+          id: 2,
+          titleEn: "Gamification of Savings",
+          titleIs: "Leikjavæðing sparnaðar",
+          textEn: "Saving is something we all need to focus on, but we may find it difficult as it is often much easier to spend than save. It can be a challenge to find the will power to continue the habit of saving especially when you are on a budget.  How can the elements of gaming like challenges and competition be used to gamify savings and encourage individuals to achieve their savings goals and make it fun at the same time.",
+          textIs: "Að leggja fyrir og spara er eitthvað sem við þurfum öll að temja okkur en það getur reynst erfitt því það er oft auðveldara að eyða en spara. Það getur verið áskorun að viðhalda þeirri venju að spara sérstaklega þegar það þrengir að fjárhagslega. En hvernig er hægt nýta eiginleika tölvuleikja eins og áskoranir og samkeppni til þess að leikjavæða sparnað og hvetja einstaklinga til þess að leggja fyrir og hjálpa þeim að ná sínum fjárhagslegu markmiðum og hafa gaman af því á sama tíma.",
+          company: "Auður (Kvika)"
+        },
         // {
         //   id: 3,
         //   titleEn: "How can we teach and maintain security awareness in the future?",
@@ -108,7 +108,7 @@ class Challenges extends Component {
 
     return (
         <div className={"container"}>
-          <h2 className={generalStyle.text_styling+" "+generalStyle.text_align}><b>{challangesText}</b></h2>
+          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align}><b>{challangesText}</b></h1>
 
           <div className={style.myDiv}>
             {challengeSection}

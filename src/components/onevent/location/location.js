@@ -45,8 +45,7 @@ class Location extends Component {
           <h3 className={generalStyle.text_styling}> {location} </h3>
           <div className={"container"}>
             <h4 className={generalStyle.text_styling}>{address}</h4>
-            <p><b>Askja</b></p>
-            <p>Sturlugata 7, 102 Reykjavik</p>
+            <p> <b>Askja</b> - Sturlugata 7, 102 Reykjavik</p>
           </div>
           <MyMapComponent 
             isMarkerShown

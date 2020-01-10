@@ -4,7 +4,7 @@ export const translation = {
       /* Navbar */
       navbar:{
         about: "Um okkur",
-        reboot:  "Reboot",
+        reboot:  "Reboot Hack",
         sponsors: "Bakhjarlar",
         trans_btn: "EN <img src='/images/english.png' height='15px'></img>",
         board: "Ráðgjafar",
@@ -182,7 +182,7 @@ export const translation = {
       /* Navbar */
       navbar:{
         about: "Us",
-        reboot:  "Reboot",
+        reboot:  "Reboot Hack",
         sponsors: "Sponsors",
         trans_btn: "IS <img src='/images/icelandic.png' height='15px'></img>",
         board: "Board Of Advisors",
