@@ -195,11 +195,8 @@ class Sponsors extends Component {
         4. other
         */
 
-
-
         var sponsorSection = this.state.sponsors.map(
             (sponsor) => {
-                    console.log(this.state.sponsors);
                 return (
                     <div>
                     <h2 className="text-center">{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
@@ -213,9 +210,7 @@ class Sponsors extends Component {
             });
 
         return (
-            <div className={style.App}>
-
-                <div className={style.sponsor__content}>
+            <div className={style.sponsor__content +" "+ style.App}>
                 <h1 className={style.sponsor__main__header}>{this.text.sponsors.sponsors}</h1>
                 {/* Her koma myndir af styrkaradilum */}
                 <div>
@@ -239,9 +234,7 @@ class Sponsors extends Component {
                 />
                 */}
             
-            </div>
-
-            </div>
+        </div>
         )
     }
 }

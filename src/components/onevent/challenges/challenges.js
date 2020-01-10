@@ -33,14 +33,14 @@ class Challenges extends Component {
           company: "Byggðastofnun"
         },
        
-        // {
-        //   id: 2,
-        //   titleEn: "To Be Announced",
-        //   titleIs: "Verður Tilkynnt Síðar",
-        //   textEn: "To Be Announced",
-        //   textIs: "Verður Tilkynnt Síðar",
-        //   company: "Auður (Kvika)"
-        // },
+        {
+          id: 2,
+          titleEn: "Gamification of Savings",
+          titleIs: "Leikjavæðing sparnaðar",
+          textEn: "Saving is something we all need to focus on, but we may find it difficult as it is often much easier to spend than save. It can be a challenge to find the will power to continue the habit of saving especially when you are on a budget.  How can the elements of gaming like challenges and competition be used to gamify savings and encourage individuals to achieve their savings goals and make it fun at the same time.",
+          textIs: "Að leggja fyrir og spara er eitthvað sem við þurfum öll að temja okkur en það getur reynst erfitt því það er oft auðveldara að eyða en spara. Það getur verið áskorun að viðhalda þeirri venju að spara sérstaklega þegar það þrengir að fjárhagslega. En hvernig er hægt nýta eiginleika tölvuleikja eins og áskoranir og samkeppni til þess að leikjavæða sparnað og hvetja einstaklinga til þess að leggja fyrir og hjálpa þeim að ná sínum fjárhagslegu markmiðum og hafa gaman af því á sama tíma.",
+          company: "Auður (Kvika)"
+        },
         // {
         //   id: 3,
         //   titleEn: "How can we teach and maintain security awareness in the future?",
@@ -79,16 +79,18 @@ class Challenges extends Component {
   
   render() {
 
-    var upcomingChallenges, challangesText;//, postedByText;
+    var upcomingChallenges, challangesText, challengeInfo ; //, postedByText;
 
     if(Cookies.get('language')=='is'){
       upcomingChallenges= "Fleiri áskoranir munu birtast á næstu dögum, fylgstu með! :)";
       challangesText= "Áskoranir";
+      challengeInfo= "Hakkaþon snúast ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hakkaþon sem uppfinningamaraþon eða nýsköpunarkeppni þar sem þátttakendur keppa saman í hópum og vinna í 24 tíma að lausn við þeim áskorunum sem kynntar eru hér fyrir neðan. Verðlaun eru veitt þeim teymum sem finna bestu lausn við hverri og einni áskorun.";
       // postedByText="Skrifað af ";
     }
     else{
       upcomingChallenges= "There will be some more upcoming challenges, so make sure to re-visit the webiste :)";
       challangesText= "Challenges";
+      challengeInfo= "Hackathons are not about “hacking” but rather creating. Hackathon can be thought of as an invention marathon where students compete in groups and work for 24 hours to develop a solution from scratch, based on challenges presented here below. A prize will be awarded to the team that comes up with the best solution to each challenge.";
       // postedByText="Posted by ";
     }
 
@@ -108,8 +110,8 @@ class Challenges extends Component {
 
     return (
         <div className={"container"}>
-          <h2 className={generalStyle.headerStyle+" "+generalStyle.text_align}>{challangesText}</h2>
-
+          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align}><b>{challangesText}</b></h1>
+            <p  className={generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{challengeInfo}</p>
           <div className={style.myDiv}>
             {challengeSection}
           </div>

@@ -2,6 +2,13 @@
     width: 100%;
     margin: auto;
   }
+
+.text_styling{
+    font-family: 'Montserrat', sans-serif;
+    color: #694991;
+}
+
+
 .myElement {
   font-size: 1em;
   line-height: 1.75em;
