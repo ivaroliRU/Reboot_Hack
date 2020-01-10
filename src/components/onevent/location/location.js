@@ -34,9 +34,9 @@ class Location extends Component {
   const MyMapComponent = withGoogleMap((props) =>
     <GoogleMap
       defaultZoom={12}
-      defaultCenter={{ lat: 64.1367393, lng: -21.9482052 }}
+      defaultCenter={{ lat: 64.137262, lng: -21.945822 }}
     >
-      {props.isMarkerShown && <Marker position={{ lat: 64.1367393, lng: -21.9482052 }} />}
+      {props.isMarkerShown && <Marker position={{ lat:  64.137262, lng: -21.945822 }} />}
     </GoogleMap>
 )
 

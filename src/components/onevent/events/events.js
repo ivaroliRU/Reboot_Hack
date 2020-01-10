@@ -37,7 +37,7 @@ class Events extends Component {
           day: "24",
           monthEn: "January",
           monthIs: "Janúar",
-          textEn: "All university students welcomw! // Free Beer .",
+          textEn: "All university students welcome! // Free Beer .",
           textIs: "Allir háskólanemar velkomnir! // Bjór í boð.",
           location: "TBA"
         },
@@ -118,11 +118,11 @@ class Events extends Component {
           <li key={event.id} className={style.media}>
             <div className={style.media_left}>
               <div className={" "+style.text_center+" "+style.date}>
-                <div className={style.panel_body+" "+style.day+" "+generalStyle.justTheFont}>
+                <div className={style.panel_body+" "+style.day+" "+style.text_styling}>
                   {event.day}
                 </div>
                 <div className={style.date_heading+" "+style.month}>
-                  <span className={style.panel_title+" "+generalStyle.justTheFont}>
+                  <span className={style.panel_title+" "+style.text_styling}>
                     {Cookies.get('language')=='is' ? event.monthIs : event.monthEn}
                   </span>
                 </div>

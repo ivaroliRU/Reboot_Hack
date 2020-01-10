@@ -79,16 +79,18 @@ class Challenges extends Component {
   
   render() {
 
-    var upcomingChallenges, challangesText;//, postedByText;
+    var upcomingChallenges, challangesText, challengeInfo ; //, postedByText;
 
     if(Cookies.get('language')=='is'){
       upcomingChallenges= "Fleiri áskoranir munu birtast á næstu dögum, fylgstu með! :)";
       challangesText= "Áskoranir";
+      challengeInfo= "Hakkaþon snúast ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hakkaþon sem uppfinningamaraþon eða nýsköpunarkeppni þar sem þátttakendur keppa saman í hópum og vinna í 24 tíma að lausn við þeim áskorunum sem kynntar eru hér fyrir neðan. Verðlaun eru veitt þeim teymum sem finna bestu lausn við hverri og einni áskorun.";
       // postedByText="Skrifað af ";
     }
     else{
       upcomingChallenges= "There will be some more upcoming challenges, so make sure to re-visit the webiste :)";
       challangesText= "Challenges";
+      challengeInfo= "Hackathons are not about “hacking” but rather creating. Hackathon can be thought of as an invention marathon where students compete in groups and work for 24 hours to develop a solution from scratch, based on challenges presented here below. A prize will be awarded to the team that comes up with the best solution to each challenge.";
       // postedByText="Posted by ";
     }
 
@@ -97,8 +99,8 @@ class Challenges extends Component {
 
         return (
           <div key={challenge.id} className={style.myElement}>
-            <h3 className={generalStyle.text_styling}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
-            <h5 className={generalStyle.text_styling}>{challenge.company}</h5>
+            <h3 className={style.text_styling}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
+            <h5 className={style.text_styling}>{challenge.company}</h5>
             <p className={style.textJustify+" "+generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
           </div>
         );
@@ -109,7 +111,7 @@ class Challenges extends Component {
     return (
         <div className={"container"}>
           <h1 className={generalStyle.text_styling+" "+generalStyle.text_align}><b>{challangesText}</b></h1>
-
+            <p  className={generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{challengeInfo}</p>
           <div className={style.myDiv}>
             {challengeSection}
           </div>
