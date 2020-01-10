@@ -199,7 +199,7 @@ class Sponsors extends Component {
             (sponsor) => {
                 return (
                     <div>
-                    <h2 className="text-center">{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
+                    <h2 className={style.titlePadding+" text-center"}>{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
                     <SponsorImages
                         key = {sponsor.id}
                         spRank={sponsor.rank}

@@ -24,10 +24,15 @@
   padding: 1.0rem !important;
 }
 
-@media (min-width: 576px){
+@media (min-width: 600px){
   .colSm1Half {
       -ms-flex: 0 0 14.285%;
       flex: 0 0 14.285%;
       max-width: 14.285%;
+  }
+}
+@media (max-width: 600px){
+  .hideOnSmallScreens{
+    display: none;
   }
 }

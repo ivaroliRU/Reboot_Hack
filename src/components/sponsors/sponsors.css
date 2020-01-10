@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+.titlePadding{
+  padding-top: 10%;
+}
+
 .App {
     overflow-x: hidden;
     /* background-color: hsla(268, 34%, 43%, 0.1); */
