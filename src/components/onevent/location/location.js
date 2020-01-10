@@ -36,7 +36,15 @@ class Location extends Component {
       defaultZoom={12}
       defaultCenter={{ lat: 64.137262, lng: -21.945822 }}
     >
-      {props.isMarkerShown && <Marker position={{ lat:  64.137262, lng: -21.945822 }} />}
+      {props.isMarkerShown && <Marker 
+                                position={{ lat:  64.137262, lng: -21.945822 }} 
+                                icon={
+                                  {
+                                    url: "./images/reboot_pin_svg.svg",
+                                    // url: "./images/reboot_pin_svg_v2.svg",
+                                    scaledSize: new google.maps.Size(50, 50)
+                                  }
+                                }/>}
     </GoogleMap>
 ))
 
