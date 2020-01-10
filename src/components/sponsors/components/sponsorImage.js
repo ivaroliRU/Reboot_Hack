@@ -20,7 +20,7 @@ class SponsorImage extends Component {
 
     return(
       
-      <div className={style.image_center+" col-sm-3"}>
+      <div className={style.image_center+(this.props.sponsorRank!==4 ? " col-sm-3" : " col-sm-2 "+style.colSm1Half)}>
         <a href={this.props.sponsorWebsite} className="custom-card" target="_blank">
         <div className={"card border-0 image__card"}>
           <div className={imgStyle+" card-body"}>

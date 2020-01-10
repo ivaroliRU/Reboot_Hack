@@ -13,7 +13,7 @@
 }
 
 .rank2{
-  padding: 0.75rem !important;
+  padding: 0.5rem !important;
 }
 
 .rank3{
@@ -21,5 +21,13 @@
 }
 
 .rank4{
-  padding: 1.75rem !important;
+  padding: 1.0rem !important;
+}
+
+@media (min-width: 576px){
+  .colSm1Half {
+      -ms-flex: 0 0 14.285%;
+      flex: 0 0 14.285%;
+      max-width: 14.285%;
+  }
 }

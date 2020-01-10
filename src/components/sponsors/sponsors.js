@@ -70,13 +70,18 @@ class Sponsors extends Component {
                         {
                             id: 1,
                             name: 'Ölgerðin Egill Skallagrímsson',
-                            photoURL: './images/sponsors/restart/OES_logo_png.png',
+                            // photoURL: './images/sponsors/restart/OES_logo_png.png',
+                            // photoURL: './images/sponsors/restart/olgerdinLogoSVG.svg',
+                            // photoURL: './images/sponsors/restart/olgerdinLogoSVGResizedV1.svg',
+                            photoURL: './images/sponsors/restart/olgerdinLogoSVGResizedV2.svg',                            
                             website: 'https://www.olgerdin.is/'
                         },
                         {
                             id: 2,
                             name: 'Vörður',
-                            photoURL: './images/sponsors/restart/Vordur_logo_outline.png',
+                            // photoURL: './images/sponsors/restart/Vordur_logo_outline.png',
+                            // photoURL: './images/sponsors/restart/vordurLogoSVG.svg',
+                            photoURL: './images/sponsors/restart/VordurLogoGraySVG.svg',
                             website: 'https://vordur.is/'
                         },
                         {
@@ -94,16 +99,31 @@ class Sponsors extends Component {
                     nameIs: 'Re:load',
                     sponsor: [
                         {
+                            id: 2,
+                            name: null,
+                            photoURL: null,
+                            website: null
+                        },
+                        {
                             id: 0,
                             name: 'Deloitte',
-                            photoURL: './images/sponsors/reload/DEL_PRI_RGB.png',
+                            // photoURL: './images/sponsors/reload/DEL_PRI_RGB.png',
+                            photoURL: './images/sponsors/reload/DeloitteLogoSVGBlack.svg',
                             website: 'https://www2.deloitte.com/is/is.html'
                         },
                         {
                             id: 1,
                             name: 'Marel',
-                            photoURL: './images/sponsors/reload/marel_logo.png',
+                            // photoURL: './images/sponsors/reload/marel_logo.png',
+                            photoURL: './images/sponsors/reload/MarelLogoSVG.svg',
+
                             website: 'https://marel.com/is'
+                        },
+                        {
+                            id: 3,
+                            name: null,
+                            photoURL: null,
+                            website: null
                         },
                     ]
                 },
@@ -122,7 +142,8 @@ class Sponsors extends Component {
                         {
                             id: 1,
                             name: 'Hostelling International',
-                            photoURL: './images/sponsors/other/HI_LOGO_PRIMARY_CMYK.png',
+                            // photoURL: './images/sponsors/other/HI_LOGO_PRIMARY_CMYK.png',
+                            photoURL: './images/sponsors/other/HostellingLogoSVG.svg',
                             website: 'https://www.hostel.is/'
                         },
                         {
