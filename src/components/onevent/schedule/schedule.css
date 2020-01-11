@@ -25,6 +25,7 @@
     width: 25px;
     height: 25px;
     background-color: #694991;
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     border-radius: 50%;
     display: block;
@@ -50,6 +51,7 @@
     top: 50%;
     transform: translateY(-50%);
     background-color: #694991;
+    font-family: 'Montserrat', sans-serif;
     width: 4vw;
     height: 5px;
     max-width: 50px;
@@ -101,7 +103,7 @@
 }
 
 .dot_info .span.year {
-    bottom: -40px;
+    bottom: -50px;
 	position: relative;
 }
 
@@ -109,11 +111,14 @@
     top: -65px;
     left: 0;
     transform: rotateZ(-45deg);
-    width: 70px;
+    width: 140px;
     text-indent: -10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
 }
 
 #timeline_descriptions_wrapper {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     margin-top: 140px;
     font-size: 22px;
