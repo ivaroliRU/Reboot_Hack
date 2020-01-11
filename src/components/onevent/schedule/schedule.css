@@ -18,7 +18,7 @@
     /* position: relative; */
     z-index: 0;
 	margin-left: calc((80vw - 25px) / 20);
-	top: 80px;
+	top: 50px;
 }
 
 .input {
@@ -119,6 +119,7 @@
 
 #timeline_descriptions_wrapper {
     font-family: 'Montserrat', sans-serif;
+    white-space: pre-line;
     width: 100%;
     margin-top: 140px;
     font-size: 22px;

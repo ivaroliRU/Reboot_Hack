@@ -9,47 +9,47 @@ class Schedule extends Component {
       description: [
         {
           id: 0,
-          text: "Show up and meet the people "
+          text: "Show up and meet the people \n Askja - main entrence "
         },
         {
           id: 1,
-          text: "Come and have delicous breakfast and get to know the schedule"
+          text: "Come and have delicous breakfast and get to know the schedule \n Askja - main hall "
         },
         {
           id: 2,
-          text: ""
+          text: "Askja - room 132"
         },
         {
           id: 3,
-          text: "Join a winning team if you do not already have one! "
+          text: "Join a winning team if you do not already have one! \n Askja - main hall"
         },
         {
           id: 4,
-          text: "START HACKING 👩‍💻👨‍💻"
+          text: "START HACKING 👩‍💻👨‍💻 \n Askja "
         },
         {
           id: 5,
-          text: "We have loads of very fun workshops"
+          text: "We have loads of very fun workshops \n Askja - rooms: 121, 128, 129, 130 "
         },
         {
           id: 6,
-          text: "Want some coffe? ☕️"
+          text: "Want some coffe? ☕️ \n Askja - main hall"
         },
         {
           id: 7,
-          text: ""
+          text: "Use your newly gained experience from the workshops to make your solution better"
         },
         {
           id: 8,
-          text: "Dinner is served! "
+          text: "Dinner is served! \n Askja - main hall"
         },
         {
           id: 9,
-          text: "I like surprises!"
+          text: "I like surprises! 🤠"
         },
         {
           id: 10,
-          text: "Double surprise is double the fun!"
+          text: "Double surprise is double the fun! \n WOW!? two surprises in one night 🤑"
         },
         {
           id: 11,
@@ -106,7 +106,7 @@ class Schedule extends Component {
 
           <center><h2 className="pb-6">Schedule:</h2></center>
           <div className={style.displayOnBiggerScreensOnly}>
-            <br /><br /><br />
+            <br /><br /><br /><br /><br /><br />
           </div>
 
           <div className={style.flex_parent}>
