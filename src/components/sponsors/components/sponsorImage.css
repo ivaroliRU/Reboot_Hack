@@ -35,4 +35,7 @@
   .hideOnSmallScreens{
     display: none;
   }
+  .rank1{
+    padding: 1.75rem !important;
+  }
 }

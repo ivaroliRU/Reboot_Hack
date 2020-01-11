@@ -56,3 +56,23 @@
 .textJustify{
   text-align: justify;
 }
+
+.image{
+  /* border: 1px solid black; */
+  height: 36px;
+}
+.marginAuto{
+  margin: auto !important;
+}
+.modalBody{
+
+}
+.myButton{
+  display: none;
+}
+.myModalDialog{
+  max-width: 80%;
+}
+.buttonClose{
+  margin-left: 0 !important;
+}

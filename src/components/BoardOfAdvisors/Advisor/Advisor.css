@@ -1,0 +1,9 @@
+.IndividualDivModofied{
+    height: 150px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .IndividualDivModofied{
+        height:200px !important
+    }
+}

@@ -19,29 +19,30 @@
 
 .TheTeamText {
   padding: 1.5%;
+  padding-top: 20px;
+  padding-bottom: 0;
+
   text-align: center;
-  /* color: hsl(0, 0%, 17%); */
+
   letter-spacing: .03em;
   font-size: 36px;
-  /* text-shadow: 
-    4px 4px 0px #d5d5d5, 
-    7px 7px 0px rgba(0, 0, 0, 0.2); */
 
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 2em;
   color: #625892;
 
   margin-bottom: 0;
-  padding-bottom: 0 !important;
+  
   line-height: normal;
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
 
   .TheTeamText {
     /* font-size: 28px; */
     padding: 7%;
+    padding-bottom: 2% !important;
   }
 
 }

@@ -14,7 +14,7 @@ class Events extends Component {
           titleIs: "Re:think // Hvað er nýsköpun?",
           day: "9",
           monthEn: "October",
-          monthIs: "október",
+          monthIs: "Október",
           textEn: "Are you interested in innovation, and want to learn more about the different platforms available?",
           textIs: "Hefur þú áhuga á nýsköpun og vilt læra meira um þá möguleika sem eru í boði?",
           location: "Loft Hostel",
@@ -26,9 +26,9 @@ class Events extends Component {
           titleIs: "Hádegisfyrirlestur",
           day: "24",
           monthEn: "January",
-          monthIs: "janúar",
+          monthIs: "Janúar",
           textEn: "To Be Announced.",
-          textIs: "Verður Tilkynnt Síðar.",
+          textIs: "Nánari Upplýsingar Síðar.",
           location: "Háskólinn á Akureyri"
         },
         {
@@ -105,7 +105,7 @@ class Events extends Component {
 
     var upcomingEventsText;
     if(Cookies.get('language')=='is'){
-      upcomingEventsText="Kynningar viðburðir";
+      upcomingEventsText="Kynningarviðburðir";
     }
     else{
       upcomingEventsText="Mini-events";
