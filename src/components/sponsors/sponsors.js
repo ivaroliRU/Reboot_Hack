@@ -21,6 +21,7 @@ class Sponsors extends Component {
             sponsors: [
                 {
                     id: 0,
+                    rank: 1,
                     nameEn: 'Re:boot',
                     nameIs: 'Re:boot',
                     sponsor: [
@@ -55,7 +56,8 @@ class Sponsors extends Component {
                     ]
                 },
                 {
-                    id: 1,
+                    id: 1, 
+                    rank: 2,
                     nameEn: 'Re:start',
                     nameIs: 'Re:start',
                     sponsor: [
@@ -68,13 +70,18 @@ class Sponsors extends Component {
                         {
                             id: 1,
                             name: 'Ölgerðin Egill Skallagrímsson',
-                            photoURL: './images/sponsors/restart/OES_logo_png.png',
+                            // photoURL: './images/sponsors/restart/OES_logo_png.png',
+                            // photoURL: './images/sponsors/restart/olgerdinLogoSVG.svg',
+                            // photoURL: './images/sponsors/restart/olgerdinLogoSVGResizedV1.svg',
+                            photoURL: './images/sponsors/restart/olgerdinLogoSVGResizedV2.svg',                            
                             website: 'https://www.olgerdin.is/'
                         },
                         {
                             id: 2,
                             name: 'Vörður',
-                            photoURL: './images/sponsors/restart/Vordur_logo_outline.png',
+                            // photoURL: './images/sponsors/restart/Vordur_logo_outline.png',
+                            // photoURL: './images/sponsors/restart/vordurLogoSVG.svg',
+                            photoURL: './images/sponsors/restart/VordurLogoGraySVG.svg',
                             website: 'https://vordur.is/'
                         },
                         {
@@ -87,32 +94,56 @@ class Sponsors extends Component {
                 },
                 {
                     id: 2,
+                    rank: 3,
                     nameEn: 'Re:load',
                     nameIs: 'Re:load',
                     sponsor: [
                         {
+                            id: 2,
+                            name: null,
+                            photoURL: null,
+                            website: null
+                        },
+                        {
                             id: 0,
                             name: 'Deloitte',
-                            photoURL: './images/sponsors/reload/DEL_PRI_RGB.png',
+                            // photoURL: './images/sponsors/reload/DEL_PRI_RGB.png',
+                            photoURL: './images/sponsors/reload/DeloitteLogoSVGBlack.svg',
                             website: 'https://www2.deloitte.com/is/is.html'
+                        },
+                        {
+                            id: 1,
+                            name: 'Marel',
+                            // photoURL: './images/sponsors/reload/marel_logo.png',
+                            photoURL: './images/sponsors/reload/MarelLogoSVG.svg',
+
+                            website: 'https://marel.com/is'
+                        },
+                        {
+                            id: 3,
+                            name: null,
+                            photoURL: null,
+                            website: null
                         },
                     ]
                 },
                 {
                     id: 3,
+                    rank: 4,
                     nameEn: 'Other Sponsors',
                     nameIs: 'Aðrir Styrktaraðilar',
                     sponsor : [
                         {
                             id: 0,
                             name: 'Dominos',
-                            photoURL: './images/sponsors/other/Logobakgrunnslaust.png',
+                            photoURL: './images/sponsors/other/DominosLogoSVG.svg',
                             website: 'https://www.dominos.is/'
                         },
                         {
                             id: 1,
                             name: 'Hostelling International',
-                            photoURL: './images/sponsors/other/HI_LOGO_PRIMARY_CMYK.png',
+                            // photoURL: './images/sponsors/other/HI_LOGO_PRIMARY_CMYK.png',
+                            photoURL: './images/sponsors/other/HostellingLogoSVG.svg',
                             website: 'https://www.hostel.is/'
                         },
                         {
@@ -120,6 +151,31 @@ class Sponsors extends Component {
                             name: 'ENNEMM',
                             photoURL: './images/sponsors/other/ennemm.png',
                             website: 'https://www.ennemm.is/'
+                        },
+                        {
+                            id: 3, 
+                            name: 'Ráðuneytið',
+                            photoURL: './images/sponsors/other/raduneytid.png',
+                            website: 'https://www.stjornarradid.is/'
+                        },
+                        {
+                            id: 4, 
+                            name: 'Nýsköpunarmiðstöð',
+                            photoURL: './images/sponsors/other/nmitrans.png',
+                            website: 'https://www.nmi.is/'
+                        },
+                        {
+                            id: 5,
+                            name: 'Utmessan',
+                            // photoURL: './images/sponsors/other/Utmessan.png',
+                            photoURL: './images/sponsors/other/Utmessan_logo.png',
+                            website: 'https://utmessan.is/'
+                        },
+                        {
+                            id: 6,
+                            name: 'Ský',
+                            photoURL: './images/sponsors/other/skylogo2leleggaedi.png',
+                            website: 'https://www.sky.is/'
                         },
                     ]
                 }
@@ -139,16 +195,14 @@ class Sponsors extends Component {
         4. other
         */
 
-
-
         var sponsorSection = this.state.sponsors.map(
             (sponsor) => {
-                    console.log(this.state.sponsors);
                 return (
                     <div>
-                    <h2 className="text-center">{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
+                    <h2 className={style.titlePadding+" text-center"}>{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
                     <SponsorImages
                         key = {sponsor.id}
+                        spRank={sponsor.rank}
                         sponsorItem = {sponsor.sponsor}
                     />
                     </div>
@@ -156,9 +210,7 @@ class Sponsors extends Component {
             });
 
         return (
-            <div className={style.App}>
-
-                <div className={style.sponsor__content}>
+            <div className={style.sponsor__content +" "+ style.App}>
                 <h1 className={style.sponsor__main__header}>{this.text.sponsors.sponsors}</h1>
                 {/* Her koma myndir af styrkaradilum */}
                 <div>
@@ -182,9 +234,7 @@ class Sponsors extends Component {
                 />
                 */}
             
-            </div>
-
-            </div>
+        </div>
         )
     }
 }

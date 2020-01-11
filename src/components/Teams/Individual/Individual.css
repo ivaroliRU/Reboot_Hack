@@ -1,12 +1,13 @@
 .IndividualDiv{
     border-bottom: 1px solid ;
     border-radius: 5px;
-    background-color: #DAD8E1;
-    
+    background-color: #F0ECF4;
+    height: 500px;
 }
 
 .IndividualPadding{
     padding: 1.5%;
+    margin: auto !important;
 }
 
 .Title{
@@ -61,8 +62,13 @@
     transition: all 0.2s ease-in-out;
 }
 
+
+
 @media only screen and (max-width: 600px) {
-   .IndividualDiv :hover{
+    .IndividualDiv{
+        height: 400px !important;
+    }
+    .IndividualDiv :hover{
         background-color: rgba(255, 255, 255, 1);
         transform: scale(1) !important;
     }

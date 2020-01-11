@@ -24,26 +24,13 @@ class App extends Component {
         this.forceUpdate();
     }
     
-    //const einar = () =>
-
-    /*
-    const MyMapComponent = (props) =>
-    (<GoogleMap
-      defaultZoom={8}
-      defaultCenter={{ lat: -34.397, lng: 150.644 }}
-    >
-        {props.isMarkerShown && <Marker position={{ lat: -34.397, lng: 150.644 }} />}
-    </GoogleMap>)
-    */
-    
-    
 
     render() {
         return (
         <div className={style.App}>    
             <Navbar handler = {this.handler}/> 
 
-            {/*<MyMapComponent isMarkerShown />   */}         
+            {/* <MyMapComponent isMarkerShown />   */}         
 
             <About handler = {this.handler} />
             <Footer />

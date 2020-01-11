@@ -8,3 +8,34 @@
 .image_center{
   margin: auto;
 }
+.rank1{
+  padding: 0 !important;
+}
+
+.rank2{
+  padding: 0.5rem !important;
+}
+
+.rank3{
+  padding: 1.25rem !important;
+}
+
+.rank4{
+  padding: 1.0rem !important;
+}
+
+@media (min-width: 600px){
+  .colSm1Half {
+      -ms-flex: 0 0 14.285%;
+      flex: 0 0 14.285%;
+      max-width: 14.285%;
+  }
+}
+@media (max-width: 600px){
+  .hideOnSmallScreens{
+    display: none;
+  }
+  .rank1{
+    padding: 1.75rem !important;
+  }
+}

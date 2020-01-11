@@ -21,9 +21,9 @@ class Advisor extends Component {
     }
 
     return (
-      <div className={IndividualStyle.IndividualPadding + ' '+AdvisorStyle.div+" col-6 col-xl-4"}>
+      <div className={IndividualStyle.IndividualPadding + ' '+AdvisorStyle.div+" col-6 col-lg-4"}>
         <div 
-          className={IndividualStyle.IndividualDiv}
+          className={IndividualStyle.IndividualDiv+" "+AdvisorStyle.IndividualDivModofied}
         >
           <div className={IndividualStyle.ContainedInformation}>
             {/* <img 

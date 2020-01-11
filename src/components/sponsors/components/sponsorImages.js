@@ -14,6 +14,7 @@ class SponsorImages extends Component {
             sponsorName = {sponsor.name}
             sponsorPhotoUrl = {sponsor.photoURL}
             sponsorWebsite = {sponsor.website}
+            sponsorRank = {this.props.spRank}
           />
         );
       });

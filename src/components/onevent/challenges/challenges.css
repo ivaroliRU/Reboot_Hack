@@ -2,32 +2,45 @@
     width: 100%;
     margin: auto;
   }
+
+.text_styling{
+    font-family: 'Montserrat', sans-serif;
+    color: #694991;
+}
+
+
 .myElement {
   font-size: 1em;
   line-height: 1.75em;
   border-top: 3px solid;
+  /* ATH, here is the error need to fix !
   border-image: linear-gradient(to left, #694991 0%, #e26fe8 100%);
-  border-image-slice: 1;
+  border-image-slice: 30%; */
   border-width: 3px;
   margin: 0;
   padding: 40px;
   position: relative;
-  color: inherit;
+  color: #694991;
+  
 }
-
+/* padding = top right bottom left */
 .myElement:nth-child(odd) {
+  -webkit-appearance: none;
   border-right: 3px solid;
   padding-left: 0;
 }
 .myElement:nth-child(odd):before {
+  -webkit-appearance: none;
   left: 100%;
   margin-left: -20px;
 }
 .myElement:nth-child(even) {
+  -webkit-appearance: none;
   border-left: 3px solid;
   padding-right: 0;
 }
 .myElement:nth-child(even):before {
+  -webkit-appearance: none;
   right: 100%;
   margin-right: -20px;
 }
@@ -42,4 +55,24 @@
 }
 .textJustify{
   text-align: justify;
+}
+
+.image{
+  /* border: 1px solid black; */
+  height: 36px;
+}
+.marginAuto{
+  margin: auto !important;
+}
+.modalBody{
+
+}
+.myButton{
+  display: none;
+}
+.myModalDialog{
+  max-width: 80%;
+}
+.buttonClose{
+  margin-left: 0 !important;
 }

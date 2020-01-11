@@ -4,7 +4,7 @@ export const translation = {
       /* Navbar */
       navbar:{
         about: "Um okkur",
-        reboot:  "Reboot",
+        reboot:  "Reboot Hack",
         sponsors: "Bakhjarlar",
         trans_btn: "EN <img src='/images/english.png' height='15px'></img>",
         board: "Ráðgjafar",
@@ -118,54 +118,64 @@ export const translation = {
             'Helsti hvatinn að viðburðinum er sá að við viljum styrkja og skapa ríkari hakkaþonmenningu á Íslandi og í leiðinni skilgreina það sem tól fyrir framúrskarandi nemendur á öllum fræðasviðum til þess að skapa eitthvað frá grunni. Hingað til hefur hakkaþonmenningin átt heima inni í fyrirtækjum og hjá stofnunum og ekki enn sérstaklega komið til móts við nemendur. Við viljum skapa þetta á okkar heimavelli þannig að Reboot Hack verði alltaf óháð og með hagsmuni nemenda í forgrunni.',
         },
         question6: {
+          text: 'Hvað eru margir í teymi?',
+          answer:
+            'Teymin standa saman af 2-5 einstaklingum, við hvetjum eindregið til þess að lið séu með sem mestan fjölbreytileika í teyminu.',
+        },
+        question7: {
           text: 'Hvað ef ég er ekki með, eða vil ekki vera í teymi?',
           answer:
             'Ekki örvænta! Þátttakendur fá tækifæri til þess að para sig saman í liði áður en að keppnin hefst og við munum passa uppá að allir finni sér lið! Ef að þú kýst frekar að vinna ein/n þá er það velkomið. Lið geta verið samsett af allt að 5 þátttakendum. ',
         },
-        question7: {
+        question8: {
           text: 'Kostar eitthvað að taka þátt?',
           answer:
             'Ekkert. Þökk sé samstarfs- og styrktaraðilum okkar getum við haldið Reboot Hack án þátttökugjalds!',
         },
-        question8: {
+        question9: {
           text: 'Hvað með mat og drykk, þarf ég að koma með nesti?',
           answer:
             'Það verður boðið frítt upp á allar máltíðir frá morgni laugardags til hádegi sunnudags þökk sé samstarfs- og styrktaraðilum okkar! Einnig verður boðið uppá snarl og drykki yfir alla helgina á milli máltíða. Við hvetjum þig aftur á móti til þess að mæta með fjölnota vatnsflösku til þess að fylla á.',
         },
-        question9: {
+        question10: {
           text: 'Má byrja að vinna með tækni og áskoranir fyrir hakkaþon-ið?',
           answer:
             'Öll tækni þarf að vera þróuð á staðnum en það er að sjálfsögðu leyfilegt að byrja hugmyndavinnu. Öll notkun á forritasöfnum (library), frameworks og sniðmátum (templates) er leyfileg.',
         },
-        question10: {
+        question11: {
           text: 'Hverjar eru siðareglur Reboot Hack?',
           answer:
             'Stefna Reboot Hack er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot Hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi.',
         },
-        question11: {
+        question12: {
           text: 'Þarf ég að vera þarna allan tímann?',
           answer:
             'Nei þér er velkomið að koma og fara eins og þú vilt þó að við hvetjum þig til að fullnýta tímann sem þið hafið til þess að móta, þróa og útfæra hugmyndina ykkar. Hægt verður að dvelja á staðnum yfir nóttu og boðið verður upp á létt snarl og drykki til að halda orkunni uppi.',
         },
-        question12: {
+        question13: {
           text: 'Hvað á ég að taka með mér?',
           answer:
             'Persónuskilríki, fartölvu, hleðslutæki, fjölnota vatnsflösku, svefnpoka (ef þú ætlar að leggja þig á staðnum) ásamt hreinlætisvörum til að fríska upp á sig í gegnum helgina!',
         },
-        question13: {
+        question14: {
           text: 'Hvernig er aðgengi á staðnum?',
           answer:
             'Það er gott aðgengi í Háskóla Íslands.',
         },
-        question14: {
+        question15: {
           text: 'Hvað er ég að fara gera?',
           answer:
             'Þú færð tækifæri til þess að leysa áskoranir eða nýta tækni frá fyrirtækjum. Frá því að tæknivinnan byrjar og þangað til að afurð er skilað, vinnur þú ásamt 2-5 manna liði að skapa lausn og frumgerð af tæknitengdri lausn með aðstoð frá sérhæfðum mentorum. Kóðanum sjálfum er skilað inn á sérstaka síðu eftir vinnulotuna sem keyrir í gegnum nóttina. Eftir að vinnulotunni lýkur fær teymið þitt tækifæri til þess að kynna stuttlega afurðina og mun sérstök Dómnefnd dæma frammistöðu og lausnina sjálfa.',
         },
-        question15: {
+        question16: {
           text: 'Hver á höfundarréttinn á lausnunum?',
           answer:
             'Allar lausnir/hugmyndir og tækni sem verða skapaðar á Reboot Hack eru í eigu þátttakendana en við munum bjóða liðum upp á framhaldandi samskipti við áhugasöm fyrirtæki ef að áhugi liggur fyrir hjá báðum aðilum. ',
+        },
+        question17: {
+          text: 'Hvað með gistingu?',
+          answer:
+            'Frá Föstudegi til Laugardags verður engin gisting í boði, þú getur hinsvegar verið í sambandi við okkur ef þig vantar aðstoð við að finna gistingu. Frá Laugardegi til Sunnudags verður aðstaða á svæðinu þar sem hægt er sofa, mælum við með að taka með svefnpoka til þess að láta fara vel um sig. ',
         },
         moreQuestions: {
           text: 'Hefuru fleiri spurningar? - Ekki hika við að senda okkur póst.'
@@ -182,7 +192,7 @@ export const translation = {
       /* Navbar */
       navbar:{
         about: "Us",
-        reboot:  "Reboot",
+        reboot:  "Reboot Hack",
         sponsors: "Sponsors",
         trans_btn: "IS <img src='/images/icelandic.png' height='15px'></img>",
         board: "Board Of Advisors",
@@ -261,7 +271,7 @@ export const translation = {
             'Click the links below for information about being a volunteer or a mentor for Reboot Hack 2020, and how to apply.',
           mentor: 'Mentor',
           volunteer: 'Volunteer',
-          travelHeader: 'Are you intersted in a travel reimbursemen?',
+          travelHeader: 'Are you intersted in a travel reimbursement?',
           travelText: 'If you are attending Reboot Hack 2020 you have an opportunity to have your travel expenses reimbursed. The reimbursements are handled on a case-to-case basis and anyone from outside of Reykjavik is eligable! Click the button below for information on our travel reimbursement policy and how to apply.',
           travel: 'Travel reimbursement',
         },
@@ -296,54 +306,59 @@ export const translation = {
             'Any student or recent graduate (up to a year) over 18 years may apply from any university in the world, and you do not need to study in a computer science related field. We are also looking for mentors with hackathon experience. If you’re interested, please contact us via reboothack@reboothack.is',
         },
         question6: {
+          text: 'How big are the teams?',
+          answer:
+            'Teams are formed by 2-5 people, we encourage people diversity amongst teammates.',
+        },
+        question7: {
           text: 'What if I’m not a part of a team or want to work by myself?',
           answer:
             'Don’t worry! If you come by yourself there will be team building on site before the competition starts and we will make sure everybody is teamed up. If you prefer to be on your own then that’s of course welcome too.',
         },
-        question7: {
+        question8: {
           text: 'Does it cost anything?',
           answer:
             'Nope, thanks to our sponsors Reboot Hack is totally free to attend! ',
         },
-        question8: {
+        question9: {
           text: 'Will there be food and drinks?',
           answer:
             'From breakfast on Saturday to lunch on Sunday our sponsors have got you covered!',
         },
-        question9: {
+        question10: {
           text: 'What’s the code of conduct',
           answer:
             'We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this code of conduct. Organizers will make sure that everyone adheres to the code.',
         },
-        question10: {
+        question11: {
           text: 'What about sleeping?',
           answer:
             'Since the venue is a school there is no designated sleeping space. We will try to accomodate a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up!',
         },
-        question11: {
+        question12: {
           text: 'Can I start working on my idea before the hackathon?',
           answer:
             'No. All code must be fresh but you are free to think of of ideas right away! Use of any libraries, frameworks, and templates is not restricted.',
         },
-        question12: {
+        question13: {
           text: 'What should I bring?',
           answer:
             'A valid ID for admission, your laptop and charger, plug adapter if you are coming from the UK or US, refillable water bottle (tap water in Iceland is the best), sleeping bag (if you intend to sleep) and it will be nice to have some hygiene products to freshen up over the weekend! ',
         },
-        question13: {
+        question14: {
           text: 'How is the accessibility?',
           answer: 'Our venue is accessible to everyone.',
         },
   
-        question14: {
+        question15: {
           text: 'Is there anything required to enter?',
           answer:
             "There are no other requirements to enter and we serve participants on a first come first serve basis!  It's enough to sign up on our website. The hackathon is open to every university student all around the world.",
         },
-        question15: {
+        question16: {
           text: 'What about accommodation in Iceland?',
           answer:
-            'We unfortunately do not have any free accommodation to offer but we can help you with booking if needed. During the night there will be a sleeping space at the venue where you can take a quick nap, we recommend bringing a sleeping bag to be more comfortable.',
+            'We do not provide sleeping space from Friday to Saturday morning, however sleeping spaces are provided from Saturday to Sunday morning. If you need help in finding accommodation please contact us.',
         },
         moreQuestions: {
           text: 'More questions? - Don´t hesitate to send us an email.'

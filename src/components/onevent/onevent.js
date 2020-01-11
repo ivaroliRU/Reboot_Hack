@@ -7,17 +7,17 @@ import Location from './location/location';
 import Events from './events/events'
 
 class OnEvent extends Component {
+  
   constructor(props) {
     super(props);
-    this.state = {
-    };
   }
-  
+
   render() {
     return (
-        <div className={"container"}>
+      <div className={style.bodyStyle}>
+        <div className={style.divStyling+" container"}>
           <br />
-          <h1 className={style.text_styling+" "+style.text_align}><b>Reboot Hack 2020</b></h1>
+          {/*<h1 className={style.text_styling+" "+style.text_align}><b>Reboot Hack 2020</b></h1>*/}
           <div className={"row"}>
             <div className={"col-lg-8 col-sm-12"}>
               <Challenges /> 
@@ -31,18 +31,22 @@ class OnEvent extends Component {
             <div className={"col-12"}>
               <Schedule />
             </div>
-          </div> */}
+            </div> */}
+
           {/* <div className={"row"}>
             <div className={"col-12"}>
               <Judges />
-            </div>
-          </div>
+            </div>/ 
+        </div> */}
+
           <div className={"row"}>
             <div className={"col-12"}>
               <Location />
             </div>
-          </div>*/}
+          </div>
+          
         </div> 
+      </div>
     );
   }
 }

@@ -50,49 +50,57 @@ module.exports = {
       filename: 'index.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/pages/about/about.html',
+      // template: './src/pages/about/about.html',
+      template: './src/pages/index/index.html',
       inject: true,
       chunks: ['about'],
       filename: 'about.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/pages/faq/faq.html',
+      // template: './src/pages/faq/faq.html',
+      template: './src/pages/index/index.html',
       inject: true,
       chunks: ['faq'],
       filename: 'faq.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/pages/error/error.html',
+      // template: './src/pages/error/error.html',
+      template: './src/pages/index/index.html',
       inject: true,
       chunks: ['error'],
       filename: 'error.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/pages/team/team.html',
+      // template: './src/pages/team/team.html',
+      template: './src/pages/index/index.html',
       inject: true,
       chunks: ['team'],
       filename: 'team.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/pages/confirmation/confirmation.html',
+      // template: './src/pages/confirmation/confirmation.html',
+      template: './src/pages/index/index.html',
       inject: true,
       chunks: ['confirmation'],
       filename: 'confirmation.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/pages/sponsors/sponsors.html',
+      // template: './src/pages/sponsors/sponsors.html',
+      template: './src/pages/index/index.html',
       inject: true,
       chunks: ['sponsors'],
       filename: 'sponsors.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/pages/board/board.html',
+      // template: './src/pages/board/board.html',
+      template: './src/pages/index/index.html',
       inject: true,
       chunks: ['board'],
       filename: 'board.html'
     }),
     new HtmlWebPackPlugin({
-      template: './src/pages/event/event.html',
+      // template: './src/pages/event/event.html',
+      template: './src/pages/index/index.html',
       inject: true,
       chunks: ['event'],
       filename: 'event.html'

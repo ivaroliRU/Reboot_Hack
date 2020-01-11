@@ -1,16 +1,30 @@
-.text_styling{
+.divStyling{
     font-family: 'Montserrat', sans-serif;
-    color: #694991;
-  }
-
-.justTheFont{
-font-family: 'Montserrat', sans-serif; 
+    max-width: 80%;
 }
 
-.darkGrayColor{
+.headerStyle{
+    line-height: normal;
+    color: #694991;
+}
+
+.paragraphStyle{
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    line-height: 1.5em;
     color: #2e2e2e !important;
 }
 
 .text_align{
     text-align: center;
+}
+
+.bodyStyle{
+    background-color: hsla(268, 34%, 43%, 0.1) !important;
+    margin: auto !important;
+}
+.spacingAfterCompany{
+    padding-bottom: 4%;
+    padding: 2%;
+    padding-left: 3%;
 }

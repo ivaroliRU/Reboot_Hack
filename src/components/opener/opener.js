@@ -3,6 +3,7 @@ import GlowingLogo from '../glowingLogo';
 import ParallaxScrollImage from '../parallaxScrollImage';
 import SubscriptionButton from '../subscriptionButton';
 import style from './opener.css';
+import CountdownComponent from './countdown/countdown';
 
 
 class Opener extends Component {
@@ -15,6 +16,7 @@ class Opener extends Component {
                 <div className={style.components}>
                     <img className="img-fluid" src="/images/reboothack_default_navbar_noBackkground.png" width={950}></img>
                     <h1 className={style.text2}>14.02 &bull; 16.02</h1>
+                    <CountdownComponent />
                 </div>
                 
             </div>

@@ -24,7 +24,7 @@ class Faq extends Component {
         this.text = getTranslation();
         return (
             <div>
-                <h2 className={style.Centeralign+" pl-2"}>{this.text.faq.title}</h2>
+                <h2 className={style.Centeralign+" pl-2 "+style.paddingTop}>{this.text.faq.title}</h2>
                 {this.text.faq.question1 && (
                     <Question text={this.text.faq.question1.text} answer={this.text.faq.question1.answer} />
                 )}
