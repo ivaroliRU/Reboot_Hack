@@ -29,9 +29,11 @@
 }
 
 .numberStyle{
-    font-family: cursive !important;
+    /* Made a slight change, this font-family appeard very strange in iphone. Will take a look at it */
+    /* font-family: cursive !important; */
     letter-spacing: 2px;
     font-weight: normal;
+    font-family: 'Raleway', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -40,10 +42,12 @@
         padding-left: 0%;
         padding-right: 0%;
         padding-top: 5%;
+        font-family: 'Raleway', sans-serif;
     }
 
     .bottomText{
         margin-top: 8%;
         font-size: 26px;
+        font-family: 'Raleway', sans-serif;
     }
 }

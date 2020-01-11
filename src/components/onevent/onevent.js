@@ -27,11 +27,12 @@ class OnEvent extends Component {
             </div>
           </div>
           
-          <div className={"row"}>
+          {/* <div className={"row"}>
             <div className={"col-12"}>
               <Schedule />
             </div>
-          </div>
+            </div> */}
+
           {/* <div className={"row"}>
             <div className={"col-12"}>
               <Judges />
