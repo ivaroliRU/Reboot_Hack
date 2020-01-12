@@ -114,7 +114,7 @@ constructor(props) {
               linkedInLink: 'https://www.linkedin.com/in/tinna-líf-jörgensdóttir-19802a173/?originalSubdomain=is',
               photoURL: './images/team/A-Tinnafin_comp.jpg',
               titleEn: 'Marketing',
-              titleIs: 'Markaðsstjóri'
+              titleIs: 'Markaðsteymi'
             },
             {
               id: 13,
