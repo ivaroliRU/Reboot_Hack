@@ -157,7 +157,7 @@ class Schedule extends Component {
               <input className={style.input} type="radio" name="timeline-dot" data-description="8" onClick={() => updateText(7)}/>
               <div className={style.dot_info} data-description="8">
                 <span className={style.span+" "+style.year}>17:00</span>
-                <span className={style.span+" "+style.label}>Workshops end ❌🧠</span>
+                <span className={style.span+" "+style.label}>Workshops end ❌</span>
               </div>
 
               <input className={style.input} type="radio" name="timeline-dot" data-description="9" onClick={() => updateText(8)}/>
