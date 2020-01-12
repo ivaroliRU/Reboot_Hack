@@ -28,7 +28,7 @@ class OnEvent extends Component {
           </div>
           
           <div className={"row pb-20"}>
-            <div className={"col-12"}>
+            <div className={style.schedulePaddingOnMobile+" col-12"}>
               <Schedule />
             </div>
           </div>

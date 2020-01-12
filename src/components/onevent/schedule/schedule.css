@@ -108,7 +108,7 @@
 }
 
 .dot_info .span.label {
-    top: -65px;
+    top: -85px;
     left: 0;
     transform: rotateZ(-45deg);
     width: 140px;
@@ -130,46 +130,6 @@
 /* #timeline_descriptions_wrapper .p {
     margin-top: 0;
     display: none;
-} */
-
-/* .input[data-description="1"]:checked ~ #timeline_descriptions_wrapper .p[data-description="1"] {
-    display: block;
-}
-
-.input[data-description="2"]:checked ~ #timeline_descriptions_wrapper .p[data-description="2"] {
-    display: block;
-}
-
-.input[data-description="3"]:checked ~ #timeline_descriptions_wrapper .p[data-description="3"] {
-    display: block;
-}
-
-.input[data-description="4"]:checked ~ #timeline_descriptions_wrapper .p[data-description="4"] {
-    display: block;
-}
-
-.input[data-description="5"]:checked ~ #timeline_descriptions_wrapper .p[data-description="5"] {
-    display: block;
-}
-
-.input[data-description="6"]:checked ~ #timeline_descriptions_wrapper .p[data-description="6"] {
-    display: block;
-}
-
-.input[data-description="7"]:checked ~ #timeline_descriptions_wrapper .p[data-description="7"] {
-    display: block;
-}
-
-.input[data-description="8"]:checked ~ #timeline_descriptions_wrapper .p[data-description="8"] {
-    display: block;
-}
-
-.input[data-description="9"]:checked ~ #timeline_descriptions_wrapper .p[data-description="9"] {
-    display: block;
-}
-
-.input[data-description="10"]:checked ~ #timeline_descriptions_wrapper .p[data-description="10"] {
-    display: block;
 } */
 
 @media (min-width: 1250px) {
@@ -205,7 +165,7 @@
         justify-content: center;
         width: 400px;
         height: auto;
-        margin-top: 15vh;
+        /* margin-top: 15vh; */
 		margin-left: 0;
 		top: 0 !important;
     }
@@ -237,7 +197,9 @@
         left: 0;
         margin-left: -70px;
 		background-color: #B4A4C8;
-		text-align: center;
+        text-align: center;
+        
+        margin-top: 20%;
     }
     .dot_info .span.year {
         top: 0;
@@ -256,6 +218,7 @@
         transform: translateX(-50%);
         text-indent: 0;
         text-align: center;
+        position: initial;
     }
     #timeline_descriptions_wrapper {
         margin-top: 30px;
