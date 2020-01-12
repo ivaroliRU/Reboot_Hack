@@ -104,3 +104,13 @@
   text-decoration-line: line-through;
   text-decoration-style: dotted;
 }
+
+@media only screen and (max-width: 600px) {
+  .divPadding{
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .panel_title{
+    font-size: 22px;
+  }
+}

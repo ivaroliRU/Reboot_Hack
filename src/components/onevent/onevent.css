@@ -6,6 +6,7 @@
 .headerStyle{
     line-height: normal;
     color: #694991;
+    word-wrap: break-word;
 }
 
 .paragraphStyle{
@@ -27,4 +28,15 @@
     padding-bottom: 4%;
     padding: 2%;
     padding-left: 3%;
+}
+
+
+
+
+@media (max-width: 600px) {
+        
+    .schedulePaddingOnMobile{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
