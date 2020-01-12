@@ -67,7 +67,7 @@ export const translation = {
             'Reboot Hack er fyrsta hakkaþon á Íslandi sem er fyrir nemendur og skipulagt af nemendum. Hakkaþon-ið sjálft verður haldið í Háskóla Íslands og er stefnt á að þátttakendur verði yfir 100 talsins, bæði frá Íslandi sem og öðrum þjóðum. Lítil hakkaþon menning hefur skapast á Íslandi en hakkaþon eru gríðarlega vinsæl út um allan heim, stærstu skólar í Evrópu og Bandaríkjunum halda árleg hakkaþon. Því er kominn tími til þess að skapa þessa hefð hér á landi og verður Reboot Hack þar fremst í fararbroddi.',
         },
         second: {
-          header: 'Hakkþon',
+          header: 'Hakkaþon',
           main:
             'Hakkaþon snúast ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hakkaþon sem uppfinningamaraþon eða hálfgerða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þátttakendur fá rými til þess að læra, hanna, byggja og skapa. Þátttakendur keppa saman í hópum og vinna í rúmlega 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
         },
