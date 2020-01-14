@@ -2,14 +2,18 @@ import React, { Component } from 'react';
 import style from './onevent.css';
 import Schedule from './schedule/schedule';
 import Challenges from './challenges/challenges';
-import Judges from './judges/judges';
+// import Judges from './judges/judges';
 import Location from './location/location';
 import Events from './events/events'
+import InstaGrid from './judges/judges';
 
 class OnEvent extends Component {
   
   constructor(props) {
     super(props);
+    this.state = {
+      instagram: "https://www.instagram.com/reboothackiceland/"
+    }
   }
 
   render() {
@@ -32,11 +36,19 @@ class OnEvent extends Component {
             </div>
           </div>
 
-          {/* <div className={"row"}>
+          <div className={"row"}>
             <div className={"col-12"}>
-              <Judges />
-            </div>/ 
-        </div> */}
+              <h3>Reboot Hack  
+                <a 
+                  /* className={style.Instagram} */
+                  href={this.state.instagram}
+                  target="_blank">
+                    <i className={"fa fa-instagram fa-lg"}></i>
+                </a> 
+              </h3>
+              <InstaGrid account="reboothackiceland" numberOfMediaElements={9} />
+            </div> 
+          </div>
 
           <div className={"row"}>
             <div className={"col-12"}>
