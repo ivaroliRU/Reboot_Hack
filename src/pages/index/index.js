@@ -36,7 +36,7 @@ class App extends Component {
             <ApplyButton handler={this.handler}/>
           </div>
         </div>
-        <ParallaxScrollImage img={"/images/Reykjavik.jpg"} height={500}/>
+        <ParallaxScrollImage img={"/images/Maybe_cover_2.jpg"} height={500}/>
         <AboutIndex handler = {this.handler}/>
         <Footer />
       </div>
