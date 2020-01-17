@@ -135,7 +135,8 @@
 @media (min-width: 1250px) {
 
     .input_flex_container {
-        margin-left: 62.5px;
+        /* margin-left: 62.5px; */
+        margin: auto !important;
     }
     .input::before {
         left: -37.5px;
@@ -151,7 +152,7 @@
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 600px) {
 
     .displayOnBiggerScreensOnly{
         display: none;
@@ -160,10 +161,11 @@
     .flex_parent {
         justify-content: initial;
     }
+
     .input_flex_container {
         flex-wrap: wrap;
         justify-content: center;
-        width: 400px;
+        width: 100%;
         height: auto;
         /* margin-top: 15vh; */
 		margin-left: 0;
@@ -198,7 +200,7 @@
         margin-left: -70px;
 		background-color: #B4A4C8;
         text-align: center;
-        
+        top:-25px;
         margin-top: 20%;
     }
     .dot_info .span.year {
@@ -226,18 +228,4 @@
         text-align: center;
 	}
 	
-}
-
-@media (max-width: 480px) {
-    .input_flex_container {
-        width: 340px;
-		top: 0 !important;
-    }
-}
-
-@media (max-width: 400px) {
-    .input_flex_container {
-        width: 300px;
-		top: 0 !important;
-    }
 }

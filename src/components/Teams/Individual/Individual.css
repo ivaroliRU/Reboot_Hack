@@ -2,7 +2,7 @@
     border-bottom: 1px solid ;
     border-radius: 5px;
     background-color: #F0ECF4;
-    height: 500px;
+    height: 550px;
 }
 
 .IndividualPadding{
@@ -66,7 +66,7 @@
 
 @media only screen and (max-width: 600px) {
     .IndividualDiv{
-        height: 400px !important;
+        height: 420px !important;
     }
     .IndividualDiv :hover{
         background-color: rgba(255, 255, 255, 1);
