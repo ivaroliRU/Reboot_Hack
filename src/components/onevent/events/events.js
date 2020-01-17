@@ -14,7 +14,7 @@ class Events extends Component {
           titleIs: "Re:think // Hvað er nýsköpun?",
           day: "9",
           monthEn: "October",
-          monthIs: "Október",
+          monthIs: "október.",
           textEn: "Are you interested in innovation, and want to learn more about the different platforms available?",
           textIs: "Hefur þú áhuga á nýsköpun og vilt læra meira um þá möguleika sem eru í boði?",
           location: "Loft Hostel",
@@ -130,7 +130,7 @@ class Events extends Component {
                 
               </div>
             </div>
-            <div className={style.media_body}>
+            <div className={style.media_body+" "+(event.id <= 0 ? style.textGray : null)}>
               <h4 className={style.media_heading+" "+generalStyle.justTheFont}><b>{Cookies.get('language')=='is' ? event.titleIs : event.titleEn}</b></h4>
               <h5 className={style.location_heading+" "+generalStyle.justTheFont}><i className={"fa fa-map-marker"} />  <b>{event.location}</b></h5>
               <p className={style.textJustify+" "+generalStyle.justTheFont}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>

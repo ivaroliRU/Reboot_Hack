@@ -8,6 +8,26 @@
     color: #694991;
 }
 
+.ModalLogo{
+  max-height: 2rem;
+  width: auto;
+}
+
+.modalHeaderStyle{
+  margin: auto;
+  align-items: center;
+}
+
+.verticalMarginAuto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.noHorizontalMargin{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
 
 .myElement {
   font-size: 1em;
@@ -63,6 +83,9 @@
 }
 .marginAuto{
   margin: auto !important;
+}
+.displayFlex{
+  display: flex;
 }
 .modalBody{
 

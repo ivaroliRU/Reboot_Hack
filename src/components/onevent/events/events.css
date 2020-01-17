@@ -97,6 +97,10 @@
   text-align: center;
 }
 
+.textGray{
+  color: gray;
+}
+
 .textJustify{
   /* text-align: justify; */
 }
