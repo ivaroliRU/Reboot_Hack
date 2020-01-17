@@ -127,10 +127,40 @@
     margin-left: calc((-80vw - 25px) / 20);
 }
 
-/* #timeline_descriptions_wrapper .p {
-    margin-top: 0;
+
+.buttonClose{
+    margin-left: 0 !important;
+}
+.modalBody{
+
+}
+
+.scheduleDiv{
+    display: flex;
+    /* to be added */
+}
+
+.myModalDialog{
+    max-width: 80%;
+}
+.modalHeaderStyle{
+    margin: auto;
+    align-items: center;
+}
+
+.ScheduleSunday{
+
+}
+
+.ScheduleSaturday{
+
+}
+
+#ScheduleSunday{
     display: none;
-} */
+}
+
+
 
 @media (min-width: 1250px) {
 

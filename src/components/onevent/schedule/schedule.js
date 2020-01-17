@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 import style from './schedule.css';
 import Cookies from 'js-cookie';
 import ReactDOMServer from 'react-dom/server';
+import buttonStyle from '../../applyButton/applyButton.css';
 
 class Schedule extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      scheduleEnLink: "/images/Schedule_En.png",
+      scheduleIsLink: "/images/Schedule_Is.png",
       schedule_events_saturday: [
         {
           id: 0,
@@ -197,103 +200,102 @@ class Schedule extends Component {
   
   render() {
 
-    var infoText;
-    var selectedDay = "Saturday";
-    var saturdayText;
-    var sundayText;
-    var scheduleText;
-    var myState = this.state;
-    //this must be inverted. there is a bug
-    var myCurrentState = (selectedDay == "Saturday" ? this.state.schedule_events_saturday : this.state.schedule_events_sunday);
-    var timelineDescription;
-    var scheduleSection;
+    var infoText, scheduleText, timelineDescription, imageSRC, ShowFullScheduleText, saturdayText, sundayText;
 
     if(Cookies.get('language')=='is'){
       infoText="Push any entry in the schedule to get more info!";
       saturdayText = "Laugardagur";
       sundayText = "Sunnudagur";
-      scheduleText="Schedule";
+      scheduleText = "Áætlun";
+      imageSRC = this.state.scheduleIsLink;
+      ShowFullScheduleText = "Show full schedule";
     }
     else{
       infoText="Push any entry in the schedule to get more info!";
       saturdayText = "Saturday";
       sundayText = "Sunday";
       scheduleText="Schedule";
+      imageSRC = this.state.scheduleEnLink;
+      ShowFullScheduleText = "Show full schedule";
     }
 
-    if(selectedDay == "Saturday"){
-      updateSelectedSchedule(this.state.schedule_events_saturday);
-    }
-    else{
-      updateSelectedSchedule(this.state.schedule_events_sunday);
-    }
-
-    
     timelineDescription = (
       <p> 
         {infoText}
       </p>
     );
-    
-    function changeToSaturdaySchedule(){
-      selectedDay="Saturday";
-      myCurrentState = myState.schedule_events_saturday;
-      console.log("selected day was changed to "+selectedDay);
-      console.log(myCurrentState);
-      updateSelectedSchedule(myCurrentState);
-    }
 
-    function changeToSundaySchedule(){
-      selectedDay="Sunday";
-      myCurrentState = myState.schedule_events_sunday;
-      console.log("selected day was changed to "+selectedDay);
-      console.log(myCurrentState);
-      updateSelectedSchedule(myCurrentState);
-    }
-
-    
-
-    function updateText(selectedSection){
+    function updateText(descriptionIs, descriptionEn, locationIs, locationEn){
       
-      if(selectedDay=="Sunday"){
-        selectedSection=selectedSection - 12;
-      }
-
       timelineDescription = (
         <div>
-          <p>{Cookies.get('language')=='is' ? myCurrentState[selectedSection].descriptionIs : myCurrentState[selectedSection].descriptionEn}</p>
-          <p><i className={"fa fa-map-marker"} /> {Cookies.get('language')=='is' ? myCurrentState[selectedSection].locationIs : myCurrentState[selectedSection].locationEn}</p>
+          <p>{Cookies.get('language')=='is' ? descriptionIs : descriptionEn}</p>
+          <p><i className={"fa fa-map-marker"} /> {Cookies.get('language')=='is' ? locationIs : locationEn}</p>
         </div>
       );
           
       document.getElementById(style.timeline_descriptions_wrapper).innerHTML = ReactDOMServer.renderToStaticMarkup(timelineDescription);
     }
     
-    function updateSelectedSchedule(selectedState){
-      scheduleSection = selectedState.map(
-        (someEvent) => {
-          return [
-            (
-              <input 
-                key={someEvent.id}
-                className={style.input} 
-                type="radio" 
-                name="timeline-dot" 
-                data-description="1" 
-                onClick={() => {updateText(someEvent.id)}}/>
-            ),
-            (
-              <div 
-                key={someEvent.id+10}
-                className={style.dot_info} 
-                data-description="1">
-                <span className={style.span+" "+style.year}>{someEvent.startHour}</span>
-                <span className={style.span+" "+style.label}>{Cookies.get('language')=='is' ? someEvent.textIs : someEvent.textEn}</span>
-            </div>
-            )
-          ];
-        }
-      );
+
+    var scheduleSection_sunday = this.state.schedule_events_sunday.map(
+      (someEvent) => {
+        return [
+          (
+            <input 
+              key={someEvent.id}
+              className={style.input} 
+              type="radio" 
+              name="timeline-dot" 
+              data-description="1" 
+              onClick={() => updateText(someEvent.descriptionIs, someEvent.descriptionEn, someEvent.locationIs, someEvent.locationEn)}/>
+          ),
+          (
+            <div 
+              key={someEvent.id+10}
+              className={style.dot_info} 
+              data-description="1">
+              <span className={style.span+" "+style.year}>{someEvent.startHour}</span>
+              <span className={style.span+" "+style.label}>{Cookies.get('language')=='is' ? someEvent.textIs : someEvent.textEn}</span>
+          </div>
+          )
+        ];
+      }
+    );
+
+    var scheduleSection_saturday = this.state.schedule_events_saturday.map(
+      (someEvent) => {
+        return [
+          (
+            <input 
+              key={someEvent.id}
+              className={style.input} 
+              type="radio" 
+              name="timeline-dot" 
+              data-description="1" 
+              onClick={() => updateText(someEvent.descriptionIs, someEvent.descriptionEn, someEvent.locationIs, someEvent.locationEn)}/>
+          ),
+          (
+            <div 
+              key={someEvent.id+10}
+              className={style.dot_info} 
+              data-description="1">
+              <span className={style.span+" "+style.year}>{someEvent.startHour}</span>
+              <span className={style.span+" "+style.label}>{Cookies.get('language')=='is' ? someEvent.textIs : someEvent.textEn}</span>
+          </div>
+          )
+        ];
+      }
+    );
+
+    function changeToSaturdaySchedule(){
+      document.getElementById(style.ScheduleSaturday).style.display = 'block'; // show
+      document.getElementById(style.ScheduleSunday).style.display = 'none'; // hide
+    }
+
+    function changeToSundaySchedule(){
+      document.getElementById(style.ScheduleSaturday).style.display = 'none'; // show
+      document.getElementById(style.ScheduleSunday).style.display = 'block'; // hide
     }
     
     return (
@@ -301,33 +303,81 @@ class Schedule extends Component {
 
           <center>
             <h2 className="pb-6">{scheduleText}:</h2> 
-            {/* <button 
+
+            <button type="button" className={"btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#ModalForSchedule"}>
+              {ShowFullScheduleText}
+            </button>
+
+            <div className={"modal fade"} id={"ModalForSchedule"} tabIndex="-1" role="dialog" aria-labelledby={"ModalForSchedule"} aria-hidden="true">
+              <div className={style.myModalDialog+" modal-dialog"} role="document">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <div className={style.modalHeaderStyle+" row"}>
+                      
+                      <h5 className={"modal-title"} id={"ModalForSchedule"}> {scheduleText}</h5>
+                     
+                    </div>
+                    <button type="button" className={style.buttonClose+" close"} data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div className={style.modalBody+" modal-body"}>
+                    <img className={"img-fluid "} src={imageSRC}/>
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+
+            <br/><br/>
+            
+            <button 
               type="button" 
+              className={"btn btn-outline-primary btn-lg "+buttonStyle.apply_button}
               onClick={() => changeToSaturdaySchedule()}>
                 {saturdayText}
             </button>
             |
             <button 
               type="button" 
+              className={"btn btn-outline-primary btn-lg "+buttonStyle.apply_button}
               onClick={() => changeToSundaySchedule()}>
                 {sundayText}
-            </button> */}
+            </button>
           </center> 
     
           <div className={style.displayOnBiggerScreensOnly}>
             <br /><br /><br /><br /><br /><br />
           </div>
 
-          <div className={style.flex_parent}>
+          <div 
+          id={style.ScheduleSaturday}
+          className={style.flex_parent}>
             <div className={style.input_flex_container}>
 
-              {scheduleSection}
+              {scheduleSection_saturday}
+                        
 
               <div id={style.timeline_descriptions_wrapper}>
                 {timelineDescription}
               </div>
             </div>
           </div> 
+
+          <div 
+            id={style.ScheduleSunday}
+            className={style.flex_parent}>
+            <div className={style.input_flex_container}>
+
+              {scheduleSection_sunday}
+                        
+
+              <div id={style.timeline_descriptions_wrapper}>
+                {timelineDescription}
+              </div>
+            </div>
+          </div> 
+
 
         </div>
         
