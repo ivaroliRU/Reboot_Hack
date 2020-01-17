@@ -11,13 +11,19 @@ class Challenges extends Component {
       challenges:[ 
         {
           id: 1,
-          titleEn: "Boosting employee happiness with technology",
+          titleEn: "How can we boost employee happiness with technology?",
           titleIs: "Hvernig aukum við starfsánægju með tækni?",
-          textEn: "Employee satisfaction can be measured in countless ways and can often be highly dependent on the employee. Some might prefer a relaxed work environment while others strive for maximum productivity and time management. Some jobs have strict restrictions – Truck drivers must make their deliveries on time and must be alert at the wheel; students must complete tasks like achieving a minimum passing grade, write a thesis and defend it. How can we leverage technology to increase job satisfaction?",
-          textIs: "Það eru ótal leiðir til að mæla starfsánægju og getur það verið mismunandi milli einstaklinga hvað telst til starfsánægju. Sumir myndu e.t.v. vinna í rólegu vinnuumhverfi á meðan aðrir sækjast frekar í að hámarka framleiðni og besta tímastjórnun. Sum störf hafa strangar kröfur – sendibílstjórar verða að komast á áfangastað og þurfa að vera vakandi við stýrið; nemendur verða að ná ákveðnum áföngum eins og að ná lágmarkseinkun, skrifa lokaritgerð og verja hana. Hvernig getum við aukið starfsánægju með tækni?",
+          textEn: "Employee satisfaction can be measured in countless ways and can often be highly dependent on the employee. Some might prefer a relaxed work environment while others strive for maximum productivity and time management.    Some jobs have strict restrictions – Truck drivers must make their deliveries on time and must be alert at the wheel; students must complete tasks like achieving a minimum passing grade, write a thesis and defend it.    How can we leverage technology to increase job satisfaction?",
+          textIs: "Það eru ótal leiðir til að mæla starfsánægju og getur það verið mismunandi milli einstaklinga hvað telst til starfsánægju. Sumir myndu e.t.v. vinna í rólegu vinnuumhverfi á meðan aðrir sækjast frekar í að hámarka framleiðni og besta tímastjórnun.    Sum störf hafa strangar kröfur – sendibílstjórar verða að komast á áfangastað og þurfa að vera vakandi við stýrið; nemendur verða að ná ákveðnum áföngum eins og að ná lágmarkseinkun, skrifa lokaritgerð og verja hana.    Hvernig getum við aukið starfsánægju með tækni?",
           company: "Origo",
           companyPhotoURL: "/images/sponsors/reboot/OrigoSVG.svg",
-          detailsPhotoURL: null
+          detailsEnPhotoURL: null,
+          detailsIsPhotoURL: null,
+          companyLinkURL: 'https://www.origo.is/',
+          criteriaPhotoURL: null,
+          prizesEnURL: null,
+          prizesIsURL: null,
+          displayDetails: true
         },
         {
           id: 4,
@@ -27,7 +33,29 @@ class Challenges extends Component {
           textIs: "Tryggingar snúast um að veita fólki þá hugarró sem felst í að vita að ef eitthvað kemur upp á þá ertu tryggður. Stafræn þróun er hröð og áhrifa er þegar farið að gæta hjá fjármálafyrirtækjum sem eru í auknum mæli farin að sjálfvirknivæða þjónustu. Það sér ekki fyrir endann á þeirri þróun en hvað sjáið þið?    Hvernig mætum við þörfum viðskiptavina á þeirra forsendum og í gegnum þá miðla sem þeir kjósa þegar kemur að tjóni eða kaupum á tryggingum?    Hvernig tryggjum við að viðskiptavinir okkar séu rétt tryggðir og rétt verðlagðir?",
           company: "Vörður",
           companyPhotoURL: "/images/sponsors/restart/VordurLogoGraySVG.svg",
-          detailsPhotoURL: null
+          detailsEnPhotoURL: null,
+          detailsIsPhotoURL: null,
+          companyLinkURL: 'https://vordur.is/',
+          criteriaPhotoURL: null,
+          prizesEnURL: null,
+          prizesIsURL: null,
+          displayDetails: true
+        },
+        {
+          id: 2,
+          titleEn: "Gamification of Savings",
+          titleIs: "Leikjavæðing sparnaðar",
+          textEn: "Saving is something we all need to focus on, but we may find it difficult as it is often much easier to spend than save. It can be a challenge to find the will power to continue the habit of saving especially when you are on a budget.  How can the elements of gaming like challenges and competition be used to gamify savings and encourage individuals to achieve their savings goals and make it fun at the same time.",
+          textIs: "Að leggja fyrir og spara er eitthvað sem við þurfum öll að temja okkur en það getur reynst erfitt því það er oft auðveldara að eyða en spara. Það getur verið áskorun að viðhalda þeirri venju að spara sérstaklega þegar það þrengir að fjárhagslega. En hvernig er hægt nýta eiginleika tölvuleikja eins og áskoranir og samkeppni til þess að leikjavæða sparnað og hvetja einstaklinga til þess að leggja fyrir og hjálpa þeim að ná sínum fjárhagslegu markmiðum og hafa gaman af því á sama tíma.",
+          company: "Auður (Kvika)",
+          companyPhotoURL: "/images/sponsors/reboot/AudurSVG.svg",
+          detailsEnPhotoURL: null,
+          detailsIsPhotoURL: null,
+          companyLinkURL: 'https://www.audur.is/',
+          criteriaPhotoURL: null,
+          prizesEnURL: null,
+          prizesIsURL: null,
+          displayDetails: true
         },
         {
           id: 0,
@@ -37,49 +65,62 @@ class Challenges extends Component {
           textIs: "Verður Tilkynnt Síðar",
           company: "Byggðastofnun",
           companyPhotoURL: "/images/sponsors/restart/Byggst_1800x600px_transp.png",
-          detailsPhotoURL: null
+          detailsEnPhotoURL: null,
+          detailsIsPhotoURL: null,
+          companyLinkURL: 'https://www.byggdastofnun.is/',
+          criteriaPhotoURL: null,
+          prizesEnURL: null,
+          prizesIsURL: null,
+          displayDetails: true
         },
-       
         {
-          id: 2,
-          titleEn: "Gamification of Savings",
-          titleIs: "Leikjavæðing sparnaðar",
-          textEn: "Saving is something we all need to focus on, but we may find it difficult as it is often much easier to spend than save. It can be a challenge to find the will power to continue the habit of saving especially when you are on a budget.  How can the elements of gaming like challenges and competition be used to gamify savings and encourage individuals to achieve their savings goals and make it fun at the same time.",
-          textIs: "Að leggja fyrir og spara er eitthvað sem við þurfum öll að temja okkur en það getur reynst erfitt því það er oft auðveldara að eyða en spara. Það getur verið áskorun að viðhalda þeirri venju að spara sérstaklega þegar það þrengir að fjárhagslega. En hvernig er hægt nýta eiginleika tölvuleikja eins og áskoranir og samkeppni til þess að leikjavæða sparnað og hvetja einstaklinga til þess að leggja fyrir og hjálpa þeim að ná sínum fjárhagslegu markmiðum og hafa gaman af því á sama tíma.",
-          company: "Auður (Kvika)",
-          companyPhotoURL: "/images/sponsors/reboot/AudurSVG.svg",
-          detailsPhotoURL: null
+          id: 3,
+          titleEn: "How can we teach and maintain security awareness in the future?",
+          titleIs: "Hvernig getum við kennt og viðhaldið öryggisvitund í framtíðinni",
+          textEn: "To Be Announced",
+          textIs: "Verður Tilkynnt Síðar",
+          company: "AwareGo",
+          companyPhotoURL: "/images/sponsors/restart/awarego.png",
+          detailsEnPhotoURL: null,
+          detailsIsPhotoURL: null,
+          companyLinkURL: 'https://www.awarego.com/',
+          criteriaPhotoURL: null,
+          prizesEnURL: null,
+          prizesIsURL: null,
+          displayDetails: true
         },
-        // {
-        //   id: 3,
-        //   titleEn: "How can we teach and maintain security awareness in the future?",
-        //   titleIs: "Hvernig getum við kennt og viðhaldið öryggisvitund í framtíðinni",
-        //   textEn: "To Be Announced",
-        //   textIs: "Verður Tilkynnt Síðar",
-        //   company: "AwareGo",
-        //   companyPhotoURL: "/images/sponsors/restart/awarego.png",
-        //   detailsPhotoURL: null
-        // },
-        // {
-        //   id: 5,
-        //   titleEn: "How can KPMG create increased trust?",
-        //   titleIs: "Hverrnig getur KPMG skapað aukið traust?",
-        //   textEn: "To Be Announced",
-        //   textIs: "Verður Tilkynnt Síðar",
-        //   company: "KPMG",
-        //   companyPhotoURL: "/images/sponsors/reboot/KPMGSVG.svg",
-        //   detailsPhotoURL: null
-        // },
-        // {
-        //   id: 6,
-        //   titleEn: "To Be Announced",
-        //   titleIs: "Verður Tilkynnt Síðar",
-        //   textEn: "To Be Announced",
-        //   textIs: "Verður Tilkynnt Síðar",
-        //   company: "LHÍ",
-        //   companyPhotoURL: "/images/universities/LHI_merki_2017_University_midjusett.png",
-        //   detailsPhotoURL: null
-        // },
+        {
+          id: 5,
+          titleEn: "How can KPMG create increased trust?",
+          titleIs: "Hverrnig getur KPMG skapað aukið traust?",
+          textEn: "To Be Announced",
+          textIs: "Verður Tilkynnt Síðar",
+          company: "KPMG",
+          companyPhotoURL: "/images/sponsors/reboot/KPMGSVG.svg",
+          detailsEnPhotoURL: null,
+          detailsIsPhotoURL: null,
+          companyLinkURL: 'https://home.kpmg/is/is/home.html',
+          criteriaPhotoURL: null,
+          prizesEnURL: null,
+          prizesIsURL: null,
+          displayDetails: true
+        },
+        {
+          id: 6,
+          titleEn: "To Be Announced",
+          titleIs: "Verður Tilkynnt Síðar",
+          textEn: "To Be Announced",
+          textIs: "Verður Tilkynnt Síðar",
+          company: "LHÍ",
+          companyPhotoURL: "/images/universities/LHI_merki_2017_University_midjusett.png",
+          detailsEnPhotoURL: null,
+          detailsIsPhotoURL: null,
+          companyLinkURL: "https://www.lhi.is/",
+          criteriaPhotoURL: null,
+          prizesEnURL: null,
+          prizesIsURL: null,
+          displayDetails: true
+        },
         // {
         //   id: 7,
         //   titleEn: "To Be Announced",
@@ -88,7 +129,13 @@ class Challenges extends Component {
         //   textIs: "Verður Tilkynnt Síðar",
         //   company: "Ölgerðin",
         //   companyPhotoURL: "/images/sponsors/restart/olgerdinLogoSVGResizedV2.png",
-        //   detailsPhotoURL: null
+        //   detailsEnPhotoURL: null,
+        //   detailsIsPhotoURL: null,
+        //   companyLinkURL: 'https://www.olgerdin.is/',
+        //   criteriaPhotoURL: null,
+        //   prizesEnURL: null,
+        //   prizesIsURL: null,
+        //   displayDetails: false
         // }
       ]
     };
@@ -119,10 +166,10 @@ class Challenges extends Component {
         return (
           <div key={challenge.id} className={style.myElement}>
             <h3 className={generalStyle.headerStyle}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
-            <h5 className={generalStyle.headerStyle+" row "+generalStyle.spacingAfterCompany}>{challenge.companyPhotoURL==null ? null : <img className={style.image+" img-fluid"} src={challenge.companyPhotoURL}/>} </h5>
+            <h5 className={generalStyle.headerStyle+" row "+generalStyle.spacingAfterCompany}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
             <p className={style.textJustify+" "+generalStyle.headerStyle+" "+generalStyle.paragraphStyle}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
           
-            <button type="button" className={(challenge.detailsPhotoURL==null ? style.myButton : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
+            <button type="button" className={(challenge.displayDetails!==true ? style.myButton : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
               {moreDetails}
             </button>
 
