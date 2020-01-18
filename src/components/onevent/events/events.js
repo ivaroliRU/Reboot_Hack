@@ -111,6 +111,28 @@ class Events extends Component {
       upcomingEventsText="Mini-events";
     }
 
+    var minimumEventId = -1;
+    var dateNow = new Date();
+    if(dateNow.getTime() >= new Date('Oct 10, 2019 00:00:00').getTime()){
+      minimumEventId=0;
+    }
+
+    if(dateNow.getTime() >= new Date('Jan 25, 2020 00:00:00').getTime()){
+      minimumEventId=2;
+    }
+    if(dateNow.getTime() >= new Date('Jan 31, 2020 00:00:00').getTime()){
+      minimumEventId=3;
+    }
+    if(dateNow.getTime() >= new Date('Feb 01, 2020 00:00:00').getTime()){
+      minimumEventId=5;
+    }
+    if(dateNow.getTime() >= new Date('Feb 15, 2020 00:00:00').getTime()){
+      minimumEventId=6;
+    }
+    if(dateNow.getTime() >= new Date('Feb 17, 2020 00:00:00').getTime()){
+      minimumEventId=7;
+    }
+
     var eventsSection = this.state.events.map(
       (event) => {
 
@@ -130,7 +152,7 @@ class Events extends Component {
                 
               </div>
             </div>
-            <div className={style.media_body+" "+(event.id <= 0 ? style.textGray : null)}>
+            <div className={style.media_body+" "+(event.id <= minimumEventId ? style.textGray : null)}>
               <h4 className={style.media_heading+" "+generalStyle.justTheFont}><b>{Cookies.get('language')=='is' ? event.titleIs : event.titleEn}</b></h4>
               <h5 className={style.location_heading+" "+generalStyle.justTheFont}><i className={"fa fa-map-marker"} />  <b>{event.location}</b></h5>
               <p className={style.textJustify+" "+generalStyle.justTheFont}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>

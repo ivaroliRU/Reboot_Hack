@@ -1,5 +1,6 @@
 .flex_parent {
     display: flex;
+    margin: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -19,6 +20,10 @@
     z-index: 0;
 	margin-left: calc((80vw - 25px) / 20);
 	top: 50px;
+}
+.input_flex_container_smaller {
+    width: 38vw;
+    margin: auto !important;
 }
 
 .input {
@@ -117,7 +122,20 @@
     font-size: small;
 }
 
-#timeline_descriptions_wrapper {
+#timeline_descriptions_wrapper1 {
+    
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    white-space: pre-line;
+    width: 100%;
+    margin-top: 140px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: calc((-80vw - 25px) / 20);
+}
+#timeline_descriptions_wrapper2 {
+    
+    text-align:center;
     font-family: 'Montserrat', sans-serif;
     white-space: pre-line;
     width: 100%;
@@ -129,7 +147,7 @@
 
 
 .buttonClose{
-    margin-left: 0 !important;
+    margin-left: 0;
 }
 .modalBody{
 
@@ -166,7 +184,7 @@
 
     .input_flex_container {
         /* margin-left: 62.5px; */
-        margin: auto !important;
+        margin: auto;
     }
     .input::before {
         left: -37.5px;
@@ -177,7 +195,10 @@
     .dot_info {
         left: calc((((1000px - 25px) / 20) * -1) - 1px);
     }
-    #timeline_descriptions_wrapper {
+    #timeline_descriptions_wrapper1 {
+        margin-left: -37.5px;
+    }
+    #timeline_descriptions_wrapper2 {
         margin-left: -37.5px;
     }
 }
@@ -199,15 +220,15 @@
         height: auto;
         /* margin-top: 15vh; */
 		margin-left: 0;
-		top: 0 !important;
+		top: 0;
     }
     .input, .dot_info {
         width: 60px;
         height: 60px;
-        margin: 0 10px 50px;
+        margin: 0 10px 50px !important;
     }
     .input {
-        background-color: transparent !important;
+        background-color: transparent;
         z-index: 1;
     }
     .input::before, .input::after {
@@ -252,7 +273,12 @@
         text-align: center;
         position: initial;
     }
-    #timeline_descriptions_wrapper {
+    #timeline_descriptions_wrapper1 {
+        margin-top: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+    #timeline_descriptions_wrapper2 {
         margin-top: 30px;
         margin-left: 0;
         text-align: center;

@@ -54,8 +54,8 @@ class Schedule extends Component {
         {
           id: 4,
           startHour: "11:30",
-          textEn: "Lunch/ Hacking starts 🌮🌮",
-          textIs: "Lunch/ Hacking starts 🌮🌮",
+          textEn: "Lunch & Hacking starts 🌮🌮",
+          textIs: "Lunch & Hacking starts 🌮🌮",
           descriptionEn: "START HACKING 👩‍💻👨‍💻",
           descriptionIs: "START HACKING 👩‍💻👨‍💻",
           locationEn: "Askja",
@@ -136,62 +136,62 @@ class Schedule extends Component {
         {
           id: 12,
           startHour: "08:00",
-          textEn: "SomeName",
-          textIs: "SomeName",
-          descriptionEn: "SomeDescription",
-          descriptionIs: "SomeDescription",
-          locationEn: "SomeLocation",
-          locationIs: "SomeLocation"
+          textEn: "Breakast 🥞🥞",
+          textIs: "Breakast 🥞🥞",
+          descriptionEn: "To be addded",
+          descriptionIs: "To be addded",
+          locationEn: "Askja",
+          locationIs: "Askja"
         },
         {
           id: 13,
-          startHour: "SomeTime",
-          textEn: "SomeName",
-          textIs: "SomeName",
-          descriptionEn: "SomeDescription",
-          descriptionIs: "SomeDescription",
-          locationEn: "SomeLocation",
-          locationIs: "SomeLocation"
+          startHour: "11:00",
+          textEn: "Submissions 👐🧻",
+          textIs: "Submissions 👐🧻",
+          descriptionEn: "To be addded",
+          descriptionIs: "To be addded",
+          locationEn: "",
+          locationIs: ""
         },
         {
           id: 14,
-          startHour: "SomeTime",
-          textEn: "SomeName",
-          textIs: "SomeName",
-          descriptionEn: "SomeDescription",
-          descriptionIs: "SomeDescription",
-          locationEn: "SomeLocation",
-          locationIs: "SomeLocation"
+          startHour: "11:30",
+          textEn: "Lunch 🥪🍱",
+          textIs: "Lunch 🥪🍱",
+          descriptionEn: "To be addded",
+          descriptionIs: "To be addded",
+          locationEn: "Askja",
+          locationIs: "Askja"
         },
         {
           id: 15,
-          startHour: "SomeTime",
-          textEn: "SomeName",
-          textIs: "SomeName",
-          descriptionEn: "SomeDescription",
-          descriptionIs: "SomeDescription",
-          locationEn: "SomeLocation",
-          locationIs: "SomeLocation"
+          startHour: "12:00",
+          textEn: "Final Pitches 🎤💡",
+          textIs: "Final Pitches 🎤💡",
+          descriptionEn: "To be addded",
+          descriptionIs: "To be addded",
+          locationEn: "Askja",
+          locationIs: "Askja"
         },
         {
           id: 16,
-          startHour: "SomeTime",
-          textEn: "SomeName",
-          textIs: "SomeName",
-          descriptionEn: "SomeDescription",
-          descriptionIs: "SomeDescription",
-          locationEn: "SomeLocation",
-          locationIs: "SomeLocation"
+          startHour: "14:00",
+          textEn: "Pitches end & judges deliberate 🤔💭📋",
+          textIs: "Pitches end & judges deliberate 🤔💭📋",
+          descriptionEn: "To be addded",
+          descriptionIs: "To be addded",
+          locationEn: "",
+          locationIs: ""
         },
         {
           id: 17,
-          startHour: "SomeTime",
-          textEn: "SomeName",
-          textIs: "SomeName",
-          descriptionEn: "SomeDescription",
-          descriptionIs: "SomeDescription",
-          locationEn: "SomeLocation",
-          locationIs: "SomeLocation"
+          startHour: "15:00",
+          textEn: "Top 5 teams present & Award Ceremony 🥉🥈🥇",
+          textIs: "Top 5 teams present & Award Ceremony 🥉🥈🥇",
+          descriptionEn: "To be addded",
+          descriptionIs: "To be addded",
+          locationEn: "Askja, room 132",
+          locationIs: "Askja, room 132"
         }
       ]
     };
@@ -225,16 +225,20 @@ class Schedule extends Component {
       </p>
     );
 
-    function updateText(descriptionIs, descriptionEn, locationIs, locationEn){
+    function updateText(day, descriptionIs, descriptionEn, locationIs, locationEn){
       
       timelineDescription = (
         <div>
           <p>{Cookies.get('language')=='is' ? descriptionIs : descriptionEn}</p>
-          <p><i className={"fa fa-map-marker"} /> {Cookies.get('language')=='is' ? locationIs : locationEn}</p>
+          <p> {(locationIs == "" || locationEn == "" ) ? null : <i className={"fa fa-map-marker"} />} {Cookies.get('language')=='is' ? locationIs : locationEn}</p>
         </div>
       );
-          
-      document.getElementById(style.timeline_descriptions_wrapper).innerHTML = ReactDOMServer.renderToStaticMarkup(timelineDescription);
+      if(day==0){
+        document.getElementById(style.timeline_descriptions_wrapper1).innerHTML = ReactDOMServer.renderToStaticMarkup(timelineDescription);
+      }
+      else{
+        document.getElementById(style.timeline_descriptions_wrapper2).innerHTML = ReactDOMServer.renderToStaticMarkup(timelineDescription);
+      }
     }
     
 
@@ -248,7 +252,7 @@ class Schedule extends Component {
               type="radio" 
               name="timeline-dot" 
               data-description="1" 
-              onClick={() => updateText(someEvent.descriptionIs, someEvent.descriptionEn, someEvent.locationIs, someEvent.locationEn)}/>
+              onClick={() => updateText(1, someEvent.descriptionIs, someEvent.descriptionEn, someEvent.locationIs, someEvent.locationEn)}/>
           ),
           (
             <div 
@@ -273,7 +277,7 @@ class Schedule extends Component {
               type="radio" 
               name="timeline-dot" 
               data-description="1" 
-              onClick={() => updateText(someEvent.descriptionIs, someEvent.descriptionEn, someEvent.locationIs, someEvent.locationEn)}/>
+              onClick={() => updateText(0, someEvent.descriptionIs, someEvent.descriptionEn, someEvent.locationIs, someEvent.locationEn)}/>
           ),
           (
             <div 
@@ -358,7 +362,7 @@ class Schedule extends Component {
               {scheduleSection_saturday}
                         
 
-              <div id={style.timeline_descriptions_wrapper}>
+              <div id={style.timeline_descriptions_wrapper1}>
                 {timelineDescription}
               </div>
             </div>
@@ -367,12 +371,12 @@ class Schedule extends Component {
           <div 
             id={style.ScheduleSunday}
             className={style.flex_parent}>
-            <div className={style.input_flex_container}>
+            <div className={style.input_flex_container+" "+style.input_flex_container_smaller}>
 
               {scheduleSection_sunday}
                         
 
-              <div id={style.timeline_descriptions_wrapper}>
+              <div id={style.timeline_descriptions_wrapper2}>
                 {timelineDescription}
               </div>
             </div>
