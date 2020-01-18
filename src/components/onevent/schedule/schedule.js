@@ -186,8 +186,8 @@ class Schedule extends Component {
         {
           id: 17,
           startHour: "15:00",
-          textEn: "Top 5 teams present & Award Ceremony 🥉🥈🥇",
-          textIs: "Top 5 teams present & Award Ceremony 🥉🥈🥇",
+          textEn: "Top 5 teams present & Award Ceremony 🥇",
+          textIs: "Top 5 teams present & Award Ceremony 🥇",
           descriptionEn: "To be addded",
           descriptionIs: "To be addded",
           locationEn: "Askja, room 132",
@@ -252,6 +252,7 @@ class Schedule extends Component {
               type="radio" 
               name="timeline-dot" 
               data-description="1" 
+              value={someEvent.startHour}
               onClick={() => updateText(1, someEvent.descriptionIs, someEvent.descriptionEn, someEvent.locationIs, someEvent.locationEn)}/>
           ),
           (
@@ -276,7 +277,8 @@ class Schedule extends Component {
               className={style.input} 
               type="radio" 
               name="timeline-dot" 
-              data-description="1" 
+              data-description="1"
+              value={someEvent.startHour}
               onClick={() => updateText(0, someEvent.descriptionIs, someEvent.descriptionEn, someEvent.locationIs, someEvent.locationEn)}/>
           ),
           (
@@ -353,6 +355,7 @@ class Schedule extends Component {
           <div className={style.displayOnBiggerScreensOnly}>
             <br /><br /><br /><br /><br /><br />
           </div>
+          
 
           <div 
           id={style.ScheduleSaturday}

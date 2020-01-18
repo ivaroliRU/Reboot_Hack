@@ -134,7 +134,7 @@
     margin-left: calc((-80vw - 25px) / 20);
 }
 #timeline_descriptions_wrapper2 {
-    
+
     text-align:center;
     font-family: 'Montserrat', sans-serif;
     white-space: pre-line;
@@ -205,6 +205,20 @@
 
 @media (max-width: 600px) {
 
+
+    .input:checked {
+        background-color: rgba(105, 73, 145,0.2);
+    }
+    .input:checked::before {
+        background-color: rgba(105, 73, 145, 0.2);
+    }
+    .input:checked::after {
+        background-color: rgba(180, 164, 200, 0.2);
+    }
+    .input:checked ~ input, input:checked ~ input::before, input:checked ~ input::after {
+        background-color: rgba(180, 164, 200, 0.2);
+    }
+
     .displayOnBiggerScreensOnly{
         display: none;
     }
@@ -225,7 +239,7 @@
     .input, .dot_info {
         width: 60px;
         height: 60px;
-        margin: 0 10px 50px !important;
+        margin: 0 10px 50px;
     }
     .input {
         background-color: transparent;
@@ -239,6 +253,7 @@
     }
     .input:checked + .dot_info .span.year {
         font-size: 14px;
+        /* z-index: 2; */
     }
     .input:checked + .dot_info .span.label {
         font-size: 12px;
@@ -282,6 +297,12 @@
         margin-top: 30px;
         margin-left: 0;
         text-align: center;
-	}
+    }
+    
+    .year{
+        visibility: visible;
+        color: white;
+        z-index: 999;
+    }
 	
 }
