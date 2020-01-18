@@ -31,7 +31,7 @@ class App extends Component {
         {/* <BoardOfAdvisors/> */}
         <Opener />
         <div className="container">
-          <div className={style.header}>
+          <div id="RegisterSection" className={style.header}>
             <h2 className={style.text_header}>{this.text.register.Heading}</h2>
             <ApplyButton handler={this.handler}/>
           </div>

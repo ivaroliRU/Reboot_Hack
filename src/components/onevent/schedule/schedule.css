@@ -113,7 +113,7 @@
 }
 
 .dot_info .span.label {
-    top: -85px;
+    top: -90px;
     left: 0;
     transform: rotateZ(-45deg);
     width: 140px;
@@ -240,6 +240,9 @@
         width: 60px;
         height: 60px;
         margin: 0 10px 50px;
+    }
+    .extra_margin{
+        margin: 0 10px 90px;
     }
     .input {
         background-color: transparent;

@@ -27,8 +27,6 @@
   margin-right: 0;
 }
 
-
-
 .myElement {
   font-size: 1em;
   line-height: 1.75em;
@@ -81,6 +79,11 @@
   /* border: 1px solid black; */
   height: 36px;
 }
+
+.extraHeight{
+  height: 60px;
+}
+
 .marginAuto{
   margin: auto !important;
 }

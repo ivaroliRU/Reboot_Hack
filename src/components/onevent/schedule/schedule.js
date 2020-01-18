@@ -15,47 +15,47 @@ class Schedule extends Component {
           id: 0,
           startHour: "8:00",
           textEn: "Registry opens ✔️",
-          textIs: "Registry opens ✔️",
+          textIs: "Hús opnar og innritun hefst ✔️",
           descriptionEn: "Show up and meet the people \n",
           descriptionIs: "Show up and meet the people \n",
-          locationEn: "Askja - main entrence",
-          locationIs: "Askja - main entrence"
+          locationEn: "Askja, main entrence",
+          locationIs: "Askja, inngangur"
         },
         {
           id: 1,
           startHour: "8:30",
           textEn: "Breakfast/ Schedule presented 📝",
-          textIs: "Breakfast/ Schedule presented 📝",
+          textIs: "Morgunmatur of dagskrá kynnt 📝",
           descriptionEn: "Come and have delicous breakfast and get to know the schedule",
           descriptionIs: "Come and have delicous breakfast and get to know the schedule",
-          locationEn: "Askja - main hall",
-          locationIs: "Askja - main hall"
+          locationEn: "Askja, main hall",
+          locationIs: "Askja, aðalrými"
         },
         {
           id: 2,
           startHour: "10:00",
           textEn: "Opening Ceremony 📢",
-          textIs: "Opening Ceremony 📢",
+          textIs: "Satningarathöfn 📢",
           descriptionEn: "",
           descriptionIs: "",
-          locationEn: "Askja - room 132",
-          locationIs: "Askja - room 132"
+          locationEn: "Askja, room 132",
+          locationIs: "Askja, salur 132"
         },
         {
           id: 3,
           startHour: "10:30",
           textEn: "Team Formation 👋",
-          textIs: "Team Formation 👋",
+          textIs: "Liðamyndun 👋",
           descriptionEn: "Join a winning team if you do not already have one!",
           descriptionIs: "Join a winning team if you do not already have one!",
-          locationEn: "Askja - main hall",
-          locationIs: "Askja - main hall"
+          locationEn: "Askja, main hall",
+          locationIs: "Askja, aðalrými"
         },
         {
           id: 4,
           startHour: "11:30",
           textEn: "Lunch & Hacking starts 🌮🌮",
-          textIs: "Lunch & Hacking starts 🌮🌮",
+          textIs: "Hádegismatur & vinnulota hefst 🌮🌮",
           descriptionEn: "START HACKING 👩‍💻👨‍💻",
           descriptionIs: "START HACKING 👩‍💻👨‍💻",
           locationEn: "Askja",
@@ -65,27 +65,27 @@ class Schedule extends Component {
           id: 5,
           startHour: "13:00",
           textEn: "Workshops begins 🧠",
-          textIs: "Workshops begins 🧠",
+          textIs: "Vinnustofur hefjast 🧠",
           descriptionEn: "We have loads of very fun workshops",
           descriptionIs: "We have loads of very fun workshops",
-          locationEn: "Askja - rooms: 121, 128, 129, 130",
-          locationIs: "Askja - rooms: 121, 128, 129, 130"
+          locationEn: "Askja, rooms: 121, 128, 129, 130",
+          locationIs: "Softur: 121, 128, 129, 130"
         },
         {
           id: 6,
           startHour: "15:00",
           textEn: "Coffee break",
-          textIs: "Coffee break",
+          textIs: "Kaffitími",
           descriptionEn: "Want some coffe? ☕️",
           descriptionIs: "Want some coffe? ☕️",
-          locationEn: "Askja - main hall",
-          locationIs: "Askja - main hall"
+          locationEn: "Askja, main hall",
+          locationIs: "Askja, aðalrými"
         },
         {
           id: 7,
           startHour: "17:00",
           textEn: "Workshops end ❌🧠",
-          textIs: "Workshops end ❌🧠",
+          textIs: "Vinnustofnum lýkur ❌🧠",
           descriptionEn: "Use your newly gained experience from the workshops to make your solution better",
           descriptionIs: "Use your newly gained experience from the workshops to make your solution better",
           locationEn: "",
@@ -95,17 +95,17 @@ class Schedule extends Component {
           id: 8,
           startHour: "19:00",
           textEn: "Dinner 🍕🍽",
-          textIs: "Dinner 🍕🍽",
+          textIs: "Kvöldmatur 🍕🍽",
           descriptionEn: "Dinner is served!",
           descriptionIs: "Dinner is served!",
-          locationEn: "Askja - main hall",
-          locationIs: "Askja - main hall"
+          locationEn: "Askja, main hall",
+          locationIs: "Askja, aðalrými"
         },
         {
           id: 9,
           startHour: "21:00",
           textEn: "Surprise 💥",
-          textIs: "Surprise 💥",
+          textIs: "Uppákoma 💥",
           descriptionEn: "I like surprises! 🤠",
           descriptionIs: "I like surprises! 🤠",
           locationEn: "",
@@ -115,7 +115,7 @@ class Schedule extends Component {
           id: 10,
           startHour: "22:30",
           textEn: "Surprising Surprise 💥💥",
-          textIs: "Surprising Surprise 💥💥",
+          textIs: "Óvænt uppákoma 💥💥",
           descriptionEn: "Double surprise is double the fun! \n WOW!? two surprises in one night 🤑",
           descriptionIs: "Double surprise is double the fun! \n WOW!? two surprises in one night 🤑",
           locationEn: "",
@@ -125,7 +125,7 @@ class Schedule extends Component {
           id: 11,
           startHour: "23:30",
           textEn: "Midnight Snack 🌜🍭",
-          textIs: "Midnight Snack 🌜🍭",
+          textIs: "Miðnætursnarl 🌜🍭",
           descriptionEn: "Don't feed the Gremlins 👽",
           descriptionIs: "Don't feed the Gremlins 👽",
           locationEn: "Askja - Main hall",
@@ -137,9 +137,9 @@ class Schedule extends Component {
           id: 12,
           startHour: "08:00",
           textEn: "Breakast 🥞🥞",
-          textIs: "Breakast 🥞🥞",
-          descriptionEn: "To be addded",
-          descriptionIs: "To be addded",
+          textIs: "Morgunmatur 🥞🥞",
+          descriptionEn: "Yummy",
+          descriptionIs: "Yummy",
           locationEn: "Askja",
           locationIs: "Askja"
         },
@@ -147,9 +147,9 @@ class Schedule extends Component {
           id: 13,
           startHour: "11:00",
           textEn: "Submissions 👐🧻",
-          textIs: "Submissions 👐🧻",
-          descriptionEn: "To be addded",
-          descriptionIs: "To be addded",
+          textIs: "Vinnulotu lýkur - skil á lokaafurð liða 👐🧻",
+          descriptionEn: "Don´t miss it!",
+          descriptionIs: "Don´t miss it!",
           locationEn: "",
           locationIs: ""
         },
@@ -157,9 +157,9 @@ class Schedule extends Component {
           id: 14,
           startHour: "11:30",
           textEn: "Lunch 🥪🍱",
-          textIs: "Lunch 🥪🍱",
-          descriptionEn: "To be addded",
-          descriptionIs: "To be addded",
+          textIs: "Hádegismatur 🥪🍱",
+          descriptionEn: "Yummy!",
+          descriptionIs: "Yummy!",
           locationEn: "Askja",
           locationIs: "Askja"
         },
@@ -167,19 +167,19 @@ class Schedule extends Component {
           id: 15,
           startHour: "12:00",
           textEn: "Final Pitches 🎤💡",
-          textIs: "Final Pitches 🎤💡",
-          descriptionEn: "To be addded",
-          descriptionIs: "To be addded",
+          textIs: "Kynningar á lokaafurð liða 🎤💡",
+          descriptionEn: "Show time!",
+          descriptionIs: "Show time!",
           locationEn: "Askja",
-          locationIs: "Askja"
+          locationIs: "Askja, aðalrými"
         },
         {
           id: 16,
           startHour: "14:00",
           textEn: "Pitches end & judges deliberate 🤔💭📋",
-          textIs: "Pitches end & judges deliberate 🤔💭📋",
-          descriptionEn: "To be addded",
-          descriptionIs: "To be addded",
+          textIs: "Kynningar enda & dómnefnd tekur 🤔",
+          descriptionEn: "Show me what you got!",
+          descriptionIs: "Show me what you got!",
           locationEn: "",
           locationIs: ""
         },
@@ -187,9 +187,9 @@ class Schedule extends Component {
           id: 17,
           startHour: "15:00",
           textEn: "Top 5 teams present & Award Ceremony 🥇",
-          textIs: "Top 5 teams present & Award Ceremony 🥇",
-          descriptionEn: "To be addded",
-          descriptionIs: "To be addded",
+          textIs: "Top 5 lið kynna & verðlaunafhending 🥇",
+          descriptionEn: "It´s the final countdown!",
+          descriptionIs: "It´s the final countdown!",
           locationEn: "Askja, room 132",
           locationIs: "Askja, room 132"
         }
@@ -248,7 +248,7 @@ class Schedule extends Component {
           (
             <input 
               key={someEvent.id}
-              className={style.input} 
+              className={style.input+" "+style.extra_margin} 
               type="radio" 
               name="timeline-dot" 
               data-description="1" 
@@ -258,7 +258,7 @@ class Schedule extends Component {
           (
             <div 
               key={someEvent.id+10}
-              className={style.dot_info} 
+              className={style.dot_info+" "+style.extra_margin} 
               data-description="1">
               <span className={style.span+" "+style.year}>{someEvent.startHour}</span>
               <span className={style.span+" "+style.label}>{Cookies.get('language')=='is' ? someEvent.textIs : someEvent.textEn}</span>
