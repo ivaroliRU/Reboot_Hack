@@ -34,7 +34,7 @@ class Navbar extends Component {
                 </li>  */}
                 
                 <li className={style.reboot_navbar_item + " nav-item"}>
-                    <a href="#RegisterSection" className="nav-link">Register</a>
+                    <a href="./#RegisterSection" className="nav-link">Register</a>
                 </li>
                 {/* 2020 Event page */}
                 <li className={style.reboot_navbar_item + " nav-item"}>

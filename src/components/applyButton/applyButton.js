@@ -35,21 +35,21 @@ class ApplyButton extends Component {
             extraText = "Reboot Hack er nemendadrifin nýsköpunarkeppni sem fer fram í Háskóla Íslands helgina 14.-16.febrúar 2020. Viðburðurinn er opin öllum háskólanemum í heiminum.";
         }
         else{
-            extraText = "Reboot Hack is a student-driven hackathon taking place at the University for Iceland the weekend of February 14th-16th 2020. The event is open for all university students in the world.";
+            extraText = "Reboot Hack is a student-driven hackathon taking place at the University of Iceland the weekend of February 14th-16th 2020. The event is open for all university students in the world.";
         }
 
         return (
             <div className="container">
-
+                <div>
+                    <p>{extraText}</p>
+                </div>
                 <div className="text-center">
                     <button type="button" className={"btn btn-outline-primary btn-lg mb-4 "+style.apply_button} data-toggle="modal" data-target="#modalRegisterForm">
                         {this.text.register.subHeading}
                     </button>
                 </div>
                 
-                <div>
-                    <p>{extraText}</p>
-                </div>
+                
 
                 <div className="modal fade" id="modalRegisterForm" tabIndex="-1" role="dialog" >
                     <div className="modal-dialog" role="document">

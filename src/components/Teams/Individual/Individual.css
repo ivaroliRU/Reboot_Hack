@@ -53,6 +53,7 @@
 
  .IndividualDiv :hover{
     transform: scale(1.1);
+    height: 96%;
     background-color: rgba(255, 255, 255, 1);
     transition: all 0.2s ease-in-out;
     border-radius: 7px;
@@ -62,11 +63,26 @@
     transition: all 0.2s ease-in-out;
 }
 
-
-
+.LinkedIn {
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+    color: black !important;
+}
+.LinkedIn :hover{
+    color: rgb(0, 119, 181);
+    transition: color 0.2s linear;
+}
+.normlaHeight{
+    height: unset !important;
+}
 @media only screen and (max-width: 600px) {
+
+    .IndividualDiv :hover{
+        height: 96%;
+    }
+    
     .IndividualDiv{
-        height: 420px !important;
+        height: 450px !important;
     }
     .IndividualDiv :hover{
         background-color: rgba(255, 255, 255, 1);
@@ -79,4 +95,9 @@
     .Title{
         font-weight: 14px;
     }
+
+    .LinkedIn {
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+      }
   }
