@@ -78,14 +78,23 @@ constructor(props) {
             {
                 id: 7,
                 name: 'Fríða Snædís Jóhannesdóttir',
-                titleIs: 'Co-founder, Reboot Hack',
-                titleEn: 'Meðstofnandi, Reboot Hack',
+                titleIs: 'Meðstofnandi, Reboot Hack',
+                titleEn: 'Co-founder, Reboot Hack',
                 email: null,
                 linkedInLink: null,
                 photoURL: null,
             },
             {
                 id: 8,
+                name: 'Helga Dögg Björgvinsdóttir',
+                titleIs: 'Viðskiptastjóri, Men & Mice',
+                titleEn: 'Channel Manager at Men & Mice',
+                email: 'helga@crowberrycapital.com ',
+                linkedInLink: null,
+                photoURL: './images/Board_of_Advisors/Helga_Valfells.jpeg',
+            },
+            {
+                id: 9,
                 name: 'Helga Valfells',
                 titleIs: 'Stofnandi og framkvæmdastjóri, Crowberry Capital',
                 titleEn: 'Founder & Managing Partner, Crowberry Capital',
@@ -94,7 +103,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Helga_Valfells.jpeg',
             },
             {
-                id: 9,
+                id: 10,
                 name: 'Hrund Gunnsteinsdóttir',
                 titleIs: 'Framkvæmdastjóri, Festa',
                 titleEn: 'Director, Festa',
@@ -103,7 +112,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Hrund_Gunnsteinsdóttir.jpg',
             },
             {
-                id: 10,
+                id: 11,
                 name: 'Dr. Jón Atli Benediktsson',
                 titleIs: 'Rektor Háskóla Íslands',
                 titleEn: 'Rector of the University of Iceland',
@@ -112,7 +121,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Jón_Atli_Benediktsson.jpg',
             },
             {
-                id: 11,
+                id: 12,
                 name: 'Kristinn Árni L. Hróbjartsson',
                 titleIs: 'Rekstrarstjóri, Gangverk',
                 titleEn: 'Director of Operations at Gangverk',
@@ -121,7 +130,7 @@ constructor(props) {
                 photoURL: null,
             },
             {
-                id: 12,
+                id: 13,
                 name: 'Kristján Ingi Mikaelsson',
                 titleIs: 'Framkvæmdastjóri, Rafmyntráðið',
                 titleEn: 'Managing Director of the Icelandic Blockchain Foundation',
@@ -130,7 +139,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Kristján_Ingi_Mikaelsson.jpg',
             },
             {
-                id: 13,
+                id: 14,
                 name: 'Kristrún Tinna Gunnarsdóttir',
                 titleIs: 'Forstöðumaður stefnumótunar, Íslandsbanki',
                 titleEn: 'Executive Director, Strategy, Íslandsbanki',
@@ -139,7 +148,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Kristrún_Tinna_Gunnarsdóttir.jpg',
             },
             {
-                id: 14,
+                id: 15,
                 name: 'Lydía Ósk Ómarsdóttir',
                 titleIs: 'Ráðgjafi, Intellecta',
                 titleEn: 'Advisor, Intellecta',
@@ -148,7 +157,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Lydía_Ósk_Ómarsdóttir.jpg',
             },
             {
-                id: 15,
+                id: 16,
                 name: 'Margrét Dóra Ragnarsdóttir',
                 titleIs: 'Stafrænn hönnunarleiðtogi',
                 titleEn: 'Experience Designer',
@@ -157,7 +166,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Margrét_Dóra_Ragnarsdóttir.jpg',
             },
             {
-                id: 16,
+                id: 17,
                 name: 'Ragnheiður H. Magnúsdóttir',
                 titleIs: 'Forstöðumaður framkvæmda, Veitur',
                 titleEn: 'Head of Utility Maintenance, Veitur',
@@ -166,7 +175,7 @@ constructor(props) {
                 photoURL: null,
             },
             {
-                id: 17,
+                id: 18,
                 name: 'Ragnhildur Ágústsdóttir',
                 titleIs: 'Microsoft / Lava show',
                 titleEn: 'Microsoft / Lava show',
@@ -175,16 +184,25 @@ constructor(props) {
                 photoURL: null
             },
             {
-                id: 18,
+                id: 19,
                 name: 'Sara Björk Másdóttir',
-                titleIs: 'Co-founder, Reboot Hack',
-                titleEn: 'Meðstofnandi, Reboot Hack',
+                titleIs: 'Meðstofnandi, Reboot Hack',
+                titleEn: 'Co-founder, Reboot Hack',
                 email: null,
                 linkedInLink: null,
                 photoURL: null,
             },
             {
-                id: 19,
+                id: 20,
+                name: 'Salóme Guðmundsdóttir',
+                titleIs: 'Framkvæmdastjóri, Icelandic Startups',
+                titleEn: 'CEO, Icelandic Startups',
+                email: null,
+                linkedInLink: null,
+                photoURL: null,
+            },
+            {
+                id: 21,
                 name: 'Sigríður Valgeirsdottir',
                 titleIs: 'Sérfræðingur í nýsköpun, Atvinnuvega – og nýsköpunarráðuneytið',
                 titleEn: 'Senior expert, Department of tourism and innovation',
@@ -193,7 +211,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/S_Valgeirsdottir.jpg',
             },
             {
-                id: 20,
+                id: 22,
                 name: 'Svafa Grönfeldt',
                 titleIs: 'Formaður stjórnar MITdesignX viðskiptahraðalsins, stjórnarmaður: Icelandair, Origo, Össur',
                 titleEn: 'Chair MITdesignX, Board of directors: Icelandair, Origo, Össur',
@@ -202,7 +220,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Svafa_Grönfeldt.jpg',
             },
             {
-                id: 21,
+                id: 23,
                 name: 'Védís Hervör Árnadóttir',
                 titleIs: 'Samskipta- og miðlunarstjóri, Viðskiptaráð Íslands',
                 titleEn: 'Director of Communications and Multimedia, Iceland Chamber of Commerce',
@@ -211,7 +229,7 @@ constructor(props) {
                 photoURL: './images/Board_of_Advisors/Vedis_Hervor_Arnadottir.jpg',
             },
             {
-                id: 22,
+                id: 24,
                 name: 'Þórey Vilhjálmsdóttir',
                 titleIs: 'Ráðgjafi, Capacent',
                 titleEn: 'Director, Capacent',
