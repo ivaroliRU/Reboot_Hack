@@ -328,7 +328,7 @@ export const translation = {
         question10: {
           text: 'What’s the code of conduct',
           answer:
-            'We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this code of conduct. Organizers will make sure that everyone adheres to the code.',
+            'Reboot Hack is dedicated to providing an enjoyable and a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We expect all of our attendees, sponsors, volunteers and staff to be respectful and considerate of others. We do not, under any circumstances, tolerate harassment of conference participants in any form. Conference participants violating these rules may be sanctioned or expelled from Reboot Hack at the discretion of the conference organizers. Our anti-harassment policy and information on how to report can be found <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">here</a> ',
         },
         question11: {
           text: 'What about sleeping?',
