@@ -69,7 +69,7 @@ class Schedule extends Component {
           descriptionEn: "We have loads of very fun workshops",
           descriptionIs: "We have loads of very fun workshops",
           locationEn: "Askja, rooms: 121, 128, 129, 130",
-          locationIs: "Softur: 121, 128, 129, 130"
+          locationIs: "Stofur: 121, 128, 129, 130"
         },
         {
           id: 6,
@@ -206,7 +206,7 @@ class Schedule extends Component {
       infoText="Push any entry in the schedule to get more info!";
       saturdayText = "Laugardagur";
       sundayText = "Sunnudagur";
-      scheduleText = "Áætlun";
+      scheduleText = "Dagskrá";
       imageSRC = this.state.scheduleIsLink;
       ShowFullScheduleText = "Show full schedule";
     }
