@@ -219,7 +219,7 @@ class Challenges extends Component {
 
     return (
         <div className={"container"}>
-          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align}><b>{challangesText}</b></h1>
+          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align}>{challangesText}</h1>
             <p  className={generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{challengeInfo}</p>
           <div className={style.myDiv}>
             {challengeSection}

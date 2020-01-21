@@ -8,6 +8,7 @@ import ApplyButton from '../../components/applyButton/applyButton';
 import ParallaxScrollImage from '../../components/parallaxScrollImage';
 import {changeLanguage, getTranslation} from '../../translations';
 import AboutIndex from '../../components/about/aboutIndex';
+import AboutIndex2 from '../../components/about/aboutIndex2';
 import style from "./index.css"
 import BoardOfAdvisors from '../../components/BoardOfAdvisors/BoardOfAdvisors';
 
@@ -38,6 +39,8 @@ class App extends Component {
         </div>
         <ParallaxScrollImage imgDesktop={"/images/Maybe_cover_2_cropped_desktop.jpg"} imgMobile={"/images/Maybe_cover_2_resized.jpg"} height={700}/>
         <AboutIndex handler = {this.handler}/>
+        <ParallaxScrollImage imgDesktop={"/images/new_photo_index.jpg"} height={700}/>   
+        <AboutIndex2 handler = {this.handler} />
         <Footer />
       </div>
     );

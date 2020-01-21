@@ -27,8 +27,8 @@ class Events extends Component {
           day: "24",
           monthEn: "January",
           monthIs: "Janúar",
-          textEn: "To Be Announced.",
-          textIs: "Nánari Upplýsingar Síðar.",
+          textEn: "Introduction on Reboot hackathon for university students on Akureyri.",
+          textIs: "Kynning á Reboot nýsköpunarkeppni fyrir háskólanema á Akureyri.",
           location: "Háskólinn á Akureyri"
         },
         {
@@ -40,18 +40,18 @@ class Events extends Component {
           monthIs: "Janúar",
           textEn: "All university students welcome! // Free Beer .",
           textIs: "Allir háskólanemar velkomnir! // Bjór í boð.",
-          location: "TBA"
+          location: "Café Amour"
         },
         {
           id: 3,
-          titleEn: "Reboot Hack booth on Framadagar",
-          titleIs: "Reboot Hack bás á framadögum",
+          titleEn: "Meet our sponsors on Framadagar",
+          titleIs: "Hittu styrktaraðila okkar á framadögum",
            day: "30",
            monthEn: "January",
            monthIs: "Janúar",
            textEn: "Come and meet us!",
            textIs: "Komdu og heilsaðu upp á okkur!",
-           location: "TBA"
+           location: "Háskólinn í Reykjavík"
         },
         {
           id: 4,

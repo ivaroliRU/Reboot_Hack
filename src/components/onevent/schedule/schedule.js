@@ -203,10 +203,10 @@ class Schedule extends Component {
     var infoText, scheduleText, timelineDescription, imageSRC, ShowFullScheduleText, saturdayText, sundayText;
 
     if(Cookies.get('language')=='is'){
-      infoText="Push any entry in the schedule to get more info!";
+      infoText="Ýttu á einstaka þætti dagskráarinnar til að fá auka upplýsingar!";
       saturdayText = "Laugardagur";
       sundayText = "Sunnudagur";
-      scheduleText = "Dagskrá";
+      // scheduleText = "Dagskrá";
       imageSRC = this.state.scheduleIsLink;
       ShowFullScheduleText = "Show full schedule";
     }
@@ -214,7 +214,7 @@ class Schedule extends Component {
       infoText="Push any entry in the schedule to get more info!";
       saturdayText = "Saturday";
       sundayText = "Sunday";
-      scheduleText="Schedule";
+      // scheduleText="Schedule";
       imageSRC = this.state.scheduleEnLink;
       ShowFullScheduleText = "Show full schedule";
     }
@@ -307,8 +307,7 @@ class Schedule extends Component {
     return (
         <div className={style.myDiv+" container"}>
 
-          <center>
-            <h2 className="pb-6">{scheduleText}:</h2> 
+          <center> 
 
             <button type="button" className={"btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#ModalForSchedule"}>
               {ShowFullScheduleText}

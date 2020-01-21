@@ -22,11 +22,11 @@ class Location extends Component {
 
     if(Cookies.get('language')=='is'){
       location = "Staðsetning Reboot Hack 2020";
-      address = "Heimilisfang";
+      // address = "Heimilisfang";
     }
     else{
       location = "Reboot Hack 2020 location";
-      address = "Address";
+      // address = "Address";
     }
 
 
@@ -52,7 +52,6 @@ class Location extends Component {
         <div className={"container pb-4"}>
           <h3 className={style.textStyle}> {location} </h3>
           <div className={"container"}>
-            <h4 className={style.textStyle}>{address}</h4>
             <p> <b>Askja</b> - Sturlugata 7, 102 Reykjavik</p>
           </div>
           <MyMapComponent 
