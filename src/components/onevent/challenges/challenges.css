@@ -7,7 +7,9 @@
     font-family: 'Montserrat', sans-serif;
     color: #694991;
 }
-
+.challengeTextStyle{
+  font-weight: unset;
+}
 .ModalLogo{
   max-height: 2rem;
   width: auto;

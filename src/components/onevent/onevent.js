@@ -44,7 +44,7 @@ class OnEvent extends Component {
                   /* className={style.Instagram} */
                   href={this.state.instagram}
                   target="_blank">
-                    <i className={"fa fa-instagram fa-lg"}></i>
+                    <i className={"fa fa-instagram fa-lg "+style.redirectButtonColor}></i>
                 </a> 
               </h3>
               <InstaGrid account="reboothackiceland" numberOfMediaElements={9} />

@@ -1,3 +1,11 @@
+.redirectButtonColor{
+    color: #625892;
+}
+.redirectButtonColor:active, .redirectButtonColor:hover{
+    color: rgb(131,58,180);
+}
+
+
 .divStyling{
     font-family: 'Montserrat', sans-serif;
     max-width: 80%;

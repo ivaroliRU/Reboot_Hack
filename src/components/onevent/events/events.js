@@ -108,7 +108,7 @@ class Events extends Component {
       upcomingEventsText="Kynningarviðburðir";
     }
     else{
-      upcomingEventsText="Mini-events";
+      upcomingEventsText="Mini events";
     }
 
     var minimumEventId = -1;
@@ -141,7 +141,7 @@ class Events extends Component {
           <li key={event.id} className={style.media}>
             <div className={style.media_left}>
               <div className={" "+style.text_center+" "+style.date}>
-                <div className={style.panel_body+" "+style.day+" "+style.text_styling}>
+                <div className={style.panel_body+" "+style.day+" "+style.text_styling+" "+style.panel_title}>
                   {event.day}
                 </div>
                 <div className={style.date_heading+" "+style.month}>
@@ -154,8 +154,8 @@ class Events extends Component {
             </div>
             <div className={style.media_body+" "+(event.id <= minimumEventId ? style.textGray : null)}>
               <h4 className={style.media_heading+" "+generalStyle.justTheFont}><b>{Cookies.get('language')=='is' ? event.titleIs : event.titleEn}</b></h4>
-              <h5 className={style.location_heading+" "+generalStyle.justTheFont}><i className={"fa fa-map-marker"} />  <b>{event.location}</b></h5>
-              <p className={style.textJustify+" "+generalStyle.justTheFont}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
+              <h5 className={style.location_heading+" "+generalStyle.justTheFont+" "+style.locaitonStyle}><i className={"fa fa-map-marker"} />  <b>{event.location}</b></h5>
+              <p className={style.textJustify+" "+generalStyle.justTheFont+" "+style.detailsStyle}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
             </div>
           </li>
         );
@@ -166,7 +166,7 @@ class Events extends Component {
 
           <div className={style.panel +" "+style.panel_danger}>
               <div className={style.panel_heading}>
-                  <h3 className={style.panel_title}>
+                  <h3 className={style.panel_title+" "+style.eventsTextStyle}>
                     {upcomingEventsText}
                   </h3>
               </div>

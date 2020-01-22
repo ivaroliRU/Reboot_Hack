@@ -16,6 +16,7 @@ class Challenges extends Component {
           textEn: "Employee satisfaction can be measured in countless ways and can often be highly dependent on the employee. Some might prefer a relaxed work environment while others strive for maximum productivity and time management.    Some jobs have strict restrictions – Truck drivers must make their deliveries on time and must be alert at the wheel; students must complete tasks like achieving a minimum passing grade, write a thesis and defend it.    How can we leverage technology to increase job satisfaction?",
           textIs: "Það eru ótal leiðir til að mæla starfsánægju og getur það verið mismunandi milli einstaklinga hvað telst til starfsánægju. Sumir myndu e.t.v. vinna í rólegu vinnuumhverfi á meðan aðrir sækjast frekar í að hámarka framleiðni og besta tímastjórnun.    Sum störf hafa strangar kröfur – sendibílstjórar verða að komast á áfangastað og þurfa að vera vakandi við stýrið; nemendur verða að ná ákveðnum áföngum eins og að ná lágmarkseinkun, skrifa lokaritgerð og verja hana.    Hvernig getum við aukið starfsánægju með tækni?",
           company: "Origo",
+          videoURL: null,
           companyPhotoURL: "/images/sponsors/reboot/OrigoSVG.svg",
           detailsEnPhotoURL: "/images/Challenges/Origo/Description_En.png",
           detailsIsPhotoURL: "/images/Challenges/Origo/Description_Is.png",
@@ -33,6 +34,7 @@ class Challenges extends Component {
           textEn: "Insurance provides the peace of mind knowing that if something happens you are covered. Evolution into the digital world is happening fast and the financial sector is already on its way automating services for the benefit of the customer. The evolution of it is still in progress but what do you see happening?    How do we meet the customer needs on their terms and through the medium they choose when claims happens or when buying insurance?    How do we make sure our customers have the right level of coverage at the right price?",
           textIs: "Tryggingar snúast um að veita fólki þá hugarró sem felst í að vita að ef eitthvað kemur upp á þá ertu tryggður. Stafræn þróun er hröð og áhrifa er þegar farið að gæta hjá fjármálafyrirtækjum sem eru í auknum mæli farin að sjálfvirknivæða þjónustu. Það sér ekki fyrir endann á þeirri þróun en hvað sjáið þið?    Hvernig mætum við þörfum viðskiptavina á þeirra forsendum og í gegnum þá miðla sem þeir kjósa þegar kemur að tjóni eða kaupum á tryggingum?    Hvernig tryggjum við að viðskiptavinir okkar séu rétt tryggðir og rétt verðlagðir?",
           company: "Vörður",
+          vodeoURL: null,
           companyPhotoURL: "/images/sponsors/restart/VordurLogoGraySVG.svg",
           detailsEnPhotoURL: "/images/Challenges/Vordur/Description_En.png",
           detailsIsPhotoURL: "/images/Challenges/Vordur/Description_Is.png",
@@ -50,6 +52,7 @@ class Challenges extends Component {
           textEn: "Saving is something we all need to focus on, but we may find it difficult as it is often much easier to spend than save. It can be a challenge to find the will power to continue the habit of saving especially when you are on a budget.  How can the elements of gaming like challenges and competition be used to gamify savings and encourage individuals to achieve their savings goals and make it fun at the same time.",
           textIs: "Að leggja fyrir og spara er eitthvað sem við þurfum öll að temja okkur en það getur reynst erfitt því það er oft auðveldara að eyða en spara. Það getur verið áskorun að viðhalda þeirri venju að spara sérstaklega þegar það þrengir að fjárhagslega. En hvernig er hægt nýta eiginleika tölvuleikja eins og áskoranir og samkeppni til þess að leikjavæða sparnað og hvetja einstaklinga til þess að leggja fyrir og hjálpa þeim að ná sínum fjárhagslegu markmiðum og hafa gaman af því á sama tíma.",
           company: "Auður (Kvika)",
+          vodeoURL: null,
           companyPhotoURL: "/images/sponsors/reboot/AudurSVG.svg",
           detailsEnPhotoURL: "/images/Challenges/Audur/Description_En.png",
           detailsIsPhotoURL: "/images/Challenges/Audur/Description_Is.png",
@@ -67,6 +70,7 @@ class Challenges extends Component {
           textEn: "One of the projects of the strategic regional plan for the period 2018 - 2024 is to ensure that 10% of all advertised jobs at ministries and their institutions shall be without specified location by the year 2024, meaning that residence has no influence on ministry staff selection. How can we make the non-capital area of Iceland a feasible place for young and educated people to live and work in? Please keep both social and technical factors in mind when solving the challenge.     Main objective: How can we make the non-capital area of Iceland a feasible place for young and educated people to live and work in? Please keep both social and technical factors in mind when solving the challenge.     Secondary objective: How can living in the non-capital area of Iceland be marketed in the best way to attract young and educated people?",
           textIs: "Eitt af markmiðum stefnumótandi byggðaáætlunar fyrir árin 2018 - 2024 er að 10% allra auglýstra starfa í ráðuneytum og stofnunum þeirra verði án staðsetningar árið 2024, þannig að búseta hafi ekki áhrif við val á starfsfólki. Hvernig er hægt að búa svo um að það verði ákjósanlegt fyrir ungt og menntað fólk að búa og starfa á landsbyggðinni? Horfa skal meðal annars til samfélagslegra, tæknilegra og félagslegra þátta við úrlausn áskorunarinnar.     Meginmarkmið: Hvernig er hægt að búa svo um að það verði ákjósanlegt fyrir ungt og menntað fólk að búa og starfa á landsbyggðinni? Horfa skal meðal annars til samfélagslegra, tæknilegra og félagslegra þátta við úrlausn áskorunarinnar.     Undirmarkmið: Hvernig er hægt að markaðssetja  búsetu á landsbyggðinni sem lífsstíl fyrir ungt, menntað fólk með sem bestum hætti?",
           company: "Byggðastofnun",
+          vodeoURL: null,
           companyPhotoURL: "/images/sponsors/restart/Byggst_1800x600px_transp.png",
           detailsEnPhotoURL: "/images/Challenges/Byggdastofnun/Description_En.png",
           detailsIsPhotoURL: "/images/Challenges/Byggdastofnun/Description_Is.png",
@@ -84,6 +88,7 @@ class Challenges extends Component {
           textEn: "Companies and civilians lost billions due to cyber crimes last year, mostly due to elaborate email scams. Security awareness training for employees can be tricky because people aren’t really interested in cyber security, they think it’s the IT department’s problem or they fully put their trust in anti-virus software and firewalls.    Cyber criminals seek out weak links by hacking people and when they succeed, traditional anti-virus software and firewalls won’t help. We are looking for methods to make security awareness interesting and memorable. How can we teach people to recognize scams online and not to download viruses or open just any ol’ attachment? How can we make sure that people remember their training when facing a real life cyber threat or hacking attempt? How can we turn employees into a human firewall?",
           textIs: "Fyrirtæki og einstaklingar töpuðu á milljörðum króna á síðasta ári vegna netsvika, þá aðallega vegna tölvupóstsvika. Öryggisvitundarþjálfun fyrir starfsfólks fyrirtækja getur reynst flókin því almennt hefur fólk ekki áhuga á netöryggismálum, telur þau einungis vandamál tölvudeildarinnar eða treystir um of á vírusvarnir og eldveggi.    Skipulagðir glæpahópar sækjast í auknum mæli eftir því að “hakka” fólk í stað þess að hakka eldveggi og þegar þeim tekst það er lítið sem hefðbundnar vírusvarnir geta gert. Við leitum að aðferðum til að gera öryggisvitund áhugaverða og minnisstæða. Hvernig getum við kennt fólki að þekkja svikapósta, varast vírusa og gæta sín á viðhengjum? Hvernig getum við gætt þess að slík þjálfun sé efst í huga fólks þegar mest á reynir? Hvernig gerum við starfsfólk að virkum hluta eldveggjarins?",
           company: "AwareGo",
+          vodeoURL: null,
           companyPhotoURL: "/images/sponsors/restart/awarego.png",
           detailsEnPhotoURL: "/images/Challenges/AwareGo/Description_En.png",
           detailsIsPhotoURL: "/images/Challenges/AwareGo/Description_Is.png",
@@ -101,6 +106,7 @@ class Challenges extends Component {
           textEn: "The world is changing rapidly and so does the business environment. Technology spurs quality and financial and nonfinancial data provided insight. Emerging technologies and the 4th industrial revolution will have significant effect on the assurance landscape.    How will the company of the future fulfil its regulatory and stakeholder obligations and how will 3rd party assurance service evolve? From financial statement and VAT reporting, to customer satisfaction, the challenge to meet the increased regulatory compliance and customer demands is ever challenging. We want you to help us to determine how the assurance service of the future will look like, and how it will be used to increase trust within the Icelandic marketplace. We welcome all solutions, ranging from theories to technical solutions, and everything between",
           textIs: "Verður Tilkynnt Síðar",
           company: "KPMG",
+          vodeoURL: null,
           companyPhotoURL: "/images/sponsors/reboot/KPMGSVG.svg",
           detailsEnPhotoURL: "/images/Challenges/KPMG/Description_En.png",
           detailsIsPhotoURL: "/images/Challenges/KPMG/Description_Is.png",
@@ -118,6 +124,7 @@ class Challenges extends Component {
           textEn: "We stand at a critical juncture in time. Life on Earth will be completely transformed in the next years and decades if nothing is done to battle the climate crisis caused by humans.    Climate catastrophe is considered humanity’s greatest challenge and the future outlook of people, animals, nature and ecosystems hangs in the balance.    How could design and art with the help of technology affect individuals, institutions and corporations when it comes to battling the climate crisis, build awareness on climate change, affect the way we live and increase social responsibility?",
           textIs: "Við stöndum á tímamótum. Lífið á Jörðinni mun gjörbreytast á næstu árum og áratugum ef kkert verður gert til að sporna við yfirvofandi loftslagshamförum af mannavöldum.    Hamfararhlýnun er talin stærsta áskorun samtímans og framtíðarhorfur manna, dýra, náttúru og vistkerfa virðast daprar.    Hvernig gætu hönnun og listir með hjálp tækni nýst einstaklingum, stofnunum og stórfyrirtækjum að sporna við loftlagshamförum, aukið meðvitund um loftslagsmál, haft áhrif á lifnaðarhætti fólks og aukið samfélagsábyrgð?",
           company: "LHÍ",
+          vodeoURL: null,
           companyPhotoURL: "/images/universities/LHI_Black_Long_SVG.svg",
           detailsEnPhotoURL: "/images/Challenges/LHI/Description_En.png",
           detailsIsPhotoURL: "/images/Challenges/LHI/Description_Is.png",
@@ -135,6 +142,7 @@ class Challenges extends Component {
         //   textEn: "To Be Announced",
         //   textIs: "Verður Tilkynnt Síðar",
         //   company: "Ölgerðin",
+        //   vodeoURL: null,
         //   companyPhotoURL: "/images/sponsors/restart/olgerdinLogoSVGResizedV2.png",
         //   detailsEnPhotoURL: "/images/Challenges/Olgerdin/Description_En.png",
         //   detailsIsPhotoURL: "/images/Challenges/Olgerdin/Description_Is.png",
@@ -181,7 +189,7 @@ class Challenges extends Component {
             <h5 className={generalStyle.headerStyle+" row "+generalStyle.spacingAfterCompany}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extraHeight+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
             <p className={style.textJustify+" "+generalStyle.headerStyle+" "+generalStyle.paragraphStyle}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
           
-            <button type="button" className={(challenge.displayDetails!==true ? style.myButton : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
+            <button type="button" className={(challenge.displayDetails !== true ? style.myButton : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
               {moreDetails}
             </button>
 
@@ -219,7 +227,7 @@ class Challenges extends Component {
 
     return (
         <div className={"container"}>
-          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align}>{challangesText}</h1>
+          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align+" "+style.challengeTextStyle}>{challangesText}</h1>
             <p  className={generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{challengeInfo}</p>
           <div className={style.myDiv}>
             {challengeSection}

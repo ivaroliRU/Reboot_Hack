@@ -25,7 +25,7 @@
 .panel_title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 24px;
+  /* font-size: 24px; */
   color: inherit;
   text-align: center;
 }
@@ -44,7 +44,7 @@
 }
 
 .media_heading {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .location_heading {
@@ -57,6 +57,8 @@
 
 .media_left{
   padding-right: 10px;
+  margin-left:2px;
+  margin-right:2px;
 }
 
 .media_left, .media_right, .media_body {
@@ -77,6 +79,7 @@
 
 .date {
   margin: 0px;
+  /* font-size: 20px; */
   /* width: 60px; */
   text-align: center;
 }
@@ -84,12 +87,15 @@
 .month {
   padding: 2px 0px;
   font-weight: 700;
+  /* margin-left: 1%;
+  margin-right: 1%; */
+  /* font-size: 20px; */
 }
 
 .day {
   padding: 3px 0px;
   font-weight: 700;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
   color: #694991;
 }
 
@@ -100,10 +106,21 @@
 .textGray{
   color: gray;
 }
+.detailsStyle{
+  font-size: 14px;
+}
+.locaitonStyle{
+  font-size: 16px;
+}
 
 .textJustify{
   /* text-align: justify; */
 }
+
+.eventsTextStyle{
+  font-size: 1.5rem;
+}
+
 .expired{
   text-decoration-line: line-through;
   text-decoration-style: dotted;
