@@ -39,7 +39,7 @@ class App extends Component {
         </div>
         <ParallaxScrollImage imgDesktop={"/images/Maybe_cover_2_cropped_desktop.jpg"} imgMobile={"/images/Maybe_cover_2_resized.jpg"} height={700}/>
         <AboutIndex handler = {this.handler}/>
-        <ParallaxScrollImage imgDesktop={"/images/new_photo_index.jpg"} height={700}/>   
+        <ParallaxScrollImage imgDesktop={"/images/new_photo_index_resized.jpg"} imgMobile={"/images/new_photo_index_resized_mobile.jpg"} height={700}/>   
         <AboutIndex2 handler = {this.handler} />
         <Footer />
       </div>
