@@ -208,7 +208,7 @@ class Schedule extends Component {
       sundayText = "Sunnudagur";
       // scheduleText = "Dagskrá";
       imageSRC = this.state.scheduleIsLink;
-      ShowFullScheduleText = "Show full schedule";
+      ShowFullScheduleText = "Öll dagskrá";
     }
     else{
       infoText="Push any entry in the schedule to get more info!";
