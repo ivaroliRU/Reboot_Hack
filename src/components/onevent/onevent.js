@@ -37,7 +37,7 @@ class OnEvent extends Component {
             </div>
           </div>
 
-          <div className={"row"}>
+          <div className={"row pb-20"}>
             <div className={"col-12"}>
               <h3>Reboot Hack  
                 <a className={"pl-2"}
@@ -51,8 +51,8 @@ class OnEvent extends Component {
             </div> 
           </div>
 
-          <div className={"row mt-14"}>
-            <div className={"col-12 mt-14"}>
+          <div className={"row"}>
+            <div className={"col-12"}>
               <Location />
             </div>
           </div>
