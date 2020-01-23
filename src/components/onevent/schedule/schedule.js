@@ -200,7 +200,7 @@ class Schedule extends Component {
   
   render() {
 
-    var infoText, scheduleText, timelineDescription, imageSRC, ShowFullScheduleText, saturdayText, sundayText;
+    var downloadText, infoText, scheduleText, timelineDescription, imageSRC, ShowFullScheduleText, saturdayText, sundayText;
 
     if(Cookies.get('language')=='is'){
       infoText="Ýttu á einstaka þætti dagskráarinnar til að fá auka upplýsingar!";
@@ -209,6 +209,7 @@ class Schedule extends Component {
       // scheduleText = "Dagskrá";
       imageSRC = this.state.scheduleIsLink;
       ShowFullScheduleText = "Öll dagskrá";
+      downloadText="Smelltu á myndina til þess að hlaða niður myndinni!";
     }
     else{
       infoText="Push any entry in the schedule to get more info!";
@@ -217,6 +218,7 @@ class Schedule extends Component {
       // scheduleText="Schedule";
       imageSRC = this.state.scheduleEnLink;
       ShowFullScheduleText = "Show full schedule";
+      downloadText="Click on this image to download it!";
     }
 
     timelineDescription = (
@@ -320,14 +322,15 @@ class Schedule extends Component {
                     <div className={style.modalHeaderStyle+" row"}>
                       
                       <h5 className={"modal-title"} id={"ModalForSchedule"}> {scheduleText}</h5>
-                     
                     </div>
                     <button type="button" className={style.buttonClose+" close"} data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div className={style.modalBody+" modal-body"}>
-                    <img className={"img-fluid "} src={imageSRC}/>
+                    <a href={imageSRC} download>
+                      <img className={"img-fluid "} src={imageSRC} title={downloadText}/>
+                    </a>
                   </div>
                  
                 </div>
