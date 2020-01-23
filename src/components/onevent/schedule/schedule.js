@@ -200,7 +200,7 @@ class Schedule extends Component {
   
   render() {
 
-    var downloadText, infoText, scheduleText, timelineDescription, imageSRC, ShowFullScheduleText, saturdayText, sundayText;
+    var downloadText, infoText, scheduleText, timelineDescription, imageSRC, ShowFullScheduleText, saturdayText, sundayText, smallText;
 
     if(Cookies.get('language')=='is'){
       infoText="Ýttu á einstaka þætti dagskráarinnar til að fá auka upplýsingar!";
@@ -210,6 +210,7 @@ class Schedule extends Component {
       imageSRC = this.state.scheduleIsLink;
       ShowFullScheduleText = "Öll dagskrá";
       downloadText="Smelltu á myndina til þess að hlaða niður myndinni!";
+      smallText='Við munum uppfæra dagskrána svo kíktu á síðuna okkar reglulega!';
     }
     else{
       infoText="Push any entry in the schedule to get more info!";
@@ -219,6 +220,7 @@ class Schedule extends Component {
       imageSRC = this.state.scheduleEnLink;
       ShowFullScheduleText = "Show full schedule";
       downloadText="Click on this image to download it!";
+      smallText='We will update our schedule so make sure to revisit the site!';
     }
 
     timelineDescription = (
@@ -386,7 +388,7 @@ class Schedule extends Component {
               </div>
             </div>
           </div> 
-
+          <small>{smallText}</small>
 
         </div>
         

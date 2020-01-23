@@ -44,11 +44,11 @@
 }
 
 .media_heading {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .location_heading {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .media:first-child {
@@ -107,10 +107,10 @@
   color: gray;
 }
 .detailsStyle{
-  font-size: 14px;
+  font-size: 12px;
 }
 .locaitonStyle{
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .textJustify{

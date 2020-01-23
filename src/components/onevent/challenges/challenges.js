@@ -189,9 +189,9 @@ class Challenges extends Component {
             <h5 className={generalStyle.headerStyle+" row "+generalStyle.spacingAfterCompany}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extraHeight+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
             <p className={style.textJustify+" "+generalStyle.headerStyle+" "+generalStyle.paragraphStyle}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
           
-            <button type="button" className={(challenge.displayDetails !== true ? style.myButton : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
+            {/*<button type="button" className={(challenge.displayDetails !== true ? style.myButton : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
               {moreDetails}
-            </button>
+            </button>*/}
 
 
             <div className={"modal fade"} id={"Modal"+challenge.id} tabIndex="-1" role="dialog" aria-labelledby={"Modal"+challenge.id} aria-hidden="true">

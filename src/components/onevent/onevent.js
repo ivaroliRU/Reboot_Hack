@@ -38,7 +38,7 @@ class OnEvent extends Component {
           </div>
 
           <div className={"row pb-20"}>
-            <div className={"col-12"}>
+            <div className={"col-12 pb-4"}>
               <h3>Reboot Hack  
                 <a className={"pl-2"}
                   /* className={style.Instagram} */
