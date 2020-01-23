@@ -3,6 +3,7 @@ export const translation = {
     is: {
       /* Navbar */
       navbar:{
+        register: "Skrá mig!",
         about: "Um okkur",
         reboot:  "Reboot Hack",
         sponsors: "Bakhjarlar",
@@ -67,7 +68,7 @@ export const translation = {
             'Reboot Hack er fyrsta hakkaþon á Íslandi sem er fyrir nemendur og skipulagt af nemendum. Hakkaþon-ið sjálft verður haldið í Háskóla Íslands og er stefnt á að þátttakendur verði yfir 100 talsins, bæði frá Íslandi sem og öðrum þjóðum. Lítil hakkaþon menning hefur skapast á Íslandi en hakkaþon eru gríðarlega vinsæl út um allan heim, stærstu skólar í Evrópu og Bandaríkjunum halda árleg hakkaþon. Því er kominn tími til þess að skapa þessa hefð hér á landi og verður Reboot Hack þar fremst í fararbroddi.',
         },
         second: {
-          header: 'Hakkþon',
+          header: 'Hakkaþon',
           main:
             'Hakkaþon snúast ekki um að “hakka” heldur um að skapa. Hægt er að hugsa um hakkaþon sem uppfinningamaraþon eða hálfgerða blöndu af forritunarkeppni og nýsköpunarkeppni þar sem þátttakendur fá rými til þess að læra, hanna, byggja og skapa. Þátttakendur keppa saman í hópum og vinna í rúmlega 24 tíma að þróa hugmynd/tæknilausn algjörlega frá grunni. Afurðin getur verið í formi vefsíðu, smáforrits, smátækis eða hvernig tækni sem er, ímyndunaraflið fær að ráða ríkjum ásamt tiltækum hjálpartólum. Reboot hack er skipulagt af nemendum fyrir nemendur þeim að kostnaðarlausu.',
         },
@@ -191,11 +192,12 @@ export const translation = {
     en:{
       /* Navbar */
       navbar:{
+        register: "Register",
         about: "Us",
         reboot:  "Reboot Hack",
         sponsors: "Sponsors",
         trans_btn: "IS <img src='/images/icelandic.png' height='15px'></img>",
-        board: "Board Of Advisors",
+        board: "Board of Advisors",
         team_members: "The Reboot Team",
         faq: "FAQ",
         event: '2020',
@@ -333,7 +335,7 @@ export const translation = {
         question11: {
           text: 'What about sleeping?',
           answer:
-            'Since the venue is a school there is no designated sleeping space. We will try to accomodate a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up!',
+            'Since the venue is a school there is no designated sleeping space. We will try to accomodate a quiet space for you to rest. If you are feeling sleepy but want to keep on working there will be coffee pouring round the clock and snacks to keep your energy up!. We do not provide sleeping space from Friday to Saturday morning, however sleeping spaces are provided from Saturday to Sunday morning. If you need help in finding accommodation please contact us.',
         },
         question12: {
           text: 'Can I start working on my idea before the hackathon?',

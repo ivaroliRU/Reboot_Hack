@@ -2,14 +2,18 @@ import React, { Component } from 'react';
 import style from './onevent.css';
 import Schedule from './schedule/schedule';
 import Challenges from './challenges/challenges';
-import Judges from './judges/judges';
+// import Judges from './judges/judges';
 import Location from './location/location';
 import Events from './events/events'
+import InstaGrid from './instagrid/instagrid';
 
 class OnEvent extends Component {
   
   constructor(props) {
     super(props);
+    this.state = {
+      instagram: "https://www.instagram.com/reboothackiceland/"
+    }
   }
 
   render() {
@@ -27,17 +31,25 @@ class OnEvent extends Component {
             </div>
           </div>
           
-          {/* <div className={"row"}>
-            <div className={"col-12"}>
+          <div className={"row pb-20"}>
+            <div className={style.schedulePaddingOnMobile+" col-12"}>
               <Schedule />
             </div>
-            </div> */}
+          </div>
 
-          {/* <div className={"row"}>
-            <div className={"col-12"}>
-              <Judges />
-            </div>/ 
-        </div> */}
+          <div className={"row pb-20"}>
+            <div className={"col-12 pb-4"}>
+              <h3>Reboot Hack  
+                <a className={"pl-2"}
+                  /* className={style.Instagram} */
+                  href={this.state.instagram}
+                  target="_blank">
+                    <i className={"fa fa-instagram fa-lg "+style.redirectButtonColor}></i>
+                </a> 
+              </h3>
+              <InstaGrid account="reboothackiceland" numberOfMediaElements={9} />
+            </div> 
+          </div>
 
           <div className={"row"}>
             <div className={"col-12"}>

@@ -6,6 +6,11 @@
     font-family: 'Raleway', sans-serif;
     margin: auto !important;
 }
+@font-face {
+    font-family: 'digital-7';
+    src: url('/digital-7.ttf');
+}   
+
 
 .dispalyContents{
     display: contents;
@@ -31,9 +36,10 @@
 .numberStyle{
     /* Made a slight change, this font-family appeard very strange in iphone. Will take a look at it */
     /* font-family: cursive !important; */
+    font-family: 'digital-7', sans-serif !important;
     letter-spacing: 2px;
     font-weight: normal;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
 }
 
 @media only screen and (max-width: 600px) {

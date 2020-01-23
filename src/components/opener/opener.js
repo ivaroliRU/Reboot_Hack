@@ -11,7 +11,7 @@ class Opener extends Component {
         return (
             <div>
                 <div>
-                    <ParallaxScrollImage img={"/images/hack_image_2.jpg"} height={700}/>   
+                    <ParallaxScrollImage imgDesktop={"/images/Index_first_photo_desktop-min.jpg"} imgMobile={"/images/Index_first_photo_mobile-min.jpg"} height={700}/>   
                 </div>
                 <div className={style.components}>
                     <img className="img-fluid" src="/images/reboothack_default_navbar_noBackkground.png" width={950}></img>

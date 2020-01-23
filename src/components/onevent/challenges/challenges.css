@@ -7,7 +7,27 @@
     font-family: 'Montserrat', sans-serif;
     color: #694991;
 }
+.challengeTextStyle{
+  font-weight: unset;
+}
+.ModalLogo{
+  max-height: 2rem;
+  width: auto;
+}
 
+.modalHeaderStyle{
+  margin: auto;
+  align-items: center;
+}
+
+.verticalMarginAuto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.noHorizontalMargin{
+  margin-left: 0;
+  margin-right: 0;
+}
 
 .myElement {
   font-size: 1em;
@@ -61,8 +81,16 @@
   /* border: 1px solid black; */
   height: 36px;
 }
+
+.extraHeight{
+  height: 60px;
+}
+
 .marginAuto{
   margin: auto !important;
+}
+.displayFlex{
+  display: flex;
 }
 .modalBody{
 

@@ -14,7 +14,7 @@ class Events extends Component {
           titleIs: "Re:think // Hvað er nýsköpun?",
           day: "9",
           monthEn: "October",
-          monthIs: "Október",
+          monthIs: "október.",
           textEn: "Are you interested in innovation, and want to learn more about the different platforms available?",
           textIs: "Hefur þú áhuga á nýsköpun og vilt læra meira um þá möguleika sem eru í boði?",
           location: "Loft Hostel",
@@ -27,8 +27,8 @@ class Events extends Component {
           day: "24",
           monthEn: "January",
           monthIs: "Janúar",
-          textEn: "To Be Announced.",
-          textIs: "Nánari Upplýsingar Síðar.",
+          textEn: "Introduction on Reboot hackathon for university students on Akureyri.",
+          textIs: "Kynning á Reboot nýsköpunarkeppni fyrir háskólanema á Akureyri.",
           location: "Háskólinn á Akureyri"
         },
         {
@@ -40,18 +40,18 @@ class Events extends Component {
           monthIs: "Janúar",
           textEn: "All university students welcome! // Free Beer .",
           textIs: "Allir háskólanemar velkomnir! // Bjór í boð.",
-          location: "TBA"
+          location: "Café Amour"
         },
         {
           id: 3,
-          titleEn: "Reboot Hack booth on Framadagar",
-          titleIs: "Reboot Hack bás á framadögum",
+          titleEn: "Meet our sponsors on Framadagar",
+          titleIs: "Hittu styrktaraðila okkar á framadögum",
            day: "30",
            monthEn: "January",
            monthIs: "Janúar",
            textEn: "Come and meet us!",
            textIs: "Komdu og heilsaðu upp á okkur!",
-           location: "TBA"
+           location: "Háskólinn í Reykjavík"
         },
         {
           id: 4,
@@ -108,7 +108,29 @@ class Events extends Component {
       upcomingEventsText="Kynningarviðburðir";
     }
     else{
-      upcomingEventsText="Mini-events";
+      upcomingEventsText="Mini events";
+    }
+
+    var minimumEventId = -1;
+    var dateNow = new Date();
+    if(dateNow.getTime() >= new Date('Oct 10, 2019 00:00:00').getTime()){
+      minimumEventId=0;
+    }
+
+    if(dateNow.getTime() >= new Date('Jan 25, 2020 00:00:00').getTime()){
+      minimumEventId=2;
+    }
+    if(dateNow.getTime() >= new Date('Jan 31, 2020 00:00:00').getTime()){
+      minimumEventId=3;
+    }
+    if(dateNow.getTime() >= new Date('Feb 01, 2020 00:00:00').getTime()){
+      minimumEventId=5;
+    }
+    if(dateNow.getTime() >= new Date('Feb 15, 2020 00:00:00').getTime()){
+      minimumEventId=6;
+    }
+    if(dateNow.getTime() >= new Date('Feb 17, 2020 00:00:00').getTime()){
+      minimumEventId=7;
     }
 
     var eventsSection = this.state.events.map(
@@ -119,7 +141,7 @@ class Events extends Component {
           <li key={event.id} className={style.media}>
             <div className={style.media_left}>
               <div className={" "+style.text_center+" "+style.date}>
-                <div className={style.panel_body+" "+style.day+" "+style.text_styling}>
+                <div className={style.panel_body+" "+style.day+" "+style.text_styling+" "+style.panel_title}>
                   {event.day}
                 </div>
                 <div className={style.date_heading+" "+style.month}>
@@ -130,21 +152,21 @@ class Events extends Component {
                 
               </div>
             </div>
-            <div className={style.media_body}>
+            <div className={style.media_body+" "+(event.id <= minimumEventId ? style.textGray : null)}>
               <h4 className={style.media_heading+" "+generalStyle.justTheFont}><b>{Cookies.get('language')=='is' ? event.titleIs : event.titleEn}</b></h4>
-              <h5 className={style.location_heading+" "+generalStyle.justTheFont}><i className={"fa fa-map-marker"} />  <b>{event.location}</b></h5>
-              <p className={style.textJustify+" "+generalStyle.justTheFont}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
+              <h5 className={style.location_heading+" "+generalStyle.justTheFont+" "+style.locaitonStyle}><i className={"fa fa-map-marker"} />  <b>{event.location}</b></h5>
+              <p className={style.textJustify+" "+generalStyle.justTheFont+" "+style.detailsStyle}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
             </div>
           </li>
         );
     });
 
     return (
-        <div className={"container"} >
+        <div className={style.divPadding+" container"} >
 
           <div className={style.panel +" "+style.panel_danger}>
               <div className={style.panel_heading}>
-                  <h3 className={style.panel_title}>
+                  <h3 className={style.panel_title+" "+style.eventsTextStyle}>
                     {upcomingEventsText}
                   </h3>
               </div>
