@@ -5,6 +5,11 @@ class ParallaxScrollingImage extends Component {
     constructor(props) {
         super(props);
         
+        /* Function to see if we have HD screen
+        function is_high_res_screen() {
+            return window.devicePixelRatio > 1;
+        */
+
         if(screen.width > 600){
             // console.log("BIG")
             this.backgorundImage1Style = {
@@ -19,6 +24,7 @@ class ParallaxScrollingImage extends Component {
                 backgroundImage: 'url(' + props.imgMobile + ')',
             };
         }
+
     }
 
     render() {
