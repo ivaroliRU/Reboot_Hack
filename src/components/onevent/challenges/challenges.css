@@ -111,3 +111,65 @@
 .button_close{
   margin-left: 0 !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .my_element {
+    font-size: 1em;
+    line-height: 1.75em;
+      border-top: unset;
+      border-width: unset;
+    margin: 0;
+      padding: unset;
+    position: relative;
+    color: #694991;
+    
+  }
+  
+  .my_element:nth-child(odd) {
+    -webkit-appearance: unset;
+    border-right: unset;
+    padding-left: unset;
+  }
+  
+  .my_element:nth-child(odd):before {
+    -webkit-appearance: unset;
+    left: unset;
+    margin-left: unset;
+  }
+  
+  .my_element:nth-child(even) {
+    -webkit-appearance: unset;
+    border-left: unset;
+    padding-right: unset;
+  }
+  
+  .my_element:nth-child(even):before {
+    -webkit-appearance: unset;
+    right: unset;
+    margin-right: unset;
+  }
+  
+  .my_element:first-child {
+    border-top: unset;
+    border-top-right-radius: unset;
+    border-top-left-radius: unset;
+  }
+  
+  .my_element:last-child {
+    border-bottom-right-radius: unset;
+    border-bottom-left-radius: unset;
+  }
+
+  .challenge_padding{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .vertical_padding_on_logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header_size_modified_on_mobile{
+    font-size: 24px;
+  }
+}
