@@ -29,3 +29,9 @@
         top: -64px;
     }
 }
+
+@media (min-resolution: 192dpi) {
+    body {
+      background-color: yellow;
+    }
+ }

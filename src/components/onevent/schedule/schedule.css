@@ -9,6 +9,17 @@
 	top: 10;
 }
 
+.hideOnMobileWhenIcelandicIsOn{
+    display: none;
+}
+
+.displayOnMobileWhenIcelandicIsOn{
+    display: table-cell;
+}
+
+.displayInitial{
+    display: initial;
+}
 .input_flex_container {
     display: flex;
     justify-content: space-around;
