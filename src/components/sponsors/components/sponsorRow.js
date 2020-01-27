@@ -20,7 +20,7 @@ class SponsorRow extends Component {
     renderInfo() {
       if (this.state.open) {
         return (
-          <tr className={`style.sponsor__row-info__${this.state.open}`}>
+          <tr className={`style.sponsor_row-info_${this.state.open}`}>
             <td colSpan="4">{this.props.text.info}</td>
           </tr>
         );
@@ -35,7 +35,7 @@ class SponsorRow extends Component {
   
       return (
         <React.Fragment>
-          <tr className={style.sponsor__row} onClick={this.handleClick}>
+          <tr className={style.sponsor_row} onClick={this.handleClick}>
             <td>{this.props.text.title}</td>
             <td>{values[0]}</td>
             <td>{values[1]}</td>

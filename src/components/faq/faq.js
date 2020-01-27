@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {getTranslation} from '../../translations';
 import Question from '../question/question';
-// import Question from '../question/questionTest';
 import style from './faq.css';
 
 class Faq extends Component {
@@ -24,7 +23,7 @@ class Faq extends Component {
         this.text = getTranslation();
         return (
             <div>
-                <h2 className={style.Centeralign+" pl-2 "+style.paddingTop}>{this.text.faq.title}</h2>
+                <h2 className={style.center_align+" pl-2 "+style.padding_top}>{this.text.faq.title}</h2>
                 {this.text.faq.question1 && (
                     <Question text={this.text.faq.question1.text} answer={this.text.faq.question1.answer} />
                 )}
@@ -91,7 +90,7 @@ class Faq extends Component {
                 {this.text.faq.question22 && (
                     <Question text={this.text.faq.question22.text} answer={this.text.faq.question22.answer} />
                 )}
-                <h5 className={style.Centeralign+" mx-auto mb-2"}>{this.text.faq.moreQuestions.text}</h5>
+                <h5 className={style.center_align+" mx-auto mb-2"}>{this.text.faq.moreQuestions.text}</h5>
             </div>
         );  
     }

@@ -1,4 +1,4 @@
-.countdownDiv{
+.countdown_div{
     padding-top: 3% !important;
     text-align: center;
     color: white;
@@ -12,38 +12,35 @@
 }   
 
 
-.dispalyContents{
+.dispaly_contents{
     display: contents;
 }
 
-.countdownSection{
+.countdown_section{
     display: inline-block;
     font-size: 46px;
     padding-left: 2%;
     padding-right: 2%;
 }
 
-.countdownSection .span {
+.countdown_section .span {
     display: block;
     /* font-size: 110%; */
 }
 
-.bottomText{
+.bottom_text{
     margin-top: 10%;
     font-size: 36px;
 }
 
-.numberStyle{
-    /* Made a slight change, this font-family appeard very strange in iphone. Will take a look at it */
-    /* font-family: cursive !important; */
+.number_style{
     font-family: 'digital-7', sans-serif !important;
     letter-spacing: 2px;
     font-weight: normal;
-    /* font-family: 'Raleway', sans-serif; */
 }
 
 @media only screen and (max-width: 600px) {
-    .countdownSection{
+    .countdown_section{
         font-size: 36px;
         padding-left: 0%;
         padding-right: 0%;
@@ -51,7 +48,7 @@
         font-family: 'Raleway', sans-serif;
     }
 
-    .bottomText{
+    .bottom_text{
         margin-top: 8%;
         font-size: 26px;
         font-family: 'Raleway', sans-serif;

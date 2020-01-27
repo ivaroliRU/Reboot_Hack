@@ -9,15 +9,15 @@
 	top: 10;
 }
 
-.hideOnMobileWhenIcelandicIsOn{
+.hide_on_mobile_when_icelandic_is_on{
     display: none;
 }
 
-.displayOnMobileWhenIcelandicIsOn{
+.display_on_mobile_when_icelandic_is_on{
     display: table-cell;
 }
 
-.displayInitial{
+.display_initial{
     display: initial;
 }
 .input_flex_container {
@@ -156,41 +156,39 @@
     margin-left: calc((-80vw - 25px) / 20);
 }
 
-
-.buttonClose{
+.button_close{
     margin-left: 0;
 }
-.modalBody{
+
+.modal_body{
 
 }
 
-.scheduleDiv{
+.schedule_div{
     display: flex;
     /* to be added */
 }
 
-.myModalDialog{
+.my_modal_dialog{
     max-width: 80%;
 }
-.modalHeaderStyle{
+
+.modal_header_style{
     margin: auto;
     align-items: center;
 }
 
-.ScheduleSunday{
+.schedule_sunday{
 
 }
 
-.ScheduleSaturday{
+.schedule_saturday{
 
 }
 
-#ScheduleSunday{
+#schedule_sunday{
     display: none;
 }
-
-
-
 @media (min-width: 1250px) {
 
     .input_flex_container {
@@ -215,22 +213,23 @@
 }
 
 @media (max-width: 600px) {
-
-
     .input:checked {
         background-color: rgba(105, 73, 145,0.2);
     }
+
     .input:checked::before {
         background-color: rgba(105, 73, 145, 0.2);
     }
+
     .input:checked::after {
         background-color: rgba(180, 164, 200, 0.2);
     }
+
     .input:checked ~ input, input:checked ~ input::before, input:checked ~ input::after {
         background-color: rgba(180, 164, 200, 0.2);
     }
 
-    .displayOnBiggerScreensOnly{
+    .display_on_bigger_screens_only{
         display: none;
     }
 
@@ -247,31 +246,39 @@
 		margin-left: 0;
 		top: 0;
     }
+
     .input, .dot_info {
         width: 60px;
         height: 60px;
         margin: 0 10px 50px;
     }
+
     .extra_margin{
         margin: 0 10px 90px;
     }
+
     .input {
         background-color: transparent;
         z-index: 1;
     }
+
     .input::before, .input::after {
         content: none;
     }
+
     .input:checked + .dot_info {
         background-color: #694991;
     }
+
     .input:checked + .dot_info .span.year {
         font-size: 14px;
         /* z-index: 2; */
     }
+
     .input:checked + .dot_info .span.label {
         font-size: 12px;
     }
+    
     .dot_info {
         visibility: visible;
         border-radius: 50%;
@@ -283,6 +290,7 @@
         top:-25px;
         margin-top: 20%;
     }
+
     .dot_info .span.year {
         top: 0;
         left: 0;
@@ -294,6 +302,7 @@
         align-items: center;
         color: #ECF0F1;
     }
+
     .dot_info .span.label {
         top: calc(100% + 5px);
         left: 50%;
@@ -302,11 +311,13 @@
         text-align: center;
         position: initial;
     }
+
     #timeline_descriptions_wrapper1 {
         margin-top: 30px;
         margin-left: 0;
         text-align: center;
     }
+
     #timeline_descriptions_wrapper2 {
         margin-top: 30px;
         margin-left: 0;
@@ -318,5 +329,4 @@
         color: white;
         z-index: 999;
     }
-	
 }

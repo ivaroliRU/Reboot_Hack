@@ -9,11 +9,11 @@ class Navbar extends Component {
       <nav className={style.reboot_navbar + " navbar navbar-expand-lg navbar-dark bg-dark"}>
         <div className="d-flex flex-grow-1">
             <span className={style.nothing+" w-100 d-lg-none d-block"}></span>
-            <a className={style.navbarBrand+" navbar-brand"} href="/">
-                <img className={style.firstLogo} src="/images/Logo.svg" alt="The logo for the website" height="30px"></img>
-                <img className={style.secondLogo} src="/images/reboothack_default_navbar_noBackkground.png" height="50px"></img>
+            <a className={style.navbar_brand+" navbar-brand"} href="/">
+                <img className={style.first_logo} src="/images/Logo.svg" alt="The logo for the website" height="30px"></img>
+                <img className={style.second_logo} src="/images/reboothack_default_navbar_noBackkground.png" height="50px"></img>
             </a>
-            <div className={style.iconCenter+" w-100 text-right"}>
+            <div className={style.icon_center+" w-100 text-right"}>
                 <button className={"navbar-toggler"} type="button" data-toggle="collapse" data-target="#myNavbar">
                     <span className={"navbar-toggler-icon"}></span>
                 </button>

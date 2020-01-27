@@ -49,12 +49,12 @@ class Countdown extends Component {
         return (
             <div 
                 id="Countdown"
-                className={style.countdownDiv+" container row"}>
-                <div className={style.dispalyContents}>
-                    <div className={style.countdownSection+" col-lg-3 col-6 center-block text-center"}><b><span id="Days" className={style.numberStyle}>--</span></b><p className={style.bottomText}>{daysText}</p></div>
-                    <div className={style.countdownSection+" col-lg-3 col-6 center-block text-center"}><b><span id="Hours" className={style.numberStyle}>--</span></b><p className={style.bottomText}>{hoursText}</p></div>
-                    <div className={style.countdownSection+" col-lg-3 col-6 center-block text-center"}><b><span id="Minutes" className={style.numberStyle}>--</span></b><p className={style.bottomText}>{minutesText}</p></div>
-                    <div className={style.countdownSection+" col-lg-3 col-6 center-block text-center"}><b><span id="Seconds" className={style.numberStyle}>--</span></b><p className={style.bottomText}>{secondsText}</p></div>
+                className={style.countdown_div+" container row"}>
+                <div className={style.dispaly_contents}>
+                    <div className={style.countdown_section+" col-lg-3 col-6 center-block text-center"}><b><span id="Days" className={style.number_style}>--</span></b><p className={style.bottom_text}>{daysText}</p></div>
+                    <div className={style.countdown_section+" col-lg-3 col-6 center-block text-center"}><b><span id="Hours" className={style.number_style}>--</span></b><p className={style.bottom_text}>{hoursText}</p></div>
+                    <div className={style.countdown_section+" col-lg-3 col-6 center-block text-center"}><b><span id="Minutes" className={style.number_style}>--</span></b><p className={style.bottom_text}>{minutesText}</p></div>
+                    <div className={style.countdown_section+" col-lg-3 col-6 center-block text-center"}><b><span id="Seconds" className={style.number_style}>--</span></b><p className={style.bottom_text}>{secondsText}</p></div>
                 </div>
             </div>
         );

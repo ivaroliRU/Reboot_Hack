@@ -6,9 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import compose from 'recompose/compose';
-/* ********************** */
-
-import style from './judges.css';
+import style from './instagrid.css';
 
 const styles = () => ({
   wrapper: {},
@@ -62,25 +60,3 @@ export default compose(
   withInstagramFeed,
   withStyles(styles),
 )(InstaGrid);
-
-
-/*
-class Judges extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-  
-  render() {
-    return (
-        <div className={"container"}>
-           <p>Judges</p>
-        </div>
-    );
-  }
-}
-
-
-export default Judges;
-*/

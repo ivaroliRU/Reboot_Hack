@@ -1,23 +1,24 @@
-.redirectButtonColor{
+.redirect_button_color{
     color: #625892;
 }
-.redirectButtonColor:active, .redirectButtonColor:hover{
+
+.redirect_button_color:active, .redirect_button_color:hover{
     color: rgb(131,58,180);
 }
 
 
-.divStyling{
+.div_styling{
     font-family: 'Montserrat', sans-serif;
     max-width: 80%;
 }
 
-.headerStyle{
+.header_style{
     line-height: normal;
     color: #694991;
     word-wrap: break-word;
 }
 
-.paragraphStyle{
+.paragraph_style{
     font-family: 'Raleway', sans-serif;
     height: 100%;
     line-height: 1.5em;
@@ -28,22 +29,23 @@
     text-align: center;
 }
 
-.bodyStyle{
+.body_style{
     background-color: hsla(268, 34%, 43%, 0.1) !important;
     margin: auto !important;
 }
-.spacingAfterCompany{
+.margin_top_20{
+    margin-top: 20px !important;
+}
+
+.spacing_after_company{
     padding-bottom: 4%;
     padding: 2%;
     padding-left: 3%;
 }
 
-
-
-
 @media (max-width: 600px) {
         
-    .schedulePaddingOnMobile{
+    .schedule_padding_on_mobile{
         padding-left: 0;
         padding-right: 0;
     }

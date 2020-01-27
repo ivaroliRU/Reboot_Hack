@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import TeamStyle from "./Team.css";
-import Individual from '../Individual/Individual';
+import teamStyle from "./team.css";
+import Individual from '../individual/individual';
 
 class Team extends Component {
   
@@ -20,12 +20,9 @@ class Team extends Component {
           );
       });
     return (
-      <div className={TeamStyle.Container+" container"}>
-        {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link> */}
-        <div className={TeamStyle.TeamDiv}>
-          {/* <p className={TeamStyle.TeamName}> {this.props.teamName} {this.props.teamName=='Director' ? null : 'Team'}</p> */}
-          
-          <div className={TeamStyle.Container+" container"}>
+      <div className={teamStyle.container+" container"}>
+        <div className={teamStyle.team_div}> 
+          <div className={teamStyle.container+" container"}>
               <div className={"row"}>
                   {individualsSection}
               </div>

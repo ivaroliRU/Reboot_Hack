@@ -1,4 +1,4 @@
-#modalRegisterForm {
+#modal_register_form {
     background: lightblue;
     position: fixed;
     top: 50%;
@@ -11,19 +11,19 @@
     color: #625892;
 }
 
-.inputGroupTextStyle{
+.input_group_text_style{
     min-width: 54px;
 }
 
-.iconMarginLeft{
+.icon_margin_left{
     margin-left: 7px;
 }
 
-.labelAligned{
+.label_aligned{
     margin-bottom: 0 !important;
 }
 
-.modal-guts {
+.modal_guts {
     position: absolute;
     top: 0;
     left: 0;
@@ -78,6 +78,5 @@
 @media only screen and (max-width: 600px) {
     .modal_content{
         margin-left: 0 !important;
-
     }
 }

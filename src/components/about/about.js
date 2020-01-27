@@ -7,8 +7,8 @@ class About extends Component {
         this.text = getTranslation();
         return (
             <div>
-                <div className="jumbotron">
-                    <div className="container">
+                <div className={"jumbotron "+style.no_padding_top}>
+                    <div className={"container "+style.padding_top_20}>
                         <h3>{this.text.detail.first.header}</h3>
                         <p>{this.text.detail.first.main}</p>
                     </div>
@@ -26,7 +26,7 @@ class About extends Component {
                     <img src="/images/hi-kold.jpg" width="100%"></img>
                 </div>
                 {/* Make changes here ! */}
-                <div className="jumbotron">
+                <div className={"jumbotron"}>
                     <div className="container">
                         <h3>{this.text.detail.third.header}</h3>
                         <p>{this.text.detail.third.main}</p>

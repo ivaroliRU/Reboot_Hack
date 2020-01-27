@@ -23,11 +23,11 @@ a {
   text-decoration: none;
 }
 
-.titlePadding{
+.title_padding{
   padding-top: 10%;
 }
 
-.App {
+.app {
     overflow-x: hidden;
     /* background-color: hsla(268, 34%, 43%, 0.1); */
   }
@@ -42,7 +42,7 @@ a {
   margin-bottom: 70px;
 }
 
-.sponsor__content {
+.sponsor_content {
     max-width: 1000px;
     margin: 20px auto;
     /* margin-top: 0; */
@@ -50,7 +50,7 @@ a {
     flex-direction: column;
   }
   
-  .sponsor__content .sponsor__header {
+  .sponsor_content .sponsor_header {
     /* color: #625892; */
     font-size: 2em;
     padding: 20px 0;
@@ -58,11 +58,11 @@ a {
     margin-top: 70px;
   }
   
-  .sponsor__content .sponsor__header__main {
+  .sponsor_content .sponsor_header_main {
     font-size: 2.5em;
   }
   
-  .sponsor__content .sponsor__main__header {
+  .sponsor_content .sponsor_main_header {
     font-size: 2.5em;
     margin: 0 auto;
     padding: 40px 0;
@@ -75,27 +75,27 @@ a {
     color: #625892;
   }
   
-  .sponsor__content .sponsor__table__header__category th {
+  .sponsor_content .sponsor_table_header_category th {
     color: #ffb30d;
     font-size: 1.7em;
     font-weight: 800;
   }
   
-  .sponsor__content .sponsor__table__header__price {
+  .sponsor_content .sponsor_table_header_price {
     background-color: #d9d5f1;
   }
   
-  .sponsor__content .sponsor__table-header__price th {
+  .sponsor_content .sponsor_table-header_price th {
     color: white;
     font-family: sans-serif;
     font-size: 1.5em;
   }
   
-  .sponsor__content .sponsor__table tr {
+  .sponsor_content .sponsor_table tr {
     height: 50px;
   }
   
-  .sponsor__content .sponsor__table .sponsor__row td:nth-child(1) {
+  .sponsor_content .sponsor_table .sponsor_row td:nth-child(1) {
     background-color: #9186c6;
     color: white;
     width: 34%;
@@ -103,88 +103,88 @@ a {
     text-align: left;
   }
   
-  .sponsor__content .sponsor__table tr td:not(:first-child) {
+  .sponsor_content .sponsor_table tr td:not(:first-child) {
     background-color: #d9d5f1;
     color: #625892;
     font-family: sans-serif;
     font-weight: bold;
   }
   
-  .sponsor__row_info__true td {
+  .sponsor_row_info_true td {
     padding: 10px;
     background-color: #625892;
     color: white;
     text-align: left;
   }
   
-  .sponsor__content .sponsor__table-header__price th:nth-child(1) {
+  .sponsor_content .sponsor_table-header_price th:nth-child(1) {
     padding-left: 10px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
   }
   
-  .sponsor__content .sponsor__table tr *:not(:first-child) {
+  .sponsor_content .sponsor_table tr *:not(:first-child) {
     width: 22%;
   }
   
-  .sponsor__content .team__text {
+  .sponsor_content .team_text {
     padding: 10px;
   }
   
-  .sponsor__content .team__text .team__about {
+  .sponsor_content .team_text .team_about {
     display: flex;
     flex-direction: column;
   }
   
-  .sponsor__content .team__text .team__photo {
+  .sponsor_content .team_text .team_photo {
     width: 100%;
     height: 100%;
   }
   
-  .sponsor__content .additional__info {
+  .sponsor_content .additional_info {
     width: 94%;
     padding: 10px 3%;
   }
-  .sponsor__content .additional__info__second {
+  .sponsor_content .additional_info_second {
     width: 94%;
     padding: 100px 3% 10px 3%;
   }
   
   @media screen and (min-width: 700px) {
-    .sponsor__content .team__text .team__about {
+    .sponsor_content .team_text .team_about {
       display: flex;
       flex-direction: row;
     }
   
-    .sponsor__content .team__text .team__photo {
+    .sponsor_content .team_text .team_photo {
       width: 50%;
       max-width: 400px;
     }
   }
   
   @media screen and (max-width: 800px) {
-    .sponsor__content .sponsor__table {
+    .sponsor_content .sponsor_table {
       font-size: 12px;
     }
   
-    .sponsor__content .sponsor__table tr *:not(:first-child) {
+    .sponsor_content .sponsor_table tr *:not(:first-child) {
       max-width: 70px;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
       width: auto;
     }
-    .sponsor__content .sponsor__table-header__price th {
+    .sponsor_content .sponsor_table-header_price th {
       font-size: 0.75em;
     }
   }
   
   @media screen and (max-width: 415px) {
-    .sponsor__content .sponsor__table-header__category th {
+    .sponsor_content .sponsor_table-header_category th {
       font-size: 1em;
     }
   
-    /*.sponsor__content .sponsor__table tr td:nth-child(1) {
+    /*.sponsor_content .sponsor_table tr td:nth-child(1) {
       max-width: 100px;
       overflow: hidden;
       text-overflow: ellipsis;

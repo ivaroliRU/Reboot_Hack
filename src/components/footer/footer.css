@@ -1,6 +1,5 @@
-.Footer{
+.footer{
   background-color: rgb(42, 42, 42);
-  /* position: sticky; */
   left: 0;
   right: 0;
   bottom: 0 !important;
@@ -11,37 +10,38 @@
   padding: 0 !important;
   font-size: 18px;
 }
+
 .margin_auto{
   margin: auto !important;
 }
 
-.Facebook, .Instagram, .LinkedIn, .Github {
+.facebook, .instagram, .linkedIn, .github {
   padding-left: 1.25%;
   padding-right: 1.25%;
   color: white !important;
 }
 
-.Facebook :hover{
+.facebook :hover{
   color: rgb(59, 89, 152);
   transition: color 0.2s linear;
 }
 
-.Instagram :hover{
+.instagram :hover{
   color:rgb(131,58,180);
   transition: color 0.2s linear;
 }
 
-.LinkedIn :hover{
+.linkedIn :hover{
   color: rgb(0, 119, 181);
   transition: color 0.2s linear;
 }
 
-.Github :hover{
+.github :hover{
   color: rgb(0,0,0);
   transition: color 0.2s linear;
 }
 
-.Email_Button {
+.email_button {
   border: 0;
   font-size: 1.1em;
   background-color: transparent;
@@ -60,14 +60,12 @@
   font-weight: bold;
 }
 
-.OnHoverSection:hover + .Footer_Copy_Text{
+.on_hover_section:hover + .footer_copy_text{
   transition: color 0.5s ease-in-out;
   color: #ffb30d;
-  /* visibility: visible; */
 }
 
-.Footer_Copy_Text {
-  /* visibility: hidden; */
+.footer_copy_text {
   transition: color 0.5s ease-in-out;
   color: rgb(42, 42, 42);
   position: float;
@@ -78,22 +76,23 @@
   padding-bottom: 0%;
 }
 
-.Footer img{
+.footer img{
   position: inherit;
   width: 65%;
   height: auto;
 }
 
-.RightAlign{
+.right_align{
   float: right;
   margin-right: -20%;
 }
-.LeftAlign{
+
+.left_align{
   float: left;
   margin-left: -20%;
 }
 
-.FooterHr{
+.footer_hr{
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
@@ -104,28 +103,29 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .Created{
+  .created{
     font-size: 16px;
   }
 
-  .uniLogo{
+  .uni_logo{
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .RightAlign{
+  .right_align{
     margin-right: -25%;
   }
-  .LeftAlign{
+
+  .left_align{
     margin-left: -25%;
   }
 
-  .Footer img{
+  .footer img{
     padding-top: 20%;
     width: 85%;
   }
 
-  .Facebook, .Instagram, .LinkedIn, .Github {
+  .facebook, .instagram, .linkedIn, .github {
     padding-left: 3.5%;
     padding-right: 3.5%;
   }

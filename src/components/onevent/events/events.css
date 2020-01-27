@@ -103,21 +103,21 @@
   text-align: center;
 }
 
-.textGray{
+.text_gray{
   color: gray;
 }
-.detailsStyle{
+.details_style{
   font-size: 12px;
 }
-.locaitonStyle{
+.locaiton_style{
   font-size: 14px;
 }
 
-.textJustify{
+.text_justify{
   /* text-align: justify; */
 }
 
-.eventsTextStyle{
+.events_text_style{
   font-size: 1.5rem;
 }
 
@@ -127,10 +127,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .divPadding{
+  .div_padding{
       padding-left: 0;
       padding-right: 0;
   }
+  
   .panel_title{
     font-size: 22px;
   }

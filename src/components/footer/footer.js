@@ -67,7 +67,7 @@ class Footer extends Component {
 
     return (
 
-      <footer className={style.Footer + " text-center"}>
+      <footer className={style.footer + " text-center"}>
         <div className={"container"}>
           <div 
             key="Universities"
@@ -81,35 +81,35 @@ class Footer extends Component {
               <div className={"col-3"}></div>
             
           </div>
-          <hr className={style.FooterHr}/>
+          <hr className={style.footer_hr}/>
           <div 
             key="Social"
             className={"row"}>
               <div className={"col-lg-12 col-xs-12"}>
 
                 <a
-                  className={style.Facebook}
+                  className={style.facebook}
                   href={this.state.facebook}
                   target="_blank">
                     <i className={"fa fa-facebook fa-lg"}></i>
                 </a>
 
                 <a 
-                  className={style.Instagram}
+                  className={style.instagram}
                   href={this.state.instagram}
                   target="_blank">
                     <i className={"fa fa-instagram fa-lg"}></i>
                 </a>
 
                 <a
-                  className={style.LinkedIn}
+                  className={style.linkedIn}
                   href={this.state.linkedin}
                   target="_blank">
                     <i className={"fa fa-linkedin-square fa-lg"}></i>
                 </a>
 
                 <a
-                  className={style.Github}
+                  className={style.github}
                   href={this.state.github}
                   target="_blank">
                     <i className={"fa fa-github fa-lg"}></i>
@@ -121,8 +121,8 @@ class Footer extends Component {
               key="Email"
               className={"row"}>
               <div className={"col-lg-12 col-xs-12"}>
-                <div className={style.OnHoverSection}><span>Official email:</span> <button
-                                        className={style.Email_Button}
+                <div className={style.on_hover_section}><span>Official email:</span> <button
+                                        className={style.email_button}
                                         onClick={
                                           () => {
                                                   navigator.clipboard.writeText(this.state.email);
@@ -143,7 +143,7 @@ class Footer extends Component {
                 </div>
                 <div 
                     key='Coppied_Text'
-                    className={style.Footer_Copy_Text}
+                    className={style.footer_copy_text}
                     >{this.state.copied}
                   </div>
               </div>
@@ -152,7 +152,7 @@ class Footer extends Component {
               key="Created_by"
               className={"row"}>
               <div className={"col-lg-12 col-xs-12"}>
-                <p className={style.Created}>
+                <p className={style.created}>
                   <i>Created with love by <b className={style.bold}>Reboot Hack</b> Team</i>
                 </p>
               </div>

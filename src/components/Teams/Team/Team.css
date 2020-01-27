@@ -1,18 +1,8 @@
-.TeamDiv{
-    /*background-color: rgba(152, 152, 152, 0.2);*/
+.team_div{
     margin-bottom: 2%;
-    /* border-radius: 5px; 
-    border-width: 2px;
-    border-style: solid;
-    border-image: 
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0),
-      #625892
-    ) 1 100%; */
 }
 
-.TeamName{
+.team_name{
     font-size: 30px;
     font-weight: bold;
     float: left;
@@ -22,12 +12,12 @@
   padding-top: 0 !important;
 }
 
-.Container{
+.container{
   max-width: 90% !important;
 }
 
 @media only screen and (max-width: 600px) {
-  .Container{
+  .container{
     max-width: 92% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;

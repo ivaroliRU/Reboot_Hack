@@ -44,20 +44,20 @@ class ApplyButton extends Component {
                     <p>{extraText}</p>
                 </div>
                 <div className="text-center">
-                    <button type="button" className={"btn btn-outline-primary btn-lg mb-4 "+style.apply_button} data-toggle="modal" data-target="#modalRegisterForm">
+                    <button type="button" className={"btn btn-outline-primary btn-lg mb-4 "+style.apply_button} data-toggle="modal" data-target="#modal_register_form">
                         {this.text.register.subHeading}
                     </button>
                 </div>
                 
                 
 
-                <div className="modal fade" id="modalRegisterForm" tabIndex="-1" role="dialog" >
+                <div className="modal fade" id="modal_register_form" tabIndex="-1" role="dialog" >
                     <div className="modal-dialog" role="document">
                         <div className={"modal-content mx-3 " +style.modal_content}>
                             {/* header */}
                             <div className="modal-header">
                                 <h3 className="modal-title">{this.text.register.registerDialog.title}</h3>
-                                <button type="button" className={"close "+style.close } data-dismiss="modal">&times;</button>
+                                <button type="button" className={"close "+style.close} data-dismiss="modal">&times;</button>
                             </div>
                             {/* body */}
                             <div className="modal-body">
@@ -68,7 +68,7 @@ class ApplyButton extends Component {
                                     {/* Name */}
                                     <div className="form-group input-group">
                                         <div className="input-group-prepend">
-                                            <span className={"input-group-text "+ style.inputGroupTextStyle}> <i className={"fa fa-user "+style.iconMarginLeft}></i> </span>
+                                            <span className={"input-group-text "+ style.input_group_text_style}> <i className={"fa fa-user "+style.icon_margin_left}></i> </span>
                                         </div>
                                         <input id="reg_name" className="form-control" placeholder={this.text.register.registerDialog.name} type="text" required></input>
                                     </div>
@@ -76,7 +76,7 @@ class ApplyButton extends Component {
                                     {/* Email */}
                                     <div className="form-group input-group">
                                         <div className="input-group-prepend">
-                                            <span className={"input-group-text "+ style.inputGroupTextStyle}> <i className={"fa fa-envelope "+style.iconMarginLeft}></i> </span>
+                                            <span className={"input-group-text "+ style.input_group_text_style}> <i className={"fa fa-envelope "+style.icon_margin_left}></i> </span>
                                         </div>
                                         <input id="reg_email" type="email" className="form-control" placeholder={this.text.register.registerDialog.email} required></input>
                                     </div>
@@ -84,7 +84,7 @@ class ApplyButton extends Component {
                                     {/* School */}
                                     <div className="form-group input-group">
                                         <div className="input-group-prepend">
-                                            <span className={"input-group-text "+ style.inputGroupTextStyle}> <i className={"fa fa-building "+style.iconMarginLeft}></i> </span>
+                                            <span className={"input-group-text "+ style.input_group_text_style}> <i className={"fa fa-building "+style.icon_margin_left}></i> </span>
                                         </div>
                                         <input id="reg_school" className="form-control" placeholder={this.text.register.registerDialog.school} type="text" required></input>
                                     </div>
@@ -92,7 +92,7 @@ class ApplyButton extends Component {
                                     {/* Study */}
                                     <div className="form-group input-group">
                                         <div className="input-group-prepend">
-                                            <span className={"input-group-text "+ style.inputGroupTextStyle}> <i className={"fa fa-graduation-cap "+style.iconMarginLeft}></i> </span>
+                                            <span className={"input-group-text "+ style.input_group_text_style}> <i className={"fa fa-graduation-cap "+style.icon_margin_left}></i> </span>
                                         </div>
                                         <input id="reg_study" className="form-control" placeholder={this.text.register.registerDialog.study} type="text" required></input>
                                     </div>
@@ -100,7 +100,7 @@ class ApplyButton extends Component {
                                     {/* T-shirt Size */}
                                     <div className="form-group input-group">
                                         <div className="input-group-prepend">
-                                            <span className={"input-group-text "+ style.inputGroupTextStyle}> <i className={"fa fa-smile-o "+style.iconMarginLeft}></i> </span>
+                                            <span className={"input-group-text "+ style.input_group_text_style}> <i className={"fa fa-smile-o "+style.icon_margin_left}></i> </span>
                                         </div>
                                         <select id="reg_tShirt" className="form-control" placeholder={this.text.register.registerDialog.study} type="text" required>
                                             <option>{this.text.register.registerDialog.tShirt}</option>
@@ -117,7 +117,7 @@ class ApplyButton extends Component {
                                      {/* Better to have NOT required, what if you don't have any allergies? */}
                                      <div className="form-group input-group">
                                         <div className="input-group-prepend">
-                                            <span className={"input-group-text "+ style.inputGroupTextStyle}> <i className={"fa fa-cutlery "+style.iconMarginLeft}></i> </span>
+                                            <span className={"input-group-text "+ style.input_group_text_style}> <i className={"fa fa-cutlery "+style.icon_margin_left}></i> </span>
                                         </div>
                                         <input id="reg_food" className="form-control" placeholder={this.text.register.registerDialog.diet} type="text"></input>
                                     </div>
@@ -127,13 +127,13 @@ class ApplyButton extends Component {
                                         <div className="input-group">
                                         <div className="container">
                                             <label className="form-check form-check-inline">
-                                                <span className={"input-group-text "+ style.inputGroupTextStyle}> <i className={"fa fa-users "+style.iconMarginLeft}></i> </span>
+                                                <span className={"input-group-text "+ style.input_group_text_style}> <i className={"fa fa-users "+style.icon_margin_left}></i> </span>
                                             </label>
                                             <label className="form-check form-check-inline">
                                                 <input id="reg_team" className="form-check-input" type="checkbox"></input>
                                             </label>
                                             <label className="form-check form-check-inline">
-                                                <label className={"form-control-label "+style.labelAligned} >{this.text.register.registerDialog.team}</label>
+                                                <label className={"form-control-label "+style.label_aligned} >{this.text.register.registerDialog.team}</label>
                                             </label>
                                             </div>
                                         </div>

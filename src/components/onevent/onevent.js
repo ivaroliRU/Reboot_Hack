@@ -18,11 +18,11 @@ class OnEvent extends Component {
 
   render() {
     return (
-      <div className={style.bodyStyle}>
-        <div className={style.divStyling+" container"}>
+      <div className={style.body_style}>
+        <div className={style.div_styling+" container"}>
           <br />
           {/*<h1 className={style.text_styling+" "+style.text_align}><b>Reboot Hack 2020</b></h1>*/}
-          <div className={"row"}>
+          <div className={"row "+style.margin_top_20}>
             <div className={"col-lg-8 col-sm-12"}>
               <Challenges /> 
             </div>
@@ -32,7 +32,7 @@ class OnEvent extends Component {
           </div>
           
           <div className={"row pb-20"}>
-            <div className={style.schedulePaddingOnMobile+" col-12"}>
+            <div className={style.schedule_padding_on_mobile+" col-12"}>
               <Schedule />
             </div>
           </div>
@@ -41,10 +41,10 @@ class OnEvent extends Component {
             <div className={"col-12 pb-4"}>
               <h3>Reboot Hack  
                 <a className={"pl-2"}
-                  /* className={style.Instagram} */
+                  /* className={style.instagram} */
                   href={this.state.instagram}
                   target="_blank">
-                    <i className={"fa fa-instagram fa-lg "+style.redirectButtonColor}></i>
+                    <i className={"fa fa-instagram fa-lg "+style.redirect_button_color}></i>
                 </a> 
               </h3>
               <InstaGrid account="reboothackiceland" numberOfMediaElements={9} />

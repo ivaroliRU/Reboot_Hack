@@ -184,31 +184,31 @@ class Challenges extends Component {
       (challenge) => {
 
         return (
-          <div key={challenge.id} className={style.myElement}>
-            <h3 className={generalStyle.headerStyle}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
-            <h5 className={generalStyle.headerStyle+" row "+generalStyle.spacingAfterCompany}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extraHeight+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
-            <p className={style.textJustify+" "+generalStyle.headerStyle+" "+generalStyle.paragraphStyle}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
+          <div key={challenge.id} className={style.my_element}>
+            <h3 className={generalStyle.header_style}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
+            <h5 className={generalStyle.header_style+" row "+generalStyle.spacing_after_company}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
+            <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
           
-            {/*<button type="button" className={(challenge.displayDetails !== true ? style.myButton : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
+            {/*<button type="button" className={(challenge.displayDetails !== true ? style.my_button : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
               {moreDetails}
             </button>*/}
 
 
             <div className={"modal fade"} id={"Modal"+challenge.id} tabIndex="-1" role="dialog" aria-labelledby={"Modal"+challenge.id} aria-hidden="true">
-              <div className={style.myModalDialog+" modal-dialog"} role="document">
+              <div className={style.my_modal_dialog+" modal-dialog"} role="document">
                 <div className="modal-content">
                   <div className="modal-header">
-                    <div className={style.modalHeaderStyle+" row"}>
+                    <div className={style.modal_header_style+" row"}>
                       
                       <h5 className={"modal-title"} id={"Modal"+challenge.id}> {Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h5>
                      
                     </div>
-                    <button type="button" className={style.buttonClose+" close"} data-dismiss="modal" aria-label="Close">
+                    <button type="button" className={style.button_close+" close"} data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div className={style.modalBody+" modal-body"}>
-                    <div className={style.noHorizontalMargin+" row"}><p className={style.verticalMarginAuto}>{postedByText} </p> <img className={style.ModalLogo+" img-fluid "+style.verticalMarginAuto} src={challenge.companyPhotoURL}/></div>
+                  <div className={style.modal_body+" modal-body"}>
+                    <div className={style.no_horizontal_margin+" row"}><p className={style.vertical_marginAuto}>{postedByText} </p> <img className={style.modal_logo+" img-fluid "+style.vertical_margin_auto} src={challenge.companyPhotoURL}/></div>
                     <p>{detailsText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.detailsIsPhotoURL : challenge.detailsEnPhotoURL}/>
                     <p>{criteriaText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.criteriaPhotoIsURL : challenge.criteriaPhotoEnURL}/>
                     {/* <p>Prizes: </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.prizesIsURL : challenge.prizesEnURL}/> */}
@@ -227,12 +227,12 @@ class Challenges extends Component {
 
     return (
         <div className={"container"}>
-          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align+" "+style.challengeTextStyle}>{challangesText}</h1>
-            <p  className={generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{challengeInfo}</p>
+          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align+" "+style.challenge_text_style}>{challangesText}</h1>
+            <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{challengeInfo}</p>
           <div className={style.myDiv}>
             {challengeSection}
           </div>
-          <p className={generalStyle.headerStyle+" "+generalStyle.paragraphStyle}>{upcomingChallenges}</p>
+          <p className={generalStyle.header_syle+" "+generalStyle.paragraph_style}>{upcomingChallenges}</p>
         </div>
     );
   }

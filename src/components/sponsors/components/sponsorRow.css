@@ -1,17 +1,17 @@
-.sponsor__row td:first-child {
+.sponsor_row td:first-child {
     font-family: 'Montserrat', sans-serif;
     background-color: #d9d5f1;
   }
   
-  .sponsor__row:hover {
+  .sponsor_row:hover {
     cursor: pointer;
   }
   
-  .sponsor__row:hover td {
+  .sponsor_row:hover td {
     background-color: #ffb30d !important;
   }
   
-  /* .sponsor--row-info__true{
+  /* .sponsor--row-info_true{
   }
-  .sponsor--row-info__false{
+  .sponsor--row-info_false{
   } */

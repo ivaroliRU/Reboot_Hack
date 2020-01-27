@@ -23,29 +23,29 @@
   color: #d9d5f1;
 }
 
-.firstLogo{
+.first_logo{
   display: none;
 }
 
-.iconCenter{
+.icon_center{
   margin: auto;
 }
 
 @media (max-width: 768px) {
 
   
-  .navbarBrand{
+  .navbar_brand{
     float: left;
   }
   .nothing{
     width: 0 !important;
   }
 
-  .secondLogo{
+  .second_logo{
     display: none;
   }
 
-  .firstLogo{
+  .first_logo{
     display: initial;
   }
 }

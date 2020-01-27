@@ -152,10 +152,10 @@ class Events extends Component {
                 
               </div>
             </div>
-            <div className={style.media_body+" "+(event.id <= minimumEventId ? style.textGray : null)}>
-              <h4 className={style.media_heading+" "+generalStyle.justTheFont}><b>{Cookies.get('language')=='is' ? event.titleIs : event.titleEn}</b></h4>
-              <h5 className={style.location_heading+" "+generalStyle.justTheFont+" "+style.locaitonStyle}><i className={"fa fa-map-marker"} />  <b>{event.location}</b></h5>
-              <p className={style.textJustify+" "+generalStyle.justTheFont+" "+style.detailsStyle}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
+            <div className={style.media_body+" "+(event.id <= minimumEventId ? style.text_gray : null)}>
+              <h4 className={style.media_heading+" "+generalStyle.just_the_font}><b>{Cookies.get('language')=='is' ? event.titleIs : event.titleEn}</b></h4>
+              <h5 className={style.location_heading+" "+generalStyle.just_the_font+" "+style.locaiton_style}><i className={"fa fa-map-marker"} />  <b>{event.location}</b></h5>
+              <p className={style.text_justify+" "+generalStyle.just_the_font+" "+style.details_style}>{Cookies.get('language')=='is' ? event.textIs : event.textEn}</p>
             </div>
           </li>
         );

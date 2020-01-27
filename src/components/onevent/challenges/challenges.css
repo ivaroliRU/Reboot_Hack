@@ -1,4 +1,4 @@
-.myDiv {
+.my_div {
     width: 100%;
     margin: auto;
   }
@@ -7,35 +7,32 @@
     font-family: 'Montserrat', sans-serif;
     color: #694991;
 }
-.challengeTextStyle{
+.challenge_text_style{
   font-weight: unset;
 }
-.ModalLogo{
+.modal_logo{
   max-height: 2rem;
   width: auto;
 }
 
-.modalHeaderStyle{
+.modal_header_style{
   margin: auto;
   align-items: center;
 }
 
-.verticalMarginAuto{
+.vertical_margin_auto{
   margin-top: auto;
   margin-bottom: auto;
 }
-.noHorizontalMargin{
+.no_horizontal_margin{
   margin-left: 0;
   margin-right: 0;
 }
 
-.myElement {
+.my_element {
   font-size: 1em;
   line-height: 1.75em;
   border-top: 3px solid;
-  /* ATH, here is the error need to fix !
-  border-image: linear-gradient(to left, #694991 0%, #e26fe8 100%);
-  border-image-slice: 30%; */
   border-width: 3px;
   margin: 0;
   padding: 40px;
@@ -43,37 +40,42 @@
   color: #694991;
   
 }
-/* padding = top right bottom left */
-.myElement:nth-child(odd) {
+
+.my_element:nth-child(odd) {
   -webkit-appearance: none;
   border-right: 3px solid;
   padding-left: 0;
 }
-.myElement:nth-child(odd):before {
+
+.my_element:nth-child(odd):before {
   -webkit-appearance: none;
   left: 100%;
   margin-left: -20px;
 }
-.myElement:nth-child(even) {
+
+.my_element:nth-child(even) {
   -webkit-appearance: none;
   border-left: 3px solid;
   padding-right: 0;
 }
-.myElement:nth-child(even):before {
+
+.my_element:nth-child(even):before {
   -webkit-appearance: none;
   right: 100%;
   margin-right: -20px;
 }
-.myElement:first-child {
+
+.my_element:first-child {
   border-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
-.myElement:last-child {
+
+.my_element:last-child {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.textJustify{
+.text_justify{
   text-align: justify;
 }
 
@@ -82,25 +84,30 @@
   height: 36px;
 }
 
-.extraHeight{
+.extra_height{
   height: 60px;
 }
 
-.marginAuto{
+.margin_auto{
   margin: auto !important;
 }
-.displayFlex{
+
+.display_flex{
   display: flex;
 }
+
 .modalBody{
 
 }
-.myButton{
+
+.my_button{
   display: none;
 }
-.myModalDialog{
+
+.my_modal_dialog{
   max-width: 80%;
 }
-.buttonClose{
+
+.button_close{
   margin-left: 0 !important;
 }

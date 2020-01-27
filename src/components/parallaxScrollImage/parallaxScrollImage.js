@@ -29,7 +29,7 @@ class ParallaxScrollingImage extends Component {
 
     render() {
         return (
-            <div className={style.container+(this.props.isThisDevideIOS==true ? " "+style.iosDisplay : "")} style={this.backgorundImage1Style}></div>
+            <div className={style.container+(this.props.isThisDevideIOS==true ? " "+style.ios_display : "")} style={this.backgorundImage1Style}></div>
         );
     }
 }

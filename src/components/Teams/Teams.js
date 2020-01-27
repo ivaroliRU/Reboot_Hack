@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import TeamsStyle from "./Teams.css";
-import TeamStyle from "./Team/Team.css"
-import Team from './Team/Team';
+import teamsStyle from "./teams.css";
+import teamStyle from "./team/team.css"
+import Team from './team/team';
 
 class Teams extends Component {
     
@@ -151,10 +151,9 @@ constructor(props) {
 
     return (
       <div>
-        {/* <h1 className={TeamsStyle.Glow+' '+TeamsStyle.H1}>Our AMAZING Team:</h1> */}
         <h1 
-        className={TeamsStyle.TheTeamText}>Our AMAZING Team</h1>
-        <div className={"text-center "+TeamStyle.top0}>
+        className={teamsStyle.the_team_text}>Our AMAZING Team</h1>
+        <div className={"text-center "+teamStyle.top0}>
               {teamsSection}
         </div>
       </div>

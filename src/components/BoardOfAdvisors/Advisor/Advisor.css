@@ -1,9 +1,9 @@
-.IndividualDivModofied{
+.individual_div_modified{
     height: 150px !important;
 }
 
 @media only screen and (max-width: 600px) {
-    .IndividualDivModofied{
+    .individual_div_modified{
         height:200px !important
     }
 }

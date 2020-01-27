@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SubscribeStyles from './subscribe.css';
+import subscribeStyles from './subscribe.css';
 
 class Subscribe extends Component {
 
@@ -24,29 +24,29 @@ class Subscribe extends Component {
     render() {
   
       return (
-        <div className={SubscribeStyles.Subscribe_Div+' col-xl-12 col-xs-12'}>
+        <div className={subscribeStyles.subscribe_div+' col-xl-12 col-xs-12'}>
           
-          <div className={SubscribeStyles.Subscribe_Section}>
+          <div className={subscribeStyles.subscribe_section}>
             <div className={"container"}>
-              <h1 className={SubscribeStyles.h1}>Welcome to Reboothack 2020!</h1>
-              <hr className={SubscribeStyles.hr}/>
+              <h1 className={subscribeStyles.h1}>Welcome to Reboothack 2020!</h1>
+              <hr className={subscribeStyles.hr}/>
               {/* <p>Last year was amazing, and we are looking forward to meet new excited participants and see some awesome ideas!</p> */}
 
-              <div className={SubscribeStyles.Section+' col-xl-6'}>
-                  <p className={SubscribeStyles.Question}>When? </p>
-                  <p className={SubscribeStyles.Answer}>February</p>
+              <div className={subscribeStyles.section+' col-xl-6'}>
+                  <p className={subscribeStyles.question}>When? </p>
+                  <p className={subscribeStyles.answer}>February</p>
               </div>
-              <div className={SubscribeStyles.Section+' col-xl-6'}>
-                  <p className={SubscribeStyles.Question}>Where? </p>
-                  <p className={SubscribeStyles.Answer}>Reykjavík</p>
+              <div className={subscribeStyles.section+' col-xl-6'}>
+                  <p className={subscribeStyles.question}>Where? </p>
+                  <p className={subscribeStyles.answer}>Reykjavík</p>
               </div>
 
-              <div className={SubscribeStyles.Section+' col-xl-12'}>
+              <div className={subscribeStyles.section+' col-xl-12'}>
                 <p>More relative information are coming up really soon, so stay tunned!</p>
               </div>
 
-              <div className={SubscribeStyles.Section+' col-xl-12'}>
-                <p>We advice you to <a className={SubscribeStyles.Blue_a} data-toggle="modal" data-target="#SubscribeModal">Subscribe</a> to be informed about the latest news!</p>
+              <div className={subscribeStyles.section+' col-xl-12'}>
+                <p>We advice you to <a className={subscribeStyles.blue_a} data-toggle="modal" data-target="#SubscribeModal">Subscribe</a> to be informed about the latest news!</p>
               </div>
               
             </div>
@@ -64,7 +64,7 @@ class Subscribe extends Component {
               className={"modal-dialog"} 
               role="document">
 
-              <div className={ SubscribeStyles.Subscribe_Modal+" modal-content"}>
+              <div className={ subscribeStyles.subscribe_modal+" modal-content"}>
                 <div className={"modal-header"}>
                   <h5 
                     className={"modal-title"} 

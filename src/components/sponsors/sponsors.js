@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import {getTranslation} from '../../translations';
-
-// import SponsorRow from './components/sponsorRow';
-// import SponsorDetail from './components/sponsorDetail';
 import SponsorImages from './components/sponsorImages';
 import style from './sponsors.css';
 import Cookies from 'js-cookie';
@@ -199,7 +196,7 @@ class Sponsors extends Component {
             (sponsor) => {
                 return (
                     <div>
-                    <h2 className={style.titlePadding+" text-center"}>{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
+                    <h2 className={style.title_padding+" text-center"}>{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
                     <SponsorImages
                         key = {sponsor.id}
                         spRank={sponsor.rank}
@@ -210,8 +207,8 @@ class Sponsors extends Component {
             });
 
         return (
-            <div className={style.sponsor__content +" "+ style.App}>
-                <h1 className={style.sponsor__main__header}>{this.text.sponsors.sponsors}</h1>
+            <div className={style.sponsor_content +" "+ style.app}>
+                <h1 className={style.sponsor_main_header}>{this.text.sponsors.sponsors}</h1>
                 {/* Her koma myndir af styrkaradilum */}
                 <div>
                     {sponsorSection}

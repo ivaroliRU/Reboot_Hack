@@ -318,13 +318,13 @@ class Schedule extends Component {
     );
 
     function changeToSaturdaySchedule(){
-      document.getElementById(style.ScheduleSaturday).style.display = 'block'; // show
-      document.getElementById(style.ScheduleSunday).style.display = 'none'; // hide
+      document.getElementById(style.schedule_saturday).style.display = 'block'; // show
+      document.getElementById(style.schedule_sunday).style.display = 'none'; // hide
     }
 
     function changeToSundaySchedule(){
-      document.getElementById(style.ScheduleSaturday).style.display = 'none'; // show
-      document.getElementById(style.ScheduleSunday).style.display = 'block'; // hide
+      document.getElementById(style.schedule_saturday).style.display = 'none'; // show
+      document.getElementById(style.schedule_sunday).style.display = 'block'; // hide
     }
     
     return (
@@ -332,23 +332,23 @@ class Schedule extends Component {
 
           <center> 
 
-            <button type="button" className={"btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#ModalForSchedule"}>
+            <button type="button" className={"btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#modal_for_schedule"}>
               {ShowFullScheduleText}
             </button>
 
-            <div className={"modal fade"} id={"ModalForSchedule"} tabIndex="-1" role="dialog" aria-labelledby={"ModalForSchedule"} aria-hidden="true">
-              <div className={style.myModalDialog+" modal-dialog"} role="document">
+            <div className={"modal fade"} id={"modal_for_schedule"} tabIndex="-1" role="dialog" aria-labelledby={"modal_for_schedule"} aria-hidden="true">
+              <div className={style.my_modal_dialog+" modal-dialog"} role="document">
                 <div className="modal-content">
                   <div className="modal-header">
-                    <div className={style.modalHeaderStyle+" row"}>
+                    <div className={style.modal_header_style+" row"}>
                       
-                      <h5 className={"modal-title"} id={"ModalForSchedule"}> {scheduleText}</h5>
+                      <h5 className={"modal-title"} id={"modal_for_schedule"}> {scheduleText}</h5>
                     </div>
-                    <button type="button" className={style.buttonClose+" close"} data-dismiss="modal" aria-label="Close">
+                    <button type="button" className={style.button_close+" close"} data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div className={style.modalBody+" modal-body"}>
+                  <div className={style.modal_body+" modal-body"}>
                     <a href={imageSRC} download>
                       <img className={"img-fluid "} src={imageSRC} title={downloadText}/>
                     </a>
@@ -366,7 +366,7 @@ class Schedule extends Component {
               onClick={() => changeToSaturdaySchedule()}>
                 {saturdayText}
             </button>
-            <p className={style.displayInitial}>&nbsp;</p> <p className={ (Cookies.get('language')=='is' && isMobile) ? style.displayOnMobileWhenIcelandicIsOn : style.hideOnMobileWhenIcelandicIsOn}>&nbsp;</p>
+            <p className={style.display_initial}>&nbsp;</p> <p className={ (Cookies.get('language')=='is' && isMobile) ? style.display_on_mobile_when_icelandic_is_on : style.hide_on_mobile_when_icelandic_is_on}>&nbsp;</p>
             <button 
               type="button" 
               className={"btn btn-outline-primary btn-lg "+buttonStyle.apply_button}
@@ -375,13 +375,13 @@ class Schedule extends Component {
             </button>
           </center> 
     
-          <div className={style.displayOnBiggerScreensOnly}>
+          <div className={style.display_on_bigger_screens_only}>
             <br /><br /><br /><br /><br /><br />
           </div>
           
 
           <div 
-          id={style.ScheduleSaturday}
+          id={style.schedule_saturday}
           className={style.flex_parent}>
             <div className={style.input_flex_container}>
 
@@ -395,7 +395,7 @@ class Schedule extends Component {
           </div> 
 
           <div 
-            id={style.ScheduleSunday}
+            id={style.schedule_sunday}
             className={style.flex_parent}>
             <div className={style.input_flex_container+" "+style.input_flex_container_smaller}>
 
