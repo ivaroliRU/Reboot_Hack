@@ -104,7 +104,7 @@ class Challenges extends Component {
           titleEn: "The future of trust in business",
           titleIs: "Traust í viðskiptum framtíðarinnar",
           textEn: "The world is changing rapidly and so does the business environment. Technology spurs quality and financial and nonfinancial data provided insight. Emerging technologies and the 4th industrial revolution will have significant effect on the assurance landscape.    How will the company of the future fulfil its regulatory and stakeholder obligations and how will 3rd party assurance service evolve? From financial statement and VAT reporting, to customer satisfaction, the challenge to meet the increased regulatory compliance and customer demands is ever challenging. We want you to help us to determine how the assurance service of the future will look like, and how it will be used to increase trust within the Icelandic marketplace. We welcome all solutions, ranging from theories to technical solutions, and everything between",
-          textIs: "Verður Tilkynnt Síðar",
+          textIs: "Traust er lykilþáttur þegar kemur að heilbrigðum viðskiptum og samskiptum milli fyrirtækja. Viðskiptaumhverfið hefur tekið miklu breytingum undanfarin ár og í þessu samhengi er talið að fjórða iðnbyltingin sem byggir á stafrænum grunni geti leitt til grundvallarbreytinga á hagkerfum, fyrirtækjum og þjóðfélögum. Þessi nýja stafræna tækni felur í sér fjölmörg tækifæri og jafnframt áskoranir. Í allri þessari gagnasöfnun, miðlun og vinnslu á gögnum verður traust áfram lykilþáttur og því mikilvægt að endurskoðun og önnur staðfestingarvinna fylgi þessari öru þróun og breytingum.    Sem óháður þriðji aðili hefur KPMG ásamt öðrum aðilum mikilvægt hlutverk að yfirfara og staðfesta upplýsingar frá fyrirtækjum s.s. ársreikninga, skattskil og einnig fylgni gagnvart lögum og reglum. Ný tækni, aukin gagnasöfnun og aukið færslumagn kallar á nýja nálgun í þessari vinnu.    Hvernig mun þessi tækniþróun og breyting hafa áhrif á þetta umhverfi og hvernig geta óháðir aðilar eins og KPMG nýtt sér tæknilausnir til að fylgja þessari þróun?",
           company: "KPMG",
           vodeoURL: null,
           companyPhotoURL: "/images/sponsors/reboot/KPMGSVG.svg",
@@ -184,14 +184,14 @@ class Challenges extends Component {
       (challenge) => {
 
         return (
-          <div key={challenge.id} className={style.my_element}>
-            <h3 className={generalStyle.header_style}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
-            <h5 className={generalStyle.header_style+" row "+generalStyle.spacing_after_company}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
+          <div key={challenge.id} className={style.my_element+" "+style.challenge_padding}>
+            <h3 className={generalStyle.header_style+" "+style.header_size_modified_on_mobile}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
+            <h5 className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
             <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
           
-            {/*<button type="button" className={(challenge.displayDetails !== true ? style.my_button : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
+            <button type="button" className={(challenge.displayDetails !== true ? style.my_button : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
               {moreDetails}
-            </button>*/}
+            </button>
 
 
             <div className={"modal fade"} id={"Modal"+challenge.id} tabIndex="-1" role="dialog" aria-labelledby={"Modal"+challenge.id} aria-hidden="true">
