@@ -6,6 +6,7 @@ import Challenges from './challenges/challenges';
 import Location from './location/location';
 import Events from './events/events'
 import InstaGrid from './instagrid/instagrid';
+import VerticalNavigation from './verticalNavigation/verticalNavigation';
 
 class OnEvent extends Component {
   
@@ -19,6 +20,7 @@ class OnEvent extends Component {
   render() {
     return (
       <div className={style.body_style}>
+        <VerticalNavigation />
         <div className={style.div_styling+" container"}>
           <br />
           {/*<h1 className={style.text_styling+" "+style.text_align}><b>Reboot Hack 2020</b></h1>*/}

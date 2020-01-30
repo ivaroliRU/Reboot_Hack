@@ -1,0 +1,23 @@
+.vertical_navigation_div{
+    /* display: none; */
+    padding-top: 5%;
+    position: fixed;
+    float: left;
+    /* padding-left:10px; */
+    color: rgba(98, 88, 146, 0.85);
+    z-index: 999;
+}
+.diagonal_text{
+  transform: rotate(-45deg);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .vertical_navigation_div{
+    /* padding-left: none !important; */
+  }
+
+  .diagonal_text{
+    font-size: 12px;
+  }
+}
