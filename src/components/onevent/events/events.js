@@ -162,11 +162,11 @@ class Events extends Component {
     });
 
     return (
-        <div className={style.divPadding+" container"} >
+        <div className={style.div_padding+" container"} >
 
           <div className={style.panel +" "+style.panel_danger}>
               <div className={style.panel_heading}>
-                  <h3 className={style.panel_title+" "+style.eventsTextStyle}>
+                  <h3 className={style.panel_title+" "+style.events_text_style}>
                     {upcomingEventsText}
                   </h3>
               </div>

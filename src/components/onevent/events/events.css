@@ -127,12 +127,18 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .panel_title{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .div_padding{
       padding-left: 0;
       padding-right: 0;
   }
   
   .panel_title{
-    font-size: 22px;
+    font-size: 21px;
   }
 }

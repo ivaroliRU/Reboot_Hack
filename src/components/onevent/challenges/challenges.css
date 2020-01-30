@@ -32,55 +32,19 @@
 .my_element {
   font-size: 1em;
   line-height: 1.75em;
-  border-top: 3px solid;
-  border-width: 3px;
   margin: 0;
-  padding: 40px;
   position: relative;
   color: #694991;
+  padding-top: 5%;
+  padding-bottom: 5%;
   
 }
 
-.my_element:nth-child(odd) {
-  -webkit-appearance: none;
-  border-right: 3px solid;
-  padding-left: 0;
-}
-
-.my_element:nth-child(odd):before {
-  -webkit-appearance: none;
-  left: 100%;
-  margin-left: -20px;
-}
-
-.my_element:nth-child(even) {
-  -webkit-appearance: none;
-  border-left: 3px solid;
-  padding-right: 0;
-}
-
-.my_element:nth-child(even):before {
-  -webkit-appearance: none;
-  right: 100%;
-  margin-right: -20px;
-}
-
-.my_element:first-child {
-  border-top: 0;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-}
-
-.my_element:last-child {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
 .text_justify{
   text-align: justify;
 }
 
 .image{
-  /* border: 1px solid black; */
   height: 36px;
 }
 
@@ -101,7 +65,8 @@
 }
 
 .my_button{
-  display: none;
+  /* display: none; */
+  float: right;
 }
 
 .my_modal_dialog{
@@ -113,53 +78,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .my_element {
-    font-size: 1em;
-    line-height: 1.75em;
-      border-top: unset;
-      border-width: unset;
-    margin: 0;
-      padding: unset;
-    position: relative;
-    color: #694991;
-    
-  }
-  
-  .my_element:nth-child(odd) {
-    -webkit-appearance: unset;
-    border-right: unset;
-    padding-left: unset;
-  }
-  
-  .my_element:nth-child(odd):before {
-    -webkit-appearance: unset;
-    left: unset;
-    margin-left: unset;
-  }
-  
-  .my_element:nth-child(even) {
-    -webkit-appearance: unset;
-    border-left: unset;
-    padding-right: unset;
-  }
-  
-  .my_element:nth-child(even):before {
-    -webkit-appearance: unset;
-    right: unset;
-    margin-right: unset;
-  }
-  
-  .my_element:first-child {
-    border-top: unset;
-    border-top-right-radius: unset;
-    border-top-left-radius: unset;
-  }
-  
-  .my_element:last-child {
-    border-bottom-right-radius: unset;
-    border-bottom-left-radius: unset;
-  }
-
+ 
   .challenge_padding{
     padding-top: 20px;
     padding-bottom: 40px;
