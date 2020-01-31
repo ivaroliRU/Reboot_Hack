@@ -24,22 +24,22 @@ class OnEvent extends Component {
         <div className={style.div_styling+" container"}>
           <br />
           {/*<h1 className={style.text_styling+" "+style.text_align}><b>Reboot Hack 2020</b></h1>*/}
-          <div className={"row "+style.margin_top_20}>
+          <div id="Challenges_Section" className={"row "+style.margin_top_20}>
             <div className={"col-lg-8 col-sm-12"}>
               <Challenges /> 
             </div>
-            <div className={"col-lg-4 col-sm-12"}>
+            <div id="Events_Section" className={"col-lg-4 col-sm-12"}>
               <Events />
             </div>
           </div>
           
-          <div className={"row pb-20"}>
+          <div id="Schedule_Section" className={"row pb-20"}>
             <div className={style.schedule_padding_on_mobile+" col-12"}>
-              <Schedule />
+              <Schedule/>
             </div>
           </div>
 
-          <div className={"row pb-20"}>
+          <div id="Instagram_Section" className={"row pb-20"}>
             <div className={"col-12 pb-4"}>
               <h3>Reboot Hack  
                 <a className={"pl-2"}
@@ -53,7 +53,7 @@ class OnEvent extends Component {
             </div> 
           </div>
 
-          <div className={"row"}>
+          <div id="Location_Section" className={"row"}>
             <div className={"col-12"}>
               <Location />
             </div>

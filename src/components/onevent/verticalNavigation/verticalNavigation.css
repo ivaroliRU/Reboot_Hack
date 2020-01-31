@@ -1,23 +1,60 @@
 .vertical_navigation_div{
+
+  display: table-cell;
+  vertical-align: middle;
+
     /* display: none; */
-    padding-top: 5%;
+    padding-top: 2%;
     position: fixed;
     float: left;
     /* padding-left:10px; */
-    color: rgba(98, 88, 146, 0.85);
+    
     z-index: 999;
 }
 .diagonal_text{
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) !important;
+  padding-bottom: 12%;
+}
+
+
+/* .company_name{
+  padding-left: 5%;
+}
+.company_name_color{
+  color: red;
+}
+
+.company_name_color:hover{
+  color: red;
+}
+
+.company_name_color:active, .company_name_color:visited{
+  color: red;
+} */
+
+
+.a_modified{
+  text-decoration: none;
+  color: rgba(98, 88, 146, 0.85);
+}
+
+.a_modified:hover{
+  text-decoration: none;
+  color: rgba(98, 88, 146, 0.85);
+}
+.a_modified:active, .a_modified:visited{
+  text-decoration: none;
+  color: rgba(98, 88, 146, 0.85);
 }
 
 
 @media only screen and (max-width: 600px) {
   .vertical_navigation_div{
     /* padding-left: none !important; */
+    padding-top:4%;
   }
 
   .diagonal_text{
-    font-size: 12px;
+    font-size: 10px;
   }
 }

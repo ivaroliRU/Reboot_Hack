@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import individualStyle from "../../teams/individual/individual.css";
-import advisorStyle from "./advisor.css"
+import advisorStyle from "./advisor.css";
 import Cookies from 'js-cookie';
 
 class Advisor extends Component {
@@ -11,7 +11,7 @@ class Advisor extends Component {
     if(this.props.individualLinkedIn !== null){
       myName=(
         <a 
-          className = {individualStyle.undecorated_a_tag}
+          className = {individualStyle.undecorated_a_tag+" "+individualStyle.name}
           href={this.props.individualLinkedIn}
           target="_blank"> {this.props.individualName}</a>
       )
@@ -26,27 +26,10 @@ class Advisor extends Component {
           className={individualStyle.individual_div+" "+advisorStyle.individual_div_modified}
         >
           <div className={individualStyle.contained_information}>
-            {/* <img 
-              src={this.props.individualPhotoUrl} 
-              className={individualStyle.individual_image+' img-fluid'}/>
-              <br /> <br /> */}
-            <p className={individualStyle.individual_name}> 
+            <p className={individualStyle.normla_height+" "+individualStyle.individual_name}> 
               {myName}
             </p>
-            {/* {
-              this.props.individualEmail != '' ? 
-                <a 
-                  className={individualStyle.individual_social}
-                  onClick={
-                    () => {
-                            navigator.clipboard.writeText(this.props.individualEmail);
-                          } 
-                  }
-                >
-                  <i className={"fa fa-envelope fa-lg"}></i> {this.props.individualEmail}</a> 
-                : ''
-            } */}
-            <p className={individualStyle.title}>
+            <p className={individualStyle.normla_height+" "+individualStyle.title}>
               {Cookies.get('language')=='is' ? this.props.individualTitleIs : this.props.individualTitleEn}
             </p>
             <br/>

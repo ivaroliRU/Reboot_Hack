@@ -52,9 +52,14 @@
     transition: all 0.2s ease-in-out;
     border-radius: 7px;
 }
+
 .individual_name:hover .undecorated_a_tag{
     color: blue !important;
     transition: all 0.2s ease-in-out;
+}
+
+.undecorated_a_tag:hover{
+    transform: scale(1) !important;
 }
 
 .linkedIn {

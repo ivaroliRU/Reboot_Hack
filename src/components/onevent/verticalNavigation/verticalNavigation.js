@@ -12,28 +12,46 @@ class VerticalNavigation extends Component {
     render() {
         return (
             <div className={style.vertical_navigation_div}>
-                <div id="Section1">
-                   <p className={style.diagonal_text}>Challenges</p>
-                   {/* <p className={style.diagonal_text}>&nbsp;Origo</p>
-                   <p className={style.diagonal_text}>&nbsp;Vörður</p>
-                   <p className={style.diagonal_text}>&nbsp;Auður</p>
-                   <p className={style.diagonal_text}>&nbsp;Byggðastofnum</p>
-                   <p className={style.diagonal_text}>&nbsp;AwareGo</p>
-                   <p className={style.diagonal_text}>&nbsp;KPMG</p>
-                   <p className={style.diagonal_text}>&nbsp;LHÍ</p>
-                   <p className={style.diagonal_text}>&nbsp;Ölgerðin</p> */}
+                <div id="Section1" className={style.diagonal_text}>
+                    <a className={style.a_modified} href="/event#Challenges_Section">Challenges</a><br />
                 </div>
-                <div id="Section2">
-                    <p className={style.diagonal_text}>Mini events</p>
+
+                {/* <div id="Section1_Challenge1" className={style.diagonal_text+" "+style.company_name}>
+                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Origo">&nbsp;Origo</a><br />
                 </div>
-                <div id="Section3">
-                    <p className={style.diagonal_text}>Schedule</p>
+                <div id="Section1_Challenge2" className={style.diagonal_text+" "+style.company_name}>
+                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Vörður">&nbsp;Vörður</a><br />
                 </div>
-                <div id="Section4">
-                    <p className={style.diagonal_text}>Instagram</p>
+                <div id="Section1_Challenge3" className={style.diagonal_text+" "+style.company_name}>
+                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Auður">&nbsp;Auður</a><br />
                 </div>
-                <div id="Section5">
-                    <p className={style.diagonal_text}>Location</p>
+                <div id="Section1_Challenge4" className={style.diagonal_text+" "+style.company_name}>
+                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Byggðastofnum">&nbsp;Byggðastofnum</a><br />
+                </div>
+                <div id="Section1_Challenge5" className={style.diagonal_text+" "+style.company_name}>
+                    <a className={style.a_modified+" "+style.company_name_color} href="/event#AwareGo">&nbsp;AwareGo</a><br />
+                </div>
+                <div id="Section1_Challenge6" className={style.diagonal_text+" "+style.company_name}>
+                    <a className={style.a_modified+" "+style.company_name_color} href="/event#KPMG">&nbsp;KPMG</a><br />
+                </div>
+                <div id="Section1_Challenge7" className={style.diagonal_text+" "+style.company_name}>
+                    <a className={style.a_modified+" "+style.company_name_color} href="/event#LHÍ">&nbsp;LHÍ</a><br />
+                </div>
+                <div id="Section1_Challenge8" className={style.diagonal_text+" "+style.company_name}>
+                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Ölgerðin">&nbsp;Ölgerðin</a><br />
+                </div> */}
+
+                <div id="Section2" className={style.diagonal_text}>
+                    <a className={style.a_modified} href="/event#Events_Section">Mini events</a>
+                </div>
+                <div id="Section3" className={style.diagonal_text}>
+                    <a className={style.a_modified} href="/event#Schedule_Section">Schedule</a>
+                </div>
+                <div id="Section4" className={style.diagonal_text}>
+                    <a className={style.a_modified} href="/event#Instagram_Section">Instagram</a>
+                </div>
+                <div id="Section5" className={style.diagonal_text}>
+                    <a className={style.a_modified} href="/event#Location_Section">Location</a>
                 </div>
             </div>
     );
