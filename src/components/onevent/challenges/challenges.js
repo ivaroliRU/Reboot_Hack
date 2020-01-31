@@ -51,7 +51,7 @@ class Challenges extends Component {
           titleIs: "Leikjavæðing sparnaðar",
           textEn: "Saving is something we all need to focus on, but we may find it difficult as it is often much easier to spend than save. It can be a challenge to find the will power to continue the habit of saving especially when you are on a budget.  How can the elements of gaming like challenges and competition be used to gamify savings and encourage individuals to achieve their savings goals and make it fun at the same time.",
           textIs: "Að leggja fyrir og spara er eitthvað sem við þurfum öll að temja okkur en það getur reynst erfitt því það er oft auðveldara að eyða en spara. Það getur verið áskorun að viðhalda þeirri venju að spara sérstaklega þegar það þrengir að fjárhagslega. En hvernig er hægt nýta eiginleika tölvuleikja eins og áskoranir og samkeppni til þess að leikjavæða sparnað og hvetja einstaklinga til þess að leggja fyrir og hjálpa þeim að ná sínum fjárhagslegu markmiðum og hafa gaman af því á sama tíma.",
-          company: "Auður (Kvika)",
+          company: "Auður",
           vodeoURL: null,
           companyPhotoURL: "/images/sponsors/reboot/AudurSVG.svg",
           detailsEnPhotoURL: "/images/Challenges/Audur/Description_En.png",
@@ -184,7 +184,7 @@ class Challenges extends Component {
       (challenge) => {
 
         return (
-          <div key={challenge.id} id={"#"+challenge.company} className={style.my_element+" "+style.challenge_padding}>
+          <div key={challenge.id} id={challenge.company} className={style.my_element+" "+style.challenge_padding}>
             <h3 className={generalStyle.header_style+" "+style.header_size_modified_on_mobile}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
             <h5 className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
             <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>

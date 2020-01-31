@@ -1,52 +1,48 @@
 .vertical_navigation_div{
-
   display: table-cell;
   vertical-align: middle;
-
-    /* display: none; */
-    padding-top: 2%;
-    position: fixed;
-    float: left;
-    /* padding-left:10px; */
-    
-    z-index: 999;
+  padding-top: 2%;
+  position: fixed;
+  float: left;
+  z-index: 999;
 }
+
 .diagonal_text{
-  transform: rotate(-45deg) !important;
+  transform: rotate(-45deg);
   padding-bottom: 12%;
 }
 
-
-/* .company_name{
-  padding-left: 5%;
-}
-.company_name_color{
-  color: red;
-}
-
-.company_name_color:hover{
-  color: red;
-}
-
-.company_name_color:active, .company_name_color:visited{
-  color: red;
-} */
-
-
 .a_modified{
-  text-decoration: none;
+  /* text-decoration: none; */
   color: rgba(98, 88, 146, 0.85);
 }
 
-.a_modified:hover{
+.a_modified:hover, .a_modified:focus, .a_modified:active{
   text-decoration: none;
-  color: rgba(98, 88, 146, 0.85);
-}
-.a_modified:active, .a_modified:visited{
-  text-decoration: none;
-  color: rgba(98, 88, 146, 0.85);
+  transform: scale(1.5);
+  transition-property: transform;
+  transition-duration: 0.1s;
+  color: rgba(105,73,145, 0.85);
 }
 
+.color_normal{
+  color: rgba(105,73,145,0.85);
+}
+
+.color_strong{
+  color: rgba(101,71,143,0.85);
+}
+
+.color_fade{
+  color: rgba(151,114,196,0.85);
+}
+
+.bigger_font{
+  transform: scale(1.5);
+  font-weight: 900;
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
 
 @media only screen and (max-width: 600px) {
   .vertical_navigation_div{

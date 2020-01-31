@@ -10,48 +10,103 @@ class VerticalNavigation extends Component {
     }
 
     render() {
+
+        function sectionSelected(selectedNumber){
+            // Clean up the classes
+            for(var i=1;i<=5;i++){
+                document.getElementById("Section"+i).classList.remove(style.color_fade);
+                document.getElementById("Section"+i).classList.remove(style.bigger_font);
+                document.getElementById("Section"+i).classList.remove(style.color_strong);
+            }
+
+            // make the color of the previous selections a little FADE
+            for(var i=1;i<selectedNumber;i++){
+                document.getElementById("Section"+i).classList.add(style.color_fade);
+            }
+
+            // make the color of the selected section STRONGER and BIGGER
+            document.getElementById("Section"+selectedNumber).classList.add(style.color_strong);
+            document.getElementById("Section"+selectedNumber).classList.add(style.bigger_font);
+
+            // add bigger font on this selection
+            for(var i=selectedNumber+1;i<=5;i++){
+                document.getElementById("Section"+i).classList.add(style.color_normal);
+            }
+        }
+
+        function isScrolledIntoView(elem)
+        {
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height();
+
+            var elemTop = $(elem).offset().top;
+            var elemBottom = elemTop + $(elem).height();
+
+            return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+        }
+
+        // auto update on scroll
+        $(window).scroll(function() {    
+            if(isScrolledIntoView($('#Challenges_Section')))
+            {
+                sectionSelected(1);
+            } 
+            if(isScrolledIntoView($('#Events_Section')))
+            {
+                sectionSelected(2);
+            } 
+            if(isScrolledIntoView($('#Schedule_Section')))
+            {
+                sectionSelected(3);
+            } 
+            if(isScrolledIntoView($('#Instagram_Section')))
+            {
+                sectionSelected(4);
+            } 
+            if(isScrolledIntoView($('#Location_Section')))
+            {
+                sectionSelected(5);
+            }    
+        });
+
+
         return (
             <div className={style.vertical_navigation_div}>
-                <div id="Section1" className={style.diagonal_text}>
-                    <a className={style.a_modified} href="/event#Challenges_Section">Challenges</a><br />
+                <div className={style.diagonal_text}>
+                    <a 
+                        id="Section1" 
+                        className={style.a_modified} 
+                        href="/event#Challenges_Section" 
+                        onClick={() => sectionSelected(1)}>Challenges</a><br />
                 </div>
 
-                {/* <div id="Section1_Challenge1" className={style.diagonal_text+" "+style.company_name}>
-                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Origo">&nbsp;Origo</a><br />
+                <div className={style.diagonal_text}>
+                    <a 
+                        id="Section2" 
+                        className={style.a_modified} 
+                        href="/event#Events_Section" 
+                        onClick={() => sectionSelected(2)}>Mini events</a>
                 </div>
-                <div id="Section1_Challenge2" className={style.diagonal_text+" "+style.company_name}>
-                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Vörður">&nbsp;Vörður</a><br />
+                <div className={style.diagonal_text}>
+                    <a 
+                        id="Section3" 
+                        className={style.a_modified} 
+                        href="/event#Schedule_Section" 
+                        onClick={() => sectionSelected(3)}>Schedule</a>
                 </div>
-                <div id="Section1_Challenge3" className={style.diagonal_text+" "+style.company_name}>
-                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Auður">&nbsp;Auður</a><br />
+                <div className={style.diagonal_text}>
+                    <a 
+                        id="Section4" 
+                        className={style.a_modified} 
+                        href="/event#Instagram_Section" 
+                        onClick={() => sectionSelected(4)}>Instagram</a>
                 </div>
-                <div id="Section1_Challenge4" className={style.diagonal_text+" "+style.company_name}>
-                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Byggðastofnum">&nbsp;Byggðastofnum</a><br />
-                </div>
-                <div id="Section1_Challenge5" className={style.diagonal_text+" "+style.company_name}>
-                    <a className={style.a_modified+" "+style.company_name_color} href="/event#AwareGo">&nbsp;AwareGo</a><br />
-                </div>
-                <div id="Section1_Challenge6" className={style.diagonal_text+" "+style.company_name}>
-                    <a className={style.a_modified+" "+style.company_name_color} href="/event#KPMG">&nbsp;KPMG</a><br />
-                </div>
-                <div id="Section1_Challenge7" className={style.diagonal_text+" "+style.company_name}>
-                    <a className={style.a_modified+" "+style.company_name_color} href="/event#LHÍ">&nbsp;LHÍ</a><br />
-                </div>
-                <div id="Section1_Challenge8" className={style.diagonal_text+" "+style.company_name}>
-                    <a className={style.a_modified+" "+style.company_name_color} href="/event#Ölgerðin">&nbsp;Ölgerðin</a><br />
-                </div> */}
-
-                <div id="Section2" className={style.diagonal_text}>
-                    <a className={style.a_modified} href="/event#Events_Section">Mini events</a>
-                </div>
-                <div id="Section3" className={style.diagonal_text}>
-                    <a className={style.a_modified} href="/event#Schedule_Section">Schedule</a>
-                </div>
-                <div id="Section4" className={style.diagonal_text}>
-                    <a className={style.a_modified} href="/event#Instagram_Section">Instagram</a>
-                </div>
-                <div id="Section5" className={style.diagonal_text}>
-                    <a className={style.a_modified} href="/event#Location_Section">Location</a>
+                <div className={style.diagonal_text}>
+                    <a 
+                        id="Section5" 
+                        className={style.a_modified} 
+                        href="/event#Location_Section" 
+                        onClick={() => sectionSelected(5)}>Location</a>
                 </div>
             </div>
     );

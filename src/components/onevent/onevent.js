@@ -24,8 +24,8 @@ class OnEvent extends Component {
         <div className={style.div_styling+" container"}>
           <br />
           {/*<h1 className={style.text_styling+" "+style.text_align}><b>Reboot Hack 2020</b></h1>*/}
-          <div id="Challenges_Section" className={"row "+style.margin_top_20}>
-            <div className={"col-lg-8 col-sm-12"}>
+          <div className={"row "+style.margin_top_20}>
+            <div id="Challenges_Section" className={"col-lg-8 col-sm-12"}>
               <Challenges /> 
             </div>
             <div id="Events_Section" className={"col-lg-4 col-sm-12"}>
