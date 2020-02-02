@@ -64,9 +64,13 @@
 
 }
 
+.text_align_center{
+  text-align: center;
+}
+
 .my_button{
   /* display: none; */
-  float: right;
+  float: middle;
 }
 
 .my_modal_dialog{

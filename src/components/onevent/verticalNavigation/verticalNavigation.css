@@ -24,7 +24,8 @@
 }
 
 .challenge_div{
-  padding-left: 15%;
+  /* padding-left: 15%; */
+  padding-left: 5%;
   padding-bottom: 2%;
 }
 .challenge_div_straight{
@@ -34,7 +35,8 @@
 .last_challenge_padding_bottom_normal{
   padding-bottom: 12%;
   padding-top: 1%;
-  padding-left: 22%;
+  /* padding-left: 22%; */
+  padding-left: 8%;
 }
 .last_challenge_padding_bottom_normal_straight{
     /* padding-top: 0%;
@@ -113,7 +115,7 @@
   }
 
   .challenge_text{
-    font-size: 8px;
+    font-size: 7px;
   }
 
   .challenge_text_straight{
