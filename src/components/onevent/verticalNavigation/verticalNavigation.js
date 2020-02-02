@@ -41,11 +41,13 @@ class VerticalNavigation extends Component {
                 document.getElementById("Challenge"+i).classList.remove(style.challenge_text_color_fade);
                 document.getElementById("Challenge"+i).classList.remove(style.bigger_font);
                 document.getElementById("Challenge"+i).classList.remove(style.challenge_text_color_strong);
+                document.getElementById("Challenge"+i).classList.remove(style.challenge_text_color_normal);
+                
             }
 
             if(selectedNumber<=2 && selectedChallengeNumber<9){
                 
-                for(i=1;i<selectedChallengeNumber;i++){
+                for(i=1;i<=8;i++){
                     document.getElementById("Challenge"+i).classList.add(style.challenge_text_color_fade);
                 }
                 
@@ -54,6 +56,11 @@ class VerticalNavigation extends Component {
             
                 for(i=selectedChallengeNumber+1;i<=8;i++){
                     document.getElementById("Challenge"+i).classList.add(style.challenge_text_color_normal);
+                }
+            }
+            else{
+                for(i=1;i<=8;i++){
+                    document.getElementById("Challenge"+i).classList.add(style.challenge_text_color_fade);
                 }
             }
 
@@ -171,7 +178,7 @@ class VerticalNavigation extends Component {
 
         return (
             <div className={style.vertical_navigation_div}>
-                <div className={style.diagonal_text}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight}>
                     <a 
                         id="Section1" 
                         className={style.a_modified} 
@@ -180,93 +187,92 @@ class VerticalNavigation extends Component {
                 </div>
                 
 
-                <div className={style.diagonal_text+" "+style.challenge_div}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight}>
                     <a 
                         id="Challenge1" 
-                        className={style.challenge_text} 
+                        className={style.challenge_text+" "+style.challenge_text_straight+" "+style.challenge_text_color_normal} 
                         href="/event#Origo" 
                         onClick={() => sectionSelected(1,1)}>Origo</a><br />
                 </div>
 
-                <div className={style.diagonal_text+" "+style.challenge_div}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight}>
                     <a 
                         id="Challenge2" 
-                        className={style.challenge_text} 
+                        className={style.challenge_text+" "+style.challenge_text_straight+" "+style.challenge_text_color_normal} 
                         href="/event#Vörður" 
                         onClick={() => sectionSelected(1,2)}>Vörður</a><br />
                 </div>
 
-                <div className={style.diagonal_text+" "+style.challenge_div}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight}>
                     <a 
                         id="Challenge3" 
-                        className={style.challenge_text} 
+                        className={style.challenge_text+" "+style.challenge_text_straight+" "+style.challenge_text_color_normal} 
                         href="/event#Auður" 
                         onClick={() => sectionSelected(1,3)}>Auður</a><br />
                 </div>
 
-                <div className={style.diagonal_text+" "+style.challenge_div}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight}>
                     <a 
                         id="Challenge4" 
-                        className={style.challenge_text} 
+                        className={style.challenge_text+" "+style.challenge_text_straight+" "+style.challenge_text_color_normal} 
                         href="/event#Byggðastofnun" 
                         onClick={() => sectionSelected(1,4)}>Byggðastofnun</a><br />
                 </div>
 
-                <div className={style.diagonal_text+" "+style.challenge_div}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight}>
                     <a 
                         id="Challenge5" 
-                        className={style.challenge_text} 
+                        className={style.challenge_text+" "+style.challenge_text_straight+" "+style.challenge_text_color_normal} 
                         href="/event#AwareGo" 
                         onClick={() => sectionSelected(1,5)}>AwareGo</a><br />
                 </div>
 
-                <div className={style.diagonal_text+" "+style.challenge_div}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight}>
                     <a 
                         id="Challenge6" 
-                        className={style.challenge_text} 
+                        className={style.challenge_text+" "+style.challenge_text_straight+" "+style.challenge_text_color_normal} 
                         href="/event#KPMG" 
                         onClick={() => sectionSelected(1,6)}>KPMG</a><br />
                 </div>
 
-                {/* Last class of this div must be removed when the last challenge is added */}
-                <div className={style.diagonal_text+" "+style.challenge_div+" "+style.last_challenge_padding_bottom_normal}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight+" "+style.last_challenge_padding_bottom_normal+" "+style.last_challenge_padding_bottom_normal_straight}>
                     <a 
                         id="Challenge7" 
-                        className={style.challenge_text} 
+                        className={style.challenge_text+" "+style.challenge_text_straight+" "+style.challenge_text_color_normal} 
                         href="/event#LHÍ" 
                         onClick={() => sectionSelected(1,7)}>LHÍ</a><br />
                 </div>
 
-                <div className={style.diagonal_text+" "+style.challenge_div+" "+style.last_challenge_padding_bottom_normal}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight+" "+style.last_challenge_padding_bottom_normal+" "+style.last_challenge_padding_bottom_normal_straight}>
                     <a 
                         id="Challenge8" 
-                        className={style.challenge_text} 
+                        className={style.challenge_text+" "+style.challenge_text_straight+" "+style.challenge_text_color_normal} 
                         href="/event#Ölgerðin" 
                         onClick={() => sectionSelected(1,8)}>Ölgerðin</a><br />
                 </div>
 
-                <div className={style.diagonal_text}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight}>
                     <a 
                         id="Section2" 
                         className={style.a_modified} 
                         href="/event#Events_Section" 
                         onClick={() => sectionSelected(2,9)}>Mini events</a>
                 </div>
-                <div className={style.diagonal_text}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight}>
                     <a 
                         id="Section3" 
                         className={style.a_modified} 
                         href="/event#Schedule_Section" 
                         onClick={() => sectionSelected(3,9)}>Schedule</a>
                 </div>
-                <div className={style.diagonal_text}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight}>
                     <a 
                         id="Section4" 
                         className={style.a_modified} 
                         href="/event#Instagram_Section" 
                         onClick={() => sectionSelected(4,9)}>Instagram</a>
                 </div>
-                <div className={style.diagonal_text}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight}>
                     <a 
                         id="Section5" 
                         className={style.a_modified} 

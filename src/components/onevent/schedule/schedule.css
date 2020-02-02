@@ -32,6 +32,11 @@
 	margin-left: calc((80vw - 25px) / 20);
 	top: 50px;
 }
+
+.input_flex_container_straight{
+    padding-left: 4%;
+}
+
 .input_flex_container_smaller {
     width: 38vw;
     margin: auto !important;

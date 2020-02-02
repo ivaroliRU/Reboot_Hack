@@ -385,7 +385,7 @@ class Schedule extends Component {
           <div 
           id={style.schedule_saturday}
           className={style.flex_parent}>
-            <div className={style.input_flex_container}>
+            <div className={style.input_flex_container+" "+style.input_flex_container_straight}>
 
               {scheduleSection_saturday}
                         
@@ -399,7 +399,7 @@ class Schedule extends Component {
           <div 
             id={style.schedule_sunday}
             className={style.flex_parent}>
-            <div className={style.input_flex_container+" "+style.input_flex_container_smaller}>
+            <div className={style.input_flex_container+" "+style.input_flex_container_straight+" "+style.input_flex_container_smaller}>
 
               {scheduleSection_sunday}
                         
