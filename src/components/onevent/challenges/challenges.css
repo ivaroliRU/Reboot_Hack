@@ -76,7 +76,9 @@
 .button_close{
   margin-left: 0 !important;
 }
-
+.padding_bottom_after_div{
+  padding-bottom: 15%;
+}
 @media only screen and (max-width: 600px) {
  
   .challenge_padding{

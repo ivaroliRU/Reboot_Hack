@@ -138,7 +138,10 @@ class Events extends Component {
 
         return (
 
-          <li key={event.id} className={style.media}>
+          <li 
+            id="Events_Element"
+            key={event.id} 
+            className={style.media}>
             <div className={style.media_left}>
               <div className={" "+style.text_center+" "+style.date}>
                 <div className={style.panel_body+" "+style.day+" "+style.text_styling+" "+style.panel_title}>

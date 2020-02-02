@@ -226,13 +226,13 @@ class Challenges extends Component {
    
 
     return (
-        <div className={"container"}>
+        <div className={"container "+style.padding_bottom_after_div}>
           <h1 className={generalStyle.text_styling+" "+generalStyle.text_align+" "+style.challenge_text_style}>{challangesText}</h1>
             <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{challengeInfo}</p>
           <div className={style.myDiv}>
             {challengeSection}
           </div>
-          <p className={generalStyle.header_syle+" "+generalStyle.paragraph_style}>{upcomingChallenges}</p>
+          {/* <p className={generalStyle.header_syle+" "+generalStyle.paragraph_style}>{upcomingChallenges}</p> */}
         </div>
     );
   }

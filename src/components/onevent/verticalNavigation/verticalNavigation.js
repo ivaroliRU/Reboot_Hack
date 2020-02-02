@@ -38,8 +38,10 @@ class VerticalNavigation extends Component {
         {
             var docViewTop = $(window).scrollTop();
             var docViewBottom = docViewTop + $(window).height();
-
+            
+            // var elemTop = $('*[id*='+elem+']').offset().top;
             var elemTop = $(elem).offset().top;
+            // var elemBottom = elemTop + $('*[id*='+elem+']').height();
             var elemBottom = elemTop + $(elem).height();
 
             return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
@@ -47,19 +49,31 @@ class VerticalNavigation extends Component {
 
         // auto update on scroll
         $(window).scroll(function() {    
-            if(isScrolledIntoView($('#Challenges_Section')))
+            if(isScrolledIntoView($('#Challenges_Section')) ||
+               isScrolledIntoView($('#Origo')) ||
+               isScrolledIntoView($('#Vörður')) ||
+               isScrolledIntoView($('#Auður')) ||
+               isScrolledIntoView($('#Byggðastofnun')) ||
+               isScrolledIntoView($('#AwareGo')) ||
+               isScrolledIntoView($('#KPMG')) ||
+               isScrolledIntoView($('#LHÍ')) 
+            //    || isScrolledIntoView($('#Ölgerðin'))
+               )
             {
                 sectionSelected(1);
             } 
-            if(isScrolledIntoView($('#Events_Section')))
+            if(isScrolledIntoView($('#Events_Section')) ||
+               isScrolledIntoView($('#Events_Element')))
             {
                 sectionSelected(2);
             } 
-            if(isScrolledIntoView($('#Schedule_Section')))
+            if(isScrolledIntoView($('#Schedule_Section')) ||
+               isScrolledIntoView($('#Schedule_Element')))
             {
                 sectionSelected(3);
             } 
-            if(isScrolledIntoView($('#Instagram_Section')))
+            if(isScrolledIntoView($('#Instagram_Section')) ||
+               isScrolledIntoView($('#InstagramPost')))
             {
                 sectionSelected(4);
             } 

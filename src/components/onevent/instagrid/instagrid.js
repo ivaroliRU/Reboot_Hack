@@ -36,6 +36,7 @@ const InstaGrid = ({ classes, media, account, status}: Props) => {
         media.map(({ displayImage, id, postLink, accessibilityCaption }) => (
           <Grid item xs={12} sm={6} md={4} key={id || displayImage}>
             <ButtonBase
+              id={"InstagramPost"}
               href={postLink || `https://www.instagram.com/${account}/`}
             >
               <img

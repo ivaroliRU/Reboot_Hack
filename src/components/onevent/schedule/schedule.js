@@ -278,7 +278,8 @@ class Schedule extends Component {
               onClick={() => updateText(1, someEvent.descriptionIs, someEvent.descriptionEn, someEvent.locationIs, someEvent.locationEn, someEvent.relevantLink)}/>
           ),
           (
-            <div 
+            <div
+              id="Schedule_Element"
               key={someEvent.id+10}
               className={style.dot_info+" "+style.extra_margin} 
               data-description="1">
@@ -305,6 +306,7 @@ class Schedule extends Component {
           ),
           (
             <div 
+              id="Schedule_Element"
               key={someEvent.id+10}
               className={style.dot_info} 
               data-description="1">
