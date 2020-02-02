@@ -139,7 +139,7 @@ class Events extends Component {
         return (
 
           <li 
-            id="Events_Element"
+            id={"Events_Element"+event.id}
             key={event.id} 
             className={style.media}>
             <div className={style.media_left}>

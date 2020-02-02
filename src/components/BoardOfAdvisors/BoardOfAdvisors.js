@@ -34,7 +34,7 @@ constructor(props) {
                 id: 2,
                 name: 'Ari Kristinn Jónsson',
                 titleIs: 'Rektor Háskólans í Reykjavík',
-                titleEn: 'Rektor of Rekjavík University',
+                titleEn: 'Rector of Rekjavík University',
                 email: 'ari@ru.is',
                 linkedInLink: null,
                 photoURL: null,

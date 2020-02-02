@@ -17,6 +17,47 @@
   color: rgba(98, 88, 146, 0.85);
 }
 
+.challenge_div{
+  padding-left: 15%;
+  padding-bottom: 2%;
+}
+
+.last_challenge_padding_bottom_normal{
+  padding-bottom: 12%;
+  padding-top: 1%;
+  padding-left: 22%;
+}
+
+.challenge_text{
+  color:rgba(255,185,0,0.85);
+  font-size: 12px;
+}
+
+.challenge_text_color_fade{
+  /* Fade */
+  color:rgba(250,218,135,0.85);
+}
+
+.challenge_text_color_normal{
+  /* Normal */
+  color:rgba(255,185,0,0.85);
+}
+
+.challenge_text_color_strong{
+  /* Strong */
+  color:rgba(199,146,6,0.85) !important;
+}
+
+.challenge_text:hover, .challenge_text:focus, .challenge_text:active{
+  text-decoration: none;
+  transform: scale(1.5);
+  transition-property: transform;
+  transition-duration: 0.1s;
+  color:rgba(199,146,6,0.85);
+}
+
+
+
 .a_modified:hover, .a_modified:focus, .a_modified:active{
   text-decoration: none;
   transform: scale(1.5);
@@ -52,5 +93,8 @@
 
   .diagonal_text{
     font-size: 10px;
+  }
+  .challenge_text{
+    font-size: 8px;
   }
 }

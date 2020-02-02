@@ -135,24 +135,24 @@ class Challenges extends Component {
           prizesIsURL: null,
           displayDetails: true
         },
-        // {
-        //   id: 7,
-        //   titleEn: "To Be Announced",
-        //   titleIs: "Verður Tilkynnt Síðar",
-        //   textEn: "To Be Announced",
-        //   textIs: "Verður Tilkynnt Síðar",
-        //   company: "Ölgerðin",
-        //   vodeoURL: null,
-        //   companyPhotoURL: "/images/sponsors/restart/olgerdinLogoSVGResizedV2.png",
-        //   detailsEnPhotoURL: "/images/Challenges/Olgerdin/Description_En.png",
-        //   detailsIsPhotoURL: "/images/Challenges/Olgerdin/Description_Is.png",
-        //   companyLinkURL: 'https://www.olgerdin.is/',
-        //   criteriaPhotoEnURL: "/images/Challenges/Olgerdin/Criteria_En.png",
-        //   criteriaPhotoIsURL:"/images/Challenges/Olgerdin/Criteria_Is.png",
-        //   prizesEnURL: null,
-        //   prizesIsURL: null,
-        //   displayDetails: false
-        // }
+        {
+          id: 7,
+          titleEn: "To Be Announced",
+          titleIs: "Verður Tilkynnt Síðar",
+          textEn: "To Be Announced",
+          textIs: "Verður Tilkynnt Síðar",
+          company: "Ölgerðin",
+          vodeoURL: null,
+          companyPhotoURL: "/images/sponsors/restart/olgerdinLogoSVGResizedV2.svg",
+          detailsEnPhotoURL: "/images/Challenges/Olgerdin/Description_En.png",
+          detailsIsPhotoURL: "/images/Challenges/Olgerdin/Description_Is.png",
+          companyLinkURL: 'https://www.olgerdin.is/',
+          criteriaPhotoEnURL: "/images/Challenges/Olgerdin/Criteria_En.png",
+          criteriaPhotoIsURL:"/images/Challenges/Olgerdin/Criteria_Is.png",
+          prizesEnURL: null,
+          prizesIsURL: null,
+          displayDetails: false
+        }
       ]
     };
   }

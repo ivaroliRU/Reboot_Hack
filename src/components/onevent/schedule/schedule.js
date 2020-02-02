@@ -279,7 +279,7 @@ class Schedule extends Component {
           ),
           (
             <div
-              id="Schedule_Element"
+              id={"Schedule_Element"+someEvent.id}
               key={someEvent.id+10}
               className={style.dot_info+" "+style.extra_margin} 
               data-description="1">
@@ -306,7 +306,7 @@ class Schedule extends Component {
           ),
           (
             <div 
-              id="Schedule_Element"
+              id={"Schedule_Element"+someEvent.id}
               key={someEvent.id+10}
               className={style.dot_info} 
               data-description="1">
