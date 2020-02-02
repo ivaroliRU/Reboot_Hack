@@ -21,14 +21,14 @@
 }
 
 .rank4{
-  padding: 1.0rem !important;
+  padding: 1.5rem !important;
 }
 
 @media (min-width: 600px){
   .col_sm_1_half {
-      -ms-flex: 0 0 14.285%;
-      flex: 0 0 14.285%;
-      max-width: 14.285%;
+      /* -ms-flex: 0 0 14.285%;
+      flex: 0 0 14.285%; */
+      max-width: 17.285%;
   }
 }
 @media (max-width: 600px){

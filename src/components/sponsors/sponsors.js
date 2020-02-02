@@ -139,7 +139,6 @@ class Sponsors extends Component {
                         {
                             id: 1,
                             name: 'Hostelling International',
-                            // photoURL: './images/sponsors/other/HI_LOGO_PRIMARY_CMYK.png',
                             photoURL: './images/sponsors/other/HostellingLogoSVG.svg',
                             website: 'https://www.hostel.is/'
                         },
@@ -164,7 +163,6 @@ class Sponsors extends Component {
                         {
                             id: 5,
                             name: 'Utmessan',
-                            // photoURL: './images/sponsors/other/Utmessan.png',
                             photoURL: './images/sponsors/other/Utmessan_logo.png',
                             website: 'https://utmessan.is/'
                         },
@@ -173,6 +171,18 @@ class Sponsors extends Component {
                             name: 'Ský',
                             photoURL: './images/sponsors/other/skylogo2leleggaedi.png',
                             website: 'https://www.sky.is/'
+                        },
+                        {
+                            id: 7,
+                            name: 'H-Berg',
+                            photoURL: './images/sponsors/other/HBERG_LOGO_svg.svg',
+                            website: 'https://hberg.is/'
+                        },
+                        {
+                            id: 8,
+                            name: 'FabLab Reykjavík',
+                            photoURL: './images/sponsors/other/FabLabReykjavik.png',
+                            website: 'https://www.fablab.is/reykjavik.html'
                         },
                     ]
                 }
