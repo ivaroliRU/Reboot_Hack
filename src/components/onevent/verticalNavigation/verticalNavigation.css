@@ -13,8 +13,8 @@
 }
 
 .diagonal_text_straight{
-  transform: none;
-  padding-left: 15%;
+  /* transform: none;
+  padding-left: 15%; */
 }
 
 
@@ -28,7 +28,7 @@
   padding-bottom: 2%;
 }
 .challenge_div_straight{
-  padding-left: 20%;
+  /* padding-left: 20%; */
 }
 
 .last_challenge_padding_bottom_normal{
@@ -37,9 +37,9 @@
   padding-left: 22%;
 }
 .last_challenge_padding_bottom_normal_straight{
-    padding-top: 0%;
+    /* padding-top: 0%;
     padding-left: 20%;
-    padding-bottom: 2%;
+    padding-bottom: 2%; */
 }
 
 .challenge_text{
@@ -108,8 +108,8 @@
   }
 
   .diagonal_text_straight{
-    font-size: 8px;
-    padding-left: 8%;
+    /* font-size: 8px;
+    padding-left: 8%; */
   }
 
   .challenge_text{
@@ -117,11 +117,11 @@
   }
 
   .challenge_text_straight{
-    font-size: 6px;
+    /* font-size: 6px; */
   }
 
   .challenge_div_straight, 
   .last_challenge_padding_bottom_normal_straight{
-    padding-left: 10%;
+    /* padding-left: 10%; */
   }
 }

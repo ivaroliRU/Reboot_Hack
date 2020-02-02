@@ -235,7 +235,7 @@ class VerticalNavigation extends Component {
                         onClick={() => sectionSelected(1,6)}>KPMG</a><br />
                 </div>
 
-                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight+" "+style.last_challenge_padding_bottom_normal+" "+style.last_challenge_padding_bottom_normal_straight}>
+                <div className={style.diagonal_text+" "+style.diagonal_text_straight+" "+style.challenge_div+" "+style.challenge_div_straight}>
                     <a 
                         id="Challenge7" 
                         className={style.challenge_text+" "+style.challenge_text_straight+" "+style.challenge_text_color_normal} 
