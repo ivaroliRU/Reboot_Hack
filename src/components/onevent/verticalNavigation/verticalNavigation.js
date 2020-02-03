@@ -177,7 +177,7 @@ class VerticalNavigation extends Component {
 
 
         return (
-            <div className={style.vertical_navigation_div}>
+            <div className={style.vertical_navigation_div+" "+style.hidden}>
                 <div className={style.diagonal_text+" "+style.diagonal_text_straight}>
                     <a 
                         id="Section1" 

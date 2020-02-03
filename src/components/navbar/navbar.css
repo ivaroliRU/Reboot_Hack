@@ -70,4 +70,7 @@
   .dropdown_item{
     color: rgba(255,255,255,.5) !important;
   }
+  .dropdown_item:active{
+    background-color: rgb(105,73,145) !important;
+  }
 }

@@ -137,10 +137,10 @@ class Challenges extends Component {
         },
         {
           id: 7,
-          titleEn: "To Be Announced",
-          titleIs: "Verður Tilkynnt Síðar",
+          titleEn: "How will tech make sale and manufacturing at Ölgerðin more sustainable?",
+          titleIs: "Hvernig mun tækni gera sölu og framleiðslu Ölgerðarinnar sjálfbærari?",
           textEn: "To Be Announced",
-          textIs: "Verður Tilkynnt Síðar",
+          textIs: "Ölgerðin er stærsta drykkjavörufyrirtæki landsins. Fyrirtækið framleiðir, flytur inn, dreifir og selur yfir 1000 vörunúmera. Áhersla er lögð á að vörur fyrirtækisins séu fyrsta flokks og að viðskiptavinir þess geti gengið að hágæða þjónustu vísri. Stöðugt er leitað nýrra leiða til að efla starfsemina og ná fram meiri framleiðni með því að gera hlutina betur og fyrr en aðrir.",
           company: "Ölgerðin",
           vodeoURL: null,
           companyPhotoURL: "/images/sponsors/restart/olgerdinLogoSVGResizedV2.svg",
@@ -151,7 +151,7 @@ class Challenges extends Component {
           criteriaPhotoIsURL:"/images/Challenges/Olgerdin/Criteria_Is.png",
           prizesEnURL: null,
           prizesIsURL: null,
-          displayDetails: false
+          displayDetails: true
         }
       ]
     };
@@ -171,7 +171,7 @@ class Challenges extends Component {
       criteriaText = "Matsatriði:";
     }
     else{
-      moreDetails = "Mode details";
+      moreDetails = "More details";
       upcomingChallenges = "There will be some more upcoming challenges, so make sure to re-visit the webiste :)";
       challangesText = "Challenges";
       challengeInfo = "Hackathons are not about “hacking” but rather creating. Hackathon can be thought of as an invention marathon where students compete in groups and work for 24 hours to develop a solution from scratch, based on challenges presented here below. A prize will be awarded to the team that comes up with the best solution to each challenge.";
@@ -210,7 +210,7 @@ class Challenges extends Component {
                     </button>
                   </div>
                   <div className={style.modal_body+" modal-body"}>
-                    <div className={style.no_horizontal_margin+" row"}><p className={style.vertical_marginAuto}>{postedByText} </p> <img className={style.modal_logo+" img-fluid "+style.vertical_margin_auto} src={challenge.companyPhotoURL}/></div>
+                    <div className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </div>
                     <p>{detailsText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.detailsIsPhotoURL : challenge.detailsEnPhotoURL}/>
                     <p>{criteriaText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.criteriaPhotoIsURL : challenge.criteriaPhotoEnURL}/>
                     {/* <p>Prizes: </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.prizesIsURL : challenge.prizesEnURL}/> */}

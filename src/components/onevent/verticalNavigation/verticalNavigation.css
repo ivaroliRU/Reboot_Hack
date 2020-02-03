@@ -1,3 +1,7 @@
+.hidden{
+  display: none !important;
+}
+
 .vertical_navigation_div{
   display: table-cell;
   vertical-align: middle;
