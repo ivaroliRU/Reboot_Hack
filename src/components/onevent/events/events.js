@@ -82,8 +82,8 @@ class Events extends Component {
            day: "14",
            monthEn: "February",
            monthIs: "Febrúar",
-           textEn: "All participants!",
-           textIs: "Allir þátttakendur!",
+           textEn: "Open for all participants",
+           textIs: "Opið öllum þátttakendum",
            location: "Askja"
         },
         {
