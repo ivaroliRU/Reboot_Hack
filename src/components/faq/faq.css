@@ -1,4 +1,4 @@
-.faq__total {
+.faq_total {
   margin-bottom: 2em;
   display: flex;
   flex-flow: column nowrap;
@@ -6,14 +6,14 @@
   /* max-width: 1200px; */
   align-items: center;
 }
-.faq__main__header {
+.faq_main_header {
   font-size: 2.5em;
   padding: 30px 0 0 0;
   margin: 0;
 }
-.Centeralign{
+.center_align{
   text-align: center;
 }
-.paddingTop{
+.padding_top{
     margin-top: 20px;
 }

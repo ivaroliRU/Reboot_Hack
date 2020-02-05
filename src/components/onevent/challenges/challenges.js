@@ -51,7 +51,7 @@ class Challenges extends Component {
           titleIs: "Leikjavæðing sparnaðar",
           textEn: "Saving is something we all need to focus on, but we may find it difficult as it is often much easier to spend than save. It can be a challenge to find the will power to continue the habit of saving especially when you are on a budget.  How can the elements of gaming like challenges and competition be used to gamify savings and encourage individuals to achieve their savings goals and make it fun at the same time.",
           textIs: "Að leggja fyrir og spara er eitthvað sem við þurfum öll að temja okkur en það getur reynst erfitt því það er oft auðveldara að eyða en spara. Það getur verið áskorun að viðhalda þeirri venju að spara sérstaklega þegar það þrengir að fjárhagslega. En hvernig er hægt nýta eiginleika tölvuleikja eins og áskoranir og samkeppni til þess að leikjavæða sparnað og hvetja einstaklinga til þess að leggja fyrir og hjálpa þeim að ná sínum fjárhagslegu markmiðum og hafa gaman af því á sama tíma.",
-          company: "Auður (Kvika)",
+          company: "Auður",
           vodeoURL: null,
           companyPhotoURL: "/images/sponsors/reboot/AudurSVG.svg",
           detailsEnPhotoURL: "/images/Challenges/Audur/Description_En.png",
@@ -104,7 +104,7 @@ class Challenges extends Component {
           titleEn: "The future of trust in business",
           titleIs: "Traust í viðskiptum framtíðarinnar",
           textEn: "The world is changing rapidly and so does the business environment. Technology spurs quality and financial and nonfinancial data provided insight. Emerging technologies and the 4th industrial revolution will have significant effect on the assurance landscape.    How will the company of the future fulfil its regulatory and stakeholder obligations and how will 3rd party assurance service evolve? From financial statement and VAT reporting, to customer satisfaction, the challenge to meet the increased regulatory compliance and customer demands is ever challenging. We want you to help us to determine how the assurance service of the future will look like, and how it will be used to increase trust within the Icelandic marketplace. We welcome all solutions, ranging from theories to technical solutions, and everything between",
-          textIs: "Verður Tilkynnt Síðar",
+          textIs: "Traust er lykilþáttur þegar kemur að heilbrigðum viðskiptum og samskiptum milli fyrirtækja. Viðskiptaumhverfið hefur tekið miklu breytingum undanfarin ár og í þessu samhengi er talið að fjórða iðnbyltingin sem byggir á stafrænum grunni geti leitt til grundvallarbreytinga á hagkerfum, fyrirtækjum og þjóðfélögum. Þessi nýja stafræna tækni felur í sér fjölmörg tækifæri og jafnframt áskoranir. Í allri þessari gagnasöfnun, miðlun og vinnslu á gögnum verður traust áfram lykilþáttur og því mikilvægt að endurskoðun og önnur staðfestingarvinna fylgi þessari öru þróun og breytingum.    Sem óháður þriðji aðili hefur KPMG ásamt öðrum aðilum mikilvægt hlutverk að yfirfara og staðfesta upplýsingar frá fyrirtækjum s.s. ársreikninga, skattskil og einnig fylgni gagnvart lögum og reglum. Ný tækni, aukin gagnasöfnun og aukið færslumagn kallar á nýja nálgun í þessari vinnu.    Hvernig mun þessi tækniþróun og breyting hafa áhrif á þetta umhverfi og hvernig geta óháðir aðilar eins og KPMG nýtt sér tæknilausnir til að fylgja þessari þróun?",
           company: "KPMG",
           vodeoURL: null,
           companyPhotoURL: "/images/sponsors/reboot/KPMGSVG.svg",
@@ -135,24 +135,24 @@ class Challenges extends Component {
           prizesIsURL: null,
           displayDetails: true
         },
-        // {
-        //   id: 7,
-        //   titleEn: "To Be Announced",
-        //   titleIs: "Verður Tilkynnt Síðar",
-        //   textEn: "To Be Announced",
-        //   textIs: "Verður Tilkynnt Síðar",
-        //   company: "Ölgerðin",
-        //   vodeoURL: null,
-        //   companyPhotoURL: "/images/sponsors/restart/olgerdinLogoSVGResizedV2.png",
-        //   detailsEnPhotoURL: "/images/Challenges/Olgerdin/Description_En.png",
-        //   detailsIsPhotoURL: "/images/Challenges/Olgerdin/Description_Is.png",
-        //   companyLinkURL: 'https://www.olgerdin.is/',
-        //   criteriaPhotoEnURL: "/images/Challenges/Olgerdin/Criteria_En.png",
-        //   criteriaPhotoIsURL:"/images/Challenges/Olgerdin/Criteria_Is.png",
-        //   prizesEnURL: null,
-        //   prizesIsURL: null,
-        //   displayDetails: false
-        // }
+        {
+          id: 7,
+          titleEn: "How will tech make sale and manufacturing at Ölgerðin more sustainable?",
+          titleIs: "Hvernig mun tækni gera sölu og framleiðslu Ölgerðarinnar sjálfbærari?",
+          textEn: "Ölgerðin is both a highly developed and progressive manufacturing company, and a determined sales and marketing organisation. We are in partnership with leading global suppliers.  All of our suppliers have one thing in common - they are leaders in their fields, or they have the potential to become the best. New ways to grow the business and achieve greater productivity are constantly sought by doing things better and sooner than others.",
+          textIs: "Ölgerðin er stærsta drykkjavörufyrirtæki landsins. Fyrirtækið framleiðir, flytur inn, dreifir og selur yfir 1000 vörunúmera. Áhersla er lögð á að vörur fyrirtækisins séu fyrsta flokks og að viðskiptavinir þess geti gengið að hágæða þjónustu vísri. Stöðugt er leitað nýrra leiða til að efla starfsemina og ná fram meiri framleiðni með því að gera hlutina betur og fyrr en aðrir.",
+          company: "Ölgerðin",
+          vodeoURL: null,
+          companyPhotoURL: "/images/sponsors/restart/olgerdinLogoSVGResizedV2.svg",
+          detailsEnPhotoURL: "/images/Challenges/Olgerdin/Description_En.png",
+          detailsIsPhotoURL: "/images/Challenges/Olgerdin/Description_Is.png",
+          companyLinkURL: 'https://www.olgerdin.is/',
+          criteriaPhotoEnURL: "/images/Challenges/Olgerdin/Criteria_En.png",
+          criteriaPhotoIsURL:"/images/Challenges/Olgerdin/Criteria_Is.png",
+          prizesEnURL: null,
+          prizesIsURL: null,
+          displayDetails: true
+        }
       ]
     };
   }
@@ -171,7 +171,7 @@ class Challenges extends Component {
       criteriaText = "Matsatriði:";
     }
     else{
-      moreDetails = "Mode details";
+      moreDetails = "More details";
       upcomingChallenges = "There will be some more upcoming challenges, so make sure to re-visit the webiste :)";
       challangesText = "Challenges";
       challengeInfo = "Hackathons are not about “hacking” but rather creating. Hackathon can be thought of as an invention marathon where students compete in groups and work for 24 hours to develop a solution from scratch, based on challenges presented here below. A prize will be awarded to the team that comes up with the best solution to each challenge.";
@@ -184,31 +184,33 @@ class Challenges extends Component {
       (challenge) => {
 
         return (
-          <div key={challenge.id} className={style.myElement}>
-            <h3 className={generalStyle.headerStyle}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
-            <h5 className={generalStyle.headerStyle+" row "+generalStyle.spacingAfterCompany}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extraHeight+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
-            <p className={style.textJustify+" "+generalStyle.headerStyle+" "+generalStyle.paragraphStyle}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
-          
-            {/*<button type="button" className={(challenge.displayDetails !== true ? style.myButton : null)+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
-              {moreDetails}
-            </button>*/}
+          <div key={challenge.id} id={challenge.company} className={style.my_element+" "+style.challenge_padding}>
+            <h3 className={generalStyle.header_style+" "+style.header_size_modified_on_mobile}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
+            <h5 className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"+(challenge.id==7 ? " "+ style.image_bigger : null)} src={challenge.companyPhotoURL}/></a>} </h5>
+            <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
+
+            <div className={style.text_align_center}>
+              <button type="button" className={style.my_button+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
+                {moreDetails}
+              </button>
+            </div>
 
 
             <div className={"modal fade"} id={"Modal"+challenge.id} tabIndex="-1" role="dialog" aria-labelledby={"Modal"+challenge.id} aria-hidden="true">
-              <div className={style.myModalDialog+" modal-dialog"} role="document">
+              <div className={style.my_modal_dialog+" modal-dialog"} role="document">
                 <div className="modal-content">
                   <div className="modal-header">
-                    <div className={style.modalHeaderStyle+" row"}>
+                    <div className={style.modal_header_style+" row"}>
                       
                       <h5 className={"modal-title"} id={"Modal"+challenge.id}> {Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h5>
                      
                     </div>
-                    <button type="button" className={style.buttonClose+" close"} data-dismiss="modal" aria-label="Close">
+                    <button type="button" className={style.button_close+" close"} data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div className={style.modalBody+" modal-body"}>
-                    <div className={style.noHorizontalMargin+" row"}><p className={style.verticalMarginAuto}>{postedByText} </p> <img className={style.ModalLogo+" img-fluid "+style.verticalMarginAuto} src={challenge.companyPhotoURL}/></div>
+                  <div className={style.modal_body+" modal-body"}>
+                    <div className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"+(challenge.id==7 ? " "+ style.image_bigger : null)} src={challenge.companyPhotoURL}/></a>} </div>
                     <p>{detailsText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.detailsIsPhotoURL : challenge.detailsEnPhotoURL}/>
                     <p>{criteriaText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.criteriaPhotoIsURL : challenge.criteriaPhotoEnURL}/>
                     {/* <p>Prizes: </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.prizesIsURL : challenge.prizesEnURL}/> */}
@@ -226,13 +228,13 @@ class Challenges extends Component {
    
 
     return (
-        <div className={"container"}>
-          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align+" "+style.challengeTextStyle}>{challangesText}</h1>
-            <p  className={generalStyle.text_styling+" "+generalStyle.darkGrayColor}>{challengeInfo}</p>
+        <div className={"container "+style.padding_bottom_after_div}>
+          <h1 className={generalStyle.text_styling+" "+generalStyle.text_align+" "+style.challenge_text_style}>{challangesText}</h1>
+            <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{challengeInfo}</p>
           <div className={style.myDiv}>
             {challengeSection}
           </div>
-          <p className={generalStyle.headerStyle+" "+generalStyle.paragraphStyle}>{upcomingChallenges}</p>
+          {/* <p className={generalStyle.header_syle+" "+generalStyle.paragraph_style}>{upcomingChallenges}</p> */}
         </div>
     );
   }

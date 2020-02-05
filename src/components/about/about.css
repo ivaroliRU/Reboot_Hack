@@ -1,16 +1,24 @@
-.reboot_about_IMGcontainer {
+.reboot_about_IMG_container {
     padding-left: 50px;
     padding-top: 50px;
 
 }
 
-.inlineBox{
+.no_padding_top{
+    padding-top: 0 !important;
+}
+
+.padding_top_20{
+    padding-top:20px;
+}
+
+.inline_box{
     padding: 50px 50px;
 }
 
 /* For two buttons */
 
-#modalRegisterForm {
+#modal_register_form {
     background: lightblue;
     position: fixed;
     top: 50%;
@@ -23,19 +31,19 @@
     color: #625892;
 }
 
-.inputGroupTextStyle{
+.input_group_text_style{
     min-width: 54px;
 }
 
-.iconMarginLeft{
+.icon_margin_left{
     margin-left: 7px;
 }
 
-.labelAligned{
+.label_aligned{
     margin-bottom: 0 !important;
 }
 
-.modal-guts {
+.modal_guts {
     position: absolute;
     top: 0;
     left: 0;
@@ -81,18 +89,18 @@
     box-shadow: 0 0 0 0.2rem rgba(105, 73, 145,.5) !important;
 }
 
-.register_button:hover{
+.registerButton:hover{
     background-color: #6029a3 !important;
     border-color: #54248f !important;
 }
 
-.register_button:active{
+.registerButton:active{
     background-color: #6029a3 !important;
     border-color: #54248f !important;
 }
 
 @media only screen and (max-width: 600px) {
-    .modal_content{
+    .modalContent{
         margin-left: 0 !important;
 
     }

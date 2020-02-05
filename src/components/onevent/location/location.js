@@ -50,7 +50,7 @@ class Location extends Component {
 
     return (
         <div className={"container pb-4"}>
-          <h3 className={style.textStyle}> {location} </h3>
+          <h3 className={style.text_style}> {location} </h3>
           <div className={"container"}>
             <p> <b>Askja</b> - Sturlugata 7, 102 Reykjavik</p>
           </div>

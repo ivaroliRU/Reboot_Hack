@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import {getTranslation} from '../../translations';
-
-// import SponsorRow from './components/sponsorRow';
-// import SponsorDetail from './components/sponsorDetail';
 import SponsorImages from './components/sponsorImages';
 import style from './sponsors.css';
 import Cookies from 'js-cookie';
@@ -142,7 +139,6 @@ class Sponsors extends Component {
                         {
                             id: 1,
                             name: 'Hostelling International',
-                            // photoURL: './images/sponsors/other/HI_LOGO_PRIMARY_CMYK.png',
                             photoURL: './images/sponsors/other/HostellingLogoSVG.svg',
                             website: 'https://www.hostel.is/'
                         },
@@ -167,7 +163,6 @@ class Sponsors extends Component {
                         {
                             id: 5,
                             name: 'Utmessan',
-                            // photoURL: './images/sponsors/other/Utmessan.png',
                             photoURL: './images/sponsors/other/Utmessan_logo.png',
                             website: 'https://utmessan.is/'
                         },
@@ -176,6 +171,18 @@ class Sponsors extends Component {
                             name: 'Ský',
                             photoURL: './images/sponsors/other/skylogo2leleggaedi.png',
                             website: 'https://www.sky.is/'
+                        },
+                        {
+                            id: 7,
+                            name: 'H-Berg',
+                            photoURL: './images/sponsors/other/HBERG_LOGO_svg.svg',
+                            website: 'https://hberg.is/'
+                        },
+                        {
+                            id: 8,
+                            name: 'FabLab Reykjavík',
+                            photoURL: './images/sponsors/other/FabLabReykjavik.png',
+                            website: 'https://www.fablab.is/reykjavik.html'
                         },
                     ]
                 }
@@ -199,7 +206,7 @@ class Sponsors extends Component {
             (sponsor) => {
                 return (
                     <div>
-                    <h2 className={style.titlePadding+" text-center"}>{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
+                    <h2 className={style.title_padding+" text-center"}>{Cookies.get('language')=='is' ? sponsor.nameIs :sponsor.nameEn}</h2>
                     <SponsorImages
                         key = {sponsor.id}
                         spRank={sponsor.rank}
@@ -210,8 +217,8 @@ class Sponsors extends Component {
             });
 
         return (
-            <div className={style.sponsor__content +" "+ style.App}>
-                <h1 className={style.sponsor__main__header}>{this.text.sponsors.sponsors}</h1>
+            <div className={style.sponsor_content +" "+ style.app}>
+                <h1 className={style.sponsor_main_header}>{this.text.sponsors.sponsors}</h1>
                 {/* Her koma myndir af styrkaradilum */}
                 <div>
                     {sponsorSection}

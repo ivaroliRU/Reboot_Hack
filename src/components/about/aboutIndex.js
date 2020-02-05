@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import {getTranslation} from '../../translations';
-// import ParallaxScrollImage from '../parallaxScrollImage/parallaxScrollImage';
 import style from "./about.css";
 
 class AboutIndex extends Component {
     render() {
         this.text = getTranslation();
         return (
-            <div className={style.inlineBox}>
+            <div className={style.inline_box}>
                 <div className="container">
                     <h3>{this.text.detail.fourth.header}</h3>
                     <p>{this.text.detail.fourth.main}</p>

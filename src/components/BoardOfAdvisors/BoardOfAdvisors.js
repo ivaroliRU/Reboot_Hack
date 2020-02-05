@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import AdvisorsStyle from "./BoardOfAdvisors.css";
-import TeamsStyle from "../Teams/Teams.css";
-import TeamStyle from "../Teams/Team/Team.css";
-import Advisor from "./Advisor/Advisor";
+import advisorsStyle from "./boardOfAdvisors.css";
+import teamsStyle from "../teams/teams.css";
+import teamStyle from "../teams/team/team.css";
+import Advisor from "./advisor/advisor";
 import Cookies from 'js-cookie';
 
 
@@ -34,7 +34,7 @@ constructor(props) {
                 id: 2,
                 name: 'Ari Kristinn Jónsson',
                 titleIs: 'Rektor Háskólans í Reykjavík',
-                titleEn: 'Rektor of Rekjavík University',
+                titleEn: 'Rector of Rekjavík University',
                 email: 'ari@ru.is',
                 linkedInLink: null,
                 photoURL: null,
@@ -267,10 +267,10 @@ constructor(props) {
 
     return (
         <div>
-            <h1 className={TeamsStyle.TheTeamText}>{titleText}</h1>
+            <h1 className={teamsStyle.the_team_text}>{titleText}</h1>
             <div className={"text-center"}>
                 <div className={"container"}>
-                    <div className={TeamStyle.TeamDiv}>
+                    <div className={teamStyle.team_div}>
                         <div className={"container"}>
                             <div className={"row"}>
                                 {advisorsSection}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from "./Individual.css";
+import style from "./individual.css";
 import Cookies from 'js-cookie';
 
 class Individual extends Component {
@@ -7,19 +7,19 @@ class Individual extends Component {
   render() {
 
     return (
-      <div className={style.IndividualPadding + " col-6 col-lg-3"}>
+      <div className={style.individual_padding + " col-6 col-lg-3"}>
         <div 
-          className={style.IndividualDiv}
+          className={style.individual_div}
         >
-          <div className={style.ContainedInformation}>
+          <div className={style.contained_information}>
             <img 
               src={this.props.individualPhotoUrl} 
-              className={style.normlaHeight+" "+style.IndividualImage+' img-fluid'}/>
+              className={style.normla_height+" "+style.individual_image+' img-fluid'}/>
               <br /> <br />
-            <p className={style.normlaHeight+" "+style.IndividualName}> 
+            <p className={style.normla_height+" "+style.individual_name}> 
               {this.props.individualName}
             </p>
-            <p className={style.normlaHeight+" "+style.Title}>
+            <p className={style.normla_height+" "+style.title}>
               {
                 Cookies.get('language')=='is' ? 
                   this.props.individualTitleIs 
@@ -31,7 +31,7 @@ class Individual extends Component {
                   null 
                   :
                   <a
-                    className={style.LinkedIn}
+                    className={style.linkedIn}
                     href={this.props.individualLinkedIn}
                     target="_blank">
                       <br/><i className={"fa fa-linkedin-square fa-lg"}></i>

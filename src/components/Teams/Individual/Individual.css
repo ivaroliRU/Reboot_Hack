@@ -1,31 +1,31 @@
-.IndividualDiv{
+.individual_div{
     border-bottom: 1px solid ;
     border-radius: 5px;
     background-color: #F0ECF4;
     height: 550px;
 }
 
-.IndividualPadding{
+.individual_padding{
     padding: 1.5%;
     margin: auto !important;
 }
 
-.Title{
+.title{
     font-weight: 22px;
     color: black;
     transform: scale(1) !important;
 }
 
-.ContainedInformation{
+.contained_information{
     min-height: 175px;
 }
 
-.IndividualImage{
+.individual_image{
     border-radius: 5px;
     transform: scale(1) !important;
 }
 
-.IndividualName{
+.individual_name{
     padding-top: 5%;
     font-size: 24px;
     font-weight: bold;
@@ -33,70 +33,69 @@
     transform: scale(1) !important;
 }
 
-.IndividualSocial{
+.individual_social{
     cursor: pointer;
     color: black
 }
 
-.UndecoratedATag{
+.undecorated_a_tag{
     word-spacing: 0.13em;
     color: inherit;
     text-decoration: none;
     cursor: pointer;
 }
 
-/* .UndecoratedATag :hover, .UndecoratedATag :focus, .UndecoratedATag :active, .UndecoratedATag :visited, .UndecoratedATag :focus-within{
-    color:inherit !important;
-    text-decoration: none !important;
-    cursor: pointer !important;
-} */
-
- .IndividualDiv :hover{
+.individual_div :hover{
     transform: scale(1.1);
     height: 96%;
     background-color: rgba(255, 255, 255, 1);
     transition: all 0.2s ease-in-out;
     border-radius: 7px;
 }
-.IndividualName :hover .UndecoratedATag{
+
+.individual_name:hover .undecorated_a_tag{
     color: blue !important;
     transition: all 0.2s ease-in-out;
 }
 
-.LinkedIn {
+.undecorated_a_tag:hover{
+    transform: scale(1) !important;
+}
+
+.linkedIn {
     padding-left: 1.25%;
     padding-right: 1.25%;
     color: black !important;
 }
-.LinkedIn :hover{
+.linkedIn :hover{
     color: rgb(0, 119, 181);
     transition: color 0.2s linear;
 }
-.normlaHeight{
+.normla_height{
     height: unset !important;
 }
 @media only screen and (max-width: 600px) {
 
-    .IndividualDiv :hover{
+    .individual_div:hover{
         height: 96%;
     }
     
-    .IndividualDiv{
+    .individual_div{
         height: 450px !important;
     }
-    .IndividualDiv :hover{
+    .individual_div:hover{
         background-color: rgba(255, 255, 255, 1);
         transform: scale(1) !important;
     }
 
-    .IndividualName{
+    .individual_name{
         font-size: 16px;
     }
-    .Title{
+    .title{
         font-weight: 14px;
     }
 
-    .LinkedIn {
+    .linkedIn {
         padding-left: 3.5%;
         padding-right: 3.5%;
       }

@@ -20,7 +20,13 @@ class SponsorImage extends Component {
 
     return(
       
-      <div className={style.image_center+(this.props.sponsorRank==4 ? " col-lg-2 "+style.colSm1Half : " col-lg-3")+" "+(this.props.sponsorName == null ? style.hideOnSmallScreens : (this.props.sponsorRank==1 ? "col-12" : (this.props.sponsorRank==4 ? "col-4" : "col-6")))}>
+      <div className={style.image_center
+                        +" "+(this.props.sponsorRank==4 ? "col-lg-3"+" "+style.col_sm_1_half 
+                                                    : "col-lg-3")
+                        +" "+(this.props.sponsorName == null ? style.hide_on_small_screens 
+                                                             : (this.props.sponsorRank==1 ? "col-12" 
+                                                                                          : (this.props.sponsorRank==4 ? "col-5" 
+                                                                                                                       : "col-6")))}>
         <a href={this.props.sponsorWebsite} className="custom-card" target="_blank">
         <div className={"card border-0 image__card"}>
           <div className={imgStyle+" card-body"}>

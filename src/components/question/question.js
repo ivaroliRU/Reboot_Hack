@@ -46,7 +46,7 @@ class Question extends Component {
             <div>
                 <button className={style.accordion} onClick={this.handleClick} id={"btn-"+this.questionId}>{text}</button>
                 <div className={style.panel} id={this.questionId}>
-                    <p>{answer}</p>
+                    <p className="answer" dangerouslySetInnerHTML={{__html: answer}} />
                 </div>
             </div>
         );

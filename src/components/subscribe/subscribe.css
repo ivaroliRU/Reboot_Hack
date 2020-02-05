@@ -1,4 +1,4 @@
-.Subscribe_Div{
+.subscribe_div{
     padding-top: 3%;
     padding-bottom: 3%;
     height: auto;
@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-.Subscribe_Section{
+.subscribe_section{
     margin: 0 auto; /* Center*/
     border: 1px transparent rgba(1, 1, 1, 1);
     background: rgba(255, 255, 255, 0.7);
@@ -38,23 +38,23 @@
     min-height: 400px;
 }
 
-.Blue_a{
+.blue_a{
     color: blue !important;
     cursor: pointer;
     text-decoration: underline !important;
 }
 
-.Subscribe_Button{
+.subscribe_button{
     box-shadow: 
     0.3em 0.3em 0 0 var(--color),
     inset 0.3em 0.3em 0 0 var(--color);
 }
 
-.Subscribe_Modal{
+.subscribe_modal{
     max-width: 100% !important;
 }
 
-.Section{
+.section{
     
     display: flex;
     align-items: center;
@@ -66,7 +66,7 @@
     padding-top: 3%;
 }
 
-.Question{
+.question{
     font-size: 30px;
     color: orangered;
 
@@ -74,7 +74,7 @@
     float: left;
 }
 
-.Answer{
+.answer{
     font-size: 30px;
     color: purple;
 

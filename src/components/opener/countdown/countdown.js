@@ -5,6 +5,18 @@ import Cookies from 'js-cookie';
 class Countdown extends Component {
 
     render() {
+        var dateNow = new Date();
+        var displayThisSection;
+
+        if (dateNow.getTime() <= (new Date('Feb 14, 2020 18:00:00').getTime())){
+            displayThisSection = true;
+            console.log(displayThisSection)
+        }
+        else{
+            displayThisSection = false;
+            console.log(displayThisSection)
+        }
+
 
         var daysText = "",
             hoursText = "",
@@ -29,7 +41,7 @@ class Countdown extends Component {
               hour = minute * 60,
               day = hour * 24;
 
-        let countDown = new Date('Feb 14, 2020 08:00:00').getTime();
+        let countDown = new Date('Feb 14, 2020 18:00:00').getTime();
         let x = setInterval(
             function() {
                 let now = new Date().getTime(),
@@ -49,12 +61,12 @@ class Countdown extends Component {
         return (
             <div 
                 id="Countdown"
-                className={style.countdownDiv+" container row"}>
-                <div className={style.dispalyContents}>
-                    <div className={style.countdownSection+" col-lg-3 col-6 center-block text-center"}><b><span id="Days" className={style.numberStyle}>--</span></b><p className={style.bottomText}>{daysText}</p></div>
-                    <div className={style.countdownSection+" col-lg-3 col-6 center-block text-center"}><b><span id="Hours" className={style.numberStyle}>--</span></b><p className={style.bottomText}>{hoursText}</p></div>
-                    <div className={style.countdownSection+" col-lg-3 col-6 center-block text-center"}><b><span id="Minutes" className={style.numberStyle}>--</span></b><p className={style.bottomText}>{minutesText}</p></div>
-                    <div className={style.countdownSection+" col-lg-3 col-6 center-block text-center"}><b><span id="Seconds" className={style.numberStyle}>--</span></b><p className={style.bottomText}>{secondsText}</p></div>
+                className={style.countdown_div+" container row"+ (displayThisSection == false ? " "+style.display_none : null)}>
+                <div className={style.dispaly_contents}>
+                    <div className={style.countdown_section+" col-lg-3 col-6 center-block text-center"}><b><span id="Days" className={style.number_style}>--</span></b><p className={style.bottom_text}>{daysText}</p></div>
+                    <div className={style.countdown_section+" col-lg-3 col-6 center-block text-center"}><b><span id="Hours" className={style.number_style}>--</span></b><p className={style.bottom_text}>{hoursText}</p></div>
+                    <div className={style.countdown_section+" col-lg-3 col-6 center-block text-center"}><b><span id="Minutes" className={style.number_style}>--</span></b><p className={style.bottom_text}>{minutesText}</p></div>
+                    <div className={style.countdown_section+" col-lg-3 col-6 center-block text-center"}><b><span id="Seconds" className={style.number_style}>--</span></b><p className={style.bottom_text}>{secondsText}</p></div>
                 </div>
             </div>
         );

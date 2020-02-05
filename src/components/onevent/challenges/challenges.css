@@ -1,4 +1,4 @@
-.myDiv {
+.my_div {
     width: 100%;
     margin: auto;
   }
@@ -7,100 +7,104 @@
     font-family: 'Montserrat', sans-serif;
     color: #694991;
 }
-.challengeTextStyle{
+.challenge_text_style{
   font-weight: unset;
 }
-.ModalLogo{
+.modal_logo{
   max-height: 2rem;
   width: auto;
 }
 
-.modalHeaderStyle{
+.modal_header_style{
   margin: auto;
   align-items: center;
 }
 
-.verticalMarginAuto{
+.vertical_margin_auto{
   margin-top: auto;
   margin-bottom: auto;
 }
-.noHorizontalMargin{
+.no_horizontal_margin{
   margin-left: 0;
   margin-right: 0;
 }
 
-.myElement {
+.my_element {
   font-size: 1em;
   line-height: 1.75em;
-  border-top: 3px solid;
-  /* ATH, here is the error need to fix !
-  border-image: linear-gradient(to left, #694991 0%, #e26fe8 100%);
-  border-image-slice: 30%; */
-  border-width: 3px;
   margin: 0;
-  padding: 40px;
   position: relative;
   color: #694991;
+  padding-top: 5%;
+  padding-bottom: 5%;
   
 }
-/* padding = top right bottom left */
-.myElement:nth-child(odd) {
-  -webkit-appearance: none;
-  border-right: 3px solid;
-  padding-left: 0;
-}
-.myElement:nth-child(odd):before {
-  -webkit-appearance: none;
-  left: 100%;
-  margin-left: -20px;
-}
-.myElement:nth-child(even) {
-  -webkit-appearance: none;
-  border-left: 3px solid;
-  padding-right: 0;
-}
-.myElement:nth-child(even):before {
-  -webkit-appearance: none;
-  right: 100%;
-  margin-right: -20px;
-}
-.myElement:first-child {
-  border-top: 0;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-}
-.myElement:last-child {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.textJustify{
+
+.text_justify{
   text-align: justify;
 }
 
 .image{
-  /* border: 1px solid black; */
   height: 36px;
 }
+.image_bigger{
+  height:76px;
+}
 
-.extraHeight{
+.extra_height{
   height: 60px;
 }
 
-.marginAuto{
+.margin_auto{
   margin: auto !important;
 }
-.displayFlex{
+
+.display_flex{
   display: flex;
 }
-.modalBody{
+
+.modal_body{
 
 }
-.myButton{
-  display: none;
+
+.text_align_center{
+  text-align: center;
 }
-.myModalDialog{
+
+.my_button{
+  /* display: none; */
+  float: middle;
+}
+
+.my_modal_dialog{
   max-width: 80%;
 }
-.buttonClose{
+
+.button_close{
   margin-left: 0 !important;
+}
+
+.padding_bottom_after_div{
+  padding-bottom: 15%;
+}
+@media only screen and (max-width: 600px) {
+
+  .my_modal_dialog{
+    max-width: unset;
+  }
+
+  .challenge_padding{
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .vertical_padding_on_logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .header_size_modified_on_mobile{
+    font-size: 24px;
+  }
+
 }

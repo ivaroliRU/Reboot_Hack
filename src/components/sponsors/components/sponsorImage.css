@@ -1,4 +1,4 @@
-.image__card {  
+.image_card {  
   background-color: rgba(245, 245, 245, 1);
   opacity: .4;
 }
@@ -21,18 +21,18 @@
 }
 
 .rank4{
-  padding: 1.0rem !important;
+  padding: 1.5rem !important;
 }
 
 @media (min-width: 600px){
-  .colSm1Half {
-      -ms-flex: 0 0 14.285%;
-      flex: 0 0 14.285%;
-      max-width: 14.285%;
+  .col_sm_1_half {
+      /* -ms-flex: 0 0 14.285%;
+      flex: 0 0 14.285%; */
+      max-width: 17.285%;
   }
 }
 @media (max-width: 600px){
-  .hideOnSmallScreens{
+  .hide_on_small_screens{
     display: none;
   }
   .rank1{

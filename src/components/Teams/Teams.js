@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import TeamsStyle from "./Teams.css";
-import TeamStyle from "./Team/Team.css"
-import Team from './Team/Team';
+import teamsStyle from "./teams.css";
+import teamStyle from "./team/team.css"
+import Team from './team/team';
 
 class Teams extends Component {
     
@@ -28,14 +28,14 @@ constructor(props) {
               titleEn: 'Software Developer',
               titleIs: 'Forritari'
             },
-            {
-              id: 2,
-              name: 'Embla Dís Haraldsdóttir',
-              linkedInLink: null,
-              photoURL: './images/team/A-Emblafin_comp.jpg',
-              titleEn: 'Marketing',
-              titleIs: 'Markaðsteymi'
-            },
+            // {
+            //   id: 2,
+            //   name: 'Embla Dís Haraldsdóttir',
+            //   linkedInLink: null,
+            //   photoURL: './images/team/A-Emblafin_comp.jpg',
+            //   titleEn: 'Marketing',
+            //   titleIs: 'Markaðsteymi'
+            // },
             {
               id: 3,
               name: 'George-Cosmin Moroșanu',
@@ -48,7 +48,7 @@ constructor(props) {
               id: 4,
               name: 'Guðrún Sara Örnólfsdóttir',
               linkedInLink: 'https://www.linkedin.com/in/gudrun-sara-ornolfsdottir/',
-              photoURL: './images/team/gudrunreboot_comp.jpg',
+              photoURL: './images/team/A-Gudrunfin_comp.jpg',
               titleEn: 'Outreach manager',
               titleIs: 'Kynningarstjóri'
             },
@@ -151,10 +151,9 @@ constructor(props) {
 
     return (
       <div>
-        {/* <h1 className={TeamsStyle.Glow+' '+TeamsStyle.H1}>Our AMAZING Team:</h1> */}
         <h1 
-        className={TeamsStyle.TheTeamText}>Our AMAZING Team</h1>
-        <div className={"text-center "+TeamStyle.top0}>
+        className={teamsStyle.the_team_text}>Our AMAZING Team</h1>
+        <div className={"text-center "+teamStyle.top0}>
               {teamsSection}
         </div>
       </div>

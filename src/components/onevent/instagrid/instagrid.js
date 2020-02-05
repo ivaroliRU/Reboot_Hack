@@ -6,9 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import compose from 'recompose/compose';
-/* ********************** */
-
-import style from './judges.css';
+import style from './instagrid.css';
 
 const styles = () => ({
   wrapper: {},
@@ -38,6 +36,7 @@ const InstaGrid = ({ classes, media, account, status}: Props) => {
         media.map(({ displayImage, id, postLink, accessibilityCaption }) => (
           <Grid item xs={12} sm={6} md={4} key={id || displayImage}>
             <ButtonBase
+              id={"InstagramPost"}
               href={postLink || `https://www.instagram.com/${account}/`}
             >
               <img
@@ -62,25 +61,3 @@ export default compose(
   withInstagramFeed,
   withStyles(styles),
 )(InstaGrid);
-
-
-/*
-class Judges extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-  
-  render() {
-    return (
-        <div className={"container"}>
-           <p>Judges</p>
-        </div>
-    );
-  }
-}
-
-
-export default Judges;
-*/
