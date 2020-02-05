@@ -60,7 +60,7 @@
   display: flex;
 }
 
-.modalBody{
+.modal_body{
 
 }
 
@@ -80,11 +80,16 @@
 .button_close{
   margin-left: 0 !important;
 }
+
 .padding_bottom_after_div{
   padding-bottom: 15%;
 }
 @media only screen and (max-width: 600px) {
- 
+
+  .my_modal_dialog{
+    max-width: unset;
+  }
+
   .challenge_padding{
     padding-top: 20px;
     padding-bottom: 40px;
@@ -94,7 +99,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+
   .header_size_modified_on_mobile{
     font-size: 24px;
   }
+
 }

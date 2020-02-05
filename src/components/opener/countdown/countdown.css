@@ -39,6 +39,10 @@
     font-weight: normal;
 }
 
+.display_none{
+    display: none !important;
+}
+
 @media only screen and (max-width: 600px) {
     .countdown_section{
         font-size: 36px;
