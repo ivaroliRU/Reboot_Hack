@@ -194,9 +194,9 @@ class Schedule extends Component {
           id: 16,
           startHour: "14:00",
           textEn: "Presentations end & judges deliberate ⏲️",
-          textIs: "Kynningar enda & dómnefnd tekur ⏲️",
-          descriptionEn: "Something for everyone - don’t forget your water bottle and reusable coffee cup to fill up!",
-          descriptionIs: "Eitthvað fyrir alla - ekki gleyma fjölnota drykkjarmálum!",
+          textIs: "Kynningar enda & dómnefnd velur ⏲️",
+          descriptionEn: "Exciting!",
+          descriptionIs: "Spennandi!",
           locationEn: "",
           locationIs: "",
           relevantLink: null
