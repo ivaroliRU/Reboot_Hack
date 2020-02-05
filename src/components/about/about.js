@@ -14,7 +14,7 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="container pb-md-4 pl-md-3">
-                    <img src="/images/ht.jpg" width="100%"></img>
+                    <img src="/images/about/Crop_this-compressed+cropped.jpg" width="100%"></img>
                 </div>
                 <div className="jumbotron">
                     <div className="container">
@@ -23,7 +23,7 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="container pb-md-4 pl-md-4">
-                    <img src="/images/hi-kold.jpg" width="100%"></img>
+                    <img src="/images/about/THIS_compressed+cropped.jpg" width="100%"></img>
                 </div>
                 {/* Make changes here ! */}
                 <div className={"jumbotron"}>
