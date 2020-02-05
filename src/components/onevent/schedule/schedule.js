@@ -19,7 +19,7 @@ class Schedule extends Component {
           textIs: "Hús opnar og innritun hefst ✔️",
           descriptionEn: "We recommend coming early to enjoy the breakfast and merch!",
           descriptionIs: "Hvetjum ykkur til að mæta snemma og njóta morgunmatsins!",
-          locationEn: "Askja, main entrence",
+          locationEn: "Askja, entrence",
           locationIs: "Askja, inngangur",
           relevantLink: null
         },
@@ -138,8 +138,8 @@ class Schedule extends Component {
           startHour: "23:30",
           textEn: "Midnight Snack 🌜🍭",
           textIs: "Miðnætursnarl 🌜🍭",
-          descriptionEn: "Something for everyone - don’t forget your water bottle and reusable coffee cup to fill up!",
-          descriptionIs: "Eitthvað fyrir alla - ekki gleyma fjölnota drykkjarmálum!",
+          descriptionEn: "Something for everyone - don’t forget your water bottle and reusable coffee cup to fill up! Sponsored by Ölgerðin.",
+          descriptionIs: "Eitthvað fyrir alla - ekki gleyma fjölnota drykkjarmálum! Í boði Ölgerðarinnar.",
           locationEn: "Askja - Main hall",
           locationIs: "Askja - Main hall",
           relevantLink: null
@@ -228,7 +228,7 @@ class Schedule extends Component {
       imageSRC = this.state.scheduleIsLink;
       ShowFullScheduleText = "Öll dagskrá";
       downloadText="Smelltu á myndina til þess að hlaða niður myndinni!";
-      smallText='Við munum uppfæra dagskrána svo kíktu á síðuna okkar reglulega!';
+      // smallText='Við munum uppfæra dagskrána svo kíktu á síðuna okkar reglulega!';
     }
     else{
       infoText="Push any entry in the schedule to get more info!";
@@ -237,7 +237,7 @@ class Schedule extends Component {
       imageSRC = this.state.scheduleEnLink;
       ShowFullScheduleText = "Show full schedule";
       downloadText="Click on this image to download it!";
-      smallText='We will update our schedule so make sure to revisit the site!';
+      // smallText='We will update our schedule so make sure to revisit the site!';
     }
 
     timelineDescription = (
@@ -251,7 +251,7 @@ class Schedule extends Component {
       timelineDescription = (
         <div>
           <p>{Cookies.get('language')=='is' ? descriptionIs : descriptionEn}</p>
-          <p> {(locationIs == "" || locationEn == "" ) ? null : <i className={"fa fa-map-marker"} />} {Cookies.get('language')=='is' ? locationIs : locationEn}</p>
+          <p className={style.schedule_dot_location}> {(locationIs == "" || locationEn == "" ) ? null : <i className={"fa fa-map-marker"} />} {Cookies.get('language')=='is' ? locationIs : locationEn}</p>
           {relevantLink !==null ? <a href={relevantLink} target="_blank">{relevantLink}</a> : null}
         </div>
       );
@@ -409,7 +409,7 @@ class Schedule extends Component {
               </div>
             </div>
           </div> 
-          <small>{smallText}</small>
+          {/* <small>{smallText}</small> */}
 
         </div>
         

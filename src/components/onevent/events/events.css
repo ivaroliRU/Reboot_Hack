@@ -121,6 +121,10 @@
   font-size: 1.5rem;
 }
 
+.events_text_style_isl{
+  font-size: 1rem;
+}
+
 .expired{
   text-decoration-line: line-through;
   text-decoration-style: dotted;

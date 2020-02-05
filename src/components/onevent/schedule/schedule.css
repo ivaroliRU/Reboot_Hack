@@ -144,23 +144,26 @@
     font-family: 'Montserrat', sans-serif;
     white-space: pre-line;
     width: 100%;
-    margin-top: 140px;
+    margin-top: 80px;
     font-size: 22px;
     font-weight: 400;
     margin-left: calc((-80vw - 25px) / 20);
 }
+
 #timeline_descriptions_wrapper2 {
 
     text-align:center;
     font-family: 'Montserrat', sans-serif;
     white-space: pre-line;
     width: 100%;
-    margin-top: 140px;
+    margin-top: 80px;
     font-size: 22px;
     font-weight: 400;
     margin-left: calc((-80vw - 25px) / 20);
 }
-
+.schedule_dot_location{
+    padding-top: 3%;
+}
 .button_close{
     margin-left: 0;
 }
