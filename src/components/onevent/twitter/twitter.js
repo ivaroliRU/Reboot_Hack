@@ -22,7 +22,7 @@ class Twitter extends Component {
                     
                     <div className="pl-3 pr-3">
                         <TwitterFollowButton
-                            screenName = {'einargudni'}
+                            screenName = {'Reboothack'}
                         />
                     </div>
 
@@ -34,7 +34,7 @@ class Twitter extends Component {
 
                     <div className="pl-3 pr-3">
                         <TwitterMentionButton
-                            screenName = {'einargudni'}
+                            screenName = {'Reboothack'}
                         />
                     </div>
                 </div>
