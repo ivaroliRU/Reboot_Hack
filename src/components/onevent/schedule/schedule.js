@@ -26,8 +26,8 @@ class Schedule extends Component {
         {
           id: 1,
           startHour: "8:30",
-          textEn: "Breakfast and schedule presented",
-          textIs: "Morgunmatur og dagskrá kynnt 📝",
+          textEn: "Breakfast & schedule presented 🥐",
+          textIs: "Morgunmatur og dagskrá kynnt 🥐",
           descriptionEn: "Something for everyone - don’t forget your water bottle and reusable coffee cup to fill up!",
           descriptionIs: "Eitthvað fyrir alla - ekki gleyma fjölnota drykkjarmálum!",
           locationEn: "Askja, main hall",
@@ -81,8 +81,8 @@ class Schedule extends Component {
         {
           id: 6,
           startHour: "15:00",
-          textEn: "Coffee break",
-          textIs: "Kaffitími",
+          textEn: "Coffee break ☕☕",
+          textIs: "Kaffitími ☕☕",
           descriptionEn: "Don’t forget your water bottle and reusable coffee cup to fill up! ☕️",
           descriptionIs: "Ekki gleyma fjölnota drykkjarmálum! ☕️",
           locationEn: "Askja, main hall",
@@ -193,8 +193,8 @@ class Schedule extends Component {
         {
           id: 16,
           startHour: "14:00",
-          textEn: "Presentations end & judges deliberate",
-          textIs: "Kynningar enda & dómnefnd tekur",
+          textEn: "Presentations end & judges deliberate ⏲️",
+          textIs: "Kynningar enda & dómnefnd tekur ⏲️",
           descriptionEn: "Something for everyone - don’t forget your water bottle and reusable coffee cup to fill up!",
           descriptionIs: "Eitthvað fyrir alla - ekki gleyma fjölnota drykkjarmálum!",
           locationEn: "",
