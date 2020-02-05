@@ -11,6 +11,14 @@
   color: #d9d5f1;
 }
 
+.dropdown_item{
+  /* color: rgba(255,255,255,.5) !important; */
+}
+
+.dropdown_item:active, .dropdown_item:focus{
+  background-color: rgb(105,73,145) !important;
+}
+
 .reboot_navbar_item:hover{
   color: #FFBA3C !important;
 }
@@ -67,10 +75,5 @@
     background-color: unset !important;
     border: none !important;
   }
-  .dropdown_item{
-    color: rgba(255,255,255,.5) !important;
-  }
-  .dropdown_item:active{
-    background-color: rgb(105,73,145) !important;
-  }
+  
 }

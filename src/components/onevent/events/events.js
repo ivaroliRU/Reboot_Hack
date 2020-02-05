@@ -169,7 +169,7 @@ class Events extends Component {
 
           <div className={style.panel +" "+style.panel_danger}>
               <div className={style.panel_heading}>
-                  <h3 className={style.panel_title+" "+style.events_text_style}>
+                  <h3 className={style.panel_title+" "+style.events_text_style+(Cookies.get('language')=='is' ? " "+style.events_text_style_isl : null)}>
                     {upcomingEventsText}
                   </h3>
               </div>
