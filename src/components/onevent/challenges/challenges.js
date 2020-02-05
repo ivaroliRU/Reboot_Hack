@@ -139,7 +139,7 @@ class Challenges extends Component {
           id: 7,
           titleEn: "How will tech make sale and manufacturing at Ölgerðin more sustainable?",
           titleIs: "Hvernig mun tækni gera sölu og framleiðslu Ölgerðarinnar sjálfbærari?",
-          textEn: "To Be Announced",
+          textEn: "Ölgerðin is both a highly developed and progressive manufacturing company, and a determined sales and marketing organisation. We are in partnership with leading global suppliers.  All of our suppliers have one thing in common - they are leaders in their fields, or they have the potential to become the best. New ways to grow the business and achieve greater productivity are constantly sought by doing things better and sooner than others.",
           textIs: "Ölgerðin er stærsta drykkjavörufyrirtæki landsins. Fyrirtækið framleiðir, flytur inn, dreifir og selur yfir 1000 vörunúmera. Áhersla er lögð á að vörur fyrirtækisins séu fyrsta flokks og að viðskiptavinir þess geti gengið að hágæða þjónustu vísri. Stöðugt er leitað nýrra leiða til að efla starfsemina og ná fram meiri framleiðni með því að gera hlutina betur og fyrr en aðrir.",
           company: "Ölgerðin",
           vodeoURL: null,
@@ -186,7 +186,7 @@ class Challenges extends Component {
         return (
           <div key={challenge.id} id={challenge.company} className={style.my_element+" "+style.challenge_padding}>
             <h3 className={generalStyle.header_style+" "+style.header_size_modified_on_mobile}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
-            <h5 className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </h5>
+            <h5 className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"+(challenge.id==7 ? " "+ style.image_bigger : null)} src={challenge.companyPhotoURL}/></a>} </h5>
             <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
 
             <div className={style.text_align_center}>
@@ -210,7 +210,7 @@ class Challenges extends Component {
                     </button>
                   </div>
                   <div className={style.modal_body+" modal-body"}>
-                    <div className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"} src={challenge.companyPhotoURL}/></a>} </div>
+                    <div className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"+(challenge.id==7 ? " "+ style.image_bigger : null)} src={challenge.companyPhotoURL}/></a>} </div>
                     <p>{detailsText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.detailsIsPhotoURL : challenge.detailsEnPhotoURL}/>
                     <p>{criteriaText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.criteriaPhotoIsURL : challenge.criteriaPhotoEnURL}/>
                     {/* <p>Prizes: </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.prizesIsURL : challenge.prizesEnURL}/> */}

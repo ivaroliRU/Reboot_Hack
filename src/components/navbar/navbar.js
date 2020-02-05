@@ -27,6 +27,34 @@ class Navbar extends Component {
       instagramText = "Instagram";
       locationText = "Location";
     }
+    
+    var dateNow = new Date();
+    var section_navbar_2020;
+
+    if (dateNow.getTime() <= (new Date('Feb 14, 2020 18:00:00').getTime())){
+      section_navbar_2020 = (
+        <div className={style.dropdown_menu+" dropdown-menu pull-right"} aria-labelledby="2020">
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Challenges_Section">{challengesText}</a>
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Events_Section">{mini_eventsText}</a>
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Schedule_Section">{scheduleText}</a>
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Instagram_Section">{instagramText}</a>
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Location_Section">{locationText}</a>
+        </div>
+      )
+    }
+    else{
+      section_navbar_2020 = (
+        <div className={style.dropdown_menu+" dropdown-menu pull-right"} aria-labelledby="2020">
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Instagram_Section">{instagramText}</a>
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Schedule_Section">{scheduleText}</a>
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Challenges_Section">{challengesText}</a>
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Events_Section">{mini_eventsText}</a>
+          <a className={"dropdown-item "+style.dropdown_item} href="/event#Location_Section">{locationText}</a>
+        </div>
+      )
+    }
+    
+
     return (
       <nav className={style.reboot_navbar + " navbar navbar-expand-lg navbar-dark bg-dark"}>
         <div className="d-flex flex-grow-1">
@@ -62,13 +90,7 @@ class Navbar extends Component {
                 <li className={style.reboot_navbar_item + " nav-item"}>
                     {/* <a href="/event" className="nav-link">2020</a> */}<div className={style.group_button+" btn-group"}>
                   <a className="nav-link dropdown-toggle" href="#" id="2020" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2020</a>
-                    <div className={style.dropdown_menu+" dropdown-menu pull-right"} aria-labelledby="2020">
-                      <a className={"dropdown-item "+style.dropdown_item} href="/event#Challenges_Section">{challengesText}</a>
-                      <a className={"dropdown-item "+style.dropdown_item} href="/event#Events_Section">{mini_eventsText}</a>
-                      <a className={"dropdown-item "+style.dropdown_item} href="/event#Schedule_Section">{scheduleText}</a>
-                      <a className={"dropdown-item "+style.dropdown_item} href="/event#Instagram_Section">{instagramText}</a>
-                      <a className={"dropdown-item "+style.dropdown_item} href="/event#Location_Section">{locationText}</a>
-                    </div>
+                      {section_navbar_2020}
                   </div>
                 </li>
               
