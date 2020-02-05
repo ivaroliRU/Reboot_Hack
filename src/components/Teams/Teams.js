@@ -28,14 +28,14 @@ constructor(props) {
               titleEn: 'Software Developer',
               titleIs: 'Forritari'
             },
-            {
-              id: 2,
-              name: 'Embla Dís Haraldsdóttir',
-              linkedInLink: null,
-              photoURL: './images/team/A-Emblafin_comp.jpg',
-              titleEn: 'Marketing',
-              titleIs: 'Markaðsteymi'
-            },
+            // {
+            //   id: 2,
+            //   name: 'Embla Dís Haraldsdóttir',
+            //   linkedInLink: null,
+            //   photoURL: './images/team/A-Emblafin_comp.jpg',
+            //   titleEn: 'Marketing',
+            //   titleIs: 'Markaðsteymi'
+            // },
             {
               id: 3,
               name: 'George-Cosmin Moroșanu',
@@ -48,7 +48,7 @@ constructor(props) {
               id: 4,
               name: 'Guðrún Sara Örnólfsdóttir',
               linkedInLink: 'https://www.linkedin.com/in/gudrun-sara-ornolfsdottir/',
-              photoURL: './images/team/gudrunreboot_comp.jpg',
+              photoURL: './images/team/A-Gudrunfin_comp.jpg',
               titleEn: 'Outreach manager',
               titleIs: 'Kynningarstjóri'
             },
