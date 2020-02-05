@@ -47,6 +47,9 @@
 .image{
   height: 36px;
 }
+.image_bigger{
+  height:76px;
+}
 
 .extra_height{
   height: 60px;
