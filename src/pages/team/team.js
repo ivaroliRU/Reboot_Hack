@@ -4,7 +4,7 @@ import Teams from '../../components/teams/teams';
 import Navbar from '../../components/navbar';
 import { changeLanguage } from '../../translations';
 import Footer from '../../components/footer';
-import style from "./team.css";
+// import style from "./team.css";
 
 class App extends Component {
     constructor(props) {

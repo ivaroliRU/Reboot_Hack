@@ -6,12 +6,6 @@ import { changeLanguage } from '../../translations';
 import Footer from '../../components/footer';
 import style from './about.css'
 
-
-// import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
-// import MapContainer from '../../components/map/map';
-
-
-
 class App extends Component {
     constructor(props) {
         super(props)
@@ -28,10 +22,7 @@ class App extends Component {
     render() {
         return (
         <div className={style.App}>    
-            <Navbar handler = {this.handler}/> 
-
-            {/* <MyMapComponent isMarkerShown />   */}         
-
+            <Navbar handler = {this.handler}/>          
             <About handler = {this.handler} />
             <Footer />
         </div>

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import advisorsStyle from "./boardOfAdvisors.css";
+import React, { Component } from './node_modules/react';
+import AdvisorsStyle from "./boardOfAdvisors.css";
 import teamsStyle from "../teams/teams.css";
 import teamStyle from "../teams/team/team.css";
 import Advisor from "./advisor/advisor";
-import Cookies from 'js-cookie';
+import Cookies from './node_modules/js-cookie';
 
 
 class BoardOfAdvisors extends Component {
