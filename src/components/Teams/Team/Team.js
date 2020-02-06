@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import teamStyle from "./team.css";
+import teamStyle from "./Team.css";
 import Individual from '../Individual/Individual';
 
 class Team extends Component {

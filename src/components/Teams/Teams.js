@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import teamsStyle from "./teams.css";
+import teamsStyle from "./Teams.css";
 import teamStyle from "./Team/Team.css"
 import Team from './Team/Team';
 

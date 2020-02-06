@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import individualStyle from "../../Teams/Individual/Individual.css";
-import advisorStyle from "./advisor.css";
+import advisorStyle from "./Advisor.css";
 import Cookies from 'js-cookie';
 
 class Advisor extends Component {
