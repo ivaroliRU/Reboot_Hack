@@ -60,11 +60,6 @@ router.get("/confirmation", (req, res) => {
 */
 
 
-
-
-
-
-
 // get request on the error page
 /**
  * It's better to delete this route!

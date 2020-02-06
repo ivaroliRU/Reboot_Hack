@@ -1,7 +1,7 @@
-import React, { Component } from './node_modules/react';
+import React, { Component } from 'react';
 import individualStyle from "../../teams/individual/individual.css";
 import advisorStyle from "./advisor.css";
-import Cookies from './node_modules/js-cookie';
+import Cookies from 'js-cookie';
 
 class Advisor extends Component {
 
