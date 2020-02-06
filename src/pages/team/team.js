@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Teams from '../../components/teams/teams';
+import Teams from '../../components/Teams/Teams';
 import Navbar from '../../components/navbar';
 import { changeLanguage } from '../../translations';
 import Footer from '../../components/footer';

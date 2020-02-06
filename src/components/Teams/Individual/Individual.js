@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from "./individual.css";
+import style from "./Individual.css";
 import Cookies from 'js-cookie';
 
 class Individual extends Component {

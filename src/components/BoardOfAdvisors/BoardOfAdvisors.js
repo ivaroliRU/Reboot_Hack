@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import AdvisorsStyle from "./boardOfAdvisors.css";
-import teamsStyle from "../teams/teams.css";
-import teamStyle from "../teams/team/team.css";
-import Advisor from "./advisor/advisor";
+import AdvisorsStyle from "./BoardOfAdvisors.css";
+import teamsStyle from "../Teams/Teams.css";
+import teamStyle from "../Teams/Team/Team.css";
+import Advisor from "./advisor/Advisor";
 import Cookies from 'js-cookie';
 
 

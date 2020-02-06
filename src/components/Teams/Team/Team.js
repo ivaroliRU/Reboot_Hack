@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import teamStyle from "./team.css";
-import Individual from '../individual/individual';
+import Individual from '../Individual/Individual';
 
 class Team extends Component {
   

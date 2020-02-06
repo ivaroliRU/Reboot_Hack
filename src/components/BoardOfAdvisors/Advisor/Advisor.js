@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import individualStyle from "../../teams/individual/individual.css";
+import individualStyle from "../../Teams/Individual/Individual.css";
 import advisorStyle from "./advisor.css";
 import Cookies from 'js-cookie';
 

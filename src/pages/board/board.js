@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import Navbar from '../../components/navbar';
 import { changeLanguage } from '../../translations';
 import Footer from '../../components/footer';
-import BoardOfAdvisors from '../../components/boardOfAdvisors/boardOfAdvisors';
+import BoardOfAdvisors from '../../components/BoardOfAdvisors/boardOfAdvisors';
 // import style from "./board.css"
 
 class App extends Component {
