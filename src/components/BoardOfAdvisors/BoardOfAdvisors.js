@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import AdvisorsStyle from "./BoardOfAdvisors.css";
 import teamsStyle from "../Teams/Teams.css";
 import teamStyle from "../Teams/Team/Team.css";
-import Advisor from "./Advisor/advisor";
+import Advisor from "./Advisor/Advisor";
 import Cookies from 'js-cookie';
 
 
