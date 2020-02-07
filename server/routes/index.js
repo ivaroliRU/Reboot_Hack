@@ -49,6 +49,12 @@ router.get("/event", (req, res) => {
     res.status(200).sendFile("event.html", {root: files});
 });
 
+//get request on the event page
+router.get("/conduct", (req, res) => {
+    //send the event file of the root "./builds"
+    res.status(200).sendFile("conduct.html", {root: files});
+});
+
 
 
 //get request on the confirmation page

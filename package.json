@@ -50,6 +50,7 @@
     "react-device-detect": "^1.11.14",
     "react-dom": "^16.12.0",
     "react-google-maps": "^9.4.5",
+    "react-pdf": "^4.1.0",
     "react-sanfona": "^1.4.0",
     "react-to-html-webpack-plugin": "^2.2.0",
     "react-transition-group": "^4.3.0",

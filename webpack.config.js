@@ -11,6 +11,7 @@ module.exports = {
     sponsors: './src/pages/sponsors/sponsors.js',
     board: './src/pages/board/board.js',
     event: './src/pages/event/event.js',
+    // conduct: './src/pages/conduct/conduct.js',
   },
   module: {
     rules: [
@@ -105,5 +106,11 @@ module.exports = {
       chunks: ['event'],
       filename: 'event.html'
     }),
+    /*new HtmlWebPackPlugin({
+      template: './src/pages/conduct/conduct.html',
+      inject: true,
+      chunks: ['conduct'],
+      filename: 'conduct.html'
+    }),*/
   ]
 };
