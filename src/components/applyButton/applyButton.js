@@ -40,6 +40,7 @@ class ApplyButton extends Component {
 
         return (
             <div className="container">
+                {/* Info + registration button */}
                 <div>
                     <p>{extraText}</p>
                 </div>
@@ -48,9 +49,34 @@ class ApplyButton extends Component {
                         {this.text.register.subHeading}
                     </button>
                 </div>
+                {/* End of Info + registration Button  */}
                 
-                
+                {/* Modal for confirmation of registration */}
+                <div className="modal fade" id="successModal" tabIndex="-1" role="dialog" >
+                    <div className="modal-dialog" role="document">
+                        <div className={"modal-content mx-3 " +style.modal_content}>
+                            {/* Modal Content */}
+                            <div className="modal-content">
+                            <div className="modal-header">
+                            {/* Modal Header */}
+                                <h6 className="modal-title">{this.text.register.registerConfirmation.title}</h6>
+                            </div>
+                            {/* Modal body */}
+                            <div>
+                                <p>{this.text.register.registerConfirmation.main}</p>
+                            </div>
+                            {/* Modal Footer */}
+                            <div className="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close!</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* End of Modal for confirmation of registration */}
 
+
+                {/* Modal for registration */}
                 <div className="modal fade" id="modalRegisterForm" tabIndex="-1" role="dialog" >
                     <div className="modal-dialog" role="document">
                         <div className={"modal-content mx-3 " +style.modal_content}>
