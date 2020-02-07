@@ -144,7 +144,8 @@ class ApplyButton extends Component {
                                     {/* Email conformation - text*/}
                                     <div>
                                         <small id="emailConformation" className="form-text-inline text-muted">
-                                            {this.text.register.registerDialog.emailInfo}
+                                            {/*this.text.register.registerDialog.emailInfo*/}
+                                            We are experincing some difficulties, your registration will work when you press the register button, but the registration box will not close.
                                         </small>
                                     </div>
                                     
