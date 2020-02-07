@@ -371,10 +371,35 @@ class Challenges extends Component {
                   </div>
                   <div className={style.modal_body+" modal-body"}>
                     <div className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"+(challenge.id==7 ? " "+ style.image_bigger : null)} src={challenge.companyPhotoURL}/></a>} </div>
-                    <p>{detailsText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.detailsIsPhotoURL : challenge.detailsEnPhotoURL}/>
-                    <p>{criteriaText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.criteriaPhotoIsURL : challenge.criteriaPhotoEnURL}/>
+                    {/* <p>{detailsText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.detailsIsPhotoURL : challenge.detailsEnPhotoURL}/>
+                    <p>{criteriaText} </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.criteriaPhotoIsURL : challenge.criteriaPhotoEnURL}/> */}
                     {/* <p>Prizes: </p> <img className={"img-fluid"} src={Cookies.get('language')=='is' ? challenge.prizesIsURL : challenge.prizesEnURL}/> */}
                     
+                    {/* Video if rank == 1 */}
+                    <p>{Cookies.get('language')=='is' ? (
+                                                          challenge.descriptionParagraph1Is==null ? null : challenge.descriptionParagraph1Is) : (challenge.descriptionParagraph1En==null ? null : challenge.descriptionParagraph1En)}</p>
+                    <p>{Cookies.get('language')=='is' ? (
+                                                          challenge.descriptionParagraph2Is==null ? null : challenge.descriptionParagraph2Is) : (challenge.descriptionParagraph2En==null ? null : challenge.descriptionParagraph2En)}</p>
+                    <p>{Cookies.get('language')=='is' ? (
+                                                          challenge.descriptionParagraph3Is==null ? null : challenge.descriptionParagraph3Is) : (challenge.descriptionParagraph3En==null ? null : challenge.descriptionParagraph3En)}</p>
+                  
+                    <p>{criteriaText}</p>
+                    <ul>
+                      {Cookies.get('language')=='is' ? (
+                                                        challenge.Criteria1Is == null ? null : <li>{challenge.Criteria1Is}</li>) : (challenge.Criteria1En == null ? null : <li>{challenge.Criteria1En}</li>)}
+                      {Cookies.get('language')=='is' ? (
+                                                        challenge.Criteria2Is == null ? null : <li>{challenge.Criteria2Is}</li>) : (challenge.Criteria2En == null ? null : <li>{challenge.Criteria2En}</li>)}
+                      {Cookies.get('language')=='is' ? (
+                                                        challenge.Criteria3Is == null ? null : <li>{challenge.Criteria3Is}</li>) : (challenge.Criteria3En == null ? null : <li>{challenge.Criteria3En}</li>)}
+                      {Cookies.get('language')=='is' ? (
+                                                        challenge.Criteria4Is == null ? null : <li>{challenge.Criteria4Is}</li>) : (challenge.Criteria4En == null ? null : <li>{challenge.Criteria4En}</li>)}
+                      {Cookies.get('language')=='is' ? (
+                                                        challenge.Criteria5Is == null ? null : <li>{challenge.Criteria5Is}</li>) : (challenge.Criteria5En == null ? null : <li>{challenge.Criteria5En}</li>)}
+                      {Cookies.get('language')=='is' ? (
+                                                        challenge.Criteria6Is == null ? null : <li>{challenge.Criteria6Is}</li>) : (challenge.Criteria6En == null ? null : <li>{challenge.Criteria6En}</li>)}
+                      {Cookies.get('language')=='is' ? (
+                                                        challenge.Criteria7Is == null ? null : <li>{challenge.Criteria7Is}</li>) : (challenge.Criteria7En == null ? null : <li>{challenge.Criteria7En}</li>)}
+                    </ul>
                   </div>
                  
                 </div>
