@@ -44,14 +44,14 @@ class ApplyButton extends Component {
                     <p>{extraText}</p>
                 </div>
                 <div className="text-center">
-                    <button type="button" className={"btn btn-outline-primary btn-lg mb-4 "+style.apply_button} data-toggle="modal" data-target="#modal_register_form">
+                    <button type="button" className={"btn btn-outline-primary btn-lg mb-4 "+style.apply_button} data-toggle="modal" data-target="#modalRegisterForm">
                         {this.text.register.subHeading}
                     </button>
                 </div>
                 
                 
 
-                <div className="modal fade" id="modal_register_form" tabIndex="-1" role="dialog" >
+                <div className="modal fade" id="modalRegisterForm" tabIndex="-1" role="dialog" >
                     <div className="modal-dialog" role="document">
                         <div className={"modal-content mx-3 " +style.modal_content}>
                             {/* header */}
@@ -144,8 +144,7 @@ class ApplyButton extends Component {
                                     {/* Email conformation - text*/}
                                     <div>
                                         <small id="emailConformation" className="form-text-inline text-muted">
-                                            {/*this.text.register.registerDialog.emailInfo*/}
-                                            We are experincing some difficulties, your registration will work when you press the register button, but the registration box will not close.
+                                            {this.text.register.registerDialog.emailInfo}
                                         </small>
                                     </div>
                                     
@@ -153,7 +152,7 @@ class ApplyButton extends Component {
                             </div>
                             
                             {/* footer */}
-                            {/* redirects to conformation site.. Just for conformation!  */}
+                            
                             <div className="modal-footer modal-guts">
                                 <button className={"btn btn-primary btn-block " +style.register_button} type="submit" onClick={this.handleClick}>{this.text.register.registerDialog.registerBtn}</button>
                             </div>                            
