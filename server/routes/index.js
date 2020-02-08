@@ -49,12 +49,17 @@ router.get("/event", (req, res) => {
     res.status(200).sendFile("event.html", {root: files});
 });
 
-//get request on the event page
+//get request on the conduct page
 router.get("/conduct", (req, res) => {
-    //send the event file of the root "./builds"
+    //send the conduct file of the root "./builds"
     res.status(200).sendFile("conduct.html", {root: files});
 });
 
+//get request on the involved_personnel page
+router.get("/involvedPersonnel", (req, res) => {
+    //send the involved_personnel file of the root "./builds"
+    res.status(200).sendFile("involvedPersonnel.html", {root: files});
+});
 
 
 //get request on the confirmation page

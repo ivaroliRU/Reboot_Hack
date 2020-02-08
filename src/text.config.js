@@ -186,6 +186,9 @@ export const translation = {
         text1: 'Úps, síða fannst ekki',
         text2: 'Því miður er síðan sem þú ert að leita að ekki til, hefur verið fjralægð. Breytt um nafn eða hún er ekki aðgengileg í augnablikinu',
         text3: 'Aftur á heimasíðu'
+      },
+      involvedPersonnel:{
+
       }
     },
     /* -------------------------- ENGLISH VERSION ------------------------------------- */
@@ -371,6 +374,9 @@ export const translation = {
         text1: 'Oops! Page not found',
         text2: 'Sorry but the page you are looking for does not exist, have been removed. Name changed or is temporarily unavailable',
         text3: 'Back to homepage'
+      },
+      involvedPersonnel:{
+        
       }
     }
 }

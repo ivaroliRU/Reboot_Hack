@@ -12,6 +12,7 @@ module.exports = {
     board: './src/pages/board/board.js',
     event: './src/pages/event/event.js',
     // conduct: './src/pages/conduct/conduct.js',
+    involvedPersonnel: './src/pages/involvedPersonnel/involvedPersonnel.js',
   },
   module: {
     rules: [
@@ -112,5 +113,12 @@ module.exports = {
       chunks: ['conduct'],
       filename: 'conduct.html'
     }),*/
+    new HtmlWebPackPlugin({
+      template: './src/pages/involvedPersonnel/involvedPersonnel.html',
+      // template: './src/pages/index/index.html',
+      inject: true,
+      chunks: ['involvedPersonnel'],
+      filename: 'involvedPersonnel.html'
+    }),
   ]
 };
