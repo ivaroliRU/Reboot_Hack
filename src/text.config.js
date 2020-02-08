@@ -33,7 +33,11 @@ export const translation = {
           tShirt: 'Bola stærð',
           team: 'Ég er hluti af teymi.',
           emailInfo: 'Við munum senda þér staðfestingarpóst, hlökkum til að sjá þig í febrúar.'
-        }
+        },
+        registerConfirmation: {
+          title: 'Takk fyrir að skrá þig á Reboot Hack',
+          main: 'Þú munt fá sendan staðfestingapóst á það email sem þú gafst upp.'
+        },
       },
       /* Confirmation */
       confirmation: {
@@ -225,7 +229,11 @@ export const translation = {
           tShirt: 'T-Shirt Size',
           team: 'I already have a team',
           emailInfo: 'We will send you an email conformation and look forward to seeing you in February.'
-        }
+        },
+        registerConfirmation: {
+          title: 'Thank you for registering to Reboot Hack',
+          main: 'You will recieve a confirmation email to the email address you enterd in your registration.'
+        },
       },
       /* Confirmation */
       confirmation: {

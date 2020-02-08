@@ -24,6 +24,7 @@ class ApplyButton extends Component {
             $("#modalRegisterForm").modal('hide');
             $("#successModal").modal('show');
         });
+        
     }
     
     
@@ -40,18 +41,48 @@ class ApplyButton extends Component {
 
         return (
             <div className="container">
+                {/* Info + registration button */}
                 <div>
                     <p>{extraText}</p>
                 </div>
                 <div className="text-center">
-                    <button type="button" className={"btn btn-outline-primary btn-lg mb-4 "+style.apply_button} data-toggle="modal" data-target="#modal_register_form">
+                    <button type="button" className={"btn btn-outline-primary btn-lg mb-4 "+style.apply_button} data-toggle="modal" data-target="#modalRegisterForm">
                         {this.text.register.subHeading}
                     </button>
                 </div>
-                
+                {/* End of Info + registration Button  */}
                 
 
-                <div className="modal fade" id="modal_register_form" tabIndex="-1" role="dialog" >
+                {/* Modal for confirmation of registration */}
+                <div className="modal fade" id="successModal" tabIndex="-1" role="dialog" >
+                    <div className="modal-dialog" role="document">
+                        <div className={"modal-content mx-3 " +style.modal_content}>
+                            {/* Modal Content */}
+                            <div className="modal-content">
+                            <div className="modal-header">
+                            {/* Modal Header */}
+                                <h6 className="modal-title">{this.text.register.registerConfirmation.title}</h6>
+                            </div>
+                            {/* Modal body */}
+                            <div>
+                                <p>{this.text.register.registerConfirmation.main}</p>
+                            </div>
+                            {/* Modal Footer */}
+                            <div className="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close!</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* End of Modal for confirmation of registration */}
+
+
+
+
+
+                {/* Modal for registration */}
+                <div className="modal fade" id="modalRegisterForm" tabIndex="-1" role="dialog" >
                     <div className="modal-dialog" role="document">
                         <div className={"modal-content mx-3 " +style.modal_content}>
                             {/* header */}
@@ -60,6 +91,7 @@ class ApplyButton extends Component {
                                 <button type="button" className={"close "+style.close} data-dismiss="modal">&times;</button>
                             </div>
                             {/* body */}
+                            <form>
                             <div className="modal-body">
                                 <div className="form-group">
                                     <div className="form-row">
@@ -140,7 +172,7 @@ class ApplyButton extends Component {
                                     </div>
 
                                     </div>
-                                    
+
                                     {/* Email conformation - text*/}
                                     <div>
                                         <small id="emailConformation" className="form-text-inline text-muted">
@@ -150,9 +182,10 @@ class ApplyButton extends Component {
                                     
                                 </div>
                             </div>
+                            </form>
                             
                             {/* footer */}
-                            {/* redirects to conformation site.. Just for conformation!  */}
+                            {/* Registration Button  */}
                             <div className="modal-footer modal-guts">
                                 <button className={"btn btn-primary btn-block " +style.register_button} type="submit" onClick={this.handleClick}>{this.text.register.registerDialog.registerBtn}</button>
                             </div>                            
@@ -160,6 +193,7 @@ class ApplyButton extends Component {
                         </div>
                     </div>
                 </div>
+                {/* End of Registration Modal */}
 
             </div>
             );
