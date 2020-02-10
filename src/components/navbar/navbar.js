@@ -103,7 +103,7 @@ class Navbar extends Component {
                     <a className={"dropdown-item "+style.dropdown_item} href="/about">{this.text.navbar.reboot}</a>
                     <a className={"dropdown-item "+style.dropdown_item} href="/board">{this.text.navbar.board}</a>
                     <a className={"dropdown-item "+style.dropdown_item} href="/team">{this.text.navbar.team_members}</a>
-                    <a className={"dropdown-item "+style.dropdown_item} href="/involvedPersonnel">Involved Personnel</a>
+                    {/* <a className={"dropdown-item "+style.dropdown_item} href="/involvedPersonnel">Involved Personnel</a> */}
                   </div>
                 </div>
                 </li>
