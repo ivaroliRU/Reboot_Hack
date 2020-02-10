@@ -1,13 +1,34 @@
 .individual_div_modified{
-    height: 150px !important;
+    height: unset;
+    min-height: 190px !important;
+}
+
+.contained_information_modified{
+    min-height: 200px;
 }
 
 .test{
     pointer-events: none !important;
 }
 
+
+.linkedIn {
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+    color: black !important;
+}
+.linkedIn :hover{
+    color: rgb(0, 119, 181);
+    transition: color 0.2s linear;
+}
+
 @media only screen and (max-width: 600px) {
     .individual_div_modified{
-        height:200px !important
+        height: 260px !important
     }
+
+    .linkedIn {
+        padding-left: 3.5%;
+        padding-right: 3.5%;
+      }
 }
