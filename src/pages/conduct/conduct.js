@@ -32,12 +32,12 @@ class App extends Component {
     
 
     render() {
-        const { pageNumber, numPages } = this.state;
+        // const { pageNumber, numPages } = this.state;
         return (
         <div>    
             <Navbar handler = {this.handler}/>       
-            <p>SICK NICE</p>
             <Conduct />
+            <p>SICK NICE</p>
             <Footer />
         </div>
         );
