@@ -178,7 +178,7 @@ class Challenges extends Component {
           id: 5,
           titleEn: "The future of trust in business",
           titleIs: "Traust í viðskiptum framtíðarinnar",
-          textEn: "The world is changing rapidly and so does the business environment. Technology spurs quality and financial and nonfinancial data provided insight. Emerging technologies and the 4th industrial revolution will have significant effect on the assurance landscape.    How will the company of the future fulfil its regulatory and stakeholder obligations and how will 3rd party assurance service evolve? From financial statement and VAT reporting, to customer satisfaction, the challenge to meet the increased regulatory compliance and customer demands is ever challenging. We want you to help us to determine how the assurance service of the future will look like, and how it will be used to increase trust within the Icelandic marketplace. We welcome all solutions, ranging from theories to technical solutions, and everything between",
+          textEn: "The world is changing rapidly and so does the business environment. Technology spurs quality and financial and nonfinancial data provided insight. Emerging technologies and the 4th industrial revolution will have significant effect on the assurance landscape.    How will the company of the future fulfil its regulatory and stakeholder obligations and how will 3rd party assurance service evolve? From financial statement and VAT reporting, to customer satisfaction, the challenge to meet the increased regulatory compliance and customer demands is ever challenging. We want you to help us to determine how the assurance service of the future will look like, and how it will be used to increase trust within the Icelandic marketplace. We welcome all solutions, ranging from theories to technical solutions, and everything between.",
           textIs: "Traust er lykilþáttur þegar kemur að heilbrigðum viðskiptum og samskiptum milli fyrirtækja. Viðskiptaumhverfið hefur tekið miklu breytingum undanfarin ár og í þessu samhengi er talið að fjórða iðnbyltingin sem byggir á stafrænum grunni geti leitt til grundvallarbreytinga á hagkerfum, fyrirtækjum og þjóðfélögum. Þessi nýja stafræna tækni felur í sér fjölmörg tækifæri og jafnframt áskoranir. Í allri þessari gagnasöfnun, miðlun og vinnslu á gögnum verður traust áfram lykilþáttur og því mikilvægt að endurskoðun og önnur staðfestingarvinna fylgi þessari öru þróun og breytingum.    Sem óháður þriðji aðili hefur KPMG ásamt öðrum aðilum mikilvægt hlutverk að yfirfara og staðfesta upplýsingar frá fyrirtækjum s.s. ársreikninga, skattskil og einnig fylgni gagnvart lögum og reglum. Ný tækni, aukin gagnasöfnun og aukið færslumagn kallar á nýja nálgun í þessari vinnu.    Hvernig mun þessi tækniþróun og breyting hafa áhrif á þetta umhverfi og hvernig geta óháðir aðilar eins og KPMG nýtt sér tæknilausnir til að fylgja þessari þróun?",
           company: "KPMG",
           vodeoURL: null,
@@ -279,7 +279,7 @@ class Challenges extends Component {
   
   render() {
 
-    var prizeText, upcomingChallenges, challangesText, challengeInfo, moreDetails, postedByText, detailsText, criteriaText;
+    var rebootHackWinners, rebootHackPeoplesChoice, otherPrizes, prizeText, upcomingChallenges, challangesText, challengeInfo, moreDetails, postedByText, detailsText, criteriaText;
 
     if(Cookies.get('language')=='is'){
       moreDetails = "Meiri upplýsingar";
@@ -290,6 +290,10 @@ class Challenges extends Component {
       detailsText = "Smáatriði:";
       criteriaText = "Matsatriði:";
       prizeText = "Verðlaun:";
+      rebootHackWinners = "100.000 kr. fyrir vinningsliðið.";
+      rebootHackPeoplesChoice = "Val fólks: 12.0000 kr Gjafabréf út að borða á mann á Mat Bar restaurant.";
+      otherPrizes = 'Önnur verðlaun er að finna á "Meiri upplýsingar" hluti hverrar áskorunar.';
+
     }
     else{
       moreDetails = "More details";
@@ -299,7 +303,10 @@ class Challenges extends Component {
       postedByText = "Posted by ";
       detailsText = "Details:";
       criteriaText = "Judging criteria:";
-      prizeText = "Prize:";
+      prizeText = "Prizes:";
+      rebootHackWinners = "100.000 isk for the winning team.";
+      rebootHackPeoplesChoice = "People's choice: 12.000 isk Gift certificate to MAT BAR restaurant.";
+      otherPrizes = 'The other prizes can be found on the "More details" section of each challenge.';
     }
 
     var challengeSection = this.state.challenges.map(
@@ -376,11 +383,17 @@ class Challenges extends Component {
     return (
         <div className={"container "+style.padding_bottom_after_div}>
           <h1 className={generalStyle.text_styling+" "+generalStyle.text_align+" "+style.challenge_text_style}>{challangesText}</h1>
-            <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{challengeInfo}</p>
+          
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{challengeInfo}</p>
+          
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}><b>{prizeText}</b></p>
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{rebootHackWinners}</p>
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{rebootHackPeoplesChoice}</p>
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{otherPrizes}</p>
+          
           <div className={style.myDiv}>
             {challengeSection}
           </div>
-          {/* <p className={generalStyle.header_syle+" "+generalStyle.paragraph_style}>{upcomingChallenges}</p> */}
         </div>
     );
   }
