@@ -108,7 +108,7 @@ class App extends Component {
             <h6><b>Anonymous Report</b></h6>
 
             <p>
-                You can make an anonymous report here <a href="/https://docs.google.com/forms/d/1szAObodE8do4MA_crhvlHnlXH2ryHnKsDs-_OFFz228/viewform?edit_requested=true">[Anonymoys Report]</a>. We can't follow up an
+                You can make an anonymous report here <a href="https://docs.google.com/forms/d/1szAObodE8do4MA_crhvlHnlXH2ryHnKsDs-_OFFz228/viewform?edit_requested=true">[Anonymoys Report]</a>. We can't follow up an
                 anonymous report with you directly, but we will fully investigate it and take whatever
                 action is necessary to prevent a recurrence.
             </p>
