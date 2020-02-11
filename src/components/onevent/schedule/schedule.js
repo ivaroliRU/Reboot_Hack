@@ -9,8 +9,8 @@ class Schedule extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      scheduleEnLink: "/images/Schedule_En.png",
-      scheduleIsLink: "/images/Schedule_Is.png",
+      scheduleEnLink: "/images/EN_Schedule_Reboot_Hack.png",
+      scheduleIsLink: "/images/IS_Dagskra_Reboot_Hack.png",
       schedule_events_saturday: [
         {
           id: 0,
@@ -48,7 +48,7 @@ class Schedule extends Component {
         {
           id: 3,
           startHour: "10:30",
-          textEn: "Team Formation 👋",
+          textEn: "Team Forming 👋",
           textIs: "Liðamyndun 👋",
           descriptionEn: "We recommend diverse teams!",
           descriptionIs: "Við mælum með fjölbreyttum liðum!",
@@ -59,7 +59,7 @@ class Schedule extends Component {
         {
           id: 4,
           startHour: "11:30",
-          textEn: "Lunch & hacking starts 🌮🌮",
+          textEn: "Lunch & hacking begins 🌮🌮",
           textIs: "Hádegismatur & vinnulota hefst 🌮🌮",
           descriptionEn: "Something for everyone - don’t forget your water bottle and reusable coffee cup to fill up! 👩‍💻👨‍💻",
           descriptionIs: "Eitthvað fyrir alla - ekki gleyma fjölnota drykkjarmálum!  👩‍💻👨‍💻",
@@ -70,7 +70,7 @@ class Schedule extends Component {
         {
           id: 5,
           startHour: "13:00",
-          textEn: "Workshops begin 🧠",
+          textEn: "Workshops 🧠",
           textIs: "Vinnustofur hefjast 🧠",
           descriptionEn: "There will be a workshop every 30 minutes - we recommend attending them!",
           descriptionIs: "Vinnustofurnar verða á hálftíma fresti - við hvetjum ykkur til að mæta á sem flestar til þess að fá enn meira út úr reynslunni!",
@@ -182,7 +182,7 @@ class Schedule extends Component {
         {
           id: 15,
           startHour: "12:00",
-          textEn: "Final Pitches 🎤💡",
+          textEn: "Pitches 🎤💡",
           textIs: "Kynningar á lokaafurð liða 🎤💡",
           descriptionEn: "The pitches are set up as a “science fair” and the judges will visit each team that they will be judging.",
           descriptionIs: "Kynningarnar verða á “science fair” formi þar sem dómarar labba á milli þeirra teyma sem þeir dæma.",
@@ -192,8 +192,8 @@ class Schedule extends Component {
         },
         {
           id: 16,
-          startHour: "14:00",
-          textEn: "Presentations end & judges deliberate ⏲️",
+          startHour: "13:30",
+          textEn: "Pitches end & judges deliberate ⏲️",
           textIs: "Kynningar enda & dómnefnd velur ⏲️",
           descriptionEn: "Exciting!",
           descriptionIs: "Spennandi!",
@@ -203,9 +203,9 @@ class Schedule extends Component {
         },
         {
           id: 17,
-          startHour: "15:00",
+          startHour: "14:15",
           textEn: "Top 5 teams present & Award Ceremony 🥇",
-          textIs: "Top 5 lið kynna - verðlaunaafhending 🥇",
+          textIs: "Top 5 lið kynna - verðlaunafhending",
           descriptionEn: "We can’t wait!",
           descriptionIs: "Við getum ekki beðið!",
           locationEn: "Askja, room 132",
