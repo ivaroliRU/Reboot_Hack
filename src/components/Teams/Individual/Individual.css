@@ -5,6 +5,10 @@
     height: 550px;
 }
 
+.individual_div_modified_height{
+    height: unset;
+}
+
 .individual_padding{
     padding: 1.5%;
     margin: auto !important;
