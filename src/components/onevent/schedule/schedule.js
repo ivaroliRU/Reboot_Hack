@@ -9,14 +9,14 @@ class Schedule extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      scheduleEnLink: "/images/EN_Schedule_Reboot_Hack.png",
-      scheduleIsLink: "/images/IS_Dagskra_Reboot_Hack.png",
+      scheduleEnLink: "/images/Schedule.jpg",
+      scheduleIsLink: "/images/Dagskrá.jpg",
       schedule_events_saturday: [
         {
           id: 0,
           startHour: "8:00",
           textEn: "Registration opens ✔️",
-          textIs: "Hús opnar og innritun hefst ✔️",
+          textIs: "Hús opnar & innritun hefst ✔️",
           descriptionEn: "We recommend coming early to enjoy the breakfast and merch!",
           descriptionIs: "Hvetjum ykkur til að mæta snemma og njóta morgunmatsins!",
           locationEn: "Askja, entrence",
@@ -27,7 +27,7 @@ class Schedule extends Component {
           id: 1,
           startHour: "8:30",
           textEn: "Breakfast & schedule presented 🥐",
-          textIs: "Morgunmatur og dagskrá kynnt 🥐",
+          textIs: "Morgunmatur & dagskrá kynnt 🥐",
           descriptionEn: "Something for everyone - don’t forget your water bottle and reusable coffee cup to fill up!",
           descriptionIs: "Eitthvað fyrir alla - ekki gleyma fjölnota drykkjarmálum!",
           locationEn: "Askja, main hall",
@@ -70,12 +70,12 @@ class Schedule extends Component {
         {
           id: 5,
           startHour: "13:00",
-          textEn: "Workshops 🧠",
+          textEn: "Workshops start🧠",
           textIs: "Vinnustofur hefjast 🧠",
           descriptionEn: "There will be a workshop every 30 minutes - we recommend attending them!",
           descriptionIs: "Vinnustofurnar verða á hálftíma fresti - við hvetjum ykkur til að mæta á sem flestar til þess að fá enn meira út úr reynslunni!",
-          locationEn: "Askja, rooms: 121, 128, 129, 130",
-          locationIs: "Stofur: 121, 128, 129, 130",
+          locationEn: "Askja, rooms 129 & 130",
+          locationIs: "Askja, stofur 129 & 130",
           relevantLink: null
         },
         {
@@ -114,18 +114,28 @@ class Schedule extends Component {
         {
           id: 9,
           startHour: "21:00",
-          textEn: "“Pitch” Workshop 💥",
+          textEn: "Pitch Workshop 💥",
           textIs: "“Pitch” vinnustofa 💥",
           descriptionEn: "🤠",
           descriptionIs: "🤠",
           locationEn: "",
           locationIs: "",
           relevantLink: null
+        },{
+          id: 10,
+          startHour: "21:50",
+          textEn: "Yoga 🙆🧘",
+          textIs: "Jóga 🙆🧘",
+          descriptionEn: "It's good to stand up from time to time. Come and join a yoga session!",
+          descriptionIs: "Það er mikivægt að standa upp af og til. Komdu í Yoga með okkur!",
+          locationEn: "",
+          locationIs: "",
+          relevantLink: null
         },
         {
-          id: 10,
+          id: 11,
           startHour: "22:30",
-          textEn: "Surprising Surprise 💥💥",
+          textEn: "Surprise 💥💥",
           textIs: "Óvænt uppákoma 💥💥",
           descriptionEn: "",
           descriptionIs: "",
@@ -134,7 +144,7 @@ class Schedule extends Component {
           relevantLink: null
         },
         {
-          id: 11,
+          id: 12,
           startHour: "23:30",
           textEn: "Midnight Snack 🌜🍭",
           textIs: "Miðnætursnarl 🌜🍭",
@@ -147,7 +157,7 @@ class Schedule extends Component {
       ],
       schedule_events_sunday: [
         {
-          id: 12,
+          id: 13,
           startHour: "08:00",
           textEn: "Breakast 🥞🥞",
           textIs: "Morgunmatur 🥞🥞",
@@ -158,9 +168,9 @@ class Schedule extends Component {
           relevantLink: null
         },
         {
-          id: 13,
+          id: 14,
           startHour: "11:00",
-          textEn: "Submissions Close 👐🧻",
+          textEn: "Submissions close 👐🧻",
           textIs: "Vinnulotu lýkur - skil á lokaafurð liða 👐🧻",
           descriptionEn: "Submit your project here:",
           descriptionIs: "Skila á lokaafurð fer fram í gegnum:",
@@ -169,7 +179,7 @@ class Schedule extends Component {
           relevantLink: "https://reboothack-2020.devpost.com/"
         },
         {
-          id: 14,
+          id: 15,
           startHour: "11:30",
           textEn: "Lunch 🥪🍱",
           textIs: "Hádegismatur 🥪🍱",
@@ -180,7 +190,7 @@ class Schedule extends Component {
           relevantLink: null
         },
         {
-          id: 15,
+          id: 16,
           startHour: "12:00",
           textEn: "Pitches 🎤💡",
           textIs: "Kynningar á lokaafurð liða 🎤💡",
@@ -191,10 +201,10 @@ class Schedule extends Component {
           relevantLink: null
         },
         {
-          id: 16,
+          id: 17,
           startHour: "13:30",
           textEn: "Pitches end & judges deliberate ⏲️",
-          textIs: "Kynningar enda & dómnefnd velur ⏲️",
+          textIs: "Kynningum lýkur & dómnefnd tekur til starfa",
           descriptionEn: "Exciting!",
           descriptionIs: "Spennandi!",
           locationEn: "",
@@ -202,10 +212,10 @@ class Schedule extends Component {
           relevantLink: null
         },
         {
-          id: 17,
+          id: 18,
           startHour: "14:15",
           textEn: "Top 5 teams present & Award Ceremony 🥇",
-          textIs: "Top 5 lið kynna - verðlaunafhending",
+          textIs: "Top 5 lið kynna - verðlaunaafhending",
           descriptionEn: "We can’t wait!",
           descriptionIs: "Við getum ekki beðið!",
           locationEn: "Askja, room 132",
@@ -284,7 +294,7 @@ class Schedule extends Component {
               className={style.dot_info+" "+style.extra_margin} 
               data-description="1">
               <span className={style.span+" "+style.year}>{someEvent.startHour}</span>
-              <span className={style.span+" "+style.label}>{Cookies.get('language')=='is' ? someEvent.textIs : someEvent.textEn}</span>
+              <span className={style.span+" "+style.label+" "+(someEvent.id==17 ? style.textModified : null)}>{Cookies.get('language')=='is' ? someEvent.textIs : someEvent.textEn}</span>
             </div>
           )
         ];
@@ -371,7 +381,7 @@ class Schedule extends Component {
             <p className={style.display_initial}>&nbsp;</p> <p className={ (Cookies.get('language')=='is' && isMobile) ? style.display_on_mobile_when_icelandic_is_on : style.hide_on_mobile_when_icelandic_is_on}>&nbsp;</p>
             <button 
               type="button" 
-              className={"btn btn-outline-primary btn-lg "+buttonStyle.apply_button}
+              className={"btn btn-outline-primary btn-lg "+buttonStyle.apply_button+" "+((Cookies.get('language')=='is' && isMobile) ? style.btn_margin_top : null)}
               onClick={() => changeToSundaySchedule()}>
                 {sundayText}
             </button>
