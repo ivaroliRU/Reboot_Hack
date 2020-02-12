@@ -28,7 +28,7 @@ class App extends Component {
 
             <div className="container">
 
-            <h2 className={style2.center_align+ "pl-2" +style2.padding_top}>Code of Conduct</h2>
+            <h2 className="mx-auto pl-2">Code of Conduct</h2>
 
             <p>Reboot Hack is dedicated to providing an enjoyable and a harassment-free conference experience
                 for everyone, regardless of gender, gender identity and expression, sexual orientation, disability,
