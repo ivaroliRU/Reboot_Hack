@@ -138,6 +138,10 @@
     font-size: small;
 }
 
+.textModified{
+    top: -100px !important;
+}
+
 #timeline_descriptions_wrapper1 {
     
     text-align:center;
@@ -300,7 +304,7 @@
     }
 
     .dot_info .span.year {
-        top: 0;
+        top: 0 !important;
         left: 0;
         transform: none;
         width: 100%;
@@ -312,12 +316,13 @@
     }
 
     .dot_info .span.label {
-        top: calc(100% + 5px);
+        top: calc(100% + 5px) !important;
         left: 50%;
         transform: translateX(-50%);
         text-indent: 0;
         text-align: center;
         position: initial;
+        font-size: 10px;
     }
 
     #timeline_descriptions_wrapper1 {
@@ -336,5 +341,9 @@
         visibility: visible;
         color: white;
         z-index: 999;
+    }
+
+    .btn_margin_top{
+        margin-top: 1%;
     }
 }
