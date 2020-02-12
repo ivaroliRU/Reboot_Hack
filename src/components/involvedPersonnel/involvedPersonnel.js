@@ -11,115 +11,104 @@ class InvolvedPersonnel extends Component {
         this.state = {
             judges: [
                 {
-                    name: "Judge_1",
-                    title: "Title_of_Judge_1",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Judge
+                    name: "Kristján Ingi Mikaelsson",
+                    title: "Framkvæmdastjóri, Rafmyntráðið",
+                    linkedIn: "https://www.linkedin.com/in/kristjanmik/",
                 },
                 {
-                    name: "Judge_2",
-                    title: "Title_of_Judge_2",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Judge
+                    name: "Sunna Halla Einarsdóttir",
+                    title: "Fjármálastjóri, Icelandic Startups ",
+                    linkedIn: "https://www.linkedin.com/in/sunna-halla-einarsd%C3%B3ttir-17714a131/",
                 },
                 {
-                    name: "Judge_3",
-                    title: "Title_of_Judge_3",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Judge
+                    name: "Auður Örlygsdóttir",
+                    title: "Verkefnisstjóri, Höfði Friðarsetur",
+                    linkedIn: "https://www.linkedin.com/in/au%C3%B0ur-%C3%B6rlygsd%C3%B3ttir-689314a4/",
                 },
                 {
-                    name: "Judge_4",
-                    title: "title_of_Judge_4",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Judge
+                    name: "Kristinn Jón Ólafsson",
+                    title: "Forstöðumaður nýsköpunar innviða, Reykjavíkurborg",
+                    linkedIn: "https://www.linkedin.com/in/kristinnjo/",
                 },
             ],
-            menthors: [
+            mentors: [
                 {
-                    name: "Menthor_1",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Mentor
+                    name: "Rafnar Ólafsson",
+                    title: "Data Engineer",
+                    linkedIn: "https://www.linkedin.com/in/rafnar-olafsson/",
                 },
                 {
-                    name: "Menthor_2",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Mentor
+                    name: "Arnar Þór Sigurðsson",
+                    title: "Backend Developer",
+                    linkedIn: "http://www.linkedin.com/in/arnar-%C3%BE%C3%B3r-sigur%C3%B0sson-72a744185",
                 },
                 {
-                    name: "Menthor_3",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Mentor // Workshop Leader
+                    name: "Andrea Gunnarsdóttir",
+                    title: "BSc Engineering Management",
+                    linkedIn: "https://www.linkedin.com/in/andrea-gunnarsd%C3%B3ttir-3730bb13b/",
                 },
                 {
-                    name: "Menthor_4",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Mentor // Workshop Leader
+                    name: "Margrét Dóra Ragnarsdóttir",
+                    title: "Experience Designer",
+                    linkedIn: "https://www.linkedin.com/in/maggadora/",
                 },
                 {
-                    name: "Menthor_5",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Mentor // Workshop Leader
+                    name: "Rasmus Petersen",
+                    title: "Director of Robotics at Íslandsbanki",
+                    linkedIn: "https://www.linkedin.com/in/rasmus-petersen-b0612031/",
                 },
                 {
-                    name: "Menthor_6",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Mentor // Workshop Leader
+                    name: "Scotty Shaw",
+                    title: "CEO / Founding President, National Technology Association & Tech Tree Root",
+                    linkedIn: "https://www.linkedin.com/in/scottyshaw/",
+                },
+                // {
+                //     // Mentor // Workshop Leader
+                //     name: "Rakel Björt Jónsdóttir",
+                //     title: "Developer, Kolibri - Forritari, Kolibri",
+                //     linkedIn: "https://www.linkedin.com/in/rakel-bj%C3%B6rt-j%C3%B3nsd%C3%B3ttir/",
+                // },
+                {
+                    // Mentor // Workshop Leader
+                    name: "Ósk Heiða Sveinsdóttir",
+                    title: "Marketing Director at Íslandspóstur, Markaðsstjóri Íslandspósts ",
+                    linkedIn: "https://www.linkedin.com/in/oskheida/",
                 },
                 {
-                    name: "Menthor_7",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Mentor // Workshop Leader
+                    name: "Anna Signý Guðbjörnsdóttir",
+                    title: "UX Researcher at Kolibri",
+                    linkedIn: "https://www.linkedin.com/in/annasigny/",
                 },
                 {
-                    name: "Menthor_8",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
+                    // Mentor // Workshop Leader
+                    name: "Ólafur Sverrir Kjartansson",
+                    title: "Technical Director at Ueno",
+                    linkedIn: "https://www.linkedin.com/in/%C3%B3lafur-sverrir-kjartansson-a4a0793/",
                 },
-                
-            ],
-            workshopLeaders: [
-                {
-                    name: "W_Leader_1",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
-                },
-                {
-                    name: "W_Leader_2",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
-                },
-                {
-                    name: "W_Leader_3",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
-                },
-                {
-                    name: "W_Leader_4",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
-                },
-                {
-                    name: "W_Leader_5",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
-                },
-                {
-                    name: "W_Leader_6",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
-                },
-                {
-                    name: "W_Leader_7",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
-                },
-                {
-                    name: "W_Leader_8",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
-                },
-                {
-                    name: "W_Leader_9",
-                    title: "some_title",
-                    linkedIn: "https://www.linkedin.com/in/george-cosmin-morosanu-58272115a/",
-                },
+                // {
+                //     // Team forming leader
+                //     name: "Ásthildur Didda Guðmundsdóttir",
+                //     title: "Forstöðumaður frístundaheimilis, Manager at a after school program",
+                //     linkedIn: "https://www.linkedin.com/in/%C3%A1sthildur-gu%C3%B0mundsd%C3%B3ttir-8159a11a1/",
+                // },
+                // {
+                //     // Yoga instructor
+                //     name: "Kristín Hulda Gísladóttir",
+                //     title: "Meistaranemi í klínískri sálfræði og jógakennari/Masters student in clinical psychology and yoga instructor",
+                //     linkedIn: "https://www.linkedin.com/in/krist%C3%ADn-hulda-665959193/",
+                // },
+
             ]
         };
     }
@@ -127,8 +116,7 @@ class InvolvedPersonnel extends Component {
         return (
             <div className={style.personnel_div+" container"}>
                 <PersonnelSection sectionTitle="Judges" personnelList={this.state.judges} />
-                <PersonnelSection sectionTitle="Menthors" personnelList={this.state.menthors} />
-                <PersonnelSection sectionTitle="Workshop Leaders" personnelList={this.state.workshopLeaders} />
+                <PersonnelSection sectionTitle="Mentors / Workshop Leaders" personnelList={this.state.mentors} />
             </div>
         )
     }
