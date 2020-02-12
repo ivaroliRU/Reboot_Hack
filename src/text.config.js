@@ -228,7 +228,7 @@ export const translation = {
           diet: 'Allergies',
           tShirt: 'T-Shirt Size',
           team: 'I already have a team',
-          emailInfo: 'We will send you an email conformation and look forward to seeing you in February.'
+          emailInfo: 'We will send you an email confirmation and look forward to seeing you in February.'
         },
         registerConfirmation: {
           title: 'Thank you for registering to Reboot Hack',
