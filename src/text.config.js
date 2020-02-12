@@ -150,7 +150,7 @@ export const translation = {
         question11: {
           text: 'Hverjar eru siðareglur Reboot Hack?',
           answer:
-            'Stefna Reboot Hack er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot Hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi.',
+            'Stefna Reboot Hack er að bjóða uppá öruggt, aðgengilegt og skemmtilegt umhverfi fyrir alla! Við búumst við því að allir sem taka þátt í Reboot Hack, hvort sem að það eru þátttakendur eða skipuleggjendur sýni hvort öðru virðingu og tillitssemi. <a href="/conduct" target="_blank">Hér</a> geturu séð siðareglur Reboot Hack',
         },
         question12: {
           text: 'Þarf ég að vera þarna allan tímann?',
@@ -190,6 +190,9 @@ export const translation = {
         text1: 'Úps, síða fannst ekki',
         text2: 'Því miður er síðan sem þú ert að leita að ekki til, hefur verið fjralægð. Breytt um nafn eða hún er ekki aðgengileg í augnablikinu',
         text3: 'Aftur á heimasíðu'
+      },
+      involvedPersonnel:{
+
       }
     },
     /* -------------------------- ENGLISH VERSION ------------------------------------- */
@@ -225,7 +228,7 @@ export const translation = {
           diet: 'Allergies',
           tShirt: 'T-Shirt Size',
           team: 'I already have a team',
-          emailInfo: 'We will send you an email conformation and look forward to seeing you in February.'
+          emailInfo: 'We will send you an email confirmation and look forward to seeing you in February.'
         },
         registerConfirmation: {
           title: 'Thank you for registering to Reboot Hack',
@@ -338,7 +341,7 @@ export const translation = {
         question10: {
           text: 'What’s the code of conduct',
           answer:
-            'We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this code of conduct. Organizers will make sure that everyone adheres to the code.',
+            'We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this code of conduct. Organizers will make sure that everyone adheres to the code. <a href="/conduct" target="_blank">Here</a> you can view our code of conduct',
         },
         question11: {
           text: 'What about sleeping?',
@@ -379,6 +382,9 @@ export const translation = {
         text1: 'Oops! Page not found',
         text2: 'Sorry but the page you are looking for does not exist, have been removed. Name changed or is temporarily unavailable',
         text3: 'Back to homepage'
+      },
+      involvedPersonnel:{
+        
       }
     }
 }

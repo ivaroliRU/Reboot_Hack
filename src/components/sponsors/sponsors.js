@@ -184,6 +184,12 @@ class Sponsors extends Component {
                             photoURL: './images/sponsors/other/FabLabReykjavik.png',
                             website: 'https://www.fablab.is/reykjavik.html'
                         },
+                        {
+                            id: 9,
+                            name: 'Ferró Skiltagerð',
+                            photoURL: './images/sponsors/other/Ferro_Logo_PNG.png',
+                            website: 'http://www.ferroskilti.is/'
+                        },
                     ]
                 }
 

@@ -24,6 +24,7 @@ class ApplyButton extends Component {
             $("#modalRegisterForm").modal('hide');
             $("#successModal").modal('show');
         });
+        
     }
     
     
@@ -86,6 +87,7 @@ class ApplyButton extends Component {
                                 <button type="button" className={"close "+style.close} data-dismiss="modal">&times;</button>
                             </div>
                             {/* body */}
+                            <form>
                             <div className="modal-body">
                                 <div className="form-group">
                                     <div className="form-row">
@@ -166,7 +168,7 @@ class ApplyButton extends Component {
                                     </div>
 
                                     </div>
-                                    
+
                                     {/* Email conformation - text*/}
                                     <div>
                                         <small id="emailConformation" className="form-text-inline text-muted">
@@ -176,6 +178,7 @@ class ApplyButton extends Component {
                                     
                                 </div>
                             </div>
+                            </form>
                             
                             {/* footer */}
                             
@@ -186,6 +189,7 @@ class ApplyButton extends Component {
                         </div>
                     </div>
                 </div>
+                {/* End of Registration Modal */}
 
             </div>
             );

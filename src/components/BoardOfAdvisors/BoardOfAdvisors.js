@@ -18,7 +18,7 @@ constructor(props) {
                 titleIs: 'BSc Rekstrarverkfræði',
                 titleEn: 'BSc Engineering Management',
                 email: 'gunnarsdottirandrea@gmail.com',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/andrea-gunnarsd%C3%B3ttir-3730bb13b/',
                 photoURL: './images/Board_of_Advisors/Andrea_Gunnarsdóttir.png',
             },
             {
@@ -27,7 +27,7 @@ constructor(props) {
                 titleIs: 'Framkvæmdastjóri, Travelade',
                 titleEn: 'CEO and Co-Founder, Travelade',
                 email: 'andri@travelade.com',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/andriheidar/',
                 photoURL: './images/Board_of_Advisors/Andri_Heiðar_Kristinsson.jpg',
             },
             {
@@ -36,7 +36,7 @@ constructor(props) {
                 titleIs: 'Rektor Háskólans í Reykjavík',
                 titleEn: 'Rector of Rekjavík University',
                 email: 'ari@ru.is',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/ari-jonsson/',
                 photoURL: null,
             },
             {
@@ -45,7 +45,7 @@ constructor(props) {
                 titleIs: 'Framkvæmdastjóri Ský & UTmessunnar',
                 titleEn: 'Managing Director, Ský & UTmessan',
                 email: 'arnheidur@sky.is',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/arnheidurgudm/',
                 photoURL: './images/Board_of_Advisors/Arnheidur_Gudmundsdottir.png',
             },
             {
@@ -54,7 +54,7 @@ constructor(props) {
                 titleIs: 'Teymisþjálfi, Kolibri',
                 titleEn: 'Team Coach and facilitator, Kolibri',
                 email: 'bjork@kolibri.is',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/bjorkbrynjars/',
                 photoURL: './images/Board_of_Advisors/Björk_Brynjarsdóttir.jpg',
             },
             {
@@ -63,7 +63,7 @@ constructor(props) {
                 titleIs: 'Framkvæmdastjóri, Auðna-Tæknitorg',
                 titleEn: 'CEO, Auðna-Tæknitorg',
                 email: 'einarm@hi.is',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/einar-m%C3%A4ntyl%C3%A4-2362751/',
                 photoURL: null,
             },
             {
@@ -72,7 +72,7 @@ constructor(props) {
                 titleIs: 'Markaðsstjóri, Nýsköpunarmiðstöð Íslands',
                 titleEn: 'Director of Marketing, Innovation Center Iceland',
                 email: 'fjalar@nmi.is',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/fjalarsigurdarson/',
                 photoURL: './images/Board_of_Advisors/Fjalar_mynd copy.jpg',
             },
             {
@@ -81,16 +81,16 @@ constructor(props) {
                 titleIs: 'Meðstofnandi, Reboot Hack',
                 titleEn: 'Co-founder, Reboot Hack',
                 email: null,
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/fridasnaedis/',
                 photoURL: null,
             },
             {
                 id: 8,
                 name: 'Helga Dögg Björgvinsdóttir',
                 titleIs: 'Viðskiptastjóri, Men & Mice',
-                titleEn: 'Channel Manager at Men & Mice',
+                titleEn: 'Customer Success Manager, Men & Mice',
                 email: 'helga@crowberrycapital.com ',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/helgadogg/',
                 photoURL: './images/Board_of_Advisors/Helga_Valfells.jpeg',
             },
             {
@@ -99,7 +99,7 @@ constructor(props) {
                 titleIs: 'Stofnandi og framkvæmdastjóri, Crowberry Capital',
                 titleEn: 'Founder & Managing Partner, Crowberry Capital',
                 email: 'helga@crowberrycapital.com ',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/helga-valfells-ba85046/',
                 photoURL: './images/Board_of_Advisors/Helga_Valfells.jpeg',
             },
             {
@@ -108,7 +108,7 @@ constructor(props) {
                 titleIs: 'Framkvæmdastjóri, Festa',
                 titleEn: 'Director, Festa',
                 email: 'Hrund@samfelagsabyrgd.is ',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/hrund-gunnsteinsdottir-43b3b32a/',
                 photoURL: './images/Board_of_Advisors/Hrund_Gunnsteinsdóttir.jpg',
             },
             {
@@ -117,16 +117,16 @@ constructor(props) {
                 titleIs: 'Rektor Háskóla Íslands',
                 titleEn: 'Rector of the University of Iceland',
                 email: 'rektor@hi.is ',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/jon-atli-benediktsson-b1b364b/',
                 photoURL: './images/Board_of_Advisors/Jón_Atli_Benediktsson.jpg',
             },
             {
                 id: 12,
                 name: 'Kristinn Árni L. Hróbjartsson',
                 titleIs: 'Rekstrarstjóri, Gangverk',
-                titleEn: 'Director of Operations at Gangverk',
+                titleEn: 'Director of Operations,  Gangverk',
                 email: 'k@gangverk.is',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/hrobjartsson/',
                 photoURL: null,
             },
             {
@@ -135,7 +135,7 @@ constructor(props) {
                 titleIs: 'Framkvæmdastjóri, Rafmyntráðið',
                 titleEn: 'Managing Director of the Icelandic Blockchain Foundation',
                 email: 'kristjanmik@gmail.com ',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/kristjanmik/',
                 photoURL: './images/Board_of_Advisors/Kristján_Ingi_Mikaelsson.jpg',
             },
             {
@@ -144,7 +144,7 @@ constructor(props) {
                 titleIs: 'Forstöðumaður stefnumótunar, Íslandsbanki',
                 titleEn: 'Executive Director, Strategy, Íslandsbanki',
                 email: 'kristrun.tinna.gunnarsdottir@islandsbanki.is',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/kristrunt/',
                 photoURL: './images/Board_of_Advisors/Kristrún_Tinna_Gunnarsdóttir.jpg',
             },
             {
@@ -153,7 +153,7 @@ constructor(props) {
                 titleIs: 'Ráðgjafi, Intellecta',
                 titleEn: 'Advisor, Intellecta',
                 email: 'lydia@intellecta.is ',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/lyd%C3%ADa-%C3%B3sk-%C3%B3marsd%C3%B3ttir-8769ab42/',
                 photoURL: './images/Board_of_Advisors/Lydía_Ósk_Ómarsdóttir.jpg',
             },
             {
@@ -162,7 +162,7 @@ constructor(props) {
                 titleIs: 'Stafrænn hönnunarleiðtogi',
                 titleEn: 'Experience Designer',
                 email: 'maggadora@gmail.com',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/maggadora/',
                 photoURL: './images/Board_of_Advisors/Margrét_Dóra_Ragnarsdóttir.jpg',
             },
             {
@@ -171,7 +171,7 @@ constructor(props) {
                 titleIs: 'Forstöðumaður framkvæmda, Veitur',
                 titleEn: 'Head of Utility Maintenance, Veitur',
                 email: 'Ragnheidur.Hrefna.Magnusdottir@veitur.is ',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/ragnheidur/?originalSubdomain=is',
                 photoURL: null,
             },
             {
@@ -180,7 +180,7 @@ constructor(props) {
                 titleIs: 'Microsoft / Lava show',
                 titleEn: 'Microsoft / Lava show',
                 email: 'ragnhildur@eldvirkni.is /ragnhildur.agustsdottir@microsoft.com',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/ragnhildur/',
                 photoURL: null
             },
             {
@@ -189,7 +189,7 @@ constructor(props) {
                 titleIs: 'Meðstofnandi, Reboot Hack',
                 titleEn: 'Co-founder, Reboot Hack',
                 email: null,
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/salomeg/',
                 photoURL: null,
             },
             {
@@ -198,7 +198,7 @@ constructor(props) {
                 titleIs: 'Framkvæmdastjóri, Icelandic Startups',
                 titleEn: 'CEO, Icelandic Startups',
                 email: null,
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/sara-mars/',
                 photoURL: null,
             },
             {
@@ -207,7 +207,7 @@ constructor(props) {
                 titleIs: 'Sérfræðingur í nýsköpun, Atvinnuvega – og nýsköpunarráðuneytið',
                 titleEn: 'Senior expert, Department of tourism and innovation',
                 email: 'sigridur.valgeirsdottir@anr.is ',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/sigridur-valgeirsdottir-15400b11/',
                 photoURL: './images/Board_of_Advisors/S_Valgeirsdottir.jpg',
             },
             {
@@ -216,7 +216,7 @@ constructor(props) {
                 titleIs: 'Formaður stjórnar MITdesignX viðskiptahraðalsins, stjórnarmaður: Icelandair, Origo, Össur',
                 titleEn: 'Chair MITdesignX, Board of directors: Icelandair, Origo, Össur',
                 email: 'svafa@mit.edu',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/svafa-gronfeldt-77280b35/',
                 photoURL: './images/Board_of_Advisors/Svafa_Grönfeldt.jpg',
             },
             {
@@ -225,7 +225,7 @@ constructor(props) {
                 titleIs: 'Samskipta- og miðlunarstjóri, Viðskiptaráð Íslands',
                 titleEn: 'Director of Communications and Multimedia, Iceland Chamber of Commerce',
                 email: 'vedis@vi.is',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/vedis-hervor-arnadottir-65615710/',
                 photoURL: './images/Board_of_Advisors/Vedis_Hervor_Arnadottir.jpg',
             },
             {
@@ -234,7 +234,7 @@ constructor(props) {
                 titleIs: 'Ráðgjafi, Capacent',
                 titleEn: 'Director, Capacent',
                 email: 'thorey.vilhjalmsdottir@capacent.is ',
-                linkedInLink: null,
+                linkedInLink: 'https://www.linkedin.com/in/thoreyvilhjalmsdottir/',
                 photoURL: './images/Board_of_Advisors/Þórey_Vilhjálmsdóttir.jpg',
             },
         ]
