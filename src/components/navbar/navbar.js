@@ -11,7 +11,8 @@ class Navbar extends Component {
         mini_eventsText = "",
         scheduleText = "",
         instagramText = "",
-        locationText = "";
+        locationText = "",
+        personnel = "";
 
     if(Cookies.get('language')=='is'){
       challengesText = "Áskoranir";
@@ -19,6 +20,7 @@ class Navbar extends Component {
       scheduleText = "Dagskrá";
       instagramText = "Instagram";
       locationText = "Staðsetning";
+      personnel = "Fólk";
     }
     else{
       challengesText = "Challenges";
@@ -26,6 +28,7 @@ class Navbar extends Component {
       scheduleText = "Schedule";
       instagramText = "Instagram";
       locationText = "Location";
+      personnel = "Involved personnel";
     }
     
     var dateNow = new Date();
@@ -103,7 +106,7 @@ class Navbar extends Component {
                     <a className={"dropdown-item "+style.dropdown_item} href="/about">{this.text.navbar.reboot}</a>
                     <a className={"dropdown-item "+style.dropdown_item} href="/board">{this.text.navbar.board}</a>
                     <a className={"dropdown-item "+style.dropdown_item} href="/team">{this.text.navbar.team_members}</a>
-                    {/* <a className={"dropdown-item "+style.dropdown_item} href="/involvedPersonnel">Involved Personnel</a> */}
+                    <a className={"dropdown-item "+style.dropdown_item} href="/involvedPersonnel"> {personnel}</a>
                   </div>
                 </div>
                 </li>
