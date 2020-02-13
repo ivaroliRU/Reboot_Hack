@@ -56,7 +56,7 @@ class InvolvedPersonnel extends Component {
                     // Mentor
                     name: "Rafnar Ólafsson",
                     titleEn: "Data Engineer",
-                    titleIs: "Gagnaverkfræðingur",
+                    titleIs: "Data Engineer",
                     purpose: "Mentor",
                     linkedIn: "https://www.linkedin.com/in/rafnar-olafsson/",
                 },
