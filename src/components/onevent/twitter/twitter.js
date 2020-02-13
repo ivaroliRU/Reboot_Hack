@@ -14,7 +14,7 @@ class Twitter extends Component {
             <div>
                 <TwitterTimelineEmbed
                     sourceType = 'profile'
-                    screenName = 'einargudni'
+                    screenName = 'reboothack'
                     options = {{height: 400}}
                 />
 
