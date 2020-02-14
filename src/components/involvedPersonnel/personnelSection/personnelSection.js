@@ -14,9 +14,10 @@ class PersonnelSection extends Component {
               return (
                 <div 
                     key={person.linkedIn}
-                    className={"col-6 col-lg-3 "+style.margin_auto+' '+style.padding_bottom}>
+                    className={"col-6 col-lg-4 "+style.margin_auto+' '+style.padding_bottom}>
                     <h4 className={style.reboot_color+" "+style.heading}><b>{person.name}</b></h4>
-                    <h5 className={style.reboot_color}>{person.title}</h5>
+                    <h6 className={style.reboot_color}>{person.purpose}</h6>
+                    <h5 className={style.reboot_color}>{Cookies.get('language')=='is' ? person.titleIs : person.titleEn}</h5>
                     {
                     person.linkedIn == null ? 
                     null 
