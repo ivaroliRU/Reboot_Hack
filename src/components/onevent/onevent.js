@@ -22,7 +22,7 @@ class OnEvent extends Component {
     var dateNow = new Date();
     var page_2020;
 
-    if (dateNow.getTime() <= (new Date('Feb 14, 2020 18:00:00').getTime())){
+    if (dateNow.getTime() <= (new Date('Feb 15, 2020 08:00:00').getTime())){
       page_2020 = (
         <div className={style.div_styling+" container"}>
           <br />

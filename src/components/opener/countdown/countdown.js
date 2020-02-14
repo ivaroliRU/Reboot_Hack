@@ -8,7 +8,7 @@ class Countdown extends Component {
         var dateNow = new Date();
         var displayThisSection;
 
-        if (dateNow.getTime() <= (new Date('Feb 14, 2020 18:00:00').getTime())){
+        if (dateNow.getTime() <= (new Date('Feb 15, 2020 08:00:00').getTime())){
             displayThisSection = true;
             console.log(displayThisSection)
         }
@@ -41,7 +41,7 @@ class Countdown extends Component {
               hour = minute * 60,
               day = hour * 24;
 
-        let countDown = new Date('Feb 14, 2020 18:00:00').getTime();
+        let countDown = new Date('Feb 15, 2020 08:00:00').getTime();
         let x = setInterval(
             function() {
                 let now = new Date().getTime(),
