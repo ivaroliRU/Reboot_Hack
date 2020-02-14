@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import style from './onevent.css';
 import Schedule from './schedule/schedule';
 import Challenges from './challenges/challenges';
-// import Judges from './judges/judges';
 import Location from './location/location';
 import Events from './events/events'
 import InstaGrid from './instagrid/instagrid';
+import Twitter from './twitter/twitter';
 import VerticalNavigation from './verticalNavigation/verticalNavigation';
 
 class OnEvent extends Component {
@@ -69,6 +69,18 @@ class OnEvent extends Component {
         <div className={style.div_styling+" container"}>
           <br />
 
+          <div id="Twitter_Section" className={"row pb-20"}>
+            <div className={style.schedule_padding_on_mobile+" col-12"}>
+              <Twitter />
+            </div>
+          </div>
+
+          <div id="Schedule_Section" className={"row pb-20"}>
+            <div className={style.schedule_padding_on_mobile+" col-12"}>
+              <Schedule/>
+            </div>
+          </div>
+
           <div id="Instagram_Section" className={"row pb-20"}>
             <div className={"col-12 pb-4"}>
               <h3>Reboot Hack  
@@ -81,12 +93,6 @@ class OnEvent extends Component {
               </h3>
               <InstaGrid account="reboothackiceland" numberOfMediaElements={9} />
             </div> 
-          </div>
-
-          <div id="Schedule_Section" className={"row pb-20"}>
-            <div className={style.schedule_padding_on_mobile+" col-12"}>
-              <Schedule/>
-            </div>
           </div>
 
           <div className={"row "+style.margin_top_20}>
