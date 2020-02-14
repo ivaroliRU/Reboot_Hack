@@ -15,6 +15,10 @@
   /* color: rgba(255,255,255,.5) !important; */
 }
 
+.hidden_element{
+  display: none !important;
+}
+
 .dropdown_item:active, .dropdown_item:focus{
   background-color: rgb(105,73,145) !important;
 }

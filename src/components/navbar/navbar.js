@@ -33,8 +33,14 @@ class Navbar extends Component {
     
     var dateNow = new Date();
     var section_navbar_2020;
+    var section_registation_2020;
 
-    if (dateNow.getTime() <= (new Date('Feb 14, 2020 18:00:00').getTime())){
+    if (dateNow.getTime() <= (new Date('Feb 15, 2020 08:00:00').getTime())){
+      section_registation_2020= (
+        <li className={style.reboot_navbar_item + " nav-item"}>
+            <a href="./#RegisterSection" className="nav-link">{this.text.navbar.register}</a>
+        </li>
+      )
       section_navbar_2020 = (
         <div className={style.dropdown_menu+" dropdown-menu pull-right"} aria-labelledby="2020">
           <a className={"dropdown-item "+style.dropdown_item} href="/event#Challenges_Section">{challengesText}</a>
@@ -46,6 +52,9 @@ class Navbar extends Component {
       )
     }
     else{
+      section_registation_2020= (
+        null
+      )
       section_navbar_2020 = (
         <div className={style.dropdown_menu+" dropdown-menu pull-right"} aria-labelledby="2020">
           <a className={"dropdown-item "+style.dropdown_item} href="/event#Instagram_Section">{instagramText}</a>
@@ -86,9 +95,9 @@ class Navbar extends Component {
                   </div>
                 </li>  */}
                 
-                <li className={style.reboot_navbar_item + " nav-item"}>
-                    <a href="./#RegisterSection" className="nav-link">{this.text.navbar.register}</a>
-                </li>
+                {/* Registration */}
+                {section_registation_2020}
+                
                 {/* 2020 Event page */}
                 <li className={style.reboot_navbar_item + " nav-item"}>
                     {/* <a href="/event" className="nav-link">2020</a> */}<div className={style.group_button+" btn-group"}>
