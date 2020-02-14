@@ -28,7 +28,7 @@ class Navbar extends Component {
       scheduleText = "Schedule";
       instagramText = "Instagram";
       locationText = "Location";
-      personnel = "Involved personnel";
+      personnel = "People";
     }
     
     var dateNow = new Date();

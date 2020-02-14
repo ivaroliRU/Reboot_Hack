@@ -125,6 +125,30 @@ class InvolvedPersonnel extends Component {
                     linkedIn: "https://www.linkedin.com/in/annasigny/",
                 },
                 {
+                    // Mentor
+                    name: "Matthias Book",
+                    titleEn: "Computer Science Department Head, University of Iceland",
+                    titleIs: "Deildarformaður tölvunarfræðideildar, Háskóli Íslands",
+                    purpose: "Mentor",
+                    linkedIn: "https://www.linkedin.com/in/matthiasbook/",
+                },
+                {
+                    // Mentor // Workshop Leader
+                    name: "Gregory Smith",
+                    titleEn: "CIO, American Kidney Fund",
+                    titleIs: "CIO, American Kidney Fund",
+                    purpose: "Mentor / Workshop Leader",
+                    linkedIn: "https://www.linkedin.com/in/gregoryssmith1/",
+                },
+                {
+                    // Mentor
+                    name: "Sara Björk Másdóttir",
+                    titleEn: "Co-founder, Reboot Hack",
+                    titleIs: "Meðstofnandi, Reboot Hack",
+                    purpose: "Mentor",
+                    linkedIn: "https://www.linkedin.com/in/sara-mars/",
+                }, 
+                {
                     // Mentor // Workshop Leader
                     name: "Ólafur Sverrir Kjartansson",
                     titleEn: "Technical Director, Ueno",

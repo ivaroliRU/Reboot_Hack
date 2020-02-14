@@ -9,8 +9,8 @@ class Schedule extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      scheduleEnLink: "/images/Schedule.jpg",
-      scheduleIsLink: "/images/Dagskrá.jpg",
+      scheduleEnLink: "/images/SchedulePNG.png",
+      scheduleIsLink: "/images/DagskráPNG.png",
       schedule_events_saturday: [
         {
           id: 0,
@@ -294,7 +294,7 @@ class Schedule extends Component {
               className={style.dot_info+" "+style.extra_margin} 
               data-description="1">
               <span className={style.span+" "+style.year}>{someEvent.startHour}</span>
-              <span className={style.span+" "+style.label+" "+(someEvent.id==17 ? style.textModified : null)}>{Cookies.get('language')=='is' ? someEvent.textIs : someEvent.textEn}</span>
+              <span className={style.span+" "+style.label}>{Cookies.get('language')=='is' ? someEvent.textIs : someEvent.textEn}</span>
             </div>
           )
         ];
