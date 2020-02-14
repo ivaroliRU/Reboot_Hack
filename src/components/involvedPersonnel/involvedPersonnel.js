@@ -157,6 +157,14 @@ class InvolvedPersonnel extends Component {
                     linkedIn: "https://www.linkedin.com/in/%C3%B3lafur-sverrir-kjartansson-a4a0793/",
                 },
                 {
+                    // Mentor // Workshop Leader
+                    name: "Svava Björk Ólafsdóttir",
+                    titleEn: "Co-founder, Rata",
+                    titleIs: "Meðstofnandi, Rata",
+                    purpose: "Mentor / Workshop Leader",
+                    linkedIn: "https://www.linkedin.com/in/svavaola/",
+                },
+                {
                     // Team forming leader
                     name: "Ásthildur Didda Guðmundsdóttir",
                     titleEn: "Manager at an after school program",

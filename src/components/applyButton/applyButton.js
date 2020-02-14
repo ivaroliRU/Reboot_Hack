@@ -38,6 +38,23 @@ class ApplyButton extends Component {
         else{
             extraText = "Reboot Hack is a student-driven hackathon taking place at the University of Iceland the weekend of February 14th-16th 2020. The event is open for all university students in the world.";
         }
+        var buttonSection;
+
+        var dateNow = new Date();
+        if(dateNow.getTime() <= (new Date('Feb 15, 2020 08:00:00').getTime())){
+            buttonSection = (
+                <div className="text-center">
+                    <button type="button" className={"btn btn-outline-primary btn-lg mb-4 "+style.apply_button} data-toggle="modal" data-target="#modalRegisterForm">
+                        {this.text.register.subHeading}
+                    </button>
+                </div>
+            )
+        }
+        else{
+            buttonSection = (
+                null
+            )
+        }
 
         return (
             <div className="container">
@@ -45,11 +62,7 @@ class ApplyButton extends Component {
                 <div>
                     <p>{extraText}</p>
                 </div>
-                <div className="text-center">
-                    <button type="button" className={"btn btn-outline-primary btn-lg mb-4 "+style.apply_button} data-toggle="modal" data-target="#modalRegisterForm">
-                        {this.text.register.subHeading}
-                    </button>
-                </div>
+                {buttonSection}
                 {/* End of Info + registration Button  */}
                 
                 {/* Modal for confirmation of registration */}

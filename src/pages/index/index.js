@@ -11,7 +11,7 @@ import ParallaxScrollImage from '../../components/parallaxScrollImage';
 import {changeLanguage, getTranslation} from '../../translations';
 import AboutIndex from '../../components/about/aboutIndex';
 import AboutIndex2 from '../../components/about/aboutIndex2';
-import style from "./index.css"
+import style from "./index.css";
 
 
 
