@@ -15,7 +15,8 @@ class Twitter extends Component {
                 <TwitterTimelineEmbed
                     sourceType = 'profile'
                     screenName = 'reboothack'
-                    options = {{height: 600}}
+                    options = {{height: 800, width: 950}}
+
                 />
 
                 <div className="d-flex justify-content-center">
