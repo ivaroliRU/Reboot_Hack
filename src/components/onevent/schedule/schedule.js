@@ -25,7 +25,7 @@ class Schedule extends Component {
         },
         {
           id: 1,
-          startHour: "8:30",
+          startHour: "8:30", 
           textEn: "Breakfast & schedule presented 🥐",
           textIs: "Morgunmatur & dagskrá kynnt 🥐",
           descriptionEn: "Something for everyone - don’t forget your water bottle and reusable coffee cup to fill up!",
