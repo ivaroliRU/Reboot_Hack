@@ -20,7 +20,7 @@ export const translation = {
       },
       /* Registration Modal Box + Index Page text */
       register: {
-        Heading: 'Skráðu þig til þess að taka þátt í Reboot Hack 2020',
+        Heading: 'Takk fyrir að taka þátt í Reboot Hack 2020!',
         subHeading: 'Skrá mig núna!',
         registerDialog: {
           title: 'Skráning fyrir Reboot Hack 2020',
@@ -216,7 +216,7 @@ export const translation = {
       },
       /* Register Modal box */
       register: {
-        Heading: 'Register to participate in Reboot Hackathon 2020',
+        Heading: 'Thank you for participating in Reboot Hack 2020!',
         subHeading: 'Register now!',
         registerDialog: {
           title: 'Register for Reboot Hackathon 2020',

@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import style from './onevent.css';
 import Schedule from './schedule/schedule';
 import Challenges from './challenges/challenges';
-// import Judges from './judges/judges';
-import Location from './location/location';
+// import Location from './location/location';
 import Events from './events/events'
 import InstaGrid from './instagrid/instagrid';
 import VerticalNavigation from './verticalNavigation/verticalNavigation';
@@ -98,11 +97,11 @@ class OnEvent extends Component {
             </div>
           </div>
           
-          <div id="Location_Section" className={"row"}>
+          {/*<div id="Location_Section" className={"row"}>
             <div className={"col-12"}>
               <Location />
             </div>
-          </div>
+            </div>*/}
         </div> 
       )
     }
