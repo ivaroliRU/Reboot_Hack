@@ -6,6 +6,10 @@
     transform: translate(-50%, -50%);
 }
 
+.recap {
+    text-align: left !important;
+}
+
 .close{
     font-size: 32px;
     color: #625892;

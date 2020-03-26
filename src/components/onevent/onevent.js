@@ -5,6 +5,7 @@ import Challenges from './challenges/challenges';
 // import Location from './location/location';
 import Events from './events/events'
 import InstaGrid from './instagrid/instagrid';
+import Twitter from './twitter/twitter';
 import VerticalNavigation from './verticalNavigation/verticalNavigation';
 
 class OnEvent extends Component {
@@ -68,6 +69,18 @@ class OnEvent extends Component {
         <div className={style.div_styling+" container"}>
           <br />
 
+          <div className={"row "+style.margin_top_20}>
+            <div id="Challenges_Section" className={"col-12 col-sm-12"}>
+              <Challenges /> 
+            </div>
+            {/*
+            <div id="Events_Section" className={"col-lg-4 col-sm-12"}>
+              <Events />
+            </div>
+            */}
+          </div>
+
+
           <div id="Instagram_Section" className={"row pb-20"}>
             <div className={"col-12 pb-4"}>
               <h3>Reboot Hack  
@@ -82,20 +95,18 @@ class OnEvent extends Component {
             </div> 
           </div>
 
-          <div id="Schedule_Section" className={"row pb-20"}>
-            <div className={style.schedule_padding_on_mobile+" col-12"}>
-              <Schedule/>
+          <div id={"Twitter_Section"} className={"row pb-20"}>
+            <div className={style.schedule_padding_on_mobile+ " col-12"}>
+              <Twitter />
             </div>
           </div>
 
-          <div className={"row "+style.margin_top_20}>
-            <div id="Challenges_Section" className={"col-lg-8 col-sm-12"}>
-              <Challenges /> 
+          { /*<div id="Schedule_Section" className={"row pb-20"}>
+            <div className={style.schedule_padding_on_mobile+" col-12"}>
+              <Schedule/>
             </div>
-            <div id="Events_Section" className={"col-lg-4 col-sm-12"}>
-              <Events />
-            </div>
-          </div>
+            </div> */}
+
           
           {/*<div id="Location_Section" className={"row"}>
             <div className={"col-12"}>

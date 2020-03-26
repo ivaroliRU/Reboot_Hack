@@ -60,7 +60,7 @@ class ApplyButton extends Component {
             <div className="container">
                 {/* Info + registration button */}
                 <div>
-                    <p dangerouslySetInnerHTML={{__html: extraText}} />
+                    <p className="recap" dangerouslySetInnerHTML={{__html: extraText}} />
                 </div>
                 {buttonSection}
                 {/* End of Info + registration Button  */}

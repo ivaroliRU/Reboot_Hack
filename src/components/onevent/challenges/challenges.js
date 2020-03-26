@@ -39,8 +39,9 @@ class Challenges extends Component {
           Criteria6Is: null,
           Criteria7En: null,
           Criteria7Is: null,
-          prizeEn: "25.000 isk gift certificate to Origo’s online shop to each member.",
-          prizeIs: "25.000 kr. gjafabréf í vefverslun Origo á mann."
+          prizeEn: "25.000 isk gift certificate to Origo’s online shop to each member. - CompliWeb ",
+          prizeIs: "25.000 kr. gjafabréf í vefverslun Origo á mann. - CompliWeb",
+          devPost: '<a href="https://devpost.com/software/compliweb" target="_blank">CompliWeb devpost</a>' 
         },
         {
           id: 4,
@@ -72,8 +73,9 @@ class Challenges extends Component {
           Criteria6Is: null,
           Criteria7En: null,
           Criteria7Is: null,
-          prizeEn: "30.000 isk gift certificate from Arion Banki for each team member.",
-          prizeIs: "30.000 kr. gjafabréf frá Arion Banka á mann."
+          prizeEn: "30.000 isk gift certificate from Arion Banki for each team member. Vörður app",
+          prizeIs: "30.000 kr. gjafabréf frá Arion Banka á mann. - Vörður app",
+          devPost: '<a href="https://devpost.com/software/vordur" target="_blank">Vörður app devpost</a>'
         },
         {
           id: 2,
@@ -105,8 +107,9 @@ class Challenges extends Component {
           Criteria6Is: null,
           Criteria7En: null,
           Criteria7Is: null,
-          prizeEn: "Bose soundsport free headphones for each team member.",
-          prizeIs: "Bose soundsport free heyrnartól  á mann."
+          prizeEn: "Bose soundsport free headphones for each team member. - Auðtré",
+          prizeIs: "Bose soundsport free heyrnartól  á mann. - Auðtré",
+          devPost: '<a href="https://devpost.com/software/audtre" target="_blank">Auðtré devpost</a>'
         },
         {
           id: 0,
@@ -138,8 +141,9 @@ class Challenges extends Component {
           Criteria6Is: null,
           Criteria7En: null,
           Criteria7Is: null,
-          prizeEn: "Gift-voucher for overnight stay and dinner at Hotel Tindastóll for each team member.",
-          prizeIs: "Gjafabréf á mann í gistingu í eina nótt á hótel Tindastól ásamt kvöldverð."
+          prizeEn: "Gift-voucher for overnight stay and dinner at Hotel Tindastóll for each team member. - Byggðarfjarvinnsla",
+          prizeIs: "Gjafabréf á mann í gistingu í eina nótt á hótel Tindastól ásamt kvöldverð. - Byggðarfjarvinnsla",
+          devPost: '<a href="https://devpost.com/software/bygdarfjarvinnsla-building-remote-workers-v0kt4q" target="_blank">Byggðarfjarvinnsla devpost</a>'
         },
         {
           id: 3,
@@ -171,8 +175,9 @@ class Challenges extends Component {
           Criteria6Is: null,
           Criteria7En: null,
           Criteria7Is: null,
-          prizeEn: "100.000 isk cash prize for the winning team.",
-          prizeIs: "100.000 kr peningaverðlaun handa vinningsliðinu."
+          prizeEn: "100.000 isk cash prize for the winning team. - VRSecure",
+          prizeIs: "100.000 kr peningaverðlaun handa vinningsliðinu. - VRSecure",
+          devPost: '<a href="https://devpost.com/software/vrsecure" target="_blank">VRSecure devpost</a>'
         },
         {
           id: 5,
@@ -205,7 +210,8 @@ class Challenges extends Component {
           Criteria7En: null,
           Criteria7Is: null,
           prizeEn: "Gift certificate to Fly Over Iceland for two and Gift voucher to Mathöll Grandi for 10.000 isk per team member.",
-          prizeIs: "Gjafabréf í Fly Over Iceland fyrir tvo og út að borða á Mathöll Granda að upphæð 10.000 kr. per mann."
+          prizeIs: "Gjafabréf í Fly Over Iceland fyrir tvo og út að borða á Mathöll Granda að upphæð 10.000 kr. per mann.",
+          devPost: '<a href="https://devpost.com/software/compliweb" target="_blank">OKEIII devpost</a>'
         },
         {
           id: 6,
@@ -237,8 +243,9 @@ class Challenges extends Component {
           Criteria6Is: "Tæknilegri og sjónrænni útfærslu",
           Criteria7En: "Presentation",
           Criteria7Is: "Framsetningu og framsögu",
-          prizeEn: "Postprent gift certificate for 10.000 isk + Pendulum piece of art for each team member.",
-          prizeIs: "Gjafabréf í póstprent fyrir 10.000 kr. + Pendúl listaverk á mann."
+          prizeEn: "Postprent gift certificate for 10.000 isk + Pendulum piece of art for each team member. - Apoca VR",
+          prizeIs: "Gjafabréf í póstprent fyrir 10.000 kr. + Pendúl listaverk á mann. - Apoca VR",
+          devPost: '<a href="https://devpost.com/software/a-pocket-ar" target="_blank">Apoca VR devpost</a>'
         },
         {
           id: 7,
@@ -270,8 +277,9 @@ class Challenges extends Component {
           Criteria6Is: null,
           Criteria7En: null,
           Criteria7Is: null,
-          prizeEn: "15.000 isk Gift voucher to a wide range of restaurants + beer prize from Boli.",
-          prizeIs: "15.000 kr. Gjafabréf út að borða á fjölda veitingastaða + bjórverðlaun í boði Bola."
+          prizeEn: "15.000 isk Gift voucher to a wide range of restaurants + beer prize from Boli. - Carbon Calc",
+          prizeIs: "15.000 kr. Gjafabréf út að borða á fjölda veitingastaða + bjórverðlaun í boði Bola. - Carbon Calc",
+          devPost: '<a href="https://devpost.com/software/carbonated-drink" target="_blank">Carbon Calc devpost</a>'
         }
       ]
     };
@@ -290,9 +298,9 @@ class Challenges extends Component {
       detailsText = "Smáatriði:";
       criteriaText = "Matsatriði:";
       prizeText = "Verðlaun:";
-      rebootHackWinners = "100.000 kr. fyrir vinningsliðið.";
-      rebootHackPeoplesChoice = "Val fólks: 12.0000 kr Gjafabréf út að borða á mann á Mat Bar restaurant.";
-      otherPrizes = 'Önnur verðlaun er að finna á "Meiri upplýsingar" hluti hverrar áskorunar.';
+      rebootHackWinners = "100.000 kr. fyrir vinningsliðið. - Auðtré";
+      rebootHackPeoplesChoice = "Val fólks: 12.0000 kr Gjafabréf út að borða á mann á Mat Bar restaurant. - Krúna";
+      otherPrizes = 'Hægt er að sjá verðlaunahafa einstakra áskorana með því að ýta á meiri upplýsingar.';
 
     }
     else{
@@ -304,9 +312,9 @@ class Challenges extends Component {
       detailsText = "Details:";
       criteriaText = "Judging criteria:";
       prizeText = "Prizes:";
-      rebootHackWinners = "100.000 isk for the winning team.";
-      rebootHackPeoplesChoice = "People's choice: 12.000 isk Gift certificate to MAT BAR restaurant.";
-      otherPrizes = 'The other prizes can be found on the "More details" section of each challenge.';
+      rebootHackWinners = "100.000 isk for the winning team. - Auðtré";
+      rebootHackPeoplesChoice = "People's choice: 12.000 isk Gift certificate to MAT BAR restaurant. - Krúna";
+      otherPrizes = 'Winners for each challenge can be found under more information.';
     }
 
     var challengeSection = this.state.challenges.map(
@@ -332,7 +340,7 @@ class Challenges extends Component {
                     <div className={style.modal_header_style+" row"}>
                       
                       <h5 className={"modal-title"} id={"Modal"+challenge.id}> {Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h5>
-                     
+                      
                     </div>
                     <button type="button" className={style.button_close+" close"} data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
@@ -340,7 +348,7 @@ class Challenges extends Component {
                   </div>
                   <div className={style.modal_body+" modal-body"}>
                     <div className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"+(challenge.id==7 ? " "+ style.image_bigger : null)} src={challenge.companyPhotoURL}/></a>} </div>
-                   
+                    
                     {/* Video if rank == 1 */}
                     <p>{Cookies.get('language')=='is' ? (
                                                           challenge.descriptionParagraph1Is==null ? null : challenge.descriptionParagraph1Is) : (challenge.descriptionParagraph1En==null ? null : challenge.descriptionParagraph1En)}</p>
@@ -368,8 +376,9 @@ class Challenges extends Component {
                     </ul>
                     <p><u>{prizeText}</u></p>
                     <p>{Cookies.get('language')=='is' ? challenge.prizeIs : challenge.prizeEn}</p>
+                    <p dangerouslySetInnerHTML={{__html: challenge.devPost}} />
                   </div>
-                 
+                  
                 </div>
               </div>
             </div>
