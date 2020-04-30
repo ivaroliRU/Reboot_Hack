@@ -33,10 +33,10 @@ class ApplyButton extends Component {
         var extraText = "";
 
         if(Cookies.get('language')=='is'){
-            extraText = "Reboot Hack er nemendadrifin nýsköpunarkeppni sem fer fram í Háskóla Íslands helgina 14.-16.febrúar 2020. Viðburðurinn er opin öllum háskólanemum í heiminum.";
+            extraText = 'Reboot Hack er fyrsta nemendadrifna hakkaþonið á Íslandi. Reboot Hack var stofnað af þremur vinkonum í tölvunarfæði við Háskóla Íslands árið 2018. Hakkaþon eru gríðarlega vinsæl út um allan heim og vill Reboot Hack skapa enn ríkar hakkaþonmenningu á Íslandi.';
         }
         else{
-            extraText = "Reboot Hack is a student-driven hackathon taking place at the University of Iceland the weekend of February 14th-16th 2020. The event is open for all university students in the world.";
+            extraText = 'Reboot Hack is the first ever student organized hackathon for students in Iceland. The hackathon was created by three friends studying Computer Science at the University of Iceland in 2018. Reboot Hack aims to bring the hackathon culture from Europe and America to Iceland.';
         }
         var buttonSection;
 
@@ -60,7 +60,7 @@ class ApplyButton extends Component {
             <div className="container">
                 {/* Info + registration button */}
                 <div>
-                    <p>{extraText}</p>
+                    <p className="recap" dangerouslySetInnerHTML={{__html: extraText}} />
                 </div>
                 {buttonSection}
                 {/* End of Info + registration Button  */}
@@ -156,7 +156,7 @@ class ApplyButton extends Component {
 
                                      {/* Diet */}
                                      {/* Better to have NOT required, what if you don't have any allergies? */}
-                                     <div className="form-group input-group">
+                                        <div className="form-group input-group">
                                         <div className="input-group-prepend">
                                             <span className={"input-group-text "+ style.input_group_text_style}> <i className={"fa fa-cutlery "+style.icon_margin_left}></i> </span>
                                         </div>

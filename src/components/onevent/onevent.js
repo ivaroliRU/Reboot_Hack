@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import style from './onevent.css';
 import Schedule from './schedule/schedule';
 import Challenges from './challenges/challenges';
-import Location from './location/location';
+// import Location from './location/location';
+import Winners from './winners/winners';
 import Events from './events/events'
 import InstaGrid from './instagrid/instagrid';
 import Twitter from './twitter/twitter';
@@ -28,12 +29,19 @@ class OnEvent extends Component {
           <br />
           {/*<h1 className={style.text_styling+" "+style.text_align}><b>Reboot Hack 2020</b></h1>*/}
           <div className={"row "+style.margin_top_20}>
+
+            <div id="Challenges_Section" className={"col-lg-8 col-sm-12"}>
+              <Winners /> 
+            </div>
+
             <div id="Challenges_Section" className={"col-lg-8 col-sm-12"}>
               <Challenges /> 
             </div>
+
             <div id="Events_Section" className={"col-lg-4 col-sm-12"}>
               <Events />
             </div>
+
           </div>
           
           <div id="Schedule_Section" className={"row pb-20"}>
@@ -69,17 +77,22 @@ class OnEvent extends Component {
         <div className={style.div_styling+" container"}>
           <br />
 
-          <div id="Twitter_Section" className={"row pb-20"}>
-            <div className={style.schedule_padding_on_mobile+" col-12"}>
-              <Twitter />
+          <div className={"row "+style.margin_top_20}>
+
+          <div id="Challenges_Section" className={"col-12 col-sm-12"}>
+              <Winners /> 
             </div>
+
+            <div id="Challenges_Section" className={"col-12 col-sm-12"}>
+              <Challenges /> 
+            </div>
+            {/*
+            <div id="Events_Section" className={"col-lg-4 col-sm-12"}>
+              <Events />
+            </div>
+            */}
           </div>
 
-          <div id="Schedule_Section" className={"row pb-20"}>
-            <div className={style.schedule_padding_on_mobile+" col-12"}>
-              <Schedule/>
-            </div>
-          </div>
 
           <div id="Instagram_Section" className={"row pb-20"}>
             <div className={"col-12 pb-4"}>
@@ -95,20 +108,24 @@ class OnEvent extends Component {
             </div> 
           </div>
 
-          <div className={"row "+style.margin_top_20}>
-            <div id="Challenges_Section" className={"col-lg-8 col-sm-12"}>
-              <Challenges /> 
-            </div>
-            <div id="Events_Section" className={"col-lg-4 col-sm-12"}>
-              <Events />
+          <div id={"Twitter_Section"} className={"row pb-20"}>
+            <div className={style.schedule_padding_on_mobile+ " col-12"}>
+              <Twitter />
             </div>
           </div>
+
+          { /*<div id="Schedule_Section" className={"row pb-20"}>
+            <div className={style.schedule_padding_on_mobile+" col-12"}>
+              <Schedule/>
+            </div>
+            </div> */}
+
           
-          <div id="Location_Section" className={"row"}>
+          {/*<div id="Location_Section" className={"row"}>
             <div className={"col-12"}>
               <Location />
             </div>
-          </div>
+            </div>*/}
         </div> 
       )
     }

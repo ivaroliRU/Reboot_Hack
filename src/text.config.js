@@ -20,7 +20,7 @@ export const translation = {
       },
       /* Registration Modal Box + Index Page text */
       register: {
-        Heading: 'Skráðu þig til þess að taka þátt í Reboot Hack 2020',
+        Heading: 'Reboot Hack, nýsköpunarkeppni háskólanema',
         subHeading: 'Skrá mig núna!',
         registerDialog: {
           title: 'Skráning fyrir Reboot Hack 2020',
@@ -81,17 +81,21 @@ export const translation = {
           main:
             'Reboot Hack var stofnað maí 2018 af þremur nemendum í tölvunarfræði við Háskóla Íslands. Reboot Hack var haldið í fyrsta sinn 2. og 3.febrúar 2019 Í Háskóla Íslands en þar tóku 60 háskólanemendur frá 5 háskólum þátt. Nafnið Reboot Hack vísar í það að byrja upp á nýtt. Reboot Hack vill hvetja háskólanemendur til að hugsa upp á nýtt um ráðandi tæknihugmyndir út frá síbreytilegum þörfum samfélagsins. Að „byrja upp á nýtt“ á einnig við um hvernig nemendur geta endurhugsað hvernig þeir nýta þá þekkingu sem þeir hafa þegar öðlast ásamt því að samtvinna hana við þekkingu teymisfélaga sinna og mentora viðburðarins. Verkefnastjórn Reboot Hack 2019-2020 samastendur af 17 háskólanemendum úr Háskóla Íslands, Háskólanum í Reykjavík og Listaháskóla Íslands. Verkefnastjórnina leiðir Kristjana Björk Barðdal framkvæmdastjóri hakkaþonsins.',
         },
-        fourth: {
+        indexThird: {
           header:
             'Viltu aðstoða við framkvæmd Reboot Hack 2020?',
           main:
             'Hér að neðan getur þú sótt um að vera annað hvort mentor eða sjálfboðaliði á Reboot Hack 2020. Ítarlegri upplýsingar má finna með því að ýta á takkana hér fyrir neðan. Hefur þú einhverjar spurningar skaltu ekki hika við að hafa samband!',
           mentor: 'Mentor',
           volunteer: 'Sjálfboðaliði',
-          travelHeader: 'Hefur þú áhuga á að fá ferðastyrk til þess að komast á Reboot Hack 2020?',
-          travelText: 'Hér að neðan getur þú sótt um að fá ferðastyrk til þess að komast á Reboot Hack 2020. Athugaðu að þó svo að þú sækir um er ekki bókað að þú fáir styrk, lestu betur um úthlutun ferðastyrkja með því að ýta á takkan hér fyrir neðan!',
-          travel: 'Ferðastyrkur',
+          orgHeader: 'Hefur þú áhuga á að skipuleggja Reboot Hack 2021?',
+          orgText: 'Hér fyrir neðan er form sem þú getur fyllt inn ef þú hefur áhuga á að skipuleggja Reboot Hack 2021',
+          button: 'Reboot Hack 2021',
         },
+        indexFirst: {
+          header: 'Niðurstöður Reboot Hack 2020',
+          main: 'Reboot Hack, fyrsta háskólanemadrifna hakkaþonið á Íslandi fór fram í annað sinn helgina 14-16 febrúar í Öskju. Um 100 háskólanemendur hvaðanæfa úr heiminum tóku þátt í að leysa áskoranir fyrirtækja.<br /> Af þeim 24 liðum sem tóku þátt voru eftirfarandi lið í topp fimm:<br /> -Auðtré <br /> -Carbon Calc <br /> -Kast <br /> -Krúna <br />  -Sett <br /> Verkefnastjórnin óskar öllum þeim sem tóku þátt innilega til hamingju með árangurinn. Við viljum sömuleiðis þekka sérstaklega þeim sjálfboðaliðum sem komu að viðburðinum en án þeirra hefði viðburðurinn aldrei gengið upp.<br /> Verkefnið Krúna var valin lausn fólksins en lausnin Auðtré voru sigurvegarar Reboot Hack 2020.'
+        }
       },
       /* -------------------- FAQ ------------------- */
       faq:{
@@ -216,7 +220,7 @@ export const translation = {
       },
       /* Register Modal box */
       register: {
-        Heading: 'Register to participate in Reboot Hackathon 2020',
+        Heading: 'Reboot Hack 2020',
         subHeading: 'Register now!',
         registerDialog: {
           title: 'Register for Reboot Hackathon 2020',
@@ -276,18 +280,22 @@ export const translation = {
           main:
             'Reboot Hack was founded in May 2018 by three computer science and engineering students at the University of Iceland. Reboot Hack was first held the 2nd and 3rd of February at the University of Iceland where 60 university students from 5 different universities participated. The name was chosen as it signifies starting over. We want to encourage participants to reboot their ideas about technology and the ever-changing needs of society. “Starting over” can also refer to students rethinking how they use what they already know while learning from other participants and mentors. Reboot Hack’s 2019-2020 project management is composed of 17 students from the University of Iceland, University of Reykjavík and the Iceland University of the Arts. The project management is led by Kristjana Björk Barðdal, the hackathon’s director.',
         },
-        /* Old text on index page */
-        fourth: {
+        /* New text on index page ! */
+        indexThird: {
           header:
             'Do you want to be a part of the Reboot Hack Support Team?',
           main:
             'Click the links below for information about being a volunteer or a mentor for Reboot Hack 2020, and how to apply.',
           mentor: 'Mentor',
           volunteer: 'Volunteer',
-          travelHeader: 'Are you interested in a travel reimbursement?',
-          travelText: 'If you are attending Reboot Hack 2020 you have an opportunity to have your travel expenses reimbursed. The reimbursements are handled on a case-to-case basis and anyone from outside of Reykjavik is eligible! Click the button below for information on our travel reimbursement policy and how to apply.',
-          travel: 'Travel reimbursement',
+          orgHeader: 'Are you interested in organizing Reboot Hack 2021?',
+          orgText: 'If you are interested in organizing Reboot Hack 2021, please fill in the form after you press the button below.',
+          button: 'Reboot Hack 2021',
         },
+        indexFirst: {
+          header: "Reboot Hack's 2020 results",
+          main: "Reboot Hack took place the second time over weekend of 14th - 16th og February 2020 in Askja. 100 students from all across the world participated to find solutions to challenges laid out from some of our sponsors.<br /> Of the 24 teams that particiapated those ended in the top5: <br /> -Auðtré <br /> -Carbon Calc <br /> -Kast <br /> -Krúna <br />  -Sett <br /> The Reboot team congratulates everyone that participated on a great weekend. We will also specially thank our dear volunteers who helped us make Reboot work over the weekend. With out you it would never have worked.<br /> Krúna was selected af the people's choice and Auðtré was the winner of Reboot Hack 2020",
+        }
       },
       /* ------------------ FAQ ----------------- */
       faq: {

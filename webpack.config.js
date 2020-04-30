@@ -12,7 +12,6 @@ module.exports = {
     board: './src/pages/board/board.js',
     event: './src/pages/event/event.js',
     conduct: './src/pages/conduct/conduct.js',
-    conduct: './src/pages/code/code.js',
     involvedPersonnel: './src/pages/involvedPersonnel/involvedPersonnel.js',
   },
   module: {
@@ -113,12 +112,6 @@ module.exports = {
       inject: true,
       chunks: ['conduct'],
       filename: 'conduct.html'
-    }),
-    new HtmlWebPackPlugin({
-      template: './src/pages/code/code.html',
-      inject: true,
-      chunks: ['code'],
-      filename: 'code.html'
     }),
     new HtmlWebPackPlugin({
       template: './src/pages/involvedPersonnel/involvedPersonnel.html',

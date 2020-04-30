@@ -25,6 +25,12 @@ class Challenges extends Component {
           descriptionParagraph2Is: "Sum störf hafa strangar kröfur – sendibílstjórar verða að komast á áfangastað og þurfa að vera vakandi við stýrið; nemendur verða að ná ákveðnum áföngum eins og að ná lágmarkseinkun, skrifa lokaritgerð og verja hana.",
           descriptionParagraph3En: "How can we leverage technology to increase job satisfaction? ",
           descriptionParagraph3Is: "Hvernig getum við aukið starfsánægju með tækni?",
+          top3IS: 'Efstu þrjú lið:',
+          top3EN: 'Top 3 teams:',
+          top3: "Byggðarfjarvinnsla, CompliWeb, Idea Bankers",
+          challengeWinnerIS: 'Sigurvegarar:',
+          challengeWinnerEN: 'Winner:',
+          winner: 'CompliWeb - <a href="https://devpost.com/software/compliweb" target="_blank">CompliWeb devpost</a>',
           Criteria1En: "Scope (the impact of your solution)",
           Criteria1Is: "Umfang (hvað hefur þetta áhrif á marga)",
           Criteria2En: "Ambition",
@@ -35,12 +41,8 @@ class Challenges extends Component {
           Criteria4Is: null,
           Criteria5En: null,
           Criteria5Is: null,
-          Criteria6En: null,
-          Criteria6Is: null,
-          Criteria7En: null,
-          Criteria7Is: null,
-          prizeEn: "25.000 isk gift certificate to Origo’s online shop to each member.",
-          prizeIs: "25.000 kr. gjafabréf í vefverslun Origo á mann."
+          prizeEn: "25.000 isk gift certificate to Origo’s online shop to each member",
+          prizeIs: "25.000 kr. gjafabréf í vefverslun Origo á mann",
         },
         {
           id: 4,
@@ -58,6 +60,12 @@ class Challenges extends Component {
           descriptionParagraph2Is: "Hvernig mætum við þörfum viðskiptavina á þeirra forsendum og í gegnum þá miðla sem þeir kjósa þegar kemur að tjóni eða kaupum á tryggingum?",
           descriptionParagraph3En: "How do we make sure our customers have the right level of coverage at the right price?",
           descriptionParagraph3Is: "Hvernig tryggjum við að viðskiptavinir okkar séu rétt tryggðir og rétt verðlagðir?",
+          top3IS: 'Efstu þrjú lið:',
+          top3EN: 'Top 3 teams:',
+          top3: "Foo Fighters, Sett, Vörður app",
+          challengeWinnerIS: 'Sigurvegarar:',
+          challengeWinnerEN: 'Winner:',
+          winner: 'Vörður app - <a href="https://devpost.com/software/vordur" target="_blank">Vörður app devpost</a>',
           Criteria1En: "Originality",
           Criteria1Is: "Frumleiki hugmyndar",
           Criteria2En: "Quality of implementation",
@@ -68,12 +76,8 @@ class Challenges extends Component {
           Criteria4Is: null,
           Criteria5En: null,
           Criteria5Is: null,
-          Criteria6En: null,
-          Criteria6Is: null,
-          Criteria7En: null,
-          Criteria7Is: null,
           prizeEn: "30.000 isk gift certificate from Arion Banki for each team member.",
-          prizeIs: "30.000 kr. gjafabréf frá Arion Banka á mann."
+          prizeIs: "30.000 kr. gjafabréf frá Arion Banka á mann.",
         },
         {
           id: 2,
@@ -91,6 +95,12 @@ class Challenges extends Component {
           descriptionParagraph2Is:null,
           descriptionParagraph3En:null,
           descriptionParagraph3Is:null,
+          top3IS: 'Efstu þrjú lið:',
+          top3EN: 'Top 3 teams:',
+          top3: "Auðtré, Krúna, Neighborhood battles",
+          challengeWinnerIS: 'Sigurvegarar:',
+          challengeWinnerEN: 'Winner:',
+          winner: 'Auðtré - <a href="https://devpost.com/software/audtre" target="_blank">Auðtré devpost</a>',
           Criteria1En: "We are looking for solutions that are original and fun but at the same time practical to implement.",
           Criteria1Is: "Við erum að leita eftir lausnum sem eru frumlegar og skemmtilegar en á sama tíma raunhæfar til þess að hrinda í framkvæmd.",
           Criteria2En: null,
@@ -101,12 +111,8 @@ class Challenges extends Component {
           Criteria4Is: null,
           Criteria5En: null,
           Criteria5Is: null,
-          Criteria6En: null,
-          Criteria6Is: null,
-          Criteria7En: null,
-          Criteria7Is: null,
           prizeEn: "Bose soundsport free headphones for each team member.",
-          prizeIs: "Bose soundsport free heyrnartól  á mann."
+          prizeIs: "Bose soundsport free heyrnartól  á mann.",
         },
         {
           id: 0,
@@ -124,6 +130,12 @@ class Challenges extends Component {
           descriptionParagraph2Is:"Meginmarkmið: Hvernig er hægt að búa svo um að það verði ákjósanlegt fyrir ungt og menntað fólk að búa og starfa á landsbyggðinni? Horfa skal meðal annars til samfélagslegra, tæknilegra og félagslegra þátta við úrlausn áskorunarinnar. ",
           descriptionParagraph3En:"Secondary objective: How can living in the non-capital area of Iceland be marketed in the best way to attract young and educated people?",
           descriptionParagraph3Is:"Undirmarkmið: Hvernig er hægt að markaðssetja  búsetu á landsbyggðinni sem lífsstíl fyrir ungt, menntað fólk með sem bestum hætti?",
+          top3IS: 'Efstu þrjú lið:',
+          top3EN: 'Top 3 teams:',
+          top3: "Byggðarfjarvinnsla, Fjarski, Prakkarar",
+          challengeWinnerIS: 'Sigurvegarar:',
+          challengeWinnerEN: 'Winner:',
+          winner: 'Byggðarfjarvinnsla - <a href="https://devpost.com/software/bygdarfjarvinnsla-building-remote-workers-v0kt4q" target="_blank">Byggðarfjarvinnsla devpost</a>',
           Criteria1En: "SMART (specific, measurable, achievable, relevant, and time-based goal)",
           Criteria1Is: "SMART (skýr, mælanleg, aðlaðandi, raunhæf og tímasett)",
           Criteria2En: "Originality (Is the solution original and thinking outside of the box?)",
@@ -134,12 +146,8 @@ class Challenges extends Component {
           Criteria4Is: null,
           Criteria5En: null,
           Criteria5Is: null,
-          Criteria6En: null,
-          Criteria6Is: null,
-          Criteria7En: null,
-          Criteria7Is: null,
           prizeEn: "Gift-voucher for overnight stay and dinner at Hotel Tindastóll for each team member.",
-          prizeIs: "Gjafabréf á mann í gistingu í eina nótt á hótel Tindastól ásamt kvöldverð."
+          prizeIs: "Gjafabréf á mann í gistingu í eina nótt á hótel Tindastól ásamt kvöldverð.",
         },
         {
           id: 3,
@@ -157,6 +165,12 @@ class Challenges extends Component {
           descriptionParagraph2Is:"Skipulagðir glæpahópar sækjast í auknum mæli eftir því að “hakka” fólk í stað þess að hakka eldveggi og þegar þeim tekst það er lítið sem hefðbundnar vírusvarnir geta gert. Við leitum að aðferðum til að gera öryggisvitund áhugaverða og minnisstæða. Hvernig getum við kennt fólki að þekkja svikapósta, varast vírus og gæta sín á viðhengjum? Hvernig getum við gætt þess að slík þjálfun sé efst í huga fólks þegar mest á reynir? Hvernig gerum við starfsfólk að virkum hluta eldveggjarins?",
           descriptionParagraph3En:null,
           descriptionParagraph3Is:null,
+          top3IS: 'Efstu þrjú lið:',
+          top3EN: 'Top 3 teams:',
+          top3: "AwareGo on the go - browser extension, AwareGo training, VR Secure",
+          challengeWinnerIS: 'Sigurvegarar:',
+          challengeWinnerEN: 'Winner:',
+          winner: 'VRSecure - <a href="https://devpost.com/software/vrsecure" target="_blank">VRSecure devpost</a>',
           Criteria1En: "Potential for success",
           Criteria1Is: "Líklegt til árangurs",
           Criteria2En: "Thinking outside the box",
@@ -167,12 +181,8 @@ class Challenges extends Component {
           Criteria4Is: null,
           Criteria5En: null,
           Criteria5Is: null,
-          Criteria6En: null,
-          Criteria6Is: null,
-          Criteria7En: null,
-          Criteria7Is: null,
           prizeEn: "100.000 isk cash prize for the winning team.",
-          prizeIs: "100.000 kr peningaverðlaun handa vinningsliðinu."
+          prizeIs: "100.000 kr peningaverðlaun handa vinningsliðinu.",
         },
         {
           id: 5,
@@ -190,6 +200,12 @@ class Challenges extends Component {
           descriptionParagraph2Is:"Sem óháður þriðji aðili hefur KPMG ásamt öðrum aðilum mikilvægt hlutverk að yfirfara og staðfesta upplýsingar frá fyrirtækjum s.s. ársreikninga, skattskil og einnig fylgni gagnvart lögum og reglum. Ný tækni, aukin gagnasöfnun og aukið færslumagn kallar á nýja nálgun í þessari vinnu.",
           descriptionParagraph3En:null,
           descriptionParagraph3Is:"Hvernig mun þessi tækniþróun og breyting hafa áhrif á þetta umhverfi og hvernig geta óháðir aðilar eins og KPMG nýtt sér tæknilausnir til að fylgja þessari þróun?",
+          top3IS: 'Efstu þrjú lið:',
+          top3EN: 'Top 3 teams:',
+          top3: "Foo Fighters",
+          challengeWinnerIS: 'Sigurvegarar:',
+          challengeWinnerEN: 'Winner:',
+          winner: 'Foo Fighters - <a href="https://devpost.com/software/foo-fighters" target="_blank">Foo Fighters devpost</a>',
           Criteria1En: "Creativity",
           Criteria1Is: "Frumleiki",
           Criteria2En: "Logical approach",
@@ -200,12 +216,8 @@ class Challenges extends Component {
           Criteria4Is: null,
           Criteria5En: null,
           Criteria5Is: null,
-          Criteria6En: null,
-          Criteria6Is: null,
-          Criteria7En: null,
-          Criteria7Is: null,
           prizeEn: "Gift certificate to Fly Over Iceland for two and Gift voucher to Mathöll Grandi for 10.000 isk per team member.",
-          prizeIs: "Gjafabréf í Fly Over Iceland fyrir tvo og út að borða á Mathöll Granda að upphæð 10.000 kr. per mann."
+          prizeIs: "Gjafabréf í Fly Over Iceland fyrir tvo og út að borða á Mathöll Granda að upphæð 10.000 kr. per mann.",
         },
         {
           id: 6,
@@ -223,6 +235,12 @@ class Challenges extends Component {
           descriptionParagraph2Is:"Hamfararhlýnun er talin stærsta áskorun samtímans og framtíðarhorfur manna, dýra, náttúru og vistkerfa virðast daprar.",
           descriptionParagraph3En:"How could design and art with the help of technology affect individuals, institutions and corporations when it comes to battling the climate crisis, build awareness on climate change, affect the way we live and increase social responsibility?",
           descriptionParagraph3Is:"Hvernig gætu hönnun og listir með hjálp tækni nýst einstaklingum, stofnunum og stórfyrirtækjum að sporna við loftslagshamförum, aukið meðvitund um loftslagsmál, haft áhrif á lifnaðarhætti fólks og aukið samfélagsábyrgð?",
+          top3IS: 'Efstu þrjú lið:',
+          top3EN: 'Top 3 teams:',
+          top3: "Apoca VR, Message in a bottle, Sameining tækni og listar",
+          challengeWinnerIS: 'Sigurvegarar:',
+          challengeWinnerEN: 'Winner:',
+          winner: 'Apoca VR - <a href="https://devpost.com/software/a-pocket-ar" target="_blank">Apoca VR devpost</a>',
           Criteria1En: "Creativity",
           Criteria1Is: "Sköpunarkrafti",
           Criteria2En: "Imagination",
@@ -238,7 +256,7 @@ class Challenges extends Component {
           Criteria7En: "Presentation",
           Criteria7Is: "Framsetningu og framsögu",
           prizeEn: "Postprent gift certificate for 10.000 isk + Pendulum piece of art for each team member.",
-          prizeIs: "Gjafabréf í póstprent fyrir 10.000 kr. + Pendúl listaverk á mann."
+          prizeIs: "Gjafabréf í póstprent fyrir 10.000 kr. + Pendúl listaverk á mann.",
         },
         {
           id: 7,
@@ -256,6 +274,12 @@ class Challenges extends Component {
           descriptionParagraph2Is:"Sjálfbærni: Hvernig mun umhverfisþátturinn hafa áhrif á þróun aðfangakeðjunnar? Hvernig er hægt að nota tækni til að svara breyttum neysluvenjum í átt að sjálfbærari valkostum?",
           descriptionParagraph3En:"Smart future: What does the future salesman look like? What will the future wholesaler look like? How can technology be used to increase productivity? How can technology be used to increase information flow to internal and external parties?",
           descriptionParagraph3Is:"Snjöll framtíð: Hvernig lítur framtíðar sölumaðurinn út? Hvernig mun framtíðar heildsala líta út? Hvernig er hægt að nýta tækni til að auka framleiðni? Hvernig er hægt að nota tækni til að auka upplýsingaflæði til innri og ytri aðila?",
+          top3IS: 'Efstu þrjú lið:',
+          top3EN: 'Top 3 teams:',
+          top3: "Carbon Calc, Ignas, Prakkarar",
+          challengeWinnerIS: 'Sigurvegarar:',
+          challengeWinnerEN: 'Winner:',
+          winner: 'Carbon Calc - <a href="https://devpost.com/software/carbonated-drink" target="_blank">Carbon Calc devpost</a>',
           Criteria1En: "Value for customer",
           Criteria1Is: "Virðir fyrir viðskiptavin",
           Criteria2En: "Progressiveness",
@@ -266,12 +290,8 @@ class Challenges extends Component {
           Criteria4Is: null,
           Criteria5En: null,
           Criteria5Is: null,
-          Criteria6En: null,
-          Criteria6Is: null,
-          Criteria7En: null,
-          Criteria7Is: null,
           prizeEn: "15.000 isk Gift voucher to a wide range of restaurants + beer prize from Boli.",
-          prizeIs: "15.000 kr. Gjafabréf út að borða á fjölda veitingastaða + bjórverðlaun í boði Bola."
+          prizeIs: "15.000 kr. Gjafabréf út að borða á fjölda veitingastaða + bjórverðlaun í boði Bola.",
         }
       ]
     };
@@ -279,7 +299,7 @@ class Challenges extends Component {
   
   render() {
 
-    var rebootHackWinners, rebootHackPeoplesChoice, otherPrizes, prizeText, upcomingChallenges, challangesText, challengeInfo, moreDetails, postedByText, detailsText, criteriaText;
+    var rebootHackWinners, rebootHackPeoplesChoice, prizeText, upcomingChallenges, challangesText, challengeInfo, moreDetails, postedByText, detailsText, criteriaText, peoplesChoise, overallWinners, top5, top5Winners, peoplesChoiseText, challengeWinner, otherWinners;
 
     if(Cookies.get('language')=='is'){
       moreDetails = "Meiri upplýsingar";
@@ -289,10 +309,17 @@ class Challenges extends Component {
       postedByText = "Skrifað af ";
       detailsText = "Smáatriði:";
       criteriaText = "Matsatriði:";
+      top5 = "Efstu fimm lið:";
+      top5Winners = "Auðtré, Carbon Calc, Kast, Krúna, Sett";
+      challengeWinner = 'Sigurvegarar:';
       prizeText = "Verðlaun:";
       rebootHackWinners = "100.000 kr. fyrir vinningsliðið.";
       rebootHackPeoplesChoice = "Val fólks: 12.0000 kr Gjafabréf út að borða á mann á Mat Bar restaurant.";
-      otherPrizes = 'Önnur verðlaun er að finna á "Meiri upplýsingar" hluti hverrar áskorunar.';
+      peoplesChoiseText =  "Vinsælast meðal þátttakenda:";
+      overallWinners = 'Auðtré - <a href="https://devpost.com/software/audtre" target="_blank">Auðtré devpost</a>';
+      peoplesChoise = 'Krúna - <a href="https://devpost.com/software/kruna" target="_blank">Krúna devpost</a>';
+      otherWinners = 'Sigurvegarar einstakra áskoranna má sjá hér fyrir neðan.';
+      
 
     }
     else{
@@ -303,10 +330,16 @@ class Challenges extends Component {
       postedByText = "Posted by ";
       detailsText = "Details:";
       criteriaText = "Judging criteria:";
+      top5 = "Top 5 teams:";
+      challengeWinner = 'Winner:';
+      top5Winners =  "Auðtré, Carbon Calc, Kast, Krúna, Sett";
       prizeText = "Prizes:";
       rebootHackWinners = "100.000 isk for the winning team.";
       rebootHackPeoplesChoice = "People's choice: 12.000 isk Gift certificate to MAT BAR restaurant.";
-      otherPrizes = 'The other prizes can be found on the "More details" section of each challenge.';
+      peoplesChoiseText = "People's choise:";
+      overallWinners = "Auðtré";
+      peoplesChoise = "Krúna";
+      otherWinners = 'Winners for each challenge can be found below.';
     }
 
     var challengeSection = this.state.challenges.map(
@@ -317,8 +350,13 @@ class Challenges extends Component {
             <h3 className={generalStyle.header_style+" "+style.header_size_modified_on_mobile}>{Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h3>
             <h5 className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"+(challenge.id==7 ? " "+ style.image_bigger : null)} src={challenge.companyPhotoURL}/></a>} </h5>
             <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style}>{Cookies.get('language')=='is' ? challenge.textIs : challenge.textEn}</p>
+            {/* ADD INFO ON RESULTS */}
+            <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style}><u>{Cookies.get('language')=='is' ? challenge.top3IS : challenge.top3EN}</u></p>
+            <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style}>{challenge.top3}</p>
+            <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style}><u>{Cookies.get('language')=='is' ? challenge.challengeWinnerIS : challenge.challengeWinnerEN}</u></p>
+            <p className={style.text_justify+" "+generalStyle.header_style+" "+generalStyle.paragraph_style} dangerouslySetInnerHTML={{__html: challenge.winner}} />
 
-            
+            {/* Button for more Details */}
             <div className={style.text_align_center}>
               <button type="button" className={style.my_button+" btn btn-outline-primary btn-lg "+buttonStyle.apply_button} data-toggle="modal" data-target={"#Modal"+challenge.id}>
                 {moreDetails}
@@ -326,24 +364,30 @@ class Challenges extends Component {
             </div>
             
 
-
+            {/* Begin of Modal Box */}
             <div className={"modal fade"} id={"Modal"+challenge.id} tabIndex="-1" role="dialog" aria-labelledby={"Modal"+challenge.id} aria-hidden="true">
               <div className={style.my_modal_dialog+" modal-dialog"} role="document">
                 <div className="modal-content">
+                  
+                  {/* Model Header */}
                   <div className="modal-header">
                     <div className={style.modal_header_style+" row"}>
                       
                       <h5 className={"modal-title"} id={"Modal"+challenge.id}> {Cookies.get('language')=='is' ? challenge.titleIs : challenge.titleEn}</h5>
-                     
+                      
                     </div>
+                    {/* Close Modal Button */}
                     <button type="button" className={style.button_close+" close"} data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
+
+                  {/* Modal Body */}
                   <div className={style.modal_body+" modal-body"}>
                     <div className={generalStyle.header_style+" row "+generalStyle.spacing_after_company+" "+style.vertical_padding_on_logo}>{challenge.companyPhotoURL==null ? null : <a href={challenge.companyLinkURL} target="_blank"><img className={(challenge.id == 0 ? style.extra_height+" " : "")+style.image+" img-fluid"+(challenge.id==7 ? " "+ style.image_bigger : null)} src={challenge.companyPhotoURL}/></a>} </div>
-                   
+                    
                     {/* Video if rank == 1 */}
+                    {/* Challenge Description */}
                     <p>{Cookies.get('language')=='is' ? (
                                                           challenge.descriptionParagraph1Is==null ? null : challenge.descriptionParagraph1Is) : (challenge.descriptionParagraph1En==null ? null : challenge.descriptionParagraph1En)}</p>
                     <p>{Cookies.get('language')=='is' ? (
@@ -351,6 +395,7 @@ class Challenges extends Component {
                     <p>{Cookies.get('language')=='is' ? (
                                                           challenge.descriptionParagraph3Is==null ? null : challenge.descriptionParagraph3Is) : (challenge.descriptionParagraph3En==null ? null : challenge.descriptionParagraph3En)}</p>
                   
+                    {/* Challenge criteria */}
                     <p><u>{criteriaText}</u></p>
                     <ul>
                       {Cookies.get('language')=='is' ? (
@@ -368,10 +413,12 @@ class Challenges extends Component {
                       {Cookies.get('language')=='is' ? (
                                                         challenge.Criteria7Is == null ? null : <li>{challenge.Criteria7Is}</li>) : (challenge.Criteria7En == null ? null : <li>{challenge.Criteria7En}</li>)}
                     </ul>
+                    {/* PRizes */}
                     <p><u>{prizeText}</u></p>
                     <p>{Cookies.get('language')=='is' ? challenge.prizeIs : challenge.prizeEn}</p>
+                    
                   </div>
-                 
+                  
                 </div>
               </div>
             </div>
@@ -380,19 +427,26 @@ class Challenges extends Component {
         );
     });
 
-   
+  
 
     return (
         <div className={"container "+style.padding_bottom_after_div}>
           <h1 className={generalStyle.text_styling+" "+generalStyle.text_align+" "+style.challenge_text_style}>{challangesText}</h1>
           
           <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{challengeInfo}</p>
-          
+
           <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}><b>{prizeText}</b></p>
           <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{rebootHackWinners}</p>
           <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{rebootHackPeoplesChoice}</p>
-          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{otherPrizes}</p>
-          
+
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}><b>{top5}</b> {top5Winners}</p>
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{challengeWinner}</p>
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color} dangerouslySetInnerHTML={{__html: overallWinners}} />
+
+          <p className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}><b>{peoplesChoiseText}</b></p>
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color} dangerouslySetInnerHTML={{__html: peoplesChoise}} />
+          <p  className={generalStyle.text_styling+" "+generalStyle.dark_gray_color}>{otherWinners}</p>
+                    
           <div className={style.myDiv}>
             {challengeSection}
           </div>

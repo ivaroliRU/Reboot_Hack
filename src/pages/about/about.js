@@ -22,7 +22,8 @@ class App extends Component {
     render() {
         return (
         <div className={style.App}>    
-            <Navbar handler = {this.handler}/>          
+            <Navbar handler = {this.handler}/> 
+
             <About handler = {this.handler} />
             <Footer />
         </div>
