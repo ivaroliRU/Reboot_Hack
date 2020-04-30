@@ -3,6 +3,7 @@ import style from './onevent.css';
 import Schedule from './schedule/schedule';
 import Challenges from './challenges/challenges';
 // import Location from './location/location';
+import Winners from './winners/winners';
 import Events from './events/events'
 import InstaGrid from './instagrid/instagrid';
 import Twitter from './twitter/twitter';
@@ -28,12 +29,19 @@ class OnEvent extends Component {
           <br />
           {/*<h1 className={style.text_styling+" "+style.text_align}><b>Reboot Hack 2020</b></h1>*/}
           <div className={"row "+style.margin_top_20}>
+
+            <div id="Challenges_Section" className={"col-lg-8 col-sm-12"}>
+              <Winners /> 
+            </div>
+
             <div id="Challenges_Section" className={"col-lg-8 col-sm-12"}>
               <Challenges /> 
             </div>
+
             <div id="Events_Section" className={"col-lg-4 col-sm-12"}>
               <Events />
             </div>
+
           </div>
           
           <div id="Schedule_Section" className={"row pb-20"}>
@@ -70,6 +78,11 @@ class OnEvent extends Component {
           <br />
 
           <div className={"row "+style.margin_top_20}>
+
+          <div id="Challenges_Section" className={"col-12 col-sm-12"}>
+              <Winners /> 
+            </div>
+
             <div id="Challenges_Section" className={"col-12 col-sm-12"}>
               <Challenges /> 
             </div>

@@ -188,10 +188,13 @@ class InvolvedPersonnel extends Component {
         return (
             <div className={style.personnel_div+" container"}>
                 <PersonnelSection sectionTitle="Judges" personnelList={this.state.judges} />
+                <div className="container pb-md-4 pl-md-3">
+                    <img src="/images/about/Judges+Kristjana.jpg" width="100%"></img>
+                </div>
                 <PersonnelSection sectionTitle="Mentors / Workshop Leaders" personnelList={this.state.mentors} />
             </div>
         )
     }
 }
-  
+
 export default InvolvedPersonnel;

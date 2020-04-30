@@ -11,7 +11,7 @@ class PersonnelSection extends Component {
 
         let personnelSection = this.props.personnelList.map(
             (person) => {
-              return (
+                return (
                 <div 
                     key={person.linkedIn}
                     className={"col-6 col-lg-4 "+style.margin_auto+' '+style.padding_bottom}>
@@ -30,8 +30,8 @@ class PersonnelSection extends Component {
                     </a>
                 }
                 </div>
-              );
-          });
+                );
+            });
 
         return (
             <div className={"container"}>

@@ -26,8 +26,6 @@ class App extends Component {
         <div className={style.App}>    
             <Navbar handler = {this.handler}/> 
 
-            {/* <MyMapComponent isMarkerShown />   */}         
-
             <About handler = {this.handler} />
             <Footer />
         </div>

@@ -47,10 +47,10 @@ class App extends Component {
             <ApplyButton handler={this.handler}/>
           </div>
         </div>
+        <ParallaxScrollImage isThisDevideIOS={onIOS} imgDesktop={"/images/about/RebootTeam+Volunteers.jpg"} imgMobile={"/images/about/RebootTeam+Volunteers.jpg"} height={700}/>
+        <AboutIndex handler = {this.handler}/>
         <ParallaxScrollImage isThisDevideIOS={onIOS} imgDesktop={"/images/post-event/BG_reboot_hack.jpg"} imgMobile={"/images/post-event/BG_reboot_hack.jpg"} height={700}/>
-        {/*<AboutIndex handler = {this.handler}/>*/}
-        {/*<ParallaxScrollImage isThisDevideIOS={onIOS} imgDesktop={"/images/Index_third_photo_desktop-min.jpg"} imgMobile={"/images/Index_third_photo_mobile-min.jpg"} height={700}/> */}
-        {/*<AboutIndex2 handler = {this.handler} />*/}
+        <AboutIndex2 handler = {this.handler} />
         <Footer />
       </div>
     ); 
